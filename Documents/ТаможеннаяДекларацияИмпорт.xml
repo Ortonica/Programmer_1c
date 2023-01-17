@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+	<Document uuid="389e32e6-779a-455c-91c2-a4183c656942">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ТаможеннаяДекларацияИмпорт" category="Object">
+				<xr:TypeId>35182c51-e2e4-4560-97e6-76d5f1a28dc7</xr:TypeId>
+				<xr:ValueId>a511db3e-4c0d-4da5-84c3-3f680cda6204</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ТаможеннаяДекларацияИмпорт" category="Ref">
+				<xr:TypeId>e47a4072-c973-48c5-8fe2-69d9bef8e6b4</xr:TypeId>
+				<xr:ValueId>0aba3b05-0920-4348-a8ba-048a3f99fdf8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ТаможеннаяДекларацияИмпорт" category="Selection">
+				<xr:TypeId>a75f55ad-25bb-4833-a88a-dea596ddf5bc</xr:TypeId>
+				<xr:ValueId>b27cb4b4-f186-4b1e-a802-549d5af506a1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ТаможеннаяДекларацияИмпорт" category="List">
+				<xr:TypeId>bba08c62-6440-4e2e-8225-774b31123d99</xr:TypeId>
+				<xr:ValueId>ae5a5a63-9def-4e4a-b136-3b7ea1216812</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ТаможеннаяДекларацияИмпорт" category="Manager">
+				<xr:TypeId>c458e3d9-6b69-4f39-b99c-a699752d7f71</xr:TypeId>
+				<xr:ValueId>fc0e2956-7f2d-40d4-bf5e-4c485009cb6d</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ТаможеннаяДекларацияИмпорт</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>9ca75ff4-fa62-49dd-9655-4570cc73fdd9</ExtendedConfigurationObject>
+			<DefaultChoiceForm>Document.ТаможеннаяДекларацияИмпорт.Form.РСК_ФормаВыбора</DefaultChoiceForm>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="6736a8e9-e09d-4484-aee9-28bd9ceb5f6e">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>НомерДекларации</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>18c89147-f775-4401-b1f4-561eb15ee34d</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:DefinedType.НомерТаможеннойДекларации</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Form>РСК_ФормаВыбора</Form>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+	<Enum uuid="11d09cf5-c16f-442c-b314-cef04c9ea857">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ТипыРасчетовСПартнерами" category="Ref">
+				<xr:TypeId>0c1c4a13-94ad-496e-8877-1619e967ede4</xr:TypeId>
+				<xr:ValueId>bfbbb6d9-f0c6-4e24-b113-1c9ce2fd23fe</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ТипыРасчетовСПартнерами" category="Manager">
+				<xr:TypeId>93c1770d-096f-4e6c-abe0-d9f94eeccea7</xr:TypeId>
+				<xr:ValueId>18f3dbe7-f80e-43d4-be21-aa7a303efd32</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ТипыРасчетовСПартнерами" category="List">
+				<xr:TypeId>adb45abd-6593-44c8-87bc-cbb5c1c6301c</xr:TypeId>
+				<xr:ValueId>04350272-3a79-4973-bce6-0e9d7b93988a</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ТипыРасчетовСПартнерами</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>0d6d53c9-63ee-44f8-8520-8cb643b1df21</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

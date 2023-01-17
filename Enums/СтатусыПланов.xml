@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+	<Enum uuid="03124e1d-09e3-42a6-bfb1-b15d093da4a8">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.СтатусыПланов" category="Ref">
+				<xr:TypeId>1071a947-0ba4-4c88-9201-d6d6941fb6f9</xr:TypeId>
+				<xr:ValueId>1f5a904b-1641-4f10-8c1d-c40aa36b3a28</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.СтатусыПланов" category="Manager">
+				<xr:TypeId>86690011-4823-4203-9f8a-08584705f3fd</xr:TypeId>
+				<xr:ValueId>d7ceac7c-fa27-460d-bb77-e54e10db335e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.СтатусыПланов" category="List">
+				<xr:TypeId>c0eaabae-c0c9-4330-a6b7-b2c3c1ed777d</xr:TypeId>
+				<xr:ValueId>0abe273d-d410-49ac-9cd0-f56766864c5a</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>СтатусыПланов</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>46a10c2f-596f-4c48-a15b-e8521dda7227</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

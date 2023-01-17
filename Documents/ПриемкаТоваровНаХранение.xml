@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+	<Document uuid="8abcafd6-a0d7-4e6e-935e-d01faccf0fd6">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ПриемкаТоваровНаХранение" category="Object">
+				<xr:TypeId>ba12aa68-bf8c-4efe-a431-668601956275</xr:TypeId>
+				<xr:ValueId>44f0e129-6686-4e64-ac64-fd904bad7228</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ПриемкаТоваровНаХранение" category="Ref">
+				<xr:TypeId>5244f326-e1d5-424f-b182-6f0d97835786</xr:TypeId>
+				<xr:ValueId>87101654-932e-45a5-bdda-154420999fa8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ПриемкаТоваровНаХранение" category="Selection">
+				<xr:TypeId>87df99b6-1ad9-429e-bba5-04671edbf537</xr:TypeId>
+				<xr:ValueId>8be42076-9a54-48d3-9f46-7f8a89bb97f0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ПриемкаТоваровНаХранение" category="List">
+				<xr:TypeId>7fe27417-d61f-4c56-b09c-770061f4dddb</xr:TypeId>
+				<xr:ValueId>ad94e032-ba70-4cc1-8c57-e169c12650ac</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ПриемкаТоваровНаХранение" category="Manager">
+				<xr:TypeId>84a1fbba-5efb-44fd-af94-a847227571ec</xr:TypeId>
+				<xr:ValueId>8feb921b-ebd2-46b1-baac-f1168e577db2</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ПриемкаТоваровНаХранение</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>57116b0a-51e0-4695-a63b-61fbb6a83fc6</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

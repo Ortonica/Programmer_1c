@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+	<Document uuid="fcb14ea6-52c9-44f2-9dd8-83dfba44b26a">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ЭлектронноеПисьмоИсходящее" category="Object">
+				<xr:TypeId>aff35e5d-ad2d-46e0-be51-9635f2ea081a</xr:TypeId>
+				<xr:ValueId>7721e6ef-21d3-4e37-9aef-4d594c44653b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ЭлектронноеПисьмоИсходящее" category="Ref">
+				<xr:TypeId>4094933d-62e8-4c0f-a72b-2a570d9d76bd</xr:TypeId>
+				<xr:ValueId>7a1e35e3-76a6-4d1d-ac51-890c89a19589</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ЭлектронноеПисьмоИсходящее" category="Selection">
+				<xr:TypeId>5329ef2c-b37a-47b5-b672-0f2d88bd12dc</xr:TypeId>
+				<xr:ValueId>38e3fbba-cec5-4b4b-8cc5-b80d966a1a85</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ЭлектронноеПисьмоИсходящее" category="List">
+				<xr:TypeId>233fbb7f-3053-449c-87ff-6927cb1452f5</xr:TypeId>
+				<xr:ValueId>ab64c972-3af1-4a38-b662-33f5041a34be</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ЭлектронноеПисьмоИсходящее" category="Manager">
+				<xr:TypeId>f4c5f8d7-06b0-426a-a90e-0bd9bba28465</xr:TypeId>
+				<xr:ValueId>8b9c8e18-a7d2-4515-b30a-fe20a3578452</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ЭлектронноеПисьмоИсходящее</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>8f2b8a8e-4cd3-45e3-89ae-1cc4bd0ff30a</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

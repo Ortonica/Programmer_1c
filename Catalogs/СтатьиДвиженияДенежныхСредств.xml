@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+	<Catalog uuid="bdfc1f79-3ad7-4b11-9e1c-638655881606">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.СтатьиДвиженияДенежныхСредств" category="Object">
+				<xr:TypeId>29360202-93a6-4325-aa76-f1ef5a6b7432</xr:TypeId>
+				<xr:ValueId>e80c572c-c40f-4b6d-a7d7-7a5b7d91069c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.СтатьиДвиженияДенежныхСредств" category="Ref">
+				<xr:TypeId>8a61faf3-a3a2-473f-979e-04f29de5e603</xr:TypeId>
+				<xr:ValueId>c4b6b7d2-4633-4c20-9272-9eb1df1f7176</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.СтатьиДвиженияДенежныхСредств" category="Selection">
+				<xr:TypeId>9fc85afb-3ab7-4227-8806-30bf7baa9813</xr:TypeId>
+				<xr:ValueId>6e2e0990-4950-46aa-8218-b3746bb57317</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.СтатьиДвиженияДенежныхСредств" category="List">
+				<xr:TypeId>d5e27e49-018f-4f5f-a73c-d9a840efbbfe</xr:TypeId>
+				<xr:ValueId>b9fce2bb-5e7a-4f02-9feb-bca5de74d54d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.СтатьиДвиженияДенежныхСредств" category="Manager">
+				<xr:TypeId>d5bd7cc6-3993-43ac-9802-749fa7b87a1e</xr:TypeId>
+				<xr:ValueId>6f27e39f-d1e2-4455-a5c1-a2305e86ecf9</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>СтатьиДвиженияДенежныхСредств</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>14acec6d-fed6-45ff-b38d-019e8efe98fa</ExtendedConfigurationObject>
+			<Hierarchical>true</Hierarchical>
+			<CodeLength>9</CodeLength>
+			<DescriptionLength>100</DescriptionLength>
+			<CodeType>String</CodeType>
+			<CodeAllowedLength>Fixed</CodeAllowedLength>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="b336ffdd-22a6-4eec-a52c-d0be1377eabf">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ПриоритетОплаты</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>d5baa7da-f88d-434c-b1f8-57627695ebaf</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ПриоритетыОплаты</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="27b9fddf-84e8-48c4-ad9b-1c724ec16c68">
+				<Properties>
+					<Name>РСК_ИсключитьСогласованиеСверхлимита</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Исключать согласование сверхлимитного платежа</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillValue xsi:nil="true"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<Use>ForItem</Use>
+					<Indexing>DontIndex</Indexing>
+					<FullTextSearch>Use</FullTextSearch>
+					<DataHistory>Use</DataHistory>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="7eae00bd-1c47-4534-9f81-03fe72622290">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Описание</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>01eb198e-c00b-4242-9b92-9eb2105a849f</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>1024</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="dc8f6f20-c94d-4308-afde-a033aa466940">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>НеУчитываетсяВНалоговойБазеАУСН</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>585785f5-ff0e-435a-a422-2f06bb4fcb15</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="44b385f9-6a21-4c1b-be36-65780b26c0ac">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ВидДвиженияДенежныхСредств</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>a09e4f58-630a-4136-b56e-83a4c8c07af3</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:EnumRef.ВидыДвиженийДенежныхСредств</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="44a75ab1-0ca3-462f-b2c7-8c303b027f92">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>КорреспондирующийСчет</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>8bea1e18-7867-4155-8c93-3017bfdb986b</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>7</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<TabularSection uuid="20c665d2-f342-4267-afd9-9fa3784f93dd">
+				<InternalInfo>
+					<xr:GeneratedType name="CatalogTabularSection.СтатьиДвиженияДенежныхСредств.ХозяйственныеОперации" category="TabularSection">
+						<xr:TypeId>91a8bb3a-63a4-4334-ac9d-fcca893ca71c</xr:TypeId>
+						<xr:ValueId>50db3fb1-435c-4098-9a74-429650b7dfe9</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="CatalogTabularSectionRow.СтатьиДвиженияДенежныхСредств.ХозяйственныеОперации" category="TabularSectionRow">
+						<xr:TypeId>e87dcd02-947a-4905-9962-dbee0f8e8987</xr:TypeId>
+						<xr:ValueId>dacc3860-7f59-4036-b00d-9f6bfb440a2b</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ХозяйственныеОперации</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>afa9ad35-d19c-472b-a8c7-5ea51030da7c</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects/>
+			</TabularSection>
+			<Form>ФормаЭлемента</Form>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>

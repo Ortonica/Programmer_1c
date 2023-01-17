@@ -1,0 +1,525 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+	<AutoTime>CurrentOrLast</AutoTime>
+	<UsePostingMode>Auto</UsePostingMode>
+	<RepostOnWrite>true</RepostOnWrite>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="OnReadAtServer">ПриЧтенииНаСервере</Event>
+		<Event name="OnOpen">ПриОткрытии</Event>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="Группа1" id="50">
+			<Group>Horizontal</Group>
+			<Behavior>Usual</Behavior>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="51"/>
+			<ChildItems>
+				<InputField name="Номер" id="1">
+					<DataPath>Объект.Number</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="НомерКонтекстноеМеню" id="2"/>
+					<ExtendedTooltip name="НомерРасширеннаяПодсказка" id="3"/>
+				</InputField>
+				<InputField name="Дата" id="4">
+					<DataPath>Объект.Date</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ДатаКонтекстноеМеню" id="5"/>
+					<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="6"/>
+				</InputField>
+				<UsualGroup name="Группа3" id="100">
+					<Group>Horizontal</Group>
+					<Behavior>Usual</Behavior>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="Группа3РасширеннаяПодсказка" id="101"/>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="Группа2" id="52">
+			<HorizontalStretch>true</HorizontalStretch>
+			<Group>Vertical</Group>
+			<Behavior>Usual</Behavior>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="53"/>
+			<ChildItems>
+				<InputField name="Владелец" id="123">
+					<DataPath>Объект.Владелец</DataPath>
+					<UserVisible>
+						<xr:Common>false</xr:Common>
+					</UserVisible>
+					<ContextMenu name="ВладелецКонтекстноеМеню" id="124"/>
+					<ExtendedTooltip name="ВладелецРасширеннаяПодсказка" id="125"/>
+				</InputField>
+				<InputField name="Контракт" id="7">
+					<DataPath>Объект.Контракт</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ChoiceButton>true</ChoiceButton>
+					<ClearButton>true</ClearButton>
+					<OpenButton>true</OpenButton>
+					<TypeLink>
+						<xr:DataPath>1/0:223134d8-2f98-48c4-85d4-66cdb72fd598</xr:DataPath>
+						<xr:LinkItem>0</xr:LinkItem>
+					</TypeLink>
+					<ContextMenu name="КонтрактКонтекстноеМеню" id="8"/>
+					<ExtendedTooltip name="КонтрактРасширеннаяПодсказка" id="9"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<Pages name="Страницы" id="236">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Страницы</v8:content>
+				</v8:item>
+			</Title>
+			<ExtendedTooltip name="СтраницыРасширеннаяПодсказка" id="237"/>
+			<ChildItems>
+				<Page name="СтраницаДанныеФайла" id="238">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Реестр</v8:content>
+						</v8:item>
+					</Title>
+					<TitleDataPath>Объект.Реестр.RowsCount</TitleDataPath>
+					<ExtendedTooltip name="СтраницаДанныеФайлаРасширеннаяПодсказка" id="239"/>
+					<ChildItems>
+						<Table name="Реестр" id="13">
+							<Representation>List</Representation>
+							<ChangeRowSet>false</ChangeRowSet>
+							<ChangeRowOrder>false</ChangeRowOrder>
+							<Height>5</Height>
+							<HeightControlVariant>UseHeightInFormRows</HeightControlVariant>
+							<Footer>true</Footer>
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<FileDragMode>AsFile</FileDragMode>
+							<DataPath>Объект.Реестр</DataPath>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="РеестрКонтекстноеМеню" id="14"/>
+							<AutoCommandBar name="РеестрКоманднаяПанель" id="15">
+								<ChildItems>
+									<Button name="Импорт" id="54">
+										<Type>CommandBarButton</Type>
+										<Width>9</Width>
+										<CommandName>Form.Command.Импорт</CommandName>
+										<ExtendedTooltip name="ИмпортРасширеннаяПодсказка" id="55"/>
+									</Button>
+									<Button name="РеестрУдалитьВыделенныеСтроки" id="257">
+										<Type>CommandBarButton</Type>
+										<CommandName>Form.Command.УдалитьВыделенныеСтроки</CommandName>
+										<ExtendedTooltip name="РеестрУдалитьВыделенныеСтрокиРасширеннаяПодсказка" id="258"/>
+									</Button>
+								</ChildItems>
+							</AutoCommandBar>
+							<ExtendedTooltip name="РеестрРасширеннаяПодсказка" id="16"/>
+							<SearchStringAddition name="РеестрСтрокаПоиска" id="17">
+								<AdditionSource>
+									<Item>Реестр</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="РеестрСтрокаПоискаКонтекстноеМеню" id="18"/>
+								<ExtendedTooltip name="РеестрСтрокаПоискаРасширеннаяПодсказка" id="19"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="РеестрСостояниеПросмотра" id="20">
+								<AdditionSource>
+									<Item>Реестр</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="РеестрСостояниеПросмотраКонтекстноеМеню" id="21"/>
+								<ExtendedTooltip name="РеестрСостояниеПросмотраРасширеннаяПодсказка" id="22"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="РеестрУправлениеПоиском" id="23">
+								<AdditionSource>
+									<Item>Реестр</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="РеестрУправлениеПоискомКонтекстноеМеню" id="24"/>
+								<ExtendedTooltip name="РеестрУправлениеПоискомРасширеннаяПодсказка" id="25"/>
+							</SearchControlAddition>
+							<Events>
+								<Event name="Selection">РеестрВыбор</Event>
+							</Events>
+							<ChildItems>
+								<LabelField name="РеестрНомерСтроки" id="143">
+									<DataPath>Объект.Реестр.LineNumber</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="РеестрНомерСтрокиКонтекстноеМеню" id="144"/>
+									<ExtendedTooltip name="РеестрНомерСтрокиРасширеннаяПодсказка" id="145"/>
+								</LabelField>
+								<InputField name="РеестрТСР" id="146">
+									<DataPath>Объект.Реестр.ТСР</DataPath>
+									<ReadOnly>true</ReadOnly>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="РеестрТСРКонтекстноеМеню" id="147"/>
+									<ExtendedTooltip name="РеестрТСРРасширеннаяПодсказка" id="148"/>
+								</InputField>
+								<InputField name="РеестрЦена" id="262">
+									<DataPath>Объект.Реестр.Цена</DataPath>
+									<ReadOnly>true</ReadOnly>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="РеестрЦенаКонтекстноеМеню" id="263"/>
+									<ExtendedTooltip name="РеестрЦенаРасширеннаяПодсказка" id="264"/>
+								</InputField>
+								<InputField name="РеестрНомерНаправления" id="149">
+									<DataPath>Объект.Реестр.НомерНаправления</DataPath>
+									<ReadOnly>true</ReadOnly>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="РеестрНомерНаправленияКонтекстноеМеню" id="150"/>
+									<ExtendedTooltip name="РеестрНомерНаправленияРасширеннаяПодсказка" id="151"/>
+								</InputField>
+								<InputField name="РеестрДатаНаправления" id="152">
+									<DataPath>Объект.Реестр.ДатаНаправления</DataPath>
+									<ReadOnly>true</ReadOnly>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="РеестрДатаНаправленияКонтекстноеМеню" id="153"/>
+									<ExtendedTooltip name="РеестрДатаНаправленияРасширеннаяПодсказка" id="154"/>
+								</InputField>
+								<InputField name="РеестрЗаявитель" id="158">
+									<DataPath>Объект.Реестр.Заявитель</DataPath>
+									<ReadOnly>true</ReadOnly>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="РеестрЗаявительКонтекстноеМеню" id="159"/>
+									<ExtendedTooltip name="РеестрЗаявительРасширеннаяПодсказка" id="160"/>
+								</InputField>
+								<InputField name="РеестрДовЛицо" id="161">
+									<DataPath>Объект.Реестр.ДовЛицо</DataPath>
+									<ReadOnly>true</ReadOnly>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="РеестрДовЛицоКонтекстноеМеню" id="162"/>
+									<ExtendedTooltip name="РеестрДовЛицоРасширеннаяПодсказка" id="163"/>
+								</InputField>
+								<InputField name="РеестрКоличество" id="164">
+									<DataPath>Объект.Реестр.Количество</DataPath>
+									<TitleBackColor>#CCFFCC</TitleBackColor>
+									<EditMode>EnterOnInput</EditMode>
+									<FooterDataPath>Объект.Реестр.TotalКоличество</FooterDataPath>
+									<ContextMenu name="РеестрКоличествоКонтекстноеМеню" id="165"/>
+									<ExtendedTooltip name="РеестрКоличествоРасширеннаяПодсказка" id="166"/>
+								</InputField>
+								<InputField name="РеестрРайон" id="167">
+									<DataPath>Объект.Реестр.Район</DataPath>
+									<ReadOnly>true</ReadOnly>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="РеестрРайонКонтекстноеМеню" id="168"/>
+									<ExtendedTooltip name="РеестрРайонРасширеннаяПодсказка" id="169"/>
+								</InputField>
+								<InputField name="РеестрКомментарий" id="173">
+									<DataPath>Объект.Реестр.Комментарий</DataPath>
+									<ReadOnly>true</ReadOnly>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="РеестрКомментарийКонтекстноеМеню" id="174"/>
+									<ExtendedTooltip name="РеестрКомментарийРасширеннаяПодсказка" id="175"/>
+								</InputField>
+								<InputField name="РеестрНомерЗаявки" id="176">
+									<DataPath>Объект.Реестр.НомерЗаявки</DataPath>
+									<ReadOnly>true</ReadOnly>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="РеестрНомерЗаявкиКонтекстноеМеню" id="177"/>
+									<ExtendedTooltip name="РеестрНомерЗаявкиРасширеннаяПодсказка" id="178"/>
+								</InputField>
+								<InputField name="РеестрДатаЗаявки" id="179">
+									<DataPath>Объект.Реестр.ДатаЗаявки</DataPath>
+									<ReadOnly>true</ReadOnly>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="РеестрДатаЗаявкиКонтекстноеМеню" id="180"/>
+									<ExtendedTooltip name="РеестрДатаЗаявкиРасширеннаяПодсказка" id="181"/>
+								</InputField>
+								<InputField name="РеестрНомерФилиала" id="182">
+									<DataPath>Объект.Реестр.НомерФилиала</DataPath>
+									<ReadOnly>true</ReadOnly>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="РеестрНомерФилиалаКонтекстноеМеню" id="183"/>
+									<ExtendedTooltip name="РеестрНомерФилиалаРасширеннаяПодсказка" id="184"/>
+								</InputField>
+								<InputField name="РеестрНомерРеестра" id="185">
+									<DataPath>Объект.Реестр.НомерРеестра</DataPath>
+									<ReadOnly>true</ReadOnly>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="РеестрНомерРеестраКонтекстноеМеню" id="186"/>
+									<ExtendedTooltip name="РеестрНомерРеестраРасширеннаяПодсказка" id="187"/>
+								</InputField>
+								<InputField name="РеестрДатаРеестра" id="188">
+									<DataPath>Объект.Реестр.ДатаРеестра</DataPath>
+									<ReadOnly>true</ReadOnly>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="РеестрДатаРеестраКонтекстноеМеню" id="189"/>
+									<ExtendedTooltip name="РеестрДатаРеестраРасширеннаяПодсказка" id="190"/>
+								</InputField>
+								<InputField name="РеестрКомментарийАкта" id="259">
+									<DataPath>Объект.Реестр.КомментарийАкта</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="РеестрКомментарийАктаКонтекстноеМеню" id="260"/>
+									<ExtendedTooltip name="РеестрКомментарийАктаРасширеннаяПодсказка" id="261"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+				<Page name="СтраницаАкты" id="240">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Акты</v8:content>
+						</v8:item>
+					</Title>
+					<TitleDataPath>Объект.Акты.RowsCount</TitleDataPath>
+					<ExtendedTooltip name="СтраницаАктыРасширеннаяПодсказка" id="241"/>
+					<ChildItems>
+						<Table name="Акты" id="202">
+							<ChangeRowSet>false</ChangeRowSet>
+							<ChangeRowOrder>false</ChangeRowOrder>
+							<Height>3</Height>
+							<HeightControlVariant>UseHeightInFormRows</HeightControlVariant>
+							<Footer>true</Footer>
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>Объект.Акты</DataPath>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="АктыКонтекстноеМеню" id="203"/>
+							<AutoCommandBar name="АктыКоманднаяПанель" id="204">
+								<ChildItems>
+									<Button name="СоздатьАкты" id="56">
+										<Type>CommandBarButton</Type>
+										<CommandName>Form.Command.СоздатьАкты</CommandName>
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Создать акты</v8:content>
+											</v8:item>
+										</Title>
+										<ExtendedTooltip name="СоздатьАктыРасширеннаяПодсказка" id="57"/>
+									</Button>
+								</ChildItems>
+							</AutoCommandBar>
+							<ExtendedTooltip name="АктыРасширеннаяПодсказка" id="205"/>
+							<SearchStringAddition name="АктыСтрокаПоиска" id="206">
+								<AdditionSource>
+									<Item>Акты</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="АктыСтрокаПоискаКонтекстноеМеню" id="207"/>
+								<ExtendedTooltip name="АктыСтрокаПоискаРасширеннаяПодсказка" id="208"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="АктыСостояниеПросмотра" id="209">
+								<AdditionSource>
+									<Item>Акты</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="АктыСостояниеПросмотраКонтекстноеМеню" id="210"/>
+								<ExtendedTooltip name="АктыСостояниеПросмотраРасширеннаяПодсказка" id="211"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="АктыУправлениеПоиском" id="212">
+								<AdditionSource>
+									<Item>Акты</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="АктыУправлениеПоискомКонтекстноеМеню" id="213"/>
+								<ExtendedTooltip name="АктыУправлениеПоискомРасширеннаяПодсказка" id="214"/>
+							</SearchControlAddition>
+							<Events>
+								<Event name="Selection">АктыВыбор</Event>
+							</Events>
+							<ChildItems>
+								<LabelField name="АктыНомерСтроки" id="215">
+									<DataPath>Объект.Акты.LineNumber</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="АктыНомерСтрокиКонтекстноеМеню" id="216"/>
+									<ExtendedTooltip name="АктыНомерСтрокиРасширеннаяПодсказка" id="217"/>
+								</LabelField>
+								<InputField name="АктыАкт" id="218">
+									<DataPath>Объект.Акты.Акт</DataPath>
+									<ReadOnly>true</ReadOnly>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="АктыАктКонтекстноеМеню" id="219"/>
+									<ExtendedTooltip name="АктыАктРасширеннаяПодсказка" id="220"/>
+								</InputField>
+								<LabelField name="АктыАктРСК_ТСР" id="254">
+									<DataPath>Объект.Акты.Акт.РСК_ТСР</DataPath>
+									<ReadOnly>true</ReadOnly>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="АктыАктРСК_ТСРКонтекстноеМеню" id="255"/>
+									<ExtendedTooltip name="АктыАктРСК_ТСРРасширеннаяПодсказка" id="256"/>
+								</LabelField>
+								<LabelField name="АктыАктРСК_Номенклатура" id="221">
+									<DataPath>Объект.Акты.Акт.РСК_Номенклатура</DataPath>
+									<ReadOnly>true</ReadOnly>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="АктыАктРСК_НоменклатураКонтекстноеМеню" id="222"/>
+									<ExtendedTooltip name="АктыАктРСК_НоменклатураРасширеннаяПодсказка" id="223"/>
+								</LabelField>
+								<LabelField name="АктыАктРСК_Характеристика" id="224">
+									<DataPath>Объект.Акты.Акт.РСК_Характеристика</DataPath>
+									<ReadOnly>true</ReadOnly>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="АктыАктРСК_ХарактеристикаКонтекстноеМеню" id="225"/>
+									<ExtendedTooltip name="АктыАктРСК_ХарактеристикаРасширеннаяПодсказка" id="226"/>
+								</LabelField>
+								<LabelField name="АктыАктРСК_Серия" id="227">
+									<DataPath>Объект.Акты.Акт.РСК_Серия</DataPath>
+									<ReadOnly>true</ReadOnly>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="АктыАктРСК_СерияКонтекстноеМеню" id="228"/>
+									<ExtendedTooltip name="АктыАктРСК_СерияРасширеннаяПодсказка" id="229"/>
+								</LabelField>
+								<InputField name="АктыКоличество" id="242">
+									<DataPath>Объект.Акты.Количество</DataPath>
+									<ReadOnly>true</ReadOnly>
+									<EditMode>EnterOnInput</EditMode>
+									<FooterDataPath>Объект.Акты.TotalКоличество</FooterDataPath>
+									<ContextMenu name="АктыКоличествоКонтекстноеМеню" id="243"/>
+									<ExtendedTooltip name="АктыКоличествоРасширеннаяПодсказка" id="244"/>
+								</InputField>
+								<LabelField name="АктыАктРСК_Цена" id="233">
+									<DataPath>Объект.Акты.Акт.РСК_Цена</DataPath>
+									<ReadOnly>true</ReadOnly>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="АктыАктРСК_ЦенаКонтекстноеМеню" id="234"/>
+									<ExtendedTooltip name="АктыАктРСК_ЦенаРасширеннаяПодсказка" id="235"/>
+								</LabelField>
+								<LabelField name="АктыАктПункт" id="245">
+									<DataPath>Объект.Акты.Акт.Пункт</DataPath>
+									<ReadOnly>true</ReadOnly>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Заявитель</v8:content>
+										</v8:item>
+									</Title>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="АктыАктПунктКонтекстноеМеню" id="246"/>
+									<ExtendedTooltip name="АктыАктПунктРасширеннаяПодсказка" id="247"/>
+								</LabelField>
+								<LabelField name="АктыАктРСК_НомерНаправления" id="248">
+									<DataPath>Объект.Акты.Акт.РСК_НомерНаправления</DataPath>
+									<ReadOnly>true</ReadOnly>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="АктыАктРСК_НомерНаправленияКонтекстноеМеню" id="249"/>
+									<ExtendedTooltip name="АктыАктРСК_НомерНаправленияРасширеннаяПодсказка" id="250"/>
+								</LabelField>
+								<LabelField name="АктыАктРСК_ДатаНаправления" id="251">
+									<DataPath>Объект.Акты.Акт.РСК_ДатаНаправления</DataPath>
+									<ReadOnly>true</ReadOnly>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="АктыАктРСК_ДатаНаправленияКонтекстноеМеню" id="252"/>
+									<ExtendedTooltip name="АктыАктРСК_ДатаНаправленияРасширеннаяПодсказка" id="253"/>
+								</LabelField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+			</ChildItems>
+		</Pages>
+		<UsualGroup name="ГруппаПодвал" id="197">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа подвал</v8:content>
+				</v8:item>
+			</Title>
+			<Group>AlwaysHorizontal</Group>
+			<Behavior>Usual</Behavior>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаПодвалРасширеннаяПодсказка" id="198"/>
+			<ChildItems>
+				<InputField name="Комментарий" id="10">
+					<DataPath>Объект.Комментарий</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<AutoMaxWidth>false</AutoMaxWidth>
+					<HorizontalStretch>true</HorizontalStretch>
+					<ContextMenu name="КомментарийКонтекстноеМеню" id="11"/>
+					<ExtendedTooltip name="КомментарийРасширеннаяПодсказка" id="12"/>
+				</InputField>
+				<InputField name="Ответственный" id="199">
+					<DataPath>Объект.Ответственный</DataPath>
+					<ReadOnly>true</ReadOnly>
+					<HorizontalStretch>false</HorizontalStretch>
+					<ContextMenu name="ОтветственныйКонтекстноеМеню" id="200"/>
+					<ExtendedTooltip name="ОтветственныйРасширеннаяПодсказка" id="201"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DocumentObject.РСК_Разнарядка</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+			<UseAlways>
+				<Field>Объект.RegisterRecords</Field>
+			</UseAlways>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="Импорт" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Импорт</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Импорт из Excel</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>CommonPicture.ФорматExcel</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>Импорт</Action>
+			<Representation>TextPicture</Representation>
+			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+		<Command name="СоздатьАкты" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Создать поручения</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Создать акты</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.Task</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>СоздатьАкты</Action>
+			<Representation>TextPicture</Representation>
+			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+		<Command name="УдалитьВыделенныеСтроки" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Удалить выделенные строки</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Удалить выделенные строки</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.Delete</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>УдалитьВыделенныеСтроки</Action>
+		</Command>
+	</Commands>
+</Form>

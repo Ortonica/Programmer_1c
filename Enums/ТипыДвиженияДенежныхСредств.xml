@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+	<Enum uuid="4c862312-21c5-4c8a-b450-96e4772625ef">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ТипыДвиженияДенежныхСредств" category="Ref">
+				<xr:TypeId>8911526e-36a8-41d7-96ab-3afe630dbc7e</xr:TypeId>
+				<xr:ValueId>74767ad4-e899-432d-930d-2727cc420fbe</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ТипыДвиженияДенежныхСредств" category="Manager">
+				<xr:TypeId>396a0792-d031-474d-8142-bdc68942682a</xr:TypeId>
+				<xr:ValueId>e87bdf72-4ade-4dfe-8962-1a6965125a84</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ТипыДвиженияДенежныхСредств" category="List">
+				<xr:TypeId>db3f328a-da36-45f4-85bb-2773d0b7275c</xr:TypeId>
+				<xr:ValueId>68f089ff-d02c-44c7-9e97-4bfd0f74ed0f</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ТипыДвиженияДенежныхСредств</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>a8a3d981-9e9f-4592-b777-5a5e599ed67a</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="2f693558-ac6a-47d1-a03e-baca70014212">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Списание</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>aa07dccc-be74-4152-a2a0-2f47b256b7eb</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

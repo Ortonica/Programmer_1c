@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+	<DataProcessor uuid="e4fec2c4-a1eb-4ec2-b661-7fbde2eae6d1">
+		<InternalInfo>
+			<xr:GeneratedType name="DataProcessorObject.ПечатьОбщихФорм" category="Object">
+				<xr:TypeId>d260ffa8-f2fd-4f09-834a-2af7c01ba2cb</xr:TypeId>
+				<xr:ValueId>d724089c-b10f-4043-a8ac-185ef5d426fb</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DataProcessorManager.ПечатьОбщихФорм" category="Manager">
+				<xr:TypeId>82bc1387-2e73-4744-8eae-73dcdb0575b2</xr:TypeId>
+				<xr:ValueId>09b41a68-fba1-4caa-8149-64faf513a01e</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ПечатьОбщихФорм</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>4d9d7f8f-d45b-4221-9a9a-49694acadf73</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<Template>ПФ_MXL_МХ1_ru</Template>
+		</ChildObjects>
+	</DataProcessor>
+</MetaDataObject>

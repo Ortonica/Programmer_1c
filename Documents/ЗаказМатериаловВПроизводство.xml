@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+	<Document uuid="8b555369-b3c6-4479-a334-7d0006869669">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ЗаказМатериаловВПроизводство" category="Object">
+				<xr:TypeId>2ed77881-9eb0-4b56-9c76-e847b6035c84</xr:TypeId>
+				<xr:ValueId>cc7b7e4c-3606-4daf-bee9-651159ed666a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ЗаказМатериаловВПроизводство" category="Ref">
+				<xr:TypeId>88a08f32-8f77-43fc-99ca-26c53bde4cbf</xr:TypeId>
+				<xr:ValueId>de51c783-2f13-4924-9e6c-a4ceeb3a4bb5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ЗаказМатериаловВПроизводство" category="Selection">
+				<xr:TypeId>9d8ff90f-7bb1-4373-8b7e-7884e8ef9da4</xr:TypeId>
+				<xr:ValueId>17ca39ab-0bbf-41f0-9efc-be133e60531f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ЗаказМатериаловВПроизводство" category="List">
+				<xr:TypeId>158ef640-8dbd-4aba-a3e6-e551c867678e</xr:TypeId>
+				<xr:ValueId>26cb0c6d-6559-4387-b0a9-63f5ee935f12</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ЗаказМатериаловВПроизводство" category="Manager">
+				<xr:TypeId>c3980d44-c262-48a9-ba1e-a5a1daf79039</xr:TypeId>
+				<xr:ValueId>2555b6fe-8fe5-4bde-a9c0-4ebb56e6f684</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ЗаказМатериаловВПроизводство</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>a19795f8-3fc7-4a7e-ab48-39ef167f227e</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

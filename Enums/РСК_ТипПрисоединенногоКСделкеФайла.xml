@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+	<Enum uuid="545593f3-1ecf-4b48-8ea7-b4621c24834f">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.РСК_ТипПрисоединенногоКСделкеФайла" category="Ref">
+				<xr:TypeId>aa39e5f6-7f6c-4e97-a61b-655699b8140d</xr:TypeId>
+				<xr:ValueId>82ab81ec-633b-4268-aa27-5a523501b19c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.РСК_ТипПрисоединенногоКСделкеФайла" category="Manager">
+				<xr:TypeId>9101e2c0-f946-4e59-bbe4-fa0beeabf76d</xr:TypeId>
+				<xr:ValueId>e7a41fd6-1808-4c66-a0f2-45fc4b0ce349</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.РСК_ТипПрисоединенногоКСделкеФайла" category="List">
+				<xr:TypeId>d33958cb-0b1d-4a0b-b3d9-e85925f223f6</xr:TypeId>
+				<xr:ValueId>5cca6f71-b16c-4dbd-b6b2-d335e55299e3</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>РСК_ТипПрисоединенногоКСделкеФайла</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Тип присоединенного к сделке файла</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment>РС Консалт: Трофимов Евгений 19.09.2022 №20428</Comment>
+			<UseStandardCommands>false</UseStandardCommands>
+			<Characteristics/>
+			<QuickChoice>true</QuickChoice>
+			<ChoiceMode>BothWays</ChoiceMode>
+			<DefaultListForm/>
+			<DefaultChoiceForm/>
+			<AuxiliaryListForm/>
+			<AuxiliaryChoiceForm/>
+			<ListPresentation/>
+			<ExtendedListPresentation/>
+			<Explanation/>
+			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="3cdf947e-62ca-482c-a3f7-d26583a75c81">
+				<Properties>
+					<Name>ГосКонтракт</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Гос контракт (доп. соглашение)</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="af24a4e7-4a53-4ab9-9af4-cee95ea7cecc">
+				<Properties>
+					<Name>АктыПриемкиТовара</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Акты приемки товара</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="6c307bb6-c8ed-419b-ba14-71000e8c804d">
+				<Properties>
+					<Name>РеестрНаправлений</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Реестр направлений</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="2757f951-c26a-4de0-9d63-c05db9eab901">
+				<Properties>
+					<Name>ИтоговыйАктСверки</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Итоговый акт сверки</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="ea4044e5-e37c-4e76-989c-b21034dc3a76">
+				<Properties>
+					<Name>АктВыверки</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Акт выверки</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="6bfabd1f-ec37-478a-8a74-9a73834965dc">
+				<Properties>
+					<Name>УведомлениеЗаказчика</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Уведомление заказчика</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="c8a9d444-7c2c-4e7a-ac6d-067d37d9ca67">
+				<Properties>
+					<Name>НеЗаполнено</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Не заполнено</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="b68c2351-3c38-49f7-bac2-28f56f365869">
+				<Properties>
+					<Name>ТехническоеПредложение</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Техническое предложение</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="76395780-ad8e-4327-9bd0-3a7b55284ab2">
+				<Properties>
+					<Name>ДоговорССоисполнителем</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Договор с соисполнителем</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="754e2ab0-6b75-4404-b4e7-1cc403c68b5b">
+				<Properties>
+					<Name>ДоверенностьСоисполнителю</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Доверенность соисполнителю</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="a6c1f858-67c1-46c3-bdda-e58d72cff651">
+				<Properties>
+					<Name>ОтчетСоисполнителя</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Отчет соисполнителя</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

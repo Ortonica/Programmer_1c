@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+	<Catalog uuid="917be5e3-9c4c-4c93-9103-d17990937614">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ЗаказКлиентаПрисоединенныеФайлы" category="Object">
+				<xr:TypeId>22359f99-b2d1-4ba3-80d3-6f35067b59fc</xr:TypeId>
+				<xr:ValueId>b994b6ab-4716-4edf-a5f5-45cd382885fc</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ЗаказКлиентаПрисоединенныеФайлы" category="Ref">
+				<xr:TypeId>a6dbbec4-9b18-4714-845c-3babf087890c</xr:TypeId>
+				<xr:ValueId>753e808a-de13-4cf6-8174-75a74a78efa8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ЗаказКлиентаПрисоединенныеФайлы" category="Selection">
+				<xr:TypeId>514b76ca-d923-4873-b6d4-9ff9e5c38dac</xr:TypeId>
+				<xr:ValueId>f3bd320c-b78e-48d1-bc8b-b6627148bebb</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ЗаказКлиентаПрисоединенныеФайлы" category="List">
+				<xr:TypeId>b4a06911-f7c9-4a53-8be6-8aaafa3beee0</xr:TypeId>
+				<xr:ValueId>684b5e7d-5ded-4f0e-860b-2473957559e7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ЗаказКлиентаПрисоединенныеФайлы" category="Manager">
+				<xr:TypeId>fbfb6da0-ebe8-4899-a15e-e1f9c81a9003</xr:TypeId>
+				<xr:ValueId>f76c3784-ca58-4f3c-8f76-1d6795ff82ff</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ЗаказКлиентаПрисоединенныеФайлы</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>0e9194d9-dddc-45a0-9c09-12850e480012</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="43cc5f1c-112f-4681-adc0-0500e0c8bd15">
+				<Properties>
+					<Name>РСК_ТипФайла</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Тип файла</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>РС Консалт: Трофимов Евгений 19.09.2022 №20428</Comment>
+					<Type>
+						<v8:Type>cfg:EnumRef.РСК_ТипПрисоединенногоКСделкеФайла</v8:Type>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillValue xsi:nil="true"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<Use>ForItem</Use>
+					<Indexing>DontIndex</Indexing>
+					<FullTextSearch>Use</FullTextSearch>
+					<DataHistory>Use</DataHistory>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>

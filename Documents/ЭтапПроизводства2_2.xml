@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+	<Document uuid="f495de64-274c-4c8c-8c6f-12c96a6f7d2f">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ЭтапПроизводства2_2" category="Object">
+				<xr:TypeId>3ce47ec4-604f-4fc4-9418-edb3e73a9226</xr:TypeId>
+				<xr:ValueId>9c97c845-82ca-476c-9d1e-9ec8c1dbfd2d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ЭтапПроизводства2_2" category="Ref">
+				<xr:TypeId>2d4674cf-7c0d-4991-8d69-40b7019b31dc</xr:TypeId>
+				<xr:ValueId>3ee5ea07-3312-400a-9be4-c58637bdb63c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ЭтапПроизводства2_2" category="Selection">
+				<xr:TypeId>5927f53f-662f-4907-8f8e-19f5a762ec5f</xr:TypeId>
+				<xr:ValueId>7c53f8ed-055c-46b0-ab4d-12ecf184bf4d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ЭтапПроизводства2_2" category="List">
+				<xr:TypeId>03b688d6-378b-45e6-b37d-2d8c7a380a68</xr:TypeId>
+				<xr:ValueId>35d0bc75-1d4f-41bd-8d9c-1bc31521e539</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ЭтапПроизводства2_2" category="Manager">
+				<xr:TypeId>7f5e3532-cf91-4d39-8599-9728faa1920f</xr:TypeId>
+				<xr:ValueId>dad244e0-0d17-4f4e-b4a1-f3e16f84f014</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ЭтапПроизводства2_2</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>03503ac6-a4b9-4d70-b0ef-949dac7b8de4</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+	<ExchangePlan uuid="01bbf3da-2758-4f30-8e58-36a9759b3411">
+		<InternalInfo>
+			<xr:ThisNode>9e5d3b6b-29d6-4803-999b-c20a58e9cf0e</xr:ThisNode>
+			<xr:GeneratedType name="ExchangePlanObject.ДатаМобайл_СписокТСД" category="Object">
+				<xr:TypeId>d5e36bbd-5962-4413-9727-575f402cd570</xr:TypeId>
+				<xr:ValueId>52f6fd7c-9f2e-4715-a47f-2c87a438916f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ExchangePlanRef.ДатаМобайл_СписокТСД" category="Ref">
+				<xr:TypeId>6ec367ff-e5a4-43ee-be4e-17dfff9b8fa9</xr:TypeId>
+				<xr:ValueId>6b0eb6d6-f1c8-4129-8045-89046d20c63e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ExchangePlanSelection.ДатаМобайл_СписокТСД" category="Selection">
+				<xr:TypeId>1fd14478-14d2-4c5b-a454-90b7ba5cbeb0</xr:TypeId>
+				<xr:ValueId>5ddf1f22-f8a7-44e8-b371-1837966e8689</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ExchangePlanList.ДатаМобайл_СписокТСД" category="List">
+				<xr:TypeId>ba525977-20c2-4b80-b8e1-5c16f9f1116f</xr:TypeId>
+				<xr:ValueId>109cb79a-7707-428f-8e82-92d8d085f19d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ExchangePlanManager.ДатаМобайл_СписокТСД" category="Manager">
+				<xr:TypeId>b7686cc4-87c5-4908-817e-b89999b83a67</xr:TypeId>
+				<xr:ValueId>082b64ef-501c-4860-a47a-529bf224548e</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ДатаМобайл_СписокТСД</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>acd863e2-c224-4639-86fa-4dcaacdd6b46</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</ExchangePlan>
+</MetaDataObject>

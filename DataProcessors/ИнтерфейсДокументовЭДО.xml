@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+	<DataProcessor uuid="36410006-0826-4dbc-92ad-c96a37cde609">
+		<InternalInfo>
+			<xr:GeneratedType name="DataProcessorObject.ИнтерфейсДокументовЭДО" category="Object">
+				<xr:TypeId>5cec88b5-716d-4b66-a85e-2a2cc82b270f</xr:TypeId>
+				<xr:ValueId>669514be-aff1-4691-87c9-0b3cc02e464e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DataProcessorManager.ИнтерфейсДокументовЭДО" category="Manager">
+				<xr:TypeId>d6bc0e78-4b91-4598-8a17-9ee6fc2e34a7</xr:TypeId>
+				<xr:ValueId>4b754a6f-5caf-4f75-ac37-30d1a5889cc9</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ИнтерфейсДокументовЭДО</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>c340f366-e80f-4b40-8074-5db0935a9a3a</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<Form>ТекущиеДелаПоЭДО</Form>
+		</ChildObjects>
+	</DataProcessor>
+</MetaDataObject>

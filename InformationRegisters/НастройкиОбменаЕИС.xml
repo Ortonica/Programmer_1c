@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+	<InformationRegister uuid="8c4327ae-b242-40b4-a589-988796147ac4">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.НастройкиОбменаЕИС" category="Record">
+				<xr:TypeId>3409dee0-ed80-4857-a92e-0cb42a37ad21</xr:TypeId>
+				<xr:ValueId>10c9fdfb-7abf-4890-b756-636063aad0c7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.НастройкиОбменаЕИС" category="Manager">
+				<xr:TypeId>77897c17-1f7f-42b2-97e9-2b532275c60f</xr:TypeId>
+				<xr:ValueId>5a5bfd01-7e63-40cf-9007-5423bd426929</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.НастройкиОбменаЕИС" category="Selection">
+				<xr:TypeId>e3c0d374-8f05-44a6-b8e9-2ac80012d1b2</xr:TypeId>
+				<xr:ValueId>4c54bb26-c54b-4402-a979-cb15a31c2436</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.НастройкиОбменаЕИС" category="List">
+				<xr:TypeId>7c265d11-225f-467f-9a89-867329a821ad</xr:TypeId>
+				<xr:ValueId>b6956b30-9869-4278-ac29-a6b9f51cbda4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.НастройкиОбменаЕИС" category="RecordSet">
+				<xr:TypeId>f010350f-aff4-45af-9d52-536eedb40421</xr:TypeId>
+				<xr:ValueId>921dcfb4-0ac2-49f8-a86f-ae826a1c3b71</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.НастройкиОбменаЕИС" category="RecordKey">
+				<xr:TypeId>8d0d3735-96dc-4189-976e-7f8ed83349c0</xr:TypeId>
+				<xr:ValueId>5b83f667-0f19-4ea5-99ee-b65263eefd97</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.НастройкиОбменаЕИС" category="RecordManager">
+				<xr:TypeId>19e84e1c-4e75-4209-a0f0-fe8d3eb527b6</xr:TypeId>
+				<xr:ValueId>0b3809e4-6a11-40f7-a2b0-441e8b444169</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>НастройкиОбменаЕИС</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>99bc22e4-8f21-425f-af66-c8d3b5450fb0</ExtendedConfigurationObject>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Form>ФормаМастера</Form>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+	<InformationRegister uuid="d74a40a6-4df7-4551-a8bb-11a9376fc983">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.ТоварыКДоставке" category="Record">
+				<xr:TypeId>fb3421c9-2d51-4afc-982a-56b040524e4e</xr:TypeId>
+				<xr:ValueId>708eee46-94c9-414a-a59b-02eb33b67072</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.ТоварыКДоставке" category="Manager">
+				<xr:TypeId>235dbce6-dd14-4d23-b66c-c5380b5ebe10</xr:TypeId>
+				<xr:ValueId>5cc2d039-0a76-4357-a288-ec342010fd12</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.ТоварыКДоставке" category="Selection">
+				<xr:TypeId>84ad1ae3-a736-4623-89bd-2a79a0fe3325</xr:TypeId>
+				<xr:ValueId>c3011baa-f639-422f-9128-2ec872fae84f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.ТоварыКДоставке" category="List">
+				<xr:TypeId>d9011be3-1eb3-4b86-b302-3fb9363c98a8</xr:TypeId>
+				<xr:ValueId>65ea0624-9cee-4be5-b4c1-6533f6d7ef16</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.ТоварыКДоставке" category="RecordSet">
+				<xr:TypeId>8cd62fe5-c71b-4bea-8128-88ef02e5772d</xr:TypeId>
+				<xr:ValueId>87784365-f5e0-4bfd-8ad7-e8413103d435</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.ТоварыКДоставке" category="RecordKey">
+				<xr:TypeId>e8f6df52-0a9a-463f-a649-aa51c46c5229</xr:TypeId>
+				<xr:ValueId>88184418-50d5-41bd-b3a3-4679ba9618e6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.ТоварыКДоставке" category="RecordManager">
+				<xr:TypeId>796e7e23-c40b-4bd5-bce2-3f9f41169677</xr:TypeId>
+				<xr:ValueId>375dccdc-8b38-4eb5-ae1c-b840064e97d2</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ТоварыКДоставке</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>ef3c28e2-206b-4c58-9fa8-6705b366034e</ExtendedConfigurationObject>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="c2fb2e9d-2507-4ac6-947f-4db7e37d6623">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Количество</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>fa36bb2e-25df-442d-bfe2-56a5374d01a9</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>15</v8:Digits>
+							<v8:FractionDigits>3</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Attribute uuid="7cd6131c-a6b5-4206-b869-288ae453a53a">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ВсеТовары</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>3390ed5d-3942-4c75-9db8-7458e4b9dc70</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Dimension uuid="712d9d48-c65a-4525-a075-11f7d9c6a30a">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ЗаданиеНаПеревозку</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>009a6718-e160-4033-be51-b45f56d987c8</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:DocumentRef.ЗаданиеНаПеревозку</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="f66ba3e3-514a-4852-9551-1c93026c48ff">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Склад</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>7cf95b48-a746-4a97-a2af-66ce55ff39c4</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Склады</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="f65e7d32-0e42-4fbb-af71-f3901296c641">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Распоряжение</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>cd1d6a1e-fbaa-4f4e-a7a6-38f6176f5b7a</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:DefinedType.РаспоряжениеНаДоставку</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="e2ce49ab-2382-499c-9107-c979e0c487a6">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Номенклатура</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>ecc90ae9-955b-47e1-9168-1a9643676225</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Номенклатура</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="d463205a-1181-4a41-9505-044f54bbf747">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Характеристика</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>bca88842-463a-4bc4-a8cb-213ea7593fe1</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ХарактеристикиНоменклатуры</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="8ddb0e69-ce00-4c19-92f4-a5627b3f95a3">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Назначение</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>23e86f76-8ec5-4b02-8e42-dba98002393f</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Назначения</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="b596fc53-66b9-461c-a40a-85af037d8afc">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Серия</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>eb632f2b-0d96-4bfb-880c-14ca5c572915</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.СерииНоменклатуры</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

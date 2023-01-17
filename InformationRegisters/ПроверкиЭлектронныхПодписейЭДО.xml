@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+	<InformationRegister uuid="452da09d-efe3-4ecb-a0ee-4b8178d7ce66">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.ПроверкиЭлектронныхПодписейЭДО" category="Record">
+				<xr:TypeId>7dca6a73-cd93-4960-87c7-644d3594eb25</xr:TypeId>
+				<xr:ValueId>a3469490-bdf6-4af2-a495-2d5a91870617</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.ПроверкиЭлектронныхПодписейЭДО" category="Manager">
+				<xr:TypeId>b4d15d08-11c4-44cc-b77c-c50a32895823</xr:TypeId>
+				<xr:ValueId>0b18bf69-a86b-4c15-9d71-f3fdb6aa493f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.ПроверкиЭлектронныхПодписейЭДО" category="Selection">
+				<xr:TypeId>4f470ad9-9f3d-4553-b02b-0921b3098ee6</xr:TypeId>
+				<xr:ValueId>fe36524a-d14e-4401-ab29-f0dc79c6245a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.ПроверкиЭлектронныхПодписейЭДО" category="List">
+				<xr:TypeId>0b0c85e4-047e-4773-bde1-6cde762babcc</xr:TypeId>
+				<xr:ValueId>285e0a21-8ec0-458e-9960-df2d416bf833</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.ПроверкиЭлектронныхПодписейЭДО" category="RecordSet">
+				<xr:TypeId>d5ce6103-c9fa-4ec0-8db4-3d23834c9615</xr:TypeId>
+				<xr:ValueId>9d614f33-3d0b-4998-a158-10c72e0a6a8f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.ПроверкиЭлектронныхПодписейЭДО" category="RecordKey">
+				<xr:TypeId>db3a8717-f404-4200-a8cd-aecfc7f1b3cc</xr:TypeId>
+				<xr:ValueId>64995448-222c-4e6f-9a53-de897f53ed57</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.ПроверкиЭлектронныхПодписейЭДО" category="RecordManager">
+				<xr:TypeId>cfe44346-42b5-400f-b38d-1f7e379eea1b</xr:TypeId>
+				<xr:ValueId>0bbb440a-5d21-4be0-87b9-5a00afa3c640</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ПроверкиЭлектронныхПодписейЭДО</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>51a23d29-bc0f-47ae-91ae-9c2201885d7c</ExtendedConfigurationObject>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="1f7af9b6-ecbd-449b-ab6f-bcce1b6caa77">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ЕстьНевалидныеПодписиПоМЧД</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>0b24814c-5e08-423b-ad7e-e6030c28e335</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Dimension uuid="2614e67b-80ab-4db9-a254-77fc286cca18">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ЭлектронныйДокумент</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>d46a21cc-ff3a-41d8-9cf1-64835dd0f61b</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

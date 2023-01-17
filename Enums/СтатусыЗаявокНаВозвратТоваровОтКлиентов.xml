@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+	<Enum uuid="4c82898e-8ca6-47a8-a5e7-2e21c0902b42">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.СтатусыЗаявокНаВозвратТоваровОтКлиентов" category="Ref">
+				<xr:TypeId>32186477-19a0-45e8-b342-2b6f69931514</xr:TypeId>
+				<xr:ValueId>1283be58-f7f8-4d4c-ae9e-d2f60d9e43bd</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.СтатусыЗаявокНаВозвратТоваровОтКлиентов" category="Manager">
+				<xr:TypeId>d1a4ebcf-10ed-4abf-bf3d-56baf5b1937a</xr:TypeId>
+				<xr:ValueId>fe450610-eeb1-4cf6-8269-f01bcd964825</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.СтатусыЗаявокНаВозвратТоваровОтКлиентов" category="List">
+				<xr:TypeId>ee5fa4f1-1c34-42c1-a10b-af8fec7052d8</xr:TypeId>
+				<xr:ValueId>b7f5192d-1da9-482f-9ead-52d5e4d28d03</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>СтатусыЗаявокНаВозвратТоваровОтКлиентов</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>4a00f8bf-c11c-464e-9f79-6dd21e3fa7b2</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+	<DataProcessor uuid="aea6934c-4f3d-4a53-b0a8-c77eaf715094">
+		<InternalInfo>
+			<xr:GeneratedType name="DataProcessorObject.ДатаМобайл_АРМДиспетчера" category="Object">
+				<xr:TypeId>a204dbb4-0339-4fd4-93a7-eee21c7720b1</xr:TypeId>
+				<xr:ValueId>29d9502c-81be-4842-81ce-0c0ada89f077</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DataProcessorManager.ДатаМобайл_АРМДиспетчера" category="Manager">
+				<xr:TypeId>b2686dd3-dd65-4740-95d0-f9c0b4d5085b</xr:TypeId>
+				<xr:ValueId>8da4da09-fc89-4309-aab5-53040b3584a2</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ДатаМобайл_АРМДиспетчера</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>9d0f91e3-5038-41eb-a3ab-cffd16cc6a8e</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</DataProcessor>
+</MetaDataObject>

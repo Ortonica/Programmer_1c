@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.15">
+	<Item id="1c2a500a-d69c-4f35-be1f-7782489bc5e1">
+		<Name>ВРаботе</Name>
+		<Code>2100000000050</Code>
+		<Description>В работе</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="6a2af3f9-aaeb-4b79-b905-e20a58e64365">
+		<Name>Завершено</Name>
+		<Code>2100000000036</Code>
+		<Description>Завершено</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="68da38c8-f0ea-45f5-946e-c02fa852158e">
+		<Name>ЗавершеноСОшибками</Name>
+		<Code>2100000000043</Code>
+		<Description>Завершено с ошибками</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="ad75a147-c31e-446a-9d76-9664fb5c3796">
+		<Name>Начало</Name>
+		<Code>2100000000029</Code>
+		<Description>Начало</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="5037c0cb-7275-4193-b0da-e5ef65106039">
+		<Name>ТестоваяПриемка</Name>
+		<Code>2100000000012</Code>
+		<Description>ТЕСТОВАЯ ПРИЕМКА</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+</PredefinedData>

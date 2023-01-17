@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+	<InformationRegister uuid="653d6c65-f34f-4bd9-8701-aecb3aeb5c39">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.РеестрДокументов" category="Record">
+				<xr:TypeId>290f1fd9-e28b-489c-9ec0-98782a9a943d</xr:TypeId>
+				<xr:ValueId>bdf0559b-dea4-4ca0-b619-9b15f4b13f62</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.РеестрДокументов" category="Manager">
+				<xr:TypeId>ca626f42-9eb3-4228-a815-1a2d205b5135</xr:TypeId>
+				<xr:ValueId>1040acaa-9120-4af0-af14-86b467f06981</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.РеестрДокументов" category="Selection">
+				<xr:TypeId>ead8dbcb-d8ae-4959-8bab-f5cf7632488e</xr:TypeId>
+				<xr:ValueId>a7918a2b-beee-4703-b94d-cc636894a6d0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.РеестрДокументов" category="List">
+				<xr:TypeId>806d878d-940c-4975-a17f-5565bb5a6050</xr:TypeId>
+				<xr:ValueId>ae2d56c1-6c8f-4d09-801b-e82f1a1b03e4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.РеестрДокументов" category="RecordSet">
+				<xr:TypeId>54b827dd-6a18-429a-8794-7eabc04dd036</xr:TypeId>
+				<xr:ValueId>b8d129ec-adef-4a0b-94c4-9675b4f4de76</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.РеестрДокументов" category="RecordKey">
+				<xr:TypeId>b03337b8-a3ff-4e50-98ba-f041be430d76</xr:TypeId>
+				<xr:ValueId>9cde6763-bb6f-43bd-9ef2-6ebe990f7fbd</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.РеестрДокументов" category="RecordManager">
+				<xr:TypeId>b7caf6c5-2a64-4934-939a-c8a73efd5610</xr:TypeId>
+				<xr:ValueId>3778d79d-1b76-41b2-9941-bff3f9198765</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>РеестрДокументов</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>44851db7-ace4-11e7-7088-f45c898df8f7</ExtendedConfigurationObject>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects/>
+	</InformationRegister>
+</MetaDataObject>

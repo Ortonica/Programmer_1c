@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+	<Document uuid="caa1da30-3e87-4e4a-a99b-11f6f4fc6aec">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.РегистрацияЦенНоменклатурыПоставщика" category="Object">
+				<xr:TypeId>724381aa-3c3c-47f4-bd70-886f97c53b65</xr:TypeId>
+				<xr:ValueId>a1e00d7c-1e40-4719-9445-5c278889f1c7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.РегистрацияЦенНоменклатурыПоставщика" category="Ref">
+				<xr:TypeId>6a21083c-e79b-4213-9a0b-1411b00a86d6</xr:TypeId>
+				<xr:ValueId>5accb533-1b75-4a0c-847e-fdc434bf23d7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.РегистрацияЦенНоменклатурыПоставщика" category="Selection">
+				<xr:TypeId>e0683187-9740-4312-902e-f78c3cac79f6</xr:TypeId>
+				<xr:ValueId>c16c82ff-df36-4817-aeea-cc0c97ae0f1f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.РегистрацияЦенНоменклатурыПоставщика" category="List">
+				<xr:TypeId>6c9ca269-cebf-4a86-924e-08c9afb54c82</xr:TypeId>
+				<xr:ValueId>d3c94a5d-3d00-461a-ac56-52592fdc4b89</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.РегистрацияЦенНоменклатурыПоставщика" category="Manager">
+				<xr:TypeId>41b3a941-07e4-405f-b10d-8b925a86d1a9</xr:TypeId>
+				<xr:ValueId>d1d2ade8-1a01-4389-8f9a-bc84a9f604ba</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>РегистрацияЦенНоменклатурыПоставщика</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>b3eb969e-692a-4c6d-b8fc-1efd711b4339</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Form>ФормаДокумента</Form>
+			<TabularSection uuid="2a383ed9-6e17-4a9b-a2b6-c88a1988a6cf">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.РегистрацияЦенНоменклатурыПоставщика.Товары" category="TabularSection">
+						<xr:TypeId>ba30c246-75a6-4bcc-9bb9-8064399364d9</xr:TypeId>
+						<xr:ValueId>8c72add5-09da-4479-a05b-133cc9dd99a2</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.РегистрацияЦенНоменклатурыПоставщика.Товары" category="TabularSectionRow">
+						<xr:TypeId>452c8444-d9dc-4b1d-bd4a-b04a3cdfef5b</xr:TypeId>
+						<xr:ValueId>5d2bf70d-be30-4709-8f0a-b51bce8a4a51</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Товары</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>5fd5a16c-7232-4888-9c4d-0002425b3ca8</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="51426bcb-c594-46a2-98a0-76a04d565f44">
+						<Properties>
+							<Name>ЗонаДоставки</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Зона доставки</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<Type>
+								<v8:Type>cfg:CatalogRef.ЗоныДоставки</v8:Type>
+							</Type>
+							<PasswordMode>false</PasswordMode>
+							<Format/>
+							<EditFormat/>
+							<ToolTip/>
+							<MarkNegatives>false</MarkNegatives>
+							<Mask/>
+							<MultiLine>false</MultiLine>
+							<ExtendedEdit>false</ExtendedEdit>
+							<MinValue xsi:nil="true"/>
+							<MaxValue xsi:nil="true"/>
+							<FillChecking>DontCheck</FillChecking>
+							<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+							<ChoiceParameterLinks/>
+							<ChoiceParameters/>
+							<QuickChoice>Auto</QuickChoice>
+							<CreateOnInput>Auto</CreateOnInput>
+							<ChoiceForm/>
+							<LinkByType/>
+							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+							<Indexing>DontIndex</Indexing>
+							<FullTextSearch>Use</FullTextSearch>
+							<DataHistory>Use</DataHistory>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

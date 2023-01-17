@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+	<Catalog uuid="6f3eb4ac-1357-4eeb-8210-b745741f8f46">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ВидыДокументовЭДО" category="Object">
+				<xr:TypeId>b15af698-b3ae-4ef3-9264-e543ba2ecffc</xr:TypeId>
+				<xr:ValueId>08884e4a-3f0c-401d-890a-12ca2fe54f96</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ВидыДокументовЭДО" category="Ref">
+				<xr:TypeId>0173101d-2904-4531-b2b1-f33eefa00d9c</xr:TypeId>
+				<xr:ValueId>2021132d-380b-424e-86b0-910fdee67dbd</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ВидыДокументовЭДО" category="Selection">
+				<xr:TypeId>6a9c1c42-9503-4cbb-a3da-f2834939cfb1</xr:TypeId>
+				<xr:ValueId>58d9b0fc-381e-49a8-bb27-dce7d612824c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ВидыДокументовЭДО" category="List">
+				<xr:TypeId>8021846d-69e2-423b-ac20-a6a7127dae56</xr:TypeId>
+				<xr:ValueId>08645a66-a82f-4c1a-a92c-ef2d4c76d9d5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ВидыДокументовЭДО" category="Manager">
+				<xr:TypeId>c6b2839a-0099-4206-8de6-c0114191fca9</xr:TypeId>
+				<xr:ValueId>2d41ce82-53a9-4d9e-bbd2-fbb63c688b09</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ВидыДокументовЭДО</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>95620877-b445-423d-8ba0-5c244c0b9b8c</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="e8126cb9-04e2-4174-917d-efcd59425741">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ТипДокумента</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>02c75c7b-3991-44ef-a51d-17c1aa1de48b</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:EnumRef.ТипыДокументовЭДО</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="6068b497-fb29-4b3f-939a-d9e16c6b99dd">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ПорядокСортировкиВПакете</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>73a0859f-d142-4a44-9883-b10621021754</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>10</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>

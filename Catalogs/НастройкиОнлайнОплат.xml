@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+	<Catalog uuid="6c5d2999-6572-4993-ac9c-125aea42b7f8">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.НастройкиОнлайнОплат" category="Object">
+				<xr:TypeId>b099316a-909e-45ed-b33a-26461a93ebc5</xr:TypeId>
+				<xr:ValueId>0b8ce90f-7fcd-4d15-95e4-8f3ee07124b4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.НастройкиОнлайнОплат" category="Ref">
+				<xr:TypeId>e24d5122-ec90-4e61-bc37-a5e31ac5fe72</xr:TypeId>
+				<xr:ValueId>f3bb8325-691b-4619-8e0d-83c4683f10c9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.НастройкиОнлайнОплат" category="Selection">
+				<xr:TypeId>4b8f0454-48e6-4d4d-9b59-2d4925458dab</xr:TypeId>
+				<xr:ValueId>ad1ed26f-324c-4fbb-a40a-f00a875949cb</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.НастройкиОнлайнОплат" category="List">
+				<xr:TypeId>887214ee-80bf-4988-9d67-8eca46b4075d</xr:TypeId>
+				<xr:ValueId>2d2887aa-8317-4e9b-b27a-5c0a908df945</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.НастройкиОнлайнОплат" category="Manager">
+				<xr:TypeId>ffb71ffd-b472-44f5-968e-581281fddf38</xr:TypeId>
+				<xr:ValueId>9a5eae29-dd2c-4eb4-b597-650ba1139723</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>НастройкиОнлайнОплат</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>1e31c006-92bf-407c-8e48-d4d1bf516048</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<Form>ФормаПодготовкиПлатежнойСсылки</Form>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>

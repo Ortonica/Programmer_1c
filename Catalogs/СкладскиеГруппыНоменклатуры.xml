@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+	<Catalog uuid="f65b5b3e-7090-477f-9119-4560416919c7">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.СкладскиеГруппыНоменклатуры" category="Object">
+				<xr:TypeId>fb9b4bee-002f-4ed8-b492-21f08eb252ae</xr:TypeId>
+				<xr:ValueId>725f59fb-fec0-43bd-bb16-e16371d75d70</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.СкладскиеГруппыНоменклатуры" category="Ref">
+				<xr:TypeId>dba5d088-d8e0-4bd3-875c-955b809315cc</xr:TypeId>
+				<xr:ValueId>d7528fab-3bae-48c7-a2b8-2efdd366b7db</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.СкладскиеГруппыНоменклатуры" category="Selection">
+				<xr:TypeId>6e333447-0569-4ee6-9ae0-79c65b061a96</xr:TypeId>
+				<xr:ValueId>7f4700d5-2204-459b-87d8-ae0662be1802</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.СкладскиеГруппыНоменклатуры" category="List">
+				<xr:TypeId>878da56e-1a87-479f-ae79-6d61651210c1</xr:TypeId>
+				<xr:ValueId>65b1bec8-e232-4101-9995-77560b24d982</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.СкладскиеГруппыНоменклатуры" category="Manager">
+				<xr:TypeId>ade238a7-ac96-470a-a97c-282a3b26d8b3</xr:TypeId>
+				<xr:ValueId>a810a043-68bf-4ebd-aa54-da938833f813</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>СкладскиеГруппыНоменклатуры</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>7d7afaa5-964f-4eb4-8073-1fb0cb629d7f</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="2cea755a-9779-4b0e-b6ae-d712cc264826">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ОграничиватьПоОбъему</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>a9416ee0-d9a5-4e28-837d-3201e7454e63</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="4cd16cb8-2af5-43f7-838a-3e238716fc90">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ОграничиватьПоВесу</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>1fe02301-b902-4ad1-92e8-cb4888046985</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>

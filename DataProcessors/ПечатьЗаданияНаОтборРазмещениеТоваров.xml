@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+	<DataProcessor uuid="8983dc9c-9cdc-4d5d-a116-8e38cc20f5f4">
+		<InternalInfo>
+			<xr:GeneratedType name="DataProcessorObject.ПечатьЗаданияНаОтборРазмещениеТоваров" category="Object">
+				<xr:TypeId>4f65e055-15d9-46ce-9b42-146b22a040b1</xr:TypeId>
+				<xr:ValueId>088f5df4-6c85-427f-b86c-9d815fa4bb3c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DataProcessorManager.ПечатьЗаданияНаОтборРазмещениеТоваров" category="Manager">
+				<xr:TypeId>6d1d9bb3-ea3c-4d8f-ae06-ba0f48a6f1f5</xr:TypeId>
+				<xr:ValueId>979caef7-5821-4898-aa8b-39f64a518752</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ПечатьЗаданияНаОтборРазмещениеТоваров</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>6717714e-3fa7-4256-a344-3e997171fdce</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</DataProcessor>
+</MetaDataObject>

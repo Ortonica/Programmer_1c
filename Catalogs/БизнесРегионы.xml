@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+	<Catalog uuid="81353002-dada-4dd5-9ec1-14e77d911a46">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.БизнесРегионы" category="Object">
+				<xr:TypeId>841edd20-fa9b-49de-a884-c3a436f4a3b1</xr:TypeId>
+				<xr:ValueId>b7f88ac2-d63b-4162-8594-b09e90cacfd0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.БизнесРегионы" category="Ref">
+				<xr:TypeId>b0f90878-6b86-4322-8c95-3b980e016da0</xr:TypeId>
+				<xr:ValueId>fc2a9db5-9728-4b02-852b-da293a435e33</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.БизнесРегионы" category="Selection">
+				<xr:TypeId>a1167ca2-fc29-449e-823f-f89e08f17524</xr:TypeId>
+				<xr:ValueId>b521098d-99e3-4747-b1f5-e7ea8ad79139</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.БизнесРегионы" category="List">
+				<xr:TypeId>0cf788bd-3712-4f79-a5fa-e982e8bcac5e</xr:TypeId>
+				<xr:ValueId>e5227b10-0592-4c18-898f-8cdc4ae10d3a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.БизнесРегионы" category="Manager">
+				<xr:TypeId>b8344570-8049-4306-9bfa-8087782a145d</xr:TypeId>
+				<xr:ValueId>38f9786a-797a-4765-9e04-bbe50d1f051c</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>БизнесРегионы</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>f0062890-9bb3-438f-b2eb-12a2648f91f4</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

@@ -1,0 +1,464 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+	<Title>
+		<v8:item>
+			<v8:lang>ru</v8:lang>
+			<v8:content>Условия обслуживания торговыми представителями</v8:content>
+		</v8:item>
+		<v8:item>
+			<v8:lang>en</v8:lang>
+			<v8:content>Terms and conditions of sales representative services</v8:content>
+		</v8:item>
+	</Title>
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<AutoTitle>false</AutoTitle>
+	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="OnCreateAtServer" callType="After">РСК_ПриСозданииНаСервереПосле</Event>
+	</Events>
+	<ChildItems>
+		<InputField name="Владелец" id="1">
+			<DataPath>Объект.Owner</DataPath>
+			<SkipOnInput>true</SkipOnInput>
+			<EditMode>EnterOnInput</EditMode>
+			<DropListButton>false</DropListButton>
+			<ChoiceButton>true</ChoiceButton>
+			<ChoiceButtonRepresentation>ShowInInputField</ChoiceButtonRepresentation>
+			<ContextMenu name="ВладелецКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="ВладелецExtendedTooltip" id="41"/>
+		</InputField>
+		<InputField name="Наименование" id="38">
+			<DataPath>Объект.Description</DataPath>
+			<ContextMenu name="НаименованиеКонтекстноеМеню" id="39"/>
+			<ExtendedTooltip name="НаименованиеExtendedTooltip" id="42"/>
+		</InputField>
+		<InputField name="Соглашение" id="3">
+			<DataPath>Объект.Соглашение</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<DropListButton>false</DropListButton>
+			<ChoiceButtonRepresentation>ShowInInputField</ChoiceButtonRepresentation>
+			<ContextMenu name="СоглашениеКонтекстноеМеню" id="4"/>
+			<ExtendedTooltip name="СоглашениеExtendedTooltip" id="43"/>
+		</InputField>
+		<InputField name="ТорговыйПредставитель" id="7">
+			<DataPath>Объект.ТорговыйПредставитель</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ТорговыйПредставительКонтекстноеМеню" id="8"/>
+			<ExtendedTooltip name="ТорговыйПредставительExtendedTooltip" id="44"/>
+		</InputField>
+		<InputField name="Куратор" id="5">
+			<DataPath>Объект.Куратор</DataPath>
+			<SkipOnInput>true</SkipOnInput>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="КураторКонтекстноеМеню" id="6"/>
+			<ExtendedTooltip name="КураторExtendedTooltip" id="45"/>
+		</InputField>
+		<UsualGroup name="ГруппаГрафикПосещения" id="27">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>График посещения</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Visit schedule</v8:content>
+				</v8:item>
+			</Title>
+			<Group>Vertical</Group>
+			<Behavior>Usual</Behavior>
+			<ExtendedTooltip name="ГруппаГрафикПосещенияExtendedTooltip" id="46"/>
+			<ChildItems>
+				<Table name="ГрафикПосещения" id="9">
+					<Representation>List</Representation>
+					<SkipOnInput>false</SkipOnInput>
+					<ChangeRowSet>false</ChangeRowSet>
+					<ChangeRowOrder>false</ChangeRowOrder>
+					<AutoInsertNewRow>true</AutoInsertNewRow>
+					<EnableStartDrag>true</EnableStartDrag>
+					<EnableDrag>true</EnableDrag>
+					<FileDragMode>AsFile</FileDragMode>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>График посещения</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Visit schedule</v8:content>
+						</v8:item>
+					</Title>
+					<RowFilter xsi:nil="true"/>
+					<ContextMenu name="ГрафикПосещенияКонтекстноеМеню" id="10"/>
+					<AutoCommandBar name="ГрафикПосещенияКоманднаяПанель" id="11">
+						<ChildItems>
+							<Button name="СнятьОтметкиВсехДнейНедели" id="22">
+								<Type>CommandBarButton</Type>
+								<Representation>Picture</Representation>
+								<SkipOnInput>false</SkipOnInput>
+								<CommandName>0</CommandName>
+								<ExtendedTooltip name="СнятьОтметкиВсехДнейНеделиExtendedTooltip" id="47"/>
+							</Button>
+							<Button name="УстановитьОтметкиВсехДнейНедели" id="21">
+								<Type>CommandBarButton</Type>
+								<Representation>Picture</Representation>
+								<SkipOnInput>false</SkipOnInput>
+								<CommandName>0</CommandName>
+								<ExtendedTooltip name="УстановитьОтметкиВсехДнейНеделиExtendedTooltip" id="48"/>
+							</Button>
+							<Button name="УстановитьВремяВсехДнейНедели" id="40">
+								<Type>CommandBarButton</Type>
+								<SkipOnInput>false</SkipOnInput>
+								<CommandName>0</CommandName>
+								<ExtendedTooltip name="УстановитьВремяВсехДнейНеделиExtendedTooltip" id="49"/>
+							</Button>
+						</ChildItems>
+					</AutoCommandBar>
+					<ExtendedTooltip name="ГрафикПосещенияExtendedTooltip" id="50"/>
+					<SearchStringAddition name="ГрафикПосещенияСтрокаПоиска" id="56">
+						<AdditionSource>
+							<Item>ГрафикПосещения</Item>
+							<Type>SearchStringRepresentation</Type>
+						</AdditionSource>
+						<ContextMenu name="ГрафикПосещенияСтрокаПоискаКонтекстноеМеню" id="57"/>
+						<ExtendedTooltip name="ГрафикПосещенияСтрокаПоискаРасширеннаяПодсказка" id="58"/>
+					</SearchStringAddition>
+					<ViewStatusAddition name="ГрафикПосещенияСостояниеПросмотра" id="59">
+						<AdditionSource>
+							<Item>ГрафикПосещения</Item>
+							<Type>ViewStatusRepresentation</Type>
+						</AdditionSource>
+						<HorizontalLocation>Left</HorizontalLocation>
+						<ContextMenu name="ГрафикПосещенияСостояниеПросмотраКонтекстноеМеню" id="60"/>
+						<ExtendedTooltip name="ГрафикПосещенияСостояниеПросмотраРасширеннаяПодсказка" id="61"/>
+					</ViewStatusAddition>
+					<SearchControlAddition name="ГрафикПосещенияУправлениеПоиском" id="62">
+						<AdditionSource>
+							<Item>ГрафикПосещения</Item>
+							<Type>SearchControl</Type>
+						</AdditionSource>
+						<ContextMenu name="ГрафикПосещенияУправлениеПоискомКонтекстноеМеню" id="63"/>
+						<ExtendedTooltip name="ГрафикПосещенияУправлениеПоискомРасширеннаяПодсказка" id="64"/>
+					</SearchControlAddition>
+					<ChildItems>
+						<CheckBoxField name="Посещение" id="28">
+							<TitleLocation>None</TitleLocation>
+							<EditMode>EnterOnInput</EditMode>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="ПосещениеКонтекстноеМеню" id="29"/>
+							<ExtendedTooltip name="ПосещениеExtendedTooltip" id="51"/>
+						</CheckBoxField>
+						<InputField name="ДеньНедели" id="30">
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ДеньНеделиКонтекстноеМеню" id="31"/>
+							<ExtendedTooltip name="ДеньНеделиExtendedTooltip" id="52"/>
+						</InputField>
+						<InputField name="ВремяНачала" id="32">
+							<EditMode>EnterOnInput</EditMode>
+							<ChoiceButton>false</ChoiceButton>
+							<SpinButton>true</SpinButton>
+							<Format>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>ДФ=ЧЧ:мм</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>DF=HH:mm tt</v8:content>
+								</v8:item>
+							</Format>
+							<EditFormat>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>ДФ=ЧЧ:мм</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>DF=HH:mm tt</v8:content>
+								</v8:item>
+							</EditFormat>
+							<ChoiceListButton>true</ChoiceListButton>
+							<ContextMenu name="ВремяНачалаКонтекстноеМеню" id="33"/>
+							<ExtendedTooltip name="ВремяНачалаExtendedTooltip" id="53"/>
+						</InputField>
+						<InputField name="ВремяОкончания" id="34">
+							<EditMode>EnterOnInput</EditMode>
+							<ChoiceButton>false</ChoiceButton>
+							<SpinButton>true</SpinButton>
+							<Format>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>ДФ=ЧЧ:мм</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>DF=HH:mm tt</v8:content>
+								</v8:item>
+							</Format>
+							<EditFormat>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>ДФ=ЧЧ:мм</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>DF=HH:mm tt</v8:content>
+								</v8:item>
+							</EditFormat>
+							<ChoiceListButton>true</ChoiceListButton>
+							<ContextMenu name="ВремяОкончанияКонтекстноеМеню" id="35"/>
+							<ExtendedTooltip name="ВремяОкончанияExtendedTooltip" id="54"/>
+						</InputField>
+					</ChildItems>
+				</Table>
+			</ChildItems>
+		</UsualGroup>
+		<InputField name="Комментарий" id="36">
+			<DataPath>Объект.Комментарий</DataPath>
+			<AutoMaxWidth>false</AutoMaxWidth>
+			<ContextMenu name="КомментарийКонтекстноеМеню" id="37"/>
+			<ExtendedTooltip name="КомментарийExtendedTooltip" id="55"/>
+		</InputField>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1000001">
+			<Type>
+				<v8:Type>cfg:CatalogObject.УсловияОбслуживанияПартнеровТорговымиПредставителями</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+			<Columns>
+				<AdditionalColumns table="Объект.ГрафикПосещения"/>
+			</Columns>
+		</Attribute>
+	</Attributes>
+	<BaseForm version="2.15">
+		<Title>
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Условия обслуживания торговыми представителями</v8:content>
+			</v8:item>
+			<v8:item>
+				<v8:lang>en</v8:lang>
+				<v8:content>Terms and conditions of sales representative services</v8:content>
+			</v8:item>
+		</Title>
+		<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+		<AutoTitle>false</AutoTitle>
+		<UseForFoldersAndItems>Items</UseForFoldersAndItems>
+		<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+		<ChildItems>
+			<InputField name="Владелец" id="1">
+				<DataPath>Объект.Owner</DataPath>
+				<SkipOnInput>true</SkipOnInput>
+				<EditMode>EnterOnInput</EditMode>
+				<DropListButton>false</DropListButton>
+				<ChoiceButton>true</ChoiceButton>
+				<ChoiceButtonRepresentation>ShowInInputField</ChoiceButtonRepresentation>
+				<ContextMenu name="ВладелецКонтекстноеМеню" id="2"/>
+				<ExtendedTooltip name="ВладелецExtendedTooltip" id="41"/>
+			</InputField>
+			<InputField name="Наименование" id="38">
+				<DataPath>Объект.Description</DataPath>
+				<ContextMenu name="НаименованиеКонтекстноеМеню" id="39"/>
+				<ExtendedTooltip name="НаименованиеExtendedTooltip" id="42"/>
+			</InputField>
+			<InputField name="Соглашение" id="3">
+				<DataPath>Объект.Соглашение</DataPath>
+				<EditMode>EnterOnInput</EditMode>
+				<DropListButton>false</DropListButton>
+				<ChoiceButton>true</ChoiceButton>
+				<ChoiceButtonRepresentation>ShowInInputField</ChoiceButtonRepresentation>
+				<ContextMenu name="СоглашениеКонтекстноеМеню" id="4"/>
+				<ExtendedTooltip name="СоглашениеExtendedTooltip" id="43"/>
+			</InputField>
+			<InputField name="ТорговыйПредставитель" id="7">
+				<DataPath>Объект.ТорговыйПредставитель</DataPath>
+				<EditMode>EnterOnInput</EditMode>
+				<ContextMenu name="ТорговыйПредставительКонтекстноеМеню" id="8"/>
+				<ExtendedTooltip name="ТорговыйПредставительExtendedTooltip" id="44"/>
+			</InputField>
+			<InputField name="Куратор" id="5">
+				<DataPath>Объект.Куратор</DataPath>
+				<SkipOnInput>true</SkipOnInput>
+				<EditMode>EnterOnInput</EditMode>
+				<ContextMenu name="КураторКонтекстноеМеню" id="6"/>
+				<ExtendedTooltip name="КураторExtendedTooltip" id="45"/>
+			</InputField>
+			<UsualGroup name="ГруппаГрафикПосещения" id="27">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>График посещения</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Visit schedule</v8:content>
+					</v8:item>
+				</Title>
+				<Group>Vertical</Group>
+				<Behavior>Usual</Behavior>
+				<ExtendedTooltip name="ГруппаГрафикПосещенияExtendedTooltip" id="46"/>
+				<ChildItems>
+					<Table name="ГрафикПосещения" id="9">
+						<Representation>List</Representation>
+						<SkipOnInput>false</SkipOnInput>
+						<ChangeRowSet>false</ChangeRowSet>
+						<ChangeRowOrder>false</ChangeRowOrder>
+						<AutoInsertNewRow>true</AutoInsertNewRow>
+						<EnableStartDrag>true</EnableStartDrag>
+						<EnableDrag>true</EnableDrag>
+						<FileDragMode>AsFile</FileDragMode>
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>График посещения</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Visit schedule</v8:content>
+							</v8:item>
+						</Title>
+						<RowFilter xsi:nil="true"/>
+						<ContextMenu name="ГрафикПосещенияКонтекстноеМеню" id="10"/>
+						<AutoCommandBar name="ГрафикПосещенияКоманднаяПанель" id="11">
+							<ChildItems>
+								<Button name="СнятьОтметкиВсехДнейНедели" id="22">
+									<Type>CommandBarButton</Type>
+									<Representation>Picture</Representation>
+									<SkipOnInput>false</SkipOnInput>
+									<CommandName>0</CommandName>
+									<ExtendedTooltip name="СнятьОтметкиВсехДнейНеделиExtendedTooltip" id="47"/>
+								</Button>
+								<Button name="УстановитьОтметкиВсехДнейНедели" id="21">
+									<Type>CommandBarButton</Type>
+									<Representation>Picture</Representation>
+									<SkipOnInput>false</SkipOnInput>
+									<CommandName>0</CommandName>
+									<ExtendedTooltip name="УстановитьОтметкиВсехДнейНеделиExtendedTooltip" id="48"/>
+								</Button>
+								<Button name="УстановитьВремяВсехДнейНедели" id="40">
+									<Type>CommandBarButton</Type>
+									<SkipOnInput>false</SkipOnInput>
+									<CommandName>0</CommandName>
+									<ExtendedTooltip name="УстановитьВремяВсехДнейНеделиExtendedTooltip" id="49"/>
+								</Button>
+							</ChildItems>
+						</AutoCommandBar>
+						<ExtendedTooltip name="ГрафикПосещенияExtendedTooltip" id="50"/>
+						<SearchStringAddition name="ГрафикПосещенияСтрокаПоиска" id="56">
+							<AdditionSource>
+								<Item>ГрафикПосещения</Item>
+								<Type>SearchStringRepresentation</Type>
+							</AdditionSource>
+							<ContextMenu name="ГрафикПосещенияСтрокаПоискаКонтекстноеМеню" id="57"/>
+							<ExtendedTooltip name="ГрафикПосещенияСтрокаПоискаРасширеннаяПодсказка" id="58"/>
+						</SearchStringAddition>
+						<ViewStatusAddition name="ГрафикПосещенияСостояниеПросмотра" id="59">
+							<AdditionSource>
+								<Item>ГрафикПосещения</Item>
+								<Type>ViewStatusRepresentation</Type>
+							</AdditionSource>
+							<HorizontalLocation>Left</HorizontalLocation>
+							<ContextMenu name="ГрафикПосещенияСостояниеПросмотраКонтекстноеМеню" id="60"/>
+							<ExtendedTooltip name="ГрафикПосещенияСостояниеПросмотраРасширеннаяПодсказка" id="61"/>
+						</ViewStatusAddition>
+						<SearchControlAddition name="ГрафикПосещенияУправлениеПоиском" id="62">
+							<AdditionSource>
+								<Item>ГрафикПосещения</Item>
+								<Type>SearchControl</Type>
+							</AdditionSource>
+							<ContextMenu name="ГрафикПосещенияУправлениеПоискомКонтекстноеМеню" id="63"/>
+							<ExtendedTooltip name="ГрафикПосещенияУправлениеПоискомРасширеннаяПодсказка" id="64"/>
+						</SearchControlAddition>
+						<ChildItems>
+							<CheckBoxField name="Посещение" id="28">
+								<TitleLocation>None</TitleLocation>
+								<EditMode>EnterOnInput</EditMode>
+								<CheckBoxType>Auto</CheckBoxType>
+								<ContextMenu name="ПосещениеКонтекстноеМеню" id="29"/>
+								<ExtendedTooltip name="ПосещениеExtendedTooltip" id="51"/>
+							</CheckBoxField>
+							<InputField name="ДеньНедели" id="30">
+								<EditMode>EnterOnInput</EditMode>
+								<ContextMenu name="ДеньНеделиКонтекстноеМеню" id="31"/>
+								<ExtendedTooltip name="ДеньНеделиExtendedTooltip" id="52"/>
+							</InputField>
+							<InputField name="ВремяНачала" id="32">
+								<EditMode>EnterOnInput</EditMode>
+								<ChoiceButton>false</ChoiceButton>
+								<SpinButton>true</SpinButton>
+								<Format>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>ДФ=ЧЧ:мм</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>DF=HH:mm tt</v8:content>
+									</v8:item>
+								</Format>
+								<EditFormat>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>ДФ=ЧЧ:мм</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>DF=HH:mm tt</v8:content>
+									</v8:item>
+								</EditFormat>
+								<ChoiceListButton>true</ChoiceListButton>
+								<ContextMenu name="ВремяНачалаКонтекстноеМеню" id="33"/>
+								<ExtendedTooltip name="ВремяНачалаExtendedTooltip" id="53"/>
+							</InputField>
+							<InputField name="ВремяОкончания" id="34">
+								<EditMode>EnterOnInput</EditMode>
+								<ChoiceButton>false</ChoiceButton>
+								<SpinButton>true</SpinButton>
+								<Format>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>ДФ=ЧЧ:мм</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>DF=HH:mm tt</v8:content>
+									</v8:item>
+								</Format>
+								<EditFormat>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>ДФ=ЧЧ:мм</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>DF=HH:mm tt</v8:content>
+									</v8:item>
+								</EditFormat>
+								<ChoiceListButton>true</ChoiceListButton>
+								<ContextMenu name="ВремяОкончанияКонтекстноеМеню" id="35"/>
+								<ExtendedTooltip name="ВремяОкончанияExtendedTooltip" id="54"/>
+							</InputField>
+						</ChildItems>
+					</Table>
+				</ChildItems>
+			</UsualGroup>
+			<InputField name="Комментарий" id="36">
+				<DataPath>Объект.Комментарий</DataPath>
+				<AutoMaxWidth>false</AutoMaxWidth>
+				<ContextMenu name="КомментарийКонтекстноеМеню" id="37"/>
+				<ExtendedTooltip name="КомментарийExtendedTooltip" id="55"/>
+			</InputField>
+		</ChildItems>
+		<Attributes>
+			<Attribute name="Объект" id="1000001">
+				<Type>
+					<v8:Type>cfg:CatalogObject.УсловияОбслуживанияПартнеровТорговымиПредставителями</v8:Type>
+				</Type>
+				<MainAttribute>true</MainAttribute>
+				<SavedData>true</SavedData>
+			</Attribute>
+		</Attributes>
+	</BaseForm>
+</Form>

@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+	<Document uuid="15f78485-d509-4316-9971-474001ea2e7a">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.КорректировкаРегистров" category="Object">
+				<xr:TypeId>211b645c-3e40-4ae3-a7ac-84f6ff821184</xr:TypeId>
+				<xr:ValueId>a93cfdd7-b577-413e-a9f7-b702f45ca802</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.КорректировкаРегистров" category="Ref">
+				<xr:TypeId>df4c9050-fbce-4993-9ae8-588fa6bdf4bb</xr:TypeId>
+				<xr:ValueId>c74b7fe0-02f8-4725-9c5c-d70d52004cde</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.КорректировкаРегистров" category="Selection">
+				<xr:TypeId>9fc4f2d0-c25c-4131-a99d-35ead34a695f</xr:TypeId>
+				<xr:ValueId>d4e97e95-f5e6-451e-bffa-e2ba1cb75eff</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.КорректировкаРегистров" category="List">
+				<xr:TypeId>149c7f9c-a780-4a0f-bc8d-588a9909c7f7</xr:TypeId>
+				<xr:ValueId>7d016141-3b79-41ff-8cdd-b1c6132394aa</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.КорректировкаРегистров" category="Manager">
+				<xr:TypeId>2fcf9cc2-6f3c-465f-b020-e46f9b5469bf</xr:TypeId>
+				<xr:ValueId>3144c45c-942f-4c62-97bd-fa74ebb979ca</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>КорректировкаРегистров</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>742635a6-477d-49fd-b11f-68180031c40d</ExtendedConfigurationObject>
+			<RegisterRecords>
+				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.РСК_ТоварыКПартиямПоставки</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.РСК_СостояниеЗаказовКлиентовПоВыдаче</xr:Item>
+			</RegisterRecords>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

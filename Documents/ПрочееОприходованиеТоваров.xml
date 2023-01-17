@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+	<Document uuid="2c9f817c-320c-4ff4-a6f9-cd493133a169">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ПрочееОприходованиеТоваров" category="Object">
+				<xr:TypeId>8c619c49-8b3b-4ddd-8dd8-8abe7bf12a53</xr:TypeId>
+				<xr:ValueId>a58ef6ea-ad5f-4250-adc4-a6494f416f72</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ПрочееОприходованиеТоваров" category="Ref">
+				<xr:TypeId>7a7a1575-a78e-4f45-a124-c6e65a3598bd</xr:TypeId>
+				<xr:ValueId>a50cd1ca-f912-4ba3-af81-12af79927d8a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ПрочееОприходованиеТоваров" category="Selection">
+				<xr:TypeId>4683ced0-5454-4188-b0a8-86a067b8f596</xr:TypeId>
+				<xr:ValueId>861cde22-9b20-4a2c-9ab6-b646600b4cbf</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ПрочееОприходованиеТоваров" category="List">
+				<xr:TypeId>f5f80193-f8bb-416b-9fc5-b0da1362ef40</xr:TypeId>
+				<xr:ValueId>a9021c11-ecef-44c3-9dd0-fdc119b74c7a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ПрочееОприходованиеТоваров" category="Manager">
+				<xr:TypeId>bc47fa17-e12d-4b27-bb71-0e6d87e9b8ec</xr:TypeId>
+				<xr:ValueId>8abd506f-131d-43e1-b01e-7470a52e49c1</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ПрочееОприходованиеТоваров</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>95235683-1cbf-4ee6-889a-15da50701439</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

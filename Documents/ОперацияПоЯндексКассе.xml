@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+	<Document uuid="4b174d14-815a-4e6b-95a1-273b75196cc2">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ОперацияПоЯндексКассе" category="Object">
+				<xr:TypeId>3aec118c-534f-48ef-a9cd-99639b95c796</xr:TypeId>
+				<xr:ValueId>03c1c974-2770-47c6-8e88-db18a091e96e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ОперацияПоЯндексКассе" category="Ref">
+				<xr:TypeId>5836632a-090f-4754-912c-18639252881e</xr:TypeId>
+				<xr:ValueId>740c96ef-1ea1-4a01-8e8f-e6ee0784ccbe</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ОперацияПоЯндексКассе" category="Selection">
+				<xr:TypeId>df2aa8f5-d690-45cc-affb-7d4056b4ac76</xr:TypeId>
+				<xr:ValueId>dcb6859c-da80-4fc9-b312-2b28f1568bff</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ОперацияПоЯндексКассе" category="List">
+				<xr:TypeId>07f74b8a-78c5-4442-aa01-1aadc23e279e</xr:TypeId>
+				<xr:ValueId>8777e88e-e6ba-46f3-a92c-54a042c5dc0f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ОперацияПоЯндексКассе" category="Manager">
+				<xr:TypeId>d7986a34-9483-4700-9267-7e87f1454e67</xr:TypeId>
+				<xr:ValueId>1b470740-fcd8-43b3-bae9-61df031b2ed4</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ОперацияПоЯндексКассе</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>05f5329f-ef4d-49d7-8f98-759a62444841</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Form>ФормаСпискаДокументов</Form>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

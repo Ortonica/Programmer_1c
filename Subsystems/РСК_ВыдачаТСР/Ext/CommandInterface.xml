@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CommandInterface xmlns="http://v8.1c.ru/8.3/xcf/extrnprops" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+	<CommandsVisibility>
+		<Command name="Catalog.РСК_КодыСтатусовОтправкиСМС.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="InformationRegister.РСК_ТелефоныДляРассылкиСМС.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="Document.РСК_Разнарядка.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="Document.ПоручениеЭкспедитору.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="Document.ЗаданиеНаПеревозку.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="Document.РСК_ОтчетПоВыдачеТСР.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="Catalog.РСК_СхемыИмпорта.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="Catalog.РСК_ВариантыМакетовПечатныхФорм.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="Catalog.РСК_КолонкиИмпорта.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="InformationRegister.РСК_СообщенияСМС.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="DataProcessor.РСК_ЗагрузкаДляАльфа.StandardCommand.Open">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="DataProcessor.РСК_ЗаполнениеФормыОтчетаExcelДляФСС.StandardCommand.Open">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="DataProcessor.РСК_ОтменаАктовПриСмертиПолучателяТСР.StandardCommand.Open">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="DataProcessor.РСК_ПолучателиТСР.StandardCommand.Open">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
+	</CommandsVisibility>
+	<CommandsPlacement>
+		<Command name="Document.РСК_Разнарядка.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.РСК_Документы</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="Document.ПоручениеЭкспедитору.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.РСК_Документы</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="Document.ЗаданиеНаПеревозку.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.РСК_Документы</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="Document.РСК_ОтчетПоВыдачеТСР.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.РСК_Документы</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="Catalog.РСК_СхемыИмпорта.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.РСК_Справочники</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="Catalog.РСК_ВариантыМакетовПечатныхФорм.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.РСК_Справочники</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="Catalog.РСК_КолонкиИмпорта.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelSeeAlso</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="InformationRegister.РСК_СообщенияСМС.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelSeeAlso</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+	</CommandsPlacement>
+	<CommandsOrder>
+		<Command name="CommonCommand.РСК_ЗаказыНаТСР">
+			<CommandGroup>CommandGroup.РСК_Документы</CommandGroup>
+		</Command>
+		<Command name="Document.РСК_Разнарядка.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.РСК_Документы</CommandGroup>
+		</Command>
+		<Command name="CommonCommand.РСК_АктыВыдачиТСР">
+			<CommandGroup>CommandGroup.РСК_Документы</CommandGroup>
+		</Command>
+		<Command name="CommonCommand.РСК_ЗагрузочныеВедомости">
+			<CommandGroup>CommandGroup.РСК_Документы</CommandGroup>
+		</Command>
+		<Command name="Document.ПоручениеЭкспедитору.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.РСК_Документы</CommandGroup>
+		</Command>
+		<Command name="Document.ЗаданиеНаПеревозку.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.РСК_Документы</CommandGroup>
+		</Command>
+		<Command name="Document.РСК_ОтчетПоВыдачеТСР.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.РСК_Документы</CommandGroup>
+		</Command>
+		<Command name="CommonCommand.РСК_РеализацииТСР">
+			<CommandGroup>CommandGroup.РСК_Документы</CommandGroup>
+		</Command>
+		<Command name="CommonCommand.РСК_ТСР">
+			<CommandGroup>CommandGroup.РСК_Справочники</CommandGroup>
+		</Command>
+		<Command name="DataProcessor.РСК_ПолучателиТСР.Command.ПолучателиТСР">
+			<CommandGroup>CommandGroup.РСК_Справочники</CommandGroup>
+		</Command>
+		<Command name="CommonCommand.РСК_ДоверенныеЛицаПолучателейТСР">
+			<CommandGroup>CommandGroup.РСК_Справочники</CommandGroup>
+		</Command>
+		<Command name="Catalog.РСК_СхемыИмпорта.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.РСК_Справочники</CommandGroup>
+		</Command>
+		<Command name="Catalog.РСК_ВариантыМакетовПечатныхФорм.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.РСК_Справочники</CommandGroup>
+		</Command>
+		<Command name="Catalog.РСК_КолонкиИмпорта.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelSeeAlso</CommandGroup>
+		</Command>
+		<Command name="InformationRegister.РСК_СообщенияСМС.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelSeeAlso</CommandGroup>
+		</Command>
+	</CommandsOrder>
+	<GroupsOrder>
+		<Group>CommandGroup.РСК_Документы</Group>
+		<Group>CommandGroup.РСК_Справочники</Group>
+		<Group>NavigationPanelSeeAlso</Group>
+	</GroupsOrder>
+</CommandInterface>

@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+	<Catalog uuid="35e90698-cf0d-4b18-84de-c26f25f6ab65">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.СерииНоменклатурыДляЦенообразования" category="Object">
+				<xr:TypeId>af4ccf29-6de7-44c9-99cc-0106c930d373</xr:TypeId>
+				<xr:ValueId>a596e8d5-d90d-4693-99cd-074bdd222c58</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.СерииНоменклатурыДляЦенообразования" category="Ref">
+				<xr:TypeId>70f21bc2-300b-4a3e-a44a-26511a22cffe</xr:TypeId>
+				<xr:ValueId>c3d37a9f-e514-4e62-b324-9736d066af45</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.СерииНоменклатурыДляЦенообразования" category="Selection">
+				<xr:TypeId>b99b3b38-2485-4af5-ae7d-3d7132bdc1b8</xr:TypeId>
+				<xr:ValueId>ee262c0a-aa36-4559-b738-26c10707c1cb</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.СерииНоменклатурыДляЦенообразования" category="List">
+				<xr:TypeId>bfd0a72e-0439-4a1e-910c-60dbb3624266</xr:TypeId>
+				<xr:ValueId>3bcf264c-4164-4248-ac1f-de24e960d02b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.СерииНоменклатурыДляЦенообразования" category="Manager">
+				<xr:TypeId>7b9bab5a-411e-4cff-92ee-ec3aa37514e1</xr:TypeId>
+				<xr:ValueId>e4ece75d-0184-430e-83b7-36317653be1e</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>СерииНоменклатурыДляЦенообразования</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>1f80691d-a262-43cd-8b15-e8cf503a9e0a</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

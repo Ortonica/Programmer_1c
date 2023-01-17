@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+	<ChartOfCharacteristicTypes uuid="f6176bc5-1cfc-47f0-a68f-bc5c27254cde">
+		<InternalInfo>
+			<xr:GeneratedType name="ChartOfCharacteristicTypesObject.СтатьиАктивовПассивов" category="Object">
+				<xr:TypeId>93867289-35fe-4011-bcf4-68e6ebdd532f</xr:TypeId>
+				<xr:ValueId>71f81dd2-af20-4d9e-8bd9-e4f7916cd9af</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ChartOfCharacteristicTypesRef.СтатьиАктивовПассивов" category="Ref">
+				<xr:TypeId>d93cfe9d-cdec-41c9-bfa9-a07495aa79f4</xr:TypeId>
+				<xr:ValueId>4984c5af-1283-42b2-91d7-09e5bd824d34</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ChartOfCharacteristicTypesSelection.СтатьиАктивовПассивов" category="Selection">
+				<xr:TypeId>c2ddf20e-b491-4fe6-888a-1b221d4bb3c8</xr:TypeId>
+				<xr:ValueId>a4287d1d-0076-4663-9247-74dd3058663f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ChartOfCharacteristicTypesList.СтатьиАктивовПассивов" category="List">
+				<xr:TypeId>e84c4ffe-e407-456e-bc02-4db067a89dfe</xr:TypeId>
+				<xr:ValueId>dab4e7da-0422-4fe7-92cb-621524c4e0fa</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="Characteristic.СтатьиАктивовПассивов" category="Characteristic">
+				<xr:TypeId>d29daafc-3726-4945-8e79-3ef5ec6aefb3</xr:TypeId>
+				<xr:ValueId>b3c2587e-7560-4339-bb25-8ca39c0e3077</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ChartOfCharacteristicTypesManager.СтатьиАктивовПассивов" category="Manager">
+				<xr:TypeId>63eeb0b9-af1d-4bf2-8e61-fbacbe998e3f</xr:TypeId>
+				<xr:ValueId>469f4d5e-46a0-4fc7-89aa-6e4e670224f9</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>СтатьиАктивовПассивов</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>cf04f485-5792-4993-80a9-fe14d4b80320</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</ChartOfCharacteristicTypes>
+</MetaDataObject>

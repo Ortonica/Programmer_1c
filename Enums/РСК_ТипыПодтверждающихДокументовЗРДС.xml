@@ -1,0 +1,259 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+	<Enum uuid="602fa07b-5aa9-42c5-8d29-23391c81425d">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.РСК_ТипыПодтверждающихДокументовЗРДС" category="Ref">
+				<xr:TypeId>7e15e638-468b-4ebc-aa4c-2a6b0fb7efe5</xr:TypeId>
+				<xr:ValueId>3574f5d6-f8a4-49bc-993b-92ee27082eea</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.РСК_ТипыПодтверждающихДокументовЗРДС" category="Manager">
+				<xr:TypeId>53d45e2e-e099-48dc-a2c1-88ddd599a01a</xr:TypeId>
+				<xr:ValueId>43cee789-611c-4eaf-a7c4-f972fdbbbd7f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.РСК_ТипыПодтверждающихДокументовЗРДС" category="List">
+				<xr:TypeId>98ae7b0d-b245-4e91-8277-4e0ac1aaf464</xr:TypeId>
+				<xr:ValueId>880dcbc1-caaa-472e-8944-4f19ad96ea3a</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>РСК_ТипыПодтверждающихДокументовЗРДС</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>РСК типы подтверждающих документов ЗРДС</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<UseStandardCommands>false</UseStandardCommands>
+			<Characteristics/>
+			<QuickChoice>true</QuickChoice>
+			<ChoiceMode>BothWays</ChoiceMode>
+			<DefaultListForm/>
+			<DefaultChoiceForm/>
+			<AuxiliaryListForm/>
+			<AuxiliaryChoiceForm/>
+			<ListPresentation/>
+			<ExtendedListPresentation/>
+			<Explanation/>
+			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="71213f7d-9d0b-4f3e-802e-3f64e3e457fa">
+				<Properties>
+					<Name>ЗаявлениеОтКлиентаНаВозвратДС_Соглашение</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Заявление от клиента на возврат ДС (ФЛ)/Соглашение с клиентом (ЮЛ, ИП)</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="e6fbea95-df52-4045-b76e-075da415ac8a">
+				<Properties>
+					<Name>АктСверки</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Акт сверки взимных расчетов (ИП, ЮЛ)</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="2d2a18ba-d7e4-4046-9f84-c1dfb90cfdce">
+				<Properties>
+					<Name>ДоговорСКонтрагентом</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Договор с контрагентом</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="f631b2eb-10ed-45e5-abe2-6c2c85cf1650">
+				<Properties>
+					<Name>СчетНаОплату</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Счет на оплату</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="335b7780-482c-4fb1-a7d9-eac6b20c5fb6">
+				<Properties>
+					<Name>ЗаявлениеНаВыдачуПодОтчет</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Заявление на выдачу под отчет</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="dfa51c77-cee5-4dfe-945f-52d052173c42">
+				<Properties>
+					<Name>ОбоснованиеНезаланированногоПлатежа</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Сл.Зап: обоснование незапланированного платежа</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="0c310dd4-c349-4870-a2d1-9c2995ceb392">
+				<Properties>
+					<Name>ЗакрывающийДокумент</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Закрывающий документ (Акт, накладная, УПД и т.д)</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="74fac32f-fcfb-40de-b189-f14a202fcd50">
+				<Properties>
+					<Name>ЛистДекларацииПоНалогу</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Лист декларации по налогу с КБК и суммой</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="2fc084f8-c90b-40d4-a77c-6adcc5176bc2">
+				<Properties>
+					<Name>Требование</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Требование с реквизитами и суммой</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="2776b4b1-88b5-41e5-8d11-4439a2828f40">
+				<Properties>
+					<Name>ВедомостьНаВыплату</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Ведомость на выплату</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="5a90a369-e2cd-4305-8f90-ddcff53ab86c">
+				<Properties>
+					<Name>СлужебнаяЗаписка</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Служебная записка</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="6962013e-31a9-452a-b627-be5fdc2c6bf3">
+				<Properties>
+					<Name>ОбразецПП</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Образец пп с реквизитами и суммой</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="57cb05eb-c5ea-448f-98dd-a39c86fdeedb">
+				<Properties>
+					<Name>ОбоснованиеВнебюджетногоПлатежа</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Сл.Зап: обоснование внебюджетного платежа</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="4f0659d4-aa0a-46d0-a0d1-b3fa9827b737">
+				<Properties>
+					<Name>ПроформаИнвойс</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Проформа-инвойс</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="4340c2d1-2048-4052-ae73-276ee48ab1bd">
+				<Properties>
+					<Name>ТН</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ТН (транспортная накладная)</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="af3e6387-a7d8-46ef-be38-d5f1e01deef2">
+				<Properties>
+					<Name>КвитанцияНаУплату</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Квитанция на уплату</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="88f272b0-4d33-49ee-b732-2b6b83e5e951">
+				<Properties>
+					<Name>Инвойс</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Инвойс</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="6efa0d50-9016-4db1-83a3-a2573f23f683">
+				<Properties>
+					<Name>ЗаявкаНаПриобретениеИТ</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Заявка на приобретение ИТ</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

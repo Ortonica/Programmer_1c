@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+	<Catalog uuid="b5a64e90-a51d-491d-9460-60245362aa84">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.КлючиАналитикиУчетаНоменклатуры" category="Object">
+				<xr:TypeId>77281691-8ad1-434b-aff4-421a2d698d2a</xr:TypeId>
+				<xr:ValueId>dee07d7f-608a-450f-a0c6-d48701242940</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.КлючиАналитикиУчетаНоменклатуры" category="Ref">
+				<xr:TypeId>b7b23d84-7415-4a22-b8c9-b64f305ea8ed</xr:TypeId>
+				<xr:ValueId>29420162-277f-4d68-acfb-648d99d517ed</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.КлючиАналитикиУчетаНоменклатуры" category="Selection">
+				<xr:TypeId>b98d8894-880e-42f7-9200-5d0c7b34cab7</xr:TypeId>
+				<xr:ValueId>f1f5462b-b1f6-4fca-ac94-becc8a0735b5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.КлючиАналитикиУчетаНоменклатуры" category="List">
+				<xr:TypeId>19a79c09-1f9d-4e77-ab2c-3ff2330c6cf1</xr:TypeId>
+				<xr:ValueId>abdb9a11-27f6-4fc7-9480-fa4220022758</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.КлючиАналитикиУчетаНоменклатуры" category="Manager">
+				<xr:TypeId>e8ca0271-b876-4587-908a-26c7da5fe244</xr:TypeId>
+				<xr:ValueId>f05a27ee-63a9-4fae-8b19-dbd3d50c230f</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>КлючиАналитикиУчетаНоменклатуры</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>16147cb5-b2fd-4e31-b481-8cc3e96b4ae0</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

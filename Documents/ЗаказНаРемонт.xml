@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+	<Document uuid="9d0f4cde-0e96-45a6-b9c0-f031bf5c5f99">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ЗаказНаРемонт" category="Object">
+				<xr:TypeId>591cb553-3689-4274-baaa-432b2aababa0</xr:TypeId>
+				<xr:ValueId>421ca973-5a7c-42e5-8486-bd32b221f0e8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ЗаказНаРемонт" category="Ref">
+				<xr:TypeId>929e9c4e-0580-4ee8-baf3-8f10505597fe</xr:TypeId>
+				<xr:ValueId>d3f1ea87-fd28-49ab-85e7-b069166e5c50</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ЗаказНаРемонт" category="Selection">
+				<xr:TypeId>24ce5019-1b46-4dbc-9210-26fd3b91eeb0</xr:TypeId>
+				<xr:ValueId>02af4150-b294-4e94-aff2-48ae70ef2bb1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ЗаказНаРемонт" category="List">
+				<xr:TypeId>7d520250-1d70-4549-8cb5-cfe504c37603</xr:TypeId>
+				<xr:ValueId>f350053a-00eb-477b-b35f-ae8d294dcc92</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ЗаказНаРемонт" category="Manager">
+				<xr:TypeId>09896071-5d5d-4e28-90cd-4d2f577270f5</xr:TypeId>
+				<xr:ValueId>551f7775-0c35-43b3-8a3e-e814a84be9aa</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ЗаказНаРемонт</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>4e6f7959-9963-4982-8f8e-9ec46dc2ec1c</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

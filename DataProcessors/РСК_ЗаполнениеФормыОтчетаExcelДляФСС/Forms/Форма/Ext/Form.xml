@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+	<AutoSaveDataInSettings>Use</AutoSaveDataInSettings>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="ГруппаЗаполнитьФайл" id="21">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа заполнить файл</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа заполнить файл</v8:content>
+				</v8:item>
+			</ToolTip>
+			<HorizontalStretch>false</HorizontalStretch>
+			<Group>AlwaysHorizontal</Group>
+			<Behavior>Usual</Behavior>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаЗаполнитьФайлРасширеннаяПодсказка" id="22"/>
+			<ChildItems>
+				<InputField name="ИмяФайла" id="1">
+					<DataPath>Объект.ИмяФайла</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<Width>24</Width>
+					<ChoiceButton>true</ChoiceButton>
+					<ContextMenu name="ИмяФайлаКонтекстноеМеню" id="2"/>
+					<ExtendedTooltip name="ИмяФайлаРасширеннаяПодсказка" id="3"/>
+					<Events>
+						<Event name="StartChoice">ИмяФайлаНачалоВыбора</Event>
+					</Events>
+				</InputField>
+				<Button name="ЗаполнитьФайл" id="4">
+					<Type>UsualButton</Type>
+					<CommandName>Form.Command.ЗаполнитьФайл</CommandName>
+					<ExtendedTooltip name="ЗаполнитьФайлРасширеннаяПодсказка" id="5"/>
+				</Button>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ГруппаКонтрактДатаВыдачи" id="35">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа контракт дата выдачи</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа контракт дата выдачи</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>AlwaysHorizontal</Group>
+			<Behavior>Usual</Behavior>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаКонтрактДатаВыдачиРасширеннаяПодсказка" id="36"/>
+			<ChildItems>
+				<InputField name="Контракт" id="29">
+					<DataPath>Объект.Контракт</DataPath>
+					<HorizontalStretch>false</HorizontalStretch>
+					<ContextMenu name="КонтрактКонтекстноеМеню" id="30"/>
+					<ExtendedTooltip name="КонтрактРасширеннаяПодсказка" id="31"/>
+				</InputField>
+				<InputField name="ДатаВыдачи" id="32">
+					<DataPath>Объект.ДатаВыдачи</DataPath>
+					<ContextMenu name="ДатаВыдачиКонтекстноеМеню" id="33"/>
+					<ExtendedTooltip name="ДатаВыдачиРасширеннаяПодсказка" id="34"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ГруппаНастройки" id="27">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа настройки</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа настройки</v8:content>
+				</v8:item>
+			</ToolTip>
+			<HorizontalStretch>false</HorizontalStretch>
+			<Group>AlwaysHorizontal</Group>
+			<Behavior>Usual</Behavior>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаНастройкиРасширеннаяПодсказка" id="28"/>
+			<ChildItems>
+				<UsualGroup name="ГруппаНомераСтрок" id="25">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Интервал данных</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа номера строк</v8:content>
+						</v8:item>
+					</ToolTip>
+					<HorizontalStretch>false</HorizontalStretch>
+					<Group>Vertical</Group>
+					<Behavior>Usual</Behavior>
+					<Representation>StrongSeparation</Representation>
+					<ExtendedTooltip name="ГруппаНомераСтрокРасширеннаяПодсказка" id="26"/>
+					<ChildItems>
+						<InputField name="НомерСтрокиНачалаДанных" id="6">
+							<DataPath>Объект.НомерСтрокиНачалаДанных</DataPath>
+							<ContextMenu name="НомерСтрокиНачалаДанныхКонтекстноеМеню" id="7"/>
+							<ExtendedTooltip name="НомерСтрокиНачалаДанныхРасширеннаяПодсказка" id="8"/>
+						</InputField>
+						<InputField name="НомерСтрокиКонецДанных" id="9">
+							<DataPath>Объект.НомерСтрокиКонецДанных</DataPath>
+							<ContextMenu name="НомерСтрокиКонецДанныхКонтекстноеМеню" id="10"/>
+							<ExtendedTooltip name="НомерСтрокиКонецДанныхРасширеннаяПодсказка" id="11"/>
+						</InputField>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="ГруппаНомераКолонок" id="23">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Номера колонок в файле</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа номера колонок</v8:content>
+						</v8:item>
+					</ToolTip>
+					<HorizontalStretch>false</HorizontalStretch>
+					<Group>Vertical</Group>
+					<Behavior>Usual</Behavior>
+					<Representation>StrongSeparation</Representation>
+					<ExtendedTooltip name="ГруппаНомераКолонокРасширеннаяПодсказка" id="24"/>
+					<ChildItems>
+						<InputField name="НомерКолонкиНомерАкта" id="15">
+							<DataPath>Объект.НомерКолонкиНомерАкта</DataPath>
+							<ContextMenu name="НомерКолонкиНомерАктаКонтекстноеМеню" id="16"/>
+							<ExtendedTooltip name="НомерКолонкиНомерАктаРасширеннаяПодсказка" id="17"/>
+						</InputField>
+						<InputField name="НомерКолонкиДатаАкта" id="18">
+							<DataPath>Объект.НомерКолонкиДатаАкта</DataPath>
+							<ContextMenu name="НомерКолонкиДатаАктаКонтекстноеМеню" id="19"/>
+							<ExtendedTooltip name="НомерКолонкиДатаАктаРасширеннаяПодсказка" id="20"/>
+						</InputField>
+						<InputField name="НомерКолонкиСНаправлением" id="12">
+							<DataPath>Объект.НомерКолонкиСНаправлением</DataPath>
+							<ContextMenu name="НомерКолонкиСНаправлениемКонтекстноеМеню" id="13"/>
+							<ExtendedTooltip name="НомерКолонкиСНаправлениемРасширеннаяПодсказка" id="14"/>
+						</InputField>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DataProcessorObject.РСК_ЗаполнениеФормыОтчетаExcelДляФСС</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<Save>
+				<Field>Объект.НомерКолонкиДатаАкта</Field>
+				<Field>Объект.НомерКолонкиНомерАкта</Field>
+				<Field>Объект.НомерКолонкиСНаправлением</Field>
+				<Field>Объект.НомерСтрокиКонецДанных</Field>
+				<Field>Объект.НомерСтрокиНачалаДанных</Field>
+			</Save>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="ЗаполнитьФайл" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить файл</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить файл</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ЗаполнитьФайл</Action>
+		</Command>
+	</Commands>
+</Form>

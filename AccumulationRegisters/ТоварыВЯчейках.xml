@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+	<AccumulationRegister uuid="c8d6690a-b988-49b1-bb2d-b7a6d59a738c">
+		<InternalInfo>
+			<xr:GeneratedType name="AccumulationRegisterRecord.ТоварыВЯчейках" category="Record">
+				<xr:TypeId>10ed810c-ece2-46c3-b0d1-42877c017c4b</xr:TypeId>
+				<xr:ValueId>28243d9c-7727-46c6-a052-2e4ba0cc33c5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterManager.ТоварыВЯчейках" category="Manager">
+				<xr:TypeId>c12f4ba9-3906-4e0a-ae97-089917489559</xr:TypeId>
+				<xr:ValueId>e8207c89-dbff-4c06-92b5-bd6d756baab4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterSelection.ТоварыВЯчейках" category="Selection">
+				<xr:TypeId>af301bb4-ea5d-4eb7-8738-4fe84fef9f50</xr:TypeId>
+				<xr:ValueId>3401de98-3d0c-4030-8c18-e5b3a0454103</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterList.ТоварыВЯчейках" category="List">
+				<xr:TypeId>7e53e490-2f1c-4e52-ab49-c8a1cb4bcfa5</xr:TypeId>
+				<xr:ValueId>02dce1a0-3e33-4c26-b380-22350006a93d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterRecordSet.ТоварыВЯчейках" category="RecordSet">
+				<xr:TypeId>ea856bb9-0967-4f34-bb57-f0ebd42c3e84</xr:TypeId>
+				<xr:ValueId>e454bde6-f047-4f20-a649-a287e76b21d1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterRecordKey.ТоварыВЯчейках" category="RecordKey">
+				<xr:TypeId>7d0823c3-ea3e-41ff-9368-f69eb7a25d45</xr:TypeId>
+				<xr:ValueId>d96657eb-4ca0-4644-9df3-48b28bb36435</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ТоварыВЯчейках</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>ea232e9c-2f7d-4380-8ea3-543f63d0a155</ExtendedConfigurationObject>
+			<RegisterType>Balance</RegisterType>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="8870fe8d-238a-44c7-8e77-d7b6a233fa42">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ВНаличии</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>ac969acb-7b93-4fb5-88a4-8ffafa290913</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>15</v8:Digits>
+							<v8:FractionDigits>3</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="87f6201f-6d86-4d53-9a95-adc614a72946">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>КОтбору</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>07a32a1e-de4d-421e-bcfc-fa1137093139</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>15</v8:Digits>
+							<v8:FractionDigits>3</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Dimension uuid="25774195-c2b4-4316-a73c-c9e601d3cb03">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Номенклатура</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>ad99eb3f-4b74-4ff7-9e1d-cd183c5b0e92</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Номенклатура</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="33ae8617-d317-4a12-9df4-a08825c33348">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Серия</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>1bee65a5-d081-4d90-a770-1169426b8977</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.СерииНоменклатуры</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="06530832-e651-4f37-8436-e2d4dab59ea1">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Ячейка</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>2eac0d5a-dc44-4ecb-9f52-9d0e1da89e1c</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.СкладскиеЯчейки</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="7e622db7-b093-48d1-8d23-e3fc9478ac44">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Упаковка</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>265cd379-3a79-4a3e-90cb-05a495db16e5</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.УпаковкиЕдиницыИзмерения</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="23933e01-2980-4ee2-8058-447cc0f2bb73">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Характеристика</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>0a6c4713-63ad-4653-9246-ca23ce97306a</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ХарактеристикиНоменклатуры</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="ac7054eb-b083-43b7-9ab9-a46ab92e495a">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Назначение</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>4e5d6bb6-5004-4472-9ad2-cf5887bae7d4</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Назначения</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</AccumulationRegister>
+</MetaDataObject>

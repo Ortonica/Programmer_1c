@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+	<InformationRegister uuid="fdea2969-5303-4ebd-ab66-4cb78c08447d">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.ПравилаРазмещенияТоваровВЯчейках" category="Record">
+				<xr:TypeId>ad323aa7-56a8-411f-ad5a-fed724d2e40b</xr:TypeId>
+				<xr:ValueId>e87d38cc-6da8-47b6-bc3c-69e1c6ca8efc</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.ПравилаРазмещенияТоваровВЯчейках" category="Manager">
+				<xr:TypeId>fec7fad1-d3cc-4c9d-a872-eae91ae911d5</xr:TypeId>
+				<xr:ValueId>368641c1-70fb-49e1-967c-d3a4ed24a962</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.ПравилаРазмещенияТоваровВЯчейках" category="Selection">
+				<xr:TypeId>5d8c4059-a777-448b-a179-101adafc6639</xr:TypeId>
+				<xr:ValueId>6214b27f-4177-4092-9c26-32adcf2a8cae</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.ПравилаРазмещенияТоваровВЯчейках" category="List">
+				<xr:TypeId>733522e4-342d-46d7-ba2d-054aae1a9596</xr:TypeId>
+				<xr:ValueId>a64b3350-089c-4b0e-8b02-9fc953f906f2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.ПравилаРазмещенияТоваровВЯчейках" category="RecordSet">
+				<xr:TypeId>18712a19-2f8d-4871-bc47-9eee3fc300e9</xr:TypeId>
+				<xr:ValueId>968c4bd2-fac5-49e3-be1b-64da226bdfc3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.ПравилаРазмещенияТоваровВЯчейках" category="RecordKey">
+				<xr:TypeId>742759e7-9a28-4208-a409-bccfc7b81538</xr:TypeId>
+				<xr:ValueId>4fbfcd96-0ae0-49b8-9924-af319189d281</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.ПравилаРазмещенияТоваровВЯчейках" category="RecordManager">
+				<xr:TypeId>974bb7be-3c1d-4eff-867d-ba0f19a5e9af</xr:TypeId>
+				<xr:ValueId>06230cfa-baf8-4928-98b3-aa68a19e1461</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ПравилаРазмещенияТоваровВЯчейках</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>59932875-bc33-476e-a563-5876f250d857</ExtendedConfigurationObject>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Dimension uuid="f76c892a-f444-420d-8cda-97b7f70a596f">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Помещение</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>5a1e1300-05a0-4cc5-820b-a34ce946b586</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.СкладскиеПомещения</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="34ea1dea-6e99-4a09-8716-8fc31f9ae77a">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>СкладскаяГруппаНоменклатуры</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>bcc98a3a-dcd5-4856-953f-6627f85e1108</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.СкладскиеГруппыНоменклатуры</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="dd490a38-0bea-4db3-bacd-b213b80763d9">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>СкладскаяГруппаУпаковок</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>7554493e-9ba5-4b85-b61c-be22b0567368</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.СкладскиеГруппыУпаковок</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="db89549f-970d-4896-a1c0-1ce9221e5bd6">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Склад</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>20a4a613-1a6d-4916-adce-3b90bdf5ad31</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Склады</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="40e3f16f-f60c-433a-84f3-ad81fd521e46">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ОбластьХранения</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>07410bf3-3c2e-44e5-b69c-42f995b10df8</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ОбластиХранения</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

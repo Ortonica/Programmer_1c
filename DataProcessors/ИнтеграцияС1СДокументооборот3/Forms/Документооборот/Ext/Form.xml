@@ -1,0 +1,821 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+	<Title>
+		<v8:item>
+			<v8:lang>ru</v8:lang>
+			<v8:content>Документооборот</v8:content>
+		</v8:item>
+		<v8:item>
+			<v8:lang>en</v8:lang>
+			<v8:content>Document management</v8:content>
+		</v8:item>
+	</Title>
+	<AutoSaveDataInSettings>Use</AutoSaveDataInSettings>
+	<AutoTitle>false</AutoTitle>
+	<CommandBarLocation>None</CommandBarLocation>
+	<ShowTitle>false</ShowTitle>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<ChildItems>
+		<Pages name="ГруппаСтраницыПодключения" id="517">
+			<PagesRepresentation>None</PagesRepresentation>
+			<ExtendedTooltip name="ГруппаСтраницыПодключенияРасширеннаяПодсказка" id="518"/>
+			<ChildItems>
+				<Page name="СтраницаДокументооборотДоступен" id="532">
+					<ExtendedTooltip name="СтраницаДокументооборотДоступенРасширеннаяПодсказка" id="533"/>
+					<ChildItems>
+						<UsualGroup name="ГруппаОбъектДО" id="191">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа объект 1С:Документооборот</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>1C:Document Management object group</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа объект ДО</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>1C:Document Management object group</v8:content>
+								</v8:item>
+							</ToolTip>
+							<HorizontalStretch>true</HorizontalStretch>
+							<Group>Horizontal</Group>
+							<Behavior>Usual</Behavior>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаОбъектДОРасширеннаяПодсказка" id="224"/>
+							<ChildItems>
+								<LabelDecoration name="ДекорацияОбъектЗаголовок" id="198">
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Соответствие в 1С:Документообороте:</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Correspondence in 1C:Document Management:</v8:content>
+										</v8:item>
+									</Title>
+									<ContextMenu name="ДекорацияОбъектЗаголовокКонтекстноеМеню" id="199"/>
+									<ExtendedTooltip name="ДекорацияОбъектЗаголовокРасширеннаяПодсказка" id="225"/>
+								</LabelDecoration>
+								<Pages name="ГруппаСтраницыСвязанныйОбъект" id="534">
+									<PagesRepresentation>None</PagesRepresentation>
+									<ExtendedTooltip name="ГруппаСтраницыСвязанныйОбъектРасширеннаяПодсказка" id="535"/>
+									<ChildItems>
+										<Page name="ГруппаСтраницаНетСвязанногоОбъекта" id="538">
+											<Group>Horizontal</Group>
+											<ExtendedTooltip name="ГруппаСтраницаНетСвязанногоОбъектаРасширеннаяПодсказка" id="539"/>
+											<ChildItems>
+												<LabelDecoration name="ДекорацияОбъектСоздать" id="192">
+													<Title formatted="false">
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>создать</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>create</v8:content>
+														</v8:item>
+													</Title>
+													<Hyperlink>true</Hyperlink>
+													<HorizontalAlign>Center</HorizontalAlign>
+													<ContextMenu name="ДекорацияОбъектСоздатьКонтекстноеМеню" id="193"/>
+													<ExtendedTooltip name="ДекорацияОбъектСоздатьРасширеннаяПодсказка" id="226"/>
+												</LabelDecoration>
+												<LabelDecoration name="ДекорацияОбъектИли" id="194">
+													<Width>3</Width>
+													<Title formatted="false">
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>или</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>or</v8:content>
+														</v8:item>
+													</Title>
+													<HorizontalAlign>Center</HorizontalAlign>
+													<ContextMenu name="ДекорацияОбъектИлиКонтекстноеМеню" id="195"/>
+													<ExtendedTooltip name="ДекорацияОбъектИлиРасширеннаяПодсказка" id="227"/>
+												</LabelDecoration>
+												<LabelDecoration name="ДекорацияОбъектВыбрать" id="196">
+													<HorizontalStretch>true</HorizontalStretch>
+													<Title formatted="false">
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>выбрать...</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>select...</v8:content>
+														</v8:item>
+													</Title>
+													<Hyperlink>true</Hyperlink>
+													<ContextMenu name="ДекорацияОбъектВыбратьКонтекстноеМеню" id="197"/>
+													<ExtendedTooltip name="ДекорацияОбъектВыбратьРасширеннаяПодсказка" id="228"/>
+												</LabelDecoration>
+											</ChildItems>
+										</Page>
+										<Page name="ГруппаСтраницаЕстьСвязанныйОбъект" id="536">
+											<Group>Horizontal</Group>
+											<ExtendedTooltip name="ГруппаСтраницаЕстьСвязанныйОбъектРасширеннаяПодсказка" id="537"/>
+											<ChildItems>
+												<LabelField name="ДекорацияОбъект" id="205">
+													<TitleLocation>None</TitleLocation>
+													<ToolTip>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Связанный объект 1С:Документооборота</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>1C:Document Management linked object</v8:content>
+														</v8:item>
+													</ToolTip>
+													<AutoMaxWidth>false</AutoMaxWidth>
+													<HorizontalStretch>true</HorizontalStretch>
+													<Hiperlink>true</Hiperlink>
+													<ContextMenu name="ДекорацияОбъектКонтекстноеМеню" id="206"/>
+													<ExtendedTooltip name="ДекорацияОбъектРасширеннаяПодсказка" id="229"/>
+												</LabelField>
+											</ChildItems>
+										</Page>
+									</ChildItems>
+								</Pages>
+								<LabelDecoration name="ДекорацияОбъектОчистить" id="202">
+									<HorizontalStretch>false</HorizontalStretch>
+									<TextColor>style:ЦветОтличающейсяСтрокиДокумента</TextColor>
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Очистить</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Clear</v8:content>
+										</v8:item>
+									</Title>
+									<Hyperlink>true</Hyperlink>
+									<HorizontalAlign>Right</HorizontalAlign>
+									<ContextMenu name="ДекорацияОбъектОчиститьКонтекстноеМеню" id="203"/>
+									<ExtendedTooltip name="ДекорацияОбъектОчиститьРасширеннаяПодсказка" id="230"/>
+								</LabelDecoration>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="ГруппаИнфо" id="46">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа инфо</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Group info</v8:content>
+								</v8:item>
+							</Title>
+							<Group>Horizontal</Group>
+							<Behavior>Usual</Behavior>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаИнфоExtendedTooltip" id="318"/>
+							<ChildItems>
+								<PictureDecoration name="ДекорацияВнимание" id="47">
+									<Width>2</Width>
+									<Height>1</Height>
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Декорация внимание</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Decoration warning</v8:content>
+										</v8:item>
+									</Title>
+									<FileDragMode>AsFile</FileDragMode>
+									<ContextMenu name="ДекорацияВниманиеКонтекстноеМеню" id="48"/>
+									<ExtendedTooltip name="ДекорацияВниманиеExtendedTooltip" id="319"/>
+								</PictureDecoration>
+								<LabelDecoration name="ДекорацияИнфо" id="49">
+									<AutoMaxWidth>false</AutoMaxWidth>
+									<HorizontalStretch>true</HorizontalStretch>
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Не настроено заполнение документа 1С:Документооборота из</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>1C:Document Management document population is not set up from</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Для настройки автоматического заполнения документов 1С:Документооборота обратитесь к администратору.</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>To set automatic 1C:Document Management document population, contact administrator.</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ToolTipRepresentation>Button</ToolTipRepresentation>
+									<ContextMenu name="ДекорацияИнфоКонтекстноеМеню" id="50"/>
+									<ExtendedTooltip name="ДекорацияИнфоExtendedTooltip" id="320"/>
+								</LabelDecoration>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</Page>
+				<Page name="СтраницаДокументооборотНедоступен" id="524">
+					<ExtendedTooltip name="СтраницаДокументооборотНедоступенРасширеннаяПодсказка" id="525"/>
+					<ChildItems>
+						<LabelDecoration name="ДекорацияНетДоступаКДокументообороту" id="526">
+							<HorizontalStretch>false</HorizontalStretch>
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Нет доступа к 1С:Документообороту.</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>No access to 1C:Document Management.</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="ДекорацияНетДоступаКДокументооборотуКонтекстноеМеню" id="527"/>
+							<ExtendedTooltip name="ДекорацияНетДоступаКДокументооборотуРасширеннаяПодсказка" id="528"/>
+						</LabelDecoration>
+						<LabelDecoration name="ДекорацияНастройкиАвторизации" id="529">
+							<HorizontalStretch>false</HorizontalStretch>
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Настроить доступ.</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Configure access.</v8:content>
+								</v8:item>
+							</Title>
+							<Hyperlink>true</Hyperlink>
+							<ContextMenu name="ДекорацияНастройкиАвторизацииКонтекстноеМеню" id="530"/>
+							<ExtendedTooltip name="ДекорацияНастройкиАвторизацииРасширеннаяПодсказка" id="531"/>
+						</LabelDecoration>
+					</ChildItems>
+				</Page>
+				<Page name="СтраницаВерсияНеПоддерживается" id="540">
+					<Group>AlwaysHorizontal</Group>
+					<ExtendedTooltip name="СтраницаВерсияНеПоддерживаетсяРасширеннаяПодсказка" id="541"/>
+					<ChildItems>
+						<PictureDecoration name="ДекорацияВниманиеВерсияНеПоддерживается" id="548">
+							<Width>2</Width>
+							<Height>1</Height>
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Декорация внимание</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Decoration warning</v8:content>
+								</v8:item>
+							</Title>
+							<FileDragMode>AsFile</FileDragMode>
+							<ContextMenu name="ДекорацияВниманиеВерсияНеПоддерживаетсяКонтекстноеМеню" id="549"/>
+							<ExtendedTooltip name="ДекорацияВниманиеВерсияНеПоддерживаетсяРасширеннаяПодсказка" id="550"/>
+						</PictureDecoration>
+						<LabelDecoration name="ДекорацияОписаниеВерсияНеПоддерживается" id="545">
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Функционал не поддерживается в данной версии 1С:Документооборота.
+Требуется 1С:Документооборот версии 3.0.7 или выше.</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Functionality is not supported in this version of 1C:Document Management.
+Version 3.0.7 or later is required.</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="ДекорацияОписаниеВерсияНеПоддерживаетсяКонтекстноеМеню" id="546"/>
+							<ExtendedTooltip name="ДекорацияОписаниеВерсияНеПоддерживаетсяРасширеннаяПодсказка" id="547"/>
+						</LabelDecoration>
+					</ChildItems>
+				</Page>
+				<Page name="СтраницаОжидаетсяПодключение" id="519">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Страница ожидается подключение</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Page expecting connection</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Страница ожидается подключение</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Page expecting connection</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="СтраницаОжидаетсяПодключениеРасширеннаяПодсказка" id="520"/>
+					<ChildItems>
+						<PictureDecoration name="ДекорацияДлительнаяОперация" id="521">
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Декорация длительная операция</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Long-running operation decoration</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Ожидается подключение к 1С:Документообороту</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Expecting connection to 1C:Document Management</v8:content>
+								</v8:item>
+							</ToolTip>
+							<FileDragMode>AsFile</FileDragMode>
+							<ContextMenu name="ДекорацияДлительнаяОперацияКонтекстноеМеню" id="522"/>
+							<ExtendedTooltip name="ДекорацияДлительнаяОперацияРасширеннаяПодсказка" id="523"/>
+						</PictureDecoration>
+					</ChildItems>
+				</Page>
+			</ChildItems>
+		</Pages>
+	</ChildItems>
+	<Attributes>
+		<ConditionalAppearance>
+			<dcsset:item>
+				<dcsset:selection>
+					<dcsset:item>
+						<dcsset:field>ВизыСогласованияРезультат</dcsset:field>
+					</dcsset:item>
+				</dcsset:selection>
+				<dcsset:filter>
+					<dcsset:item xsi:type="dcsset:FilterItemComparison">
+						<dcsset:left xsi:type="dcscor:Field">ВизыСогласования.РезультатID</dcsset:left>
+						<dcsset:comparisonType>InList</dcsset:comparisonType>
+						<dcsset:right xsi:type="xs:string">Согласовано</dcsset:right>
+						<dcsset:right xsi:type="xs:string">СогласованоСЗамечаниями</dcsset:right>
+					</dcsset:item>
+				</dcsset:filter>
+				<dcsset:appearance>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>ЦветТекста</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">style:ОтметкаПоложительногоВыполненияЗадачи</dcscor:value>
+					</dcscor:item>
+				</dcsset:appearance>
+			</dcsset:item>
+			<dcsset:item>
+				<dcsset:selection>
+					<dcsset:item>
+						<dcsset:field>ВизыСогласованияРезультат</dcsset:field>
+					</dcsset:item>
+				</dcsset:selection>
+				<dcsset:filter>
+					<dcsset:item xsi:type="dcsset:FilterItemComparison">
+						<dcsset:left xsi:type="dcscor:Field">ВизыСогласования.РезультатID</dcsset:left>
+						<dcsset:comparisonType>Equal</dcsset:comparisonType>
+						<dcsset:right xsi:type="xs:string">НеСогласовано</dcsset:right>
+					</dcsset:item>
+				</dcsset:filter>
+				<dcsset:appearance>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>ЦветТекста</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">style:ОтметкаОтрицательногоВыполненияЗадачи</dcscor:value>
+					</dcscor:item>
+				</dcsset:appearance>
+			</dcsset:item>
+		</ConditionalAppearance>
+	</Attributes>
+	<BaseForm version="2.15">
+		<Title>
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Документооборот</v8:content>
+			</v8:item>
+			<v8:item>
+				<v8:lang>en</v8:lang>
+				<v8:content>Document management</v8:content>
+			</v8:item>
+		</Title>
+		<AutoSaveDataInSettings>Use</AutoSaveDataInSettings>
+		<AutoTitle>false</AutoTitle>
+		<CommandBarLocation>None</CommandBarLocation>
+		<ShowTitle>false</ShowTitle>
+		<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+		<ChildItems>
+			<Pages name="ГруппаСтраницыПодключения" id="517">
+				<PagesRepresentation>None</PagesRepresentation>
+				<ExtendedTooltip name="ГруппаСтраницыПодключенияРасширеннаяПодсказка" id="518"/>
+				<ChildItems>
+					<Page name="СтраницаДокументооборотДоступен" id="532">
+						<ExtendedTooltip name="СтраницаДокументооборотДоступенРасширеннаяПодсказка" id="533"/>
+						<ChildItems>
+							<UsualGroup name="ГруппаОбъектДО" id="191">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Группа объект 1С:Документооборот</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>1C:Document Management object group</v8:content>
+									</v8:item>
+								</Title>
+								<ToolTip>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Группа объект ДО</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>1C:Document Management object group</v8:content>
+									</v8:item>
+								</ToolTip>
+								<HorizontalStretch>true</HorizontalStretch>
+								<Group>Horizontal</Group>
+								<Behavior>Usual</Behavior>
+								<Representation>None</Representation>
+								<ShowTitle>false</ShowTitle>
+								<ExtendedTooltip name="ГруппаОбъектДОРасширеннаяПодсказка" id="224"/>
+								<ChildItems>
+									<LabelDecoration name="ДекорацияОбъектЗаголовок" id="198">
+										<Title formatted="false">
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Соответствие в 1С:Документообороте:</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Correspondence in 1C:Document Management:</v8:content>
+											</v8:item>
+										</Title>
+										<ContextMenu name="ДекорацияОбъектЗаголовокКонтекстноеМеню" id="199"/>
+										<ExtendedTooltip name="ДекорацияОбъектЗаголовокРасширеннаяПодсказка" id="225"/>
+									</LabelDecoration>
+									<Pages name="ГруппаСтраницыСвязанныйОбъект" id="534">
+										<PagesRepresentation>None</PagesRepresentation>
+										<ExtendedTooltip name="ГруппаСтраницыСвязанныйОбъектРасширеннаяПодсказка" id="535"/>
+										<ChildItems>
+											<Page name="ГруппаСтраницаНетСвязанногоОбъекта" id="538">
+												<Group>Horizontal</Group>
+												<ExtendedTooltip name="ГруппаСтраницаНетСвязанногоОбъектаРасширеннаяПодсказка" id="539"/>
+												<ChildItems>
+													<LabelDecoration name="ДекорацияОбъектСоздать" id="192">
+														<Title formatted="false">
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>создать</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>create</v8:content>
+															</v8:item>
+														</Title>
+														<Hyperlink>true</Hyperlink>
+														<HorizontalAlign>Center</HorizontalAlign>
+														<ContextMenu name="ДекорацияОбъектСоздатьКонтекстноеМеню" id="193"/>
+														<ExtendedTooltip name="ДекорацияОбъектСоздатьРасширеннаяПодсказка" id="226"/>
+													</LabelDecoration>
+													<LabelDecoration name="ДекорацияОбъектИли" id="194">
+														<Width>3</Width>
+														<Title formatted="false">
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>или</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>or</v8:content>
+															</v8:item>
+														</Title>
+														<HorizontalAlign>Center</HorizontalAlign>
+														<ContextMenu name="ДекорацияОбъектИлиКонтекстноеМеню" id="195"/>
+														<ExtendedTooltip name="ДекорацияОбъектИлиРасширеннаяПодсказка" id="227"/>
+													</LabelDecoration>
+													<LabelDecoration name="ДекорацияОбъектВыбрать" id="196">
+														<HorizontalStretch>true</HorizontalStretch>
+														<Title formatted="false">
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>выбрать...</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>select...</v8:content>
+															</v8:item>
+														</Title>
+														<Hyperlink>true</Hyperlink>
+														<ContextMenu name="ДекорацияОбъектВыбратьКонтекстноеМеню" id="197"/>
+														<ExtendedTooltip name="ДекорацияОбъектВыбратьРасширеннаяПодсказка" id="228"/>
+													</LabelDecoration>
+												</ChildItems>
+											</Page>
+											<Page name="ГруппаСтраницаЕстьСвязанныйОбъект" id="536">
+												<Group>Horizontal</Group>
+												<ExtendedTooltip name="ГруппаСтраницаЕстьСвязанныйОбъектРасширеннаяПодсказка" id="537"/>
+												<ChildItems>
+													<LabelField name="ДекорацияОбъект" id="205">
+														<TitleLocation>None</TitleLocation>
+														<ToolTip>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>Связанный объект 1С:Документооборота</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>1C:Document Management linked object</v8:content>
+															</v8:item>
+														</ToolTip>
+														<AutoMaxWidth>false</AutoMaxWidth>
+														<HorizontalStretch>true</HorizontalStretch>
+														<Hiperlink>true</Hiperlink>
+														<ContextMenu name="ДекорацияОбъектКонтекстноеМеню" id="206"/>
+														<ExtendedTooltip name="ДекорацияОбъектРасширеннаяПодсказка" id="229"/>
+													</LabelField>
+												</ChildItems>
+											</Page>
+										</ChildItems>
+									</Pages>
+									<LabelDecoration name="ДекорацияОбъектОчистить" id="202">
+										<HorizontalStretch>false</HorizontalStretch>
+										<TextColor>style:ЦветОтличающейсяСтрокиДокумента</TextColor>
+										<Title formatted="false">
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Очистить</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Clear</v8:content>
+											</v8:item>
+										</Title>
+										<Hyperlink>true</Hyperlink>
+										<HorizontalAlign>Right</HorizontalAlign>
+										<ContextMenu name="ДекорацияОбъектОчиститьКонтекстноеМеню" id="203"/>
+										<ExtendedTooltip name="ДекорацияОбъектОчиститьРасширеннаяПодсказка" id="230"/>
+									</LabelDecoration>
+								</ChildItems>
+							</UsualGroup>
+							<UsualGroup name="ГруппаИнфо" id="46">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Группа инфо</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Group info</v8:content>
+									</v8:item>
+								</Title>
+								<Group>Horizontal</Group>
+								<Behavior>Usual</Behavior>
+								<Representation>None</Representation>
+								<ShowTitle>false</ShowTitle>
+								<ExtendedTooltip name="ГруппаИнфоExtendedTooltip" id="318"/>
+								<ChildItems>
+									<PictureDecoration name="ДекорацияВнимание" id="47">
+										<Width>2</Width>
+										<Height>1</Height>
+										<Title formatted="false">
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Декорация внимание</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Decoration warning</v8:content>
+											</v8:item>
+										</Title>
+										<FileDragMode>AsFile</FileDragMode>
+										<ContextMenu name="ДекорацияВниманиеКонтекстноеМеню" id="48"/>
+										<ExtendedTooltip name="ДекорацияВниманиеExtendedTooltip" id="319"/>
+									</PictureDecoration>
+									<LabelDecoration name="ДекорацияИнфо" id="49">
+										<AutoMaxWidth>false</AutoMaxWidth>
+										<HorizontalStretch>true</HorizontalStretch>
+										<Title formatted="false">
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Не настроено заполнение документа 1С:Документооборота из</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>1C:Document Management document population is not set up from</v8:content>
+											</v8:item>
+										</Title>
+										<ToolTip>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Для настройки автоматического заполнения документов 1С:Документооборота обратитесь к администратору.</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>To set automatic 1C:Document Management document population, contact administrator.</v8:content>
+											</v8:item>
+										</ToolTip>
+										<ToolTipRepresentation>Button</ToolTipRepresentation>
+										<ContextMenu name="ДекорацияИнфоКонтекстноеМеню" id="50"/>
+										<ExtendedTooltip name="ДекорацияИнфоExtendedTooltip" id="320"/>
+									</LabelDecoration>
+								</ChildItems>
+							</UsualGroup>
+						</ChildItems>
+					</Page>
+					<Page name="СтраницаДокументооборотНедоступен" id="524">
+						<ExtendedTooltip name="СтраницаДокументооборотНедоступенРасширеннаяПодсказка" id="525"/>
+						<ChildItems>
+							<LabelDecoration name="ДекорацияНетДоступаКДокументообороту" id="526">
+								<HorizontalStretch>false</HorizontalStretch>
+								<Title formatted="false">
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Нет доступа к 1С:Документообороту.</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>No access to 1C:Document Management.</v8:content>
+									</v8:item>
+								</Title>
+								<ContextMenu name="ДекорацияНетДоступаКДокументооборотуКонтекстноеМеню" id="527"/>
+								<ExtendedTooltip name="ДекорацияНетДоступаКДокументооборотуРасширеннаяПодсказка" id="528"/>
+							</LabelDecoration>
+							<LabelDecoration name="ДекорацияНастройкиАвторизации" id="529">
+								<HorizontalStretch>false</HorizontalStretch>
+								<Title formatted="false">
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Настроить доступ.</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Configure access.</v8:content>
+									</v8:item>
+								</Title>
+								<Hyperlink>true</Hyperlink>
+								<ContextMenu name="ДекорацияНастройкиАвторизацииКонтекстноеМеню" id="530"/>
+								<ExtendedTooltip name="ДекорацияНастройкиАвторизацииРасширеннаяПодсказка" id="531"/>
+							</LabelDecoration>
+						</ChildItems>
+					</Page>
+					<Page name="СтраницаВерсияНеПоддерживается" id="540">
+						<Group>AlwaysHorizontal</Group>
+						<ExtendedTooltip name="СтраницаВерсияНеПоддерживаетсяРасширеннаяПодсказка" id="541"/>
+						<ChildItems>
+							<PictureDecoration name="ДекорацияВниманиеВерсияНеПоддерживается" id="548">
+								<Width>2</Width>
+								<Height>1</Height>
+								<Title formatted="false">
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Декорация внимание</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Decoration warning</v8:content>
+									</v8:item>
+								</Title>
+								<FileDragMode>AsFile</FileDragMode>
+								<ContextMenu name="ДекорацияВниманиеВерсияНеПоддерживаетсяКонтекстноеМеню" id="549"/>
+								<ExtendedTooltip name="ДекорацияВниманиеВерсияНеПоддерживаетсяРасширеннаяПодсказка" id="550"/>
+							</PictureDecoration>
+							<LabelDecoration name="ДекорацияОписаниеВерсияНеПоддерживается" id="545">
+								<AutoMaxWidth>false</AutoMaxWidth>
+								<Title formatted="false">
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Функционал не поддерживается в данной версии 1С:Документооборота.
+Требуется 1С:Документооборот версии 3.0.7 или выше.</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Functionality is not supported in this version of 1C:Document Management.
+Version 3.0.7 or later is required.</v8:content>
+									</v8:item>
+								</Title>
+								<ContextMenu name="ДекорацияОписаниеВерсияНеПоддерживаетсяКонтекстноеМеню" id="546"/>
+								<ExtendedTooltip name="ДекорацияОписаниеВерсияНеПоддерживаетсяРасширеннаяПодсказка" id="547"/>
+							</LabelDecoration>
+						</ChildItems>
+					</Page>
+					<Page name="СтраницаОжидаетсяПодключение" id="519">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Страница ожидается подключение</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Page expecting connection</v8:content>
+							</v8:item>
+						</Title>
+						<ToolTip>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Страница ожидается подключение</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Page expecting connection</v8:content>
+							</v8:item>
+						</ToolTip>
+						<ExtendedTooltip name="СтраницаОжидаетсяПодключениеРасширеннаяПодсказка" id="520"/>
+						<ChildItems>
+							<PictureDecoration name="ДекорацияДлительнаяОперация" id="521">
+								<Title formatted="false">
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Декорация длительная операция</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Long-running operation decoration</v8:content>
+									</v8:item>
+								</Title>
+								<ToolTip>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Ожидается подключение к 1С:Документообороту</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Expecting connection to 1C:Document Management</v8:content>
+									</v8:item>
+								</ToolTip>
+								<FileDragMode>AsFile</FileDragMode>
+								<ContextMenu name="ДекорацияДлительнаяОперацияКонтекстноеМеню" id="522"/>
+								<ExtendedTooltip name="ДекорацияДлительнаяОперацияРасширеннаяПодсказка" id="523"/>
+							</PictureDecoration>
+						</ChildItems>
+					</Page>
+				</ChildItems>
+			</Pages>
+		</ChildItems>
+		<Attributes>
+			<ConditionalAppearance>
+				<dcsset:item>
+					<dcsset:selection>
+						<dcsset:item>
+							<dcsset:field>ВизыСогласованияРезультат</dcsset:field>
+						</dcsset:item>
+					</dcsset:selection>
+					<dcsset:filter>
+						<dcsset:item xsi:type="dcsset:FilterItemComparison">
+							<dcsset:left xsi:type="dcscor:Field">ВизыСогласования.РезультатID</dcsset:left>
+							<dcsset:comparisonType>InList</dcsset:comparisonType>
+							<dcsset:right xsi:type="xs:string">Согласовано</dcsset:right>
+							<dcsset:right xsi:type="xs:string">СогласованоСЗамечаниями</dcsset:right>
+						</dcsset:item>
+					</dcsset:filter>
+					<dcsset:appearance>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:parameter>ЦветТекста</dcscor:parameter>
+							<dcscor:value xsi:type="v8ui:Color">style:ОтметкаПоложительногоВыполненияЗадачи</dcscor:value>
+						</dcscor:item>
+					</dcsset:appearance>
+				</dcsset:item>
+				<dcsset:item>
+					<dcsset:selection>
+						<dcsset:item>
+							<dcsset:field>ВизыСогласованияРезультат</dcsset:field>
+						</dcsset:item>
+					</dcsset:selection>
+					<dcsset:filter>
+						<dcsset:item xsi:type="dcsset:FilterItemComparison">
+							<dcsset:left xsi:type="dcscor:Field">ВизыСогласования.РезультатID</dcsset:left>
+							<dcsset:comparisonType>Equal</dcsset:comparisonType>
+							<dcsset:right xsi:type="xs:string">НеСогласовано</dcsset:right>
+						</dcsset:item>
+					</dcsset:filter>
+					<dcsset:appearance>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:parameter>ЦветТекста</dcscor:parameter>
+							<dcscor:value xsi:type="v8ui:Color">style:ОтметкаОтрицательногоВыполненияЗадачи</dcscor:value>
+						</dcscor:item>
+					</dcsset:appearance>
+				</dcsset:item>
+			</ConditionalAppearance>
+		</Attributes>
+	</BaseForm>
+</Form>

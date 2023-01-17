@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+	<Catalog uuid="d82bd67f-e5d0-4f66-a497-8f5918bd91f5">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ЭтапыПроизводства" category="Object">
+				<xr:TypeId>5dd98807-f732-4938-bb30-2ce43dcc5d4b</xr:TypeId>
+				<xr:ValueId>052ae22a-a01f-48c2-b56c-fb9dd8167066</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ЭтапыПроизводства" category="Ref">
+				<xr:TypeId>e6389176-c054-4d77-93cc-7eb93c9bc759</xr:TypeId>
+				<xr:ValueId>4051747b-2bdc-4844-8515-62a9c8ed0730</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ЭтапыПроизводства" category="Selection">
+				<xr:TypeId>4eb388f0-1b3a-4dcb-a2ad-0e012d084ec4</xr:TypeId>
+				<xr:ValueId>2c62b682-2021-4091-b151-ed1e34d14bb7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ЭтапыПроизводства" category="List">
+				<xr:TypeId>284c7eff-b13e-48e8-b937-a5ddd45c8782</xr:TypeId>
+				<xr:ValueId>bc7bb12f-3c9a-4f4a-9963-b1457625579b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ЭтапыПроизводства" category="Manager">
+				<xr:TypeId>aef11c06-d545-45ea-8430-5b7c4fba50ae</xr:TypeId>
+				<xr:ValueId>5b649673-9511-4788-ae43-42dd05dd5569</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ЭтапыПроизводства</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>8a5439d8-cc0d-400e-9c24-345aa84acb85</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

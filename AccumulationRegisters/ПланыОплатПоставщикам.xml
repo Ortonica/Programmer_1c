@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+	<AccumulationRegister uuid="c5312b58-75e7-41e3-a801-3bdab3fdedb3">
+		<InternalInfo>
+			<xr:GeneratedType name="AccumulationRegisterRecord.ПланыОплатПоставщикам" category="Record">
+				<xr:TypeId>0bf1f6f2-c86b-480b-8dbd-233d7244e831</xr:TypeId>
+				<xr:ValueId>5a237a90-35dd-45c9-b637-96e2ebc2bc21</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterManager.ПланыОплатПоставщикам" category="Manager">
+				<xr:TypeId>597a68eb-95b9-4869-8654-a40760e83aa8</xr:TypeId>
+				<xr:ValueId>2847cbe2-ca84-4d9a-9741-39787e426bbc</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterSelection.ПланыОплатПоставщикам" category="Selection">
+				<xr:TypeId>da35fa69-1d0d-4697-b709-23fde405ebc3</xr:TypeId>
+				<xr:ValueId>2dd305f0-64bf-406e-a736-cbdc95504620</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterList.ПланыОплатПоставщикам" category="List">
+				<xr:TypeId>0f21ee99-84b9-4aa6-a1d2-9c1308e6e9fe</xr:TypeId>
+				<xr:ValueId>4b404d2f-ffc6-485f-902a-51824fdb12f3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterRecordSet.ПланыОплатПоставщикам" category="RecordSet">
+				<xr:TypeId>802106a9-7216-4206-8b6d-84d84610f32d</xr:TypeId>
+				<xr:ValueId>b411c244-61e6-4dc5-99c3-5392e9018992</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterRecordKey.ПланыОплатПоставщикам" category="RecordKey">
+				<xr:TypeId>af613e7c-3598-49f5-ae1f-614151602575</xr:TypeId>
+				<xr:ValueId>a2b69286-ecd0-4886-bf83-c5d2e65f5e3f</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ПланыОплатПоставщикам</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>bf4699a7-3023-41fa-9edc-59d172566795</ExtendedConfigurationObject>
+			<RegisterType>Turnovers</RegisterType>
+		</Properties>
+		<ChildObjects/>
+	</AccumulationRegister>
+</MetaDataObject>

@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+	<Enum uuid="bc6af066-06e2-473b-8e57-e9c171338aec">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ТипыЗапасов" category="Ref">
+				<xr:TypeId>a755e5e2-42e9-4d72-bca2-8971fbf29fea</xr:TypeId>
+				<xr:ValueId>761ad79b-93d9-4786-81f3-62c3c8d1af80</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ТипыЗапасов" category="Manager">
+				<xr:TypeId>8af5a7ff-5bc7-4211-8b70-b8c6cd4cd9cd</xr:TypeId>
+				<xr:ValueId>80408000-8570-4b93-9771-5078389cbc25</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ТипыЗапасов" category="List">
+				<xr:TypeId>7cf60a92-473b-4b93-beba-810a0abfab32</xr:TypeId>
+				<xr:ValueId>116d6bf7-2c88-4656-8272-06767b05225f</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ТипыЗапасов</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>54c5ff5b-ad59-4755-8f44-a63b031060e2</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="ddfd4183-7a2d-4ff8-a3a2-4ad0d687f19a">
+				<Properties>
+					<Name>Ответхранение</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Ответхранение</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+	<AccumulationRegister uuid="2df8e212-65c7-4515-90b0-8f9a1f589cb7">
+		<InternalInfo>
+			<xr:GeneratedType name="AccumulationRegisterRecord.РаспределениеЗапасовДвижения" category="Record">
+				<xr:TypeId>a8204606-7ed9-4ee9-ab96-bd7f69d285b8</xr:TypeId>
+				<xr:ValueId>73be7113-05a9-4e20-bac8-d0472598d031</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterManager.РаспределениеЗапасовДвижения" category="Manager">
+				<xr:TypeId>b258074b-1483-4ccb-be45-ab9cf5f385b8</xr:TypeId>
+				<xr:ValueId>023124a8-cb35-43d5-b1ca-336cd2274b70</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterSelection.РаспределениеЗапасовДвижения" category="Selection">
+				<xr:TypeId>8ca62b2e-1ae3-4ecb-8d2d-9518fd26d980</xr:TypeId>
+				<xr:ValueId>d6d69f50-ea68-4c00-825a-712998cbcbc9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterList.РаспределениеЗапасовДвижения" category="List">
+				<xr:TypeId>93434ccd-3a62-43c4-bc26-8b0628dcf6bf</xr:TypeId>
+				<xr:ValueId>78098564-027f-438c-a834-a62d71b068ef</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterRecordSet.РаспределениеЗапасовДвижения" category="RecordSet">
+				<xr:TypeId>a91f78fd-27aa-4b8f-90e4-9d5de897521b</xr:TypeId>
+				<xr:ValueId>e5454240-4422-40fa-8284-49441e28ec96</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterRecordKey.РаспределениеЗапасовДвижения" category="RecordKey">
+				<xr:TypeId>14010e3a-afd5-42e1-aed8-36267816d2f0</xr:TypeId>
+				<xr:ValueId>469f6a8e-0c10-4abf-a1e6-6f8df69903fa</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>РаспределениеЗапасовДвижения</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>9456f7a0-703a-47bc-b693-f4e237974aaf</ExtendedConfigurationObject>
+			<RegisterType>Turnovers</RegisterType>
+		</Properties>
+		<ChildObjects/>
+	</AccumulationRegister>
+</MetaDataObject>

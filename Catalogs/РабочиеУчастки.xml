@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+	<Catalog uuid="a28e6ea1-6d67-4023-b544-e8ad9bbbe492">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.РабочиеУчастки" category="Object">
+				<xr:TypeId>be60658d-a365-473a-b2c5-8aae1217d8bc</xr:TypeId>
+				<xr:ValueId>4d168cf7-b064-4d12-937b-351b5a981fea</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.РабочиеУчастки" category="Ref">
+				<xr:TypeId>2ebf0d87-4be0-4fb4-918f-e052d070be41</xr:TypeId>
+				<xr:ValueId>539887b8-17ac-4f35-a3ac-8f2d13463104</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.РабочиеУчастки" category="Selection">
+				<xr:TypeId>57441901-a076-4a0e-b5ec-aa6ecc55d548</xr:TypeId>
+				<xr:ValueId>aacd6514-0b28-4a7b-b69e-f8e9b295014a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.РабочиеУчастки" category="List">
+				<xr:TypeId>ffe583c1-6db9-4d7c-87ff-444d856ec92d</xr:TypeId>
+				<xr:ValueId>1f3ab6ff-d8fe-433a-a61d-59da58ad72e3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.РабочиеУчастки" category="Manager">
+				<xr:TypeId>24f51090-0397-47c8-8c7a-067217dad0ee</xr:TypeId>
+				<xr:ValueId>b4fa52c6-dd14-4095-9e74-a69184cef0bf</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>РабочиеУчастки</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>7c863b06-6e02-4c69-add5-1e7cdc4b412d</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+	<InformationRegister uuid="52536078-5da7-401e-9db0-b4020c1fc3c2">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.ОбъектыИнтегрированныеС1СДокументооборотом" category="Record">
+				<xr:TypeId>a36ae7d1-a617-42e4-8e33-6151e7eafdc7</xr:TypeId>
+				<xr:ValueId>1e9cd32d-be99-4072-8e96-62b2b9aaca62</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.ОбъектыИнтегрированныеС1СДокументооборотом" category="Manager">
+				<xr:TypeId>25c45765-4ab9-4b7b-8db0-79f485d4c8dc</xr:TypeId>
+				<xr:ValueId>f250f516-f2af-499d-9ed4-b2223353212e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.ОбъектыИнтегрированныеС1СДокументооборотом" category="Selection">
+				<xr:TypeId>412500d6-b3ee-45a7-b89d-fd0ffad72559</xr:TypeId>
+				<xr:ValueId>accfbe0d-5a40-426c-8ff3-04b1e4f6cd0c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.ОбъектыИнтегрированныеС1СДокументооборотом" category="List">
+				<xr:TypeId>9ef3fae9-4362-4f3e-ae2b-2d3a56b672dc</xr:TypeId>
+				<xr:ValueId>0031880e-095a-40b1-8a64-93f14520d390</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.ОбъектыИнтегрированныеС1СДокументооборотом" category="RecordSet">
+				<xr:TypeId>efff157f-a175-4a6a-9c27-8665c0bf3f63</xr:TypeId>
+				<xr:ValueId>eeb9d25e-a4f9-4bae-8e7f-29c7ab162521</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.ОбъектыИнтегрированныеС1СДокументооборотом" category="RecordKey">
+				<xr:TypeId>07351b70-9395-4ebb-935e-c049226de9e1</xr:TypeId>
+				<xr:ValueId>49c1c23e-f2ad-456e-be67-aa9c35a1010c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.ОбъектыИнтегрированныеС1СДокументооборотом" category="RecordManager">
+				<xr:TypeId>49331c86-aaee-4e0f-98ad-67cdcb2d920a</xr:TypeId>
+				<xr:ValueId>89a17383-6f4e-45fc-b60e-9c12ff183eb1</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ОбъектыИнтегрированныеС1СДокументооборотом</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>5b0f5117-a9eb-489e-ac92-ab1fa89169c6</ExtendedConfigurationObject>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Dimension uuid="23f82ab8-5d5e-4068-a39e-d88785ebe706">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Объект</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>b9ea4da9-4f2b-43da-b136-2921b8a1381f</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:DefinedType.ИнтеграцияС1СДокументооборотВсеСсылкиПереопределяемый</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="3d9a7605-b86e-4a56-9dc3-9a7a06ff59b4">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ИдентификаторОбъектаДО</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>e22792e1-3094-4409-bcd0-2b28a733d2a0</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>36</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

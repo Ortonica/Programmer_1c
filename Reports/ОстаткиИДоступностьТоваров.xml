@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+	<Report uuid="15607185-ac08-410a-adc9-3db31adb4592">
+		<InternalInfo>
+			<xr:GeneratedType name="ReportObject.ОстаткиИДоступностьТоваров" category="Object">
+				<xr:TypeId>142e9917-4acb-454d-b2a5-c3b899b09cb2</xr:TypeId>
+				<xr:ValueId>17813466-850a-4ee6-9b20-9c45bfd122d4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ReportManager.ОстаткиИДоступностьТоваров" category="Manager">
+				<xr:TypeId>46b791b2-a903-433d-89d1-2da377a03a03</xr:TypeId>
+				<xr:ValueId>e7f85037-1fa5-4635-b690-2f345f213edc</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ОстаткиИДоступностьТоваров</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>817c062c-8911-4d1b-9e65-4ac0a21db8df</ExtendedConfigurationObject>
+			<MainDataCompositionSchema>Report.ОстаткиИДоступностьТоваров.Template.РСК_ОсновнаяСхемаКомпоновкиДанных</MainDataCompositionSchema>
+		</Properties>
+		<ChildObjects>
+			<Template>РСК_ОсновнаяСхемаКомпоновкиДанных</Template>
+		</ChildObjects>
+	</Report>
+</MetaDataObject>

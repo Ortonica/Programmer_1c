@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+	<Catalog uuid="c6df7ca8-184b-434a-af4e-6f184351391b">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ПриоритетыОплаты" category="Object">
+				<xr:TypeId>ab26ab42-ee3c-48d5-ab81-84399b717bf3</xr:TypeId>
+				<xr:ValueId>26afedcf-5e67-4371-a364-d9a120759ac8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ПриоритетыОплаты" category="Ref">
+				<xr:TypeId>12d02542-12fe-40fd-88db-d657bca6de10</xr:TypeId>
+				<xr:ValueId>ccddb2f7-3e24-486f-ae71-aa39dc914d21</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ПриоритетыОплаты" category="Selection">
+				<xr:TypeId>5b911fd0-2177-47cf-a937-a3e3db5aa47b</xr:TypeId>
+				<xr:ValueId>37fd1441-f006-4054-912e-382cd83510fb</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ПриоритетыОплаты" category="List">
+				<xr:TypeId>c471f510-dcae-4a44-ba8f-13365e2c0ebe</xr:TypeId>
+				<xr:ValueId>e6d4cfc9-15be-44d5-b0d2-0c63709966ca</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ПриоритетыОплаты" category="Manager">
+				<xr:TypeId>96e2095b-deba-45c4-b70c-570562a83d3f</xr:TypeId>
+				<xr:ValueId>af372b75-3051-4626-920b-606f12807131</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ПриоритетыОплаты</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>cb28d1bb-2674-41bf-bdc2-4dd1877acfb6</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="6ae28359-54ad-4162-b3a3-a879475214b7">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>РеквизитДопУпорядочивания</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>36a6932d-c789-4cac-a27a-7f4e165a033a</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>5</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>

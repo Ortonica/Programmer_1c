@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+	<Catalog uuid="6fb8ce9f-4ecf-45e6-9b15-23b566adee53">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ВидыСделокСКлиентами" category="Object">
+				<xr:TypeId>377021e5-58e6-4979-9155-4528f270b95c</xr:TypeId>
+				<xr:ValueId>8a086d69-0823-4ef2-a1f7-811891a6b7fd</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ВидыСделокСКлиентами" category="Ref">
+				<xr:TypeId>a2a53fef-9c65-45b5-b83f-2297758b3fa4</xr:TypeId>
+				<xr:ValueId>91e96a60-4756-46b4-8287-a6fcb1382547</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ВидыСделокСКлиентами" category="Selection">
+				<xr:TypeId>fc27ced7-e505-49fa-b449-b28610960179</xr:TypeId>
+				<xr:ValueId>37c71bf2-724a-431d-84b6-f0bcba574896</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ВидыСделокСКлиентами" category="List">
+				<xr:TypeId>0936ff8e-76da-4792-a856-aa1cff84ab2b</xr:TypeId>
+				<xr:ValueId>12cec98e-e6ae-438e-bde9-5db9d1161bcf</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ВидыСделокСКлиентами" category="Manager">
+				<xr:TypeId>24f7c5fd-a534-43a2-b602-7de916955bca</xr:TypeId>
+				<xr:ValueId>d62c159d-d91d-4a3a-904c-7b6525793b02</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ВидыСделокСКлиентами</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>770b1bab-409e-478b-8b55-c22969672e0e</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

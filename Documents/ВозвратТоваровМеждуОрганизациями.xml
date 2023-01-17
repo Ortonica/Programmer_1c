@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+	<Document uuid="840b4c50-615c-404a-bc46-617718fe402d">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ВозвратТоваровМеждуОрганизациями" category="Object">
+				<xr:TypeId>71a0fbe6-b32a-4f34-9679-3bd4c084183e</xr:TypeId>
+				<xr:ValueId>51770835-ff1d-407d-919b-d6da740933ab</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ВозвратТоваровМеждуОрганизациями" category="Ref">
+				<xr:TypeId>b470619a-d73a-468f-9a18-cb4428928013</xr:TypeId>
+				<xr:ValueId>5e80a888-f332-44e1-8345-4d62cf675cbf</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ВозвратТоваровМеждуОрганизациями" category="Selection">
+				<xr:TypeId>5ec0de48-ebd1-4c5a-bc25-757fd64db0a9</xr:TypeId>
+				<xr:ValueId>6e7a3291-8f32-40a7-b60f-95d58a218183</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ВозвратТоваровМеждуОрганизациями" category="List">
+				<xr:TypeId>827680f7-d830-465b-8e88-24a279772bcb</xr:TypeId>
+				<xr:ValueId>d5da48ad-9fb6-4585-8b6b-40a9f2c57261</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ВозвратТоваровМеждуОрганизациями" category="Manager">
+				<xr:TypeId>a9cbe8f6-edd0-4dc0-b3b1-bd42dabfb6b4</xr:TypeId>
+				<xr:ValueId>d57649a0-83ca-4f62-8f0b-91c35fec9f06</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ВозвратТоваровМеждуОрганизациями</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>18c9b21b-ba7e-4b2c-b295-1a20c74b003b</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Form>ФормаДокумента</Form>
+			<Form>РСК_ВыборВидаНоменклатуры</Form>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

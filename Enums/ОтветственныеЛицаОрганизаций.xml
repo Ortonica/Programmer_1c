@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+	<Enum uuid="91c9c424-7764-4d43-b75d-f1e2e7bff581">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ОтветственныеЛицаОрганизаций" category="Ref">
+				<xr:TypeId>b02f9a6f-62a1-4608-b630-229f409f8e49</xr:TypeId>
+				<xr:ValueId>68cbd079-9ef0-4ccd-8d4c-b1e519ac0404</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ОтветственныеЛицаОрганизаций" category="Manager">
+				<xr:TypeId>d09ce3f8-20da-43a0-946b-a615b83e721a</xr:TypeId>
+				<xr:ValueId>2e42c5a1-d28f-4432-beae-e1c4afc1187c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ОтветственныеЛицаОрганизаций" category="List">
+				<xr:TypeId>43b42121-e7bd-4e66-a98d-f4b05c0c2800</xr:TypeId>
+				<xr:ValueId>3f6ca819-25c9-4c0d-a168-f02099e0c1d3</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ОтветственныеЛицаОрганизаций</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>97a5f1f4-6332-4100-9848-6c0907797835</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="ba28c4e1-980a-4357-a77f-6d17019ea892">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Руководитель</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>6149f789-afe7-422c-a493-7ed022301a1f</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="933ab1cb-70f7-490c-a53f-87f6a9e9baac">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ГлавныйБухгалтер</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>b684c73e-a0ee-430e-b257-6a45d3bfa9e8</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

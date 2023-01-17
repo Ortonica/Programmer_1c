@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+	<Subsystem uuid="eac7fd18-8490-43a0-9f47-e71df0dcfca1">
+		<Properties>
+			<Name>РСК_ВыдачаТСР</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выдача ТСР</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<IncludeHelpInContents>true</IncludeHelpInContents>
+			<IncludeInCommandInterface>true</IncludeInCommandInterface>
+			<UseOneCommand>false</UseOneCommand>
+			<Explanation/>
+			<Picture>
+				<xr:Ref>CommonPicture.РСК_РазделВыдачаТСР</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Content>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.РСК_КолонкиИмпорта</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.РСК_РазделВыдачаТСР</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.РСК_СхемыИмпорта</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.РСК_Разнарядка</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.РСК_ЗагрузкаДляАльфа</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.РСК_ПовтИсп</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.РСК_СтатусыАктовВыдачи</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ПоручениеЭкспедитору</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ЗаданиеНаПеревозку</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonCommand.РСК_ЗаказыНаТСР</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.РСК_АктВыдачиТСР</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.РСК_СостояниеЗаказовКлиентовПоВыдаче</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.РСК_СтатусыВыполненияКонтрактов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.РСК_ОтчетПоВыдачеТСР</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.РСК_ЗаполнениеФормыОтчетаExcelДляФСС</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.РСК_ПолучателиТСР</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Report.РСК_ОстаткиТСР</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Report.РСК_ХодИсполненияГК</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonCommand.РСК_ПанельОтчетовВыдачаТСР</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Report.РСК_ХодИсполненияКонтрактовПоРегиону</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonCommand.РСК_РеализацииТСР</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.РСК_ВариантыМакетовПечатныхФорм</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonCommand.РСК_ТСР</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonCommand.РСК_ДоверенныеЛицаПолучателейТСР</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.РСК_СообщенияСМС</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.РСК_КодыСтатусовОтправкиСМС</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.РСК_ОтменаАктовПриСмертиПолучателяТСР</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonCommand.РСК_ЗагрузочныеВедомости</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonCommand.РСК_АктыВыдачиТСР</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonCommand.РСК_ПечатьАктовВыдачиТСР</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonCommand.РСК_ВвестиОтчётОВыдаче</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonCommand.РСК_ВвестиЗаказНаПеремещение</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonCommand.РСК_ВвестиРеализацияТоваровИУслуг</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.РСК_ТелефоныДляРассылкиСМС</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Report.РСК_ВедомостьПоОстаткамТСР</xr:Item>
+			</Content>
+		</Properties>
+		<ChildObjects/>
+	</Subsystem>
+</MetaDataObject>

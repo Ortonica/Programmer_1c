@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<InputField name="Наименование" id="4">
+			<DataPath>Объект.Description</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="НаименованиеКонтекстноеМеню" id="5"/>
+			<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="6"/>
+		</InputField>
+		<InputField name="СтрокаНачалаДанных" id="44">
+			<DataPath>Объект.СтрокаНачалаДанных</DataPath>
+			<ContextMenu name="СтрокаНачалаДанныхКонтекстноеМеню" id="45"/>
+			<ExtendedTooltip name="СтрокаНачалаДанныхРасширеннаяПодсказка" id="46"/>
+		</InputField>
+		<Table name="СхемаКолонок" id="47">
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<DataPath>Объект.СхемаКолонок</DataPath>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="СхемаКолонокКонтекстноеМеню" id="48"/>
+			<AutoCommandBar name="СхемаКолонокКоманднаяПанель" id="49"/>
+			<ExtendedTooltip name="СхемаКолонокРасширеннаяПодсказка" id="50"/>
+			<SearchStringAddition name="СхемаКолонокСтрокаПоиска" id="51">
+				<AdditionSource>
+					<Item>СхемаКолонок</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="СхемаКолонокСтрокаПоискаКонтекстноеМеню" id="52"/>
+				<ExtendedTooltip name="СхемаКолонокСтрокаПоискаРасширеннаяПодсказка" id="53"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="СхемаКолонокСостояниеПросмотра" id="54">
+				<AdditionSource>
+					<Item>СхемаКолонок</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="СхемаКолонокСостояниеПросмотраКонтекстноеМеню" id="55"/>
+				<ExtendedTooltip name="СхемаКолонокСостояниеПросмотраРасширеннаяПодсказка" id="56"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="СхемаКолонокУправлениеПоиском" id="57">
+				<AdditionSource>
+					<Item>СхемаКолонок</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="СхемаКолонокУправлениеПоискомКонтекстноеМеню" id="58"/>
+				<ExtendedTooltip name="СхемаКолонокУправлениеПоискомРасширеннаяПодсказка" id="59"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<InputField name="СхемаКолонокКолонкаИмпорта" id="63">
+					<DataPath>Объект.СхемаКолонок.КолонкаИмпорта</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="СхемаКолонокКолонкаИмпортаКонтекстноеМеню" id="64"/>
+					<ExtendedTooltip name="СхемаКолонокКолонкаИмпортаРасширеннаяПодсказка" id="65"/>
+				</InputField>
+				<CheckBoxField name="СхемаКолонокИспользовать" id="66">
+					<DataPath>Объект.СхемаКолонок.Использовать</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="СхемаКолонокИспользоватьКонтекстноеМеню" id="67"/>
+					<ExtendedTooltip name="СхемаКолонокИспользоватьРасширеннаяПодсказка" id="68"/>
+				</CheckBoxField>
+				<CheckBoxField name="СхемаКолонокПерезаписывать" id="69">
+					<DataPath>Объект.СхемаКолонок.Перезаписывать</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="СхемаКолонокПерезаписыватьКонтекстноеМеню" id="70"/>
+					<ExtendedTooltip name="СхемаКолонокПерезаписыватьРасширеннаяПодсказка" id="71"/>
+				</CheckBoxField>
+				<InputField name="СхемаКолонокНомерКолонки" id="72">
+					<DataPath>Объект.СхемаКолонок.НомерКолонки</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="СхемаКолонокНомерКолонкиКонтекстноеМеню" id="73"/>
+					<ExtendedTooltip name="СхемаКолонокНомерКолонкиРасширеннаяПодсказка" id="74"/>
+				</InputField>
+			</ChildItems>
+		</Table>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:CatalogObject.РСК_СхемыИмпорта</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+	</Attributes>
+</Form>

@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+	<InformationRegister uuid="f64809e2-e744-4327-886c-1557efd96a5d">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.ИдентификационныеДанныеПользователей" category="Record">
+				<xr:TypeId>b5f7a91e-de04-4819-a45a-60f7375e19fa</xr:TypeId>
+				<xr:ValueId>b11786ba-5438-4942-8989-5db36db6248b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.ИдентификационныеДанныеПользователей" category="Manager">
+				<xr:TypeId>cd805a41-334f-4f01-a3ef-01f0df8091ca</xr:TypeId>
+				<xr:ValueId>09ebe51c-6542-42f0-b5ed-2e7c2a984f48</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.ИдентификационныеДанныеПользователей" category="Selection">
+				<xr:TypeId>fe7895f8-d105-494c-94e4-bd24b64950c6</xr:TypeId>
+				<xr:ValueId>2daecca1-4d3e-4107-9ee6-90ceb23f17e0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.ИдентификационныеДанныеПользователей" category="List">
+				<xr:TypeId>8e0a52cf-a6c7-4400-850b-549b79d5c0a8</xr:TypeId>
+				<xr:ValueId>8f7c8293-ac34-4d86-80d9-0e545dc7facb</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.ИдентификационныеДанныеПользователей" category="RecordSet">
+				<xr:TypeId>c4f55e6c-0b75-4b71-bdba-242e5a07499c</xr:TypeId>
+				<xr:ValueId>cd5a8bd9-2081-4863-b9b8-ac8788698b7b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.ИдентификационныеДанныеПользователей" category="RecordKey">
+				<xr:TypeId>c6414fe6-3d20-465a-8a09-bf310cbbd8f9</xr:TypeId>
+				<xr:ValueId>c8b7da74-29a5-4ee2-bc61-75fc7ccf4397</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.ИдентификационныеДанныеПользователей" category="RecordManager">
+				<xr:TypeId>c1b8e7c7-9a32-4650-a6be-3cefcd187e17</xr:TypeId>
+				<xr:ValueId>f0bd1546-38d6-4372-9a4e-d6d114d2e7a4</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ИдентификационныеДанныеПользователей</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>03538e69-7f0f-4807-8adc-d2cdd68c45a9</ExtendedConfigurationObject>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="99fc9fc8-6575-41d0-9090-6f118df043f7">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Штрихкод</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>15ca0ae8-b46d-42c0-b782-25aa00f2a066</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>200</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Dimension uuid="55b633df-187a-4b4a-adf3-6971137dc0a0">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Пользователь</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>bdf31112-edce-4a1a-ad5c-36020b6155b3</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Пользователи</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

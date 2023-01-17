@@ -1,0 +1,765 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+	<Title>
+		<v8:item>
+			<v8:lang>ru</v8:lang>
+			<v8:content>Акты выдачи ТСР</v8:content>
+		</v8:item>
+	</Title>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<ChildItems>
+			<Button name="ФормаУстановитьИнтервал" id="22">
+				<Type>CommandBarButton</Type>
+				<Representation>Picture</Representation>
+				<CommandName>Form.Item.Список.StandardCommand.SetDateInterval</CommandName>
+				<Picture>
+					<xr:Ref>StdPicture.SetDateInterval</xr:Ref>
+					<xr:LoadTransparent>true</xr:LoadTransparent>
+				</Picture>
+				<LocationInCommandBar>InCommandBar</LocationInCommandBar>
+				<ExtendedTooltip name="ФормаУстановитьИнтервалРасширеннаяПодсказка" id="23"/>
+			</Button>
+			<ButtonGroup name="ФормаГруппаЗаполняемыхКнопок" id="100">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Группа заполняемых кнопок</v8:content>
+					</v8:item>
+				</Title>
+				<Representation>Compact</Representation>
+				<ExtendedTooltip name="ФормаГруппаЗаполняемыхКнопокРасширеннаяПодсказка" id="101"/>
+				<ChildItems>
+					<Button name="ФормаЗаполнить" id="98">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.Заполнить</CommandName>
+						<ExtendedTooltip name="ФормаЗаполнитьРасширеннаяПодсказка" id="99"/>
+					</Button>
+					<Button name="ФормаИзменитьВыделенные" id="24">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.ИзменитьВыделенные</CommandName>
+						<ExtendedTooltip name="ФормаИзменитьВыделенныеРасширеннаяПодсказка" id="25"/>
+					</Button>
+				</ChildItems>
+			</ButtonGroup>
+			<Popup name="ПодменюПечать" id="86">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Печать</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Подменю печать</v8:content>
+					</v8:item>
+				</ToolTip>
+				<Picture>
+					<xr:Ref>StdPicture.Print</xr:Ref>
+					<xr:LoadTransparent>true</xr:LoadTransparent>
+				</Picture>
+				<ExtendedTooltip name="ПодменюПечатьРасширеннаяПодсказка" id="87"/>
+			</Popup>
+			<Button name="ФормаВключитьВОтчетПоВыдаче" id="96">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.ВключитьВОтчетПоВыдаче</CommandName>
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>В Отчет по выдаче</v8:content>
+					</v8:item>
+				</Title>
+				<ExtendedTooltip name="ФормаВключитьВОтчетПоВыдачеРасширеннаяПодсказка" id="97"/>
+			</Button>
+			<Button name="ФормаВыполнитьРассылкуСМС" id="88">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.ВыполнитьРассылкуСМС</CommandName>
+				<ExtendedTooltip name="ФормаВыполнитьРассылкуСМСРасширеннаяПодсказка" id="89"/>
+			</Button>
+		</ChildItems>
+	</AutoCommandBar>
+	<Events>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="СписокКомпоновщикНастроекПользовательскиеНастройки" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа пользовательских настроек</v8:content>
+				</v8:item>
+			</Title>
+			<VerticalStretch>false</VerticalStretch>
+			<Group>Vertical</Group>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="СписокКомпоновщикНастроекПользовательскиеНастройкиРасширеннаяПодсказка" id="2"/>
+		</UsualGroup>
+		<Table name="Список" id="3">
+			<Representation>List</Representation>
+			<CommandBarLocation>None</CommandBarLocation>
+			<DefaultItem>true</DefaultItem>
+			<Height>4</Height>
+			<HeightControlVariant>UseHeightInFormRows</HeightControlVariant>
+			<UseAlternationRowColor>true</UseAlternationRowColor>
+			<InitialTreeView>ExpandTopLevel</InitialTreeView>
+			<EnableStartDrag>true</EnableStartDrag>
+			<DataPath>Список</DataPath>
+			<RowPictureDataPath>Список.DefaultPicture</RowPictureDataPath>
+			<AutoRefresh>false</AutoRefresh>
+			<AutoRefreshPeriod>60</AutoRefreshPeriod>
+			<Period>
+				<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+				<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+				<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+			</Period>
+			<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+			<RestoreCurrentRow>false</RestoreCurrentRow>
+			<TopLevelParent xsi:nil="true"/>
+			<ShowRoot>true</ShowRoot>
+			<AllowRootChoice>false</AllowRootChoice>
+			<UpdateOnDataChange>Auto</UpdateOnDataChange>
+			<UserSettingsGroup>СписокКомпоновщикНастроекПользовательскиеНастройки</UserSettingsGroup>
+			<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
+			<ContextMenu name="СписокКонтекстноеМеню" id="4"/>
+			<AutoCommandBar name="СписокКоманднаяПанель" id="5">
+				<Autofill>false</Autofill>
+			</AutoCommandBar>
+			<ExtendedTooltip name="СписокРасширеннаяПодсказка" id="6"/>
+			<SearchStringAddition name="СписокСтрокаПоиска" id="7">
+				<AdditionSource>
+					<Item>Список</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="СписокСтрокаПоискаКонтекстноеМеню" id="8"/>
+				<ExtendedTooltip name="СписокСтрокаПоискаРасширеннаяПодсказка" id="9"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="СписокСостояниеПросмотра" id="10">
+				<AdditionSource>
+					<Item>Список</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="СписокСостояниеПросмотраКонтекстноеМеню" id="11"/>
+				<ExtendedTooltip name="СписокСостояниеПросмотраРасширеннаяПодсказка" id="12"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="СписокУправлениеПоиском" id="13">
+				<AdditionSource>
+					<Item>Список</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="СписокУправлениеПоискомКонтекстноеМеню" id="14"/>
+				<ExtendedTooltip name="СписокУправлениеПоискомРасширеннаяПодсказка" id="15"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<LabelField name="Дата" id="16">
+					<DataPath>Список.Дата</DataPath>
+					<DefaultItem>true</DefaultItem>
+					<ContextMenu name="ДатаКонтекстноеМеню" id="17"/>
+					<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="18"/>
+				</LabelField>
+				<LabelField name="Номер" id="19">
+					<DataPath>Список.Номер</DataPath>
+					<ContextMenu name="НомерКонтекстноеМеню" id="20"/>
+					<ExtendedTooltip name="НомерРасширеннаяПодсказка" id="21"/>
+				</LabelField>
+				<LabelField name="ДатаЗакрытия" id="26">
+					<DataPath>Список.ДатаЗакрытия</DataPath>
+					<ContextMenu name="ДатаЗакрытияКонтекстноеМеню" id="27"/>
+					<ExtendedTooltip name="ДатаЗакрытияРасширеннаяПодсказка" id="28"/>
+				</LabelField>
+				<LabelField name="Заявитель" id="29">
+					<DataPath>Список.Заявитель</DataPath>
+					<ContextMenu name="ЗаявительКонтекстноеМеню" id="30"/>
+					<ExtendedTooltip name="ЗаявительРасширеннаяПодсказка" id="31"/>
+				</LabelField>
+				<LabelField name="СНИЛС" id="32">
+					<DataPath>Список.СНИЛС</DataPath>
+					<ContextMenu name="СНИЛСКонтекстноеМеню" id="33"/>
+					<ExtendedTooltip name="СНИЛСРасширеннаяПодсказка" id="34"/>
+				</LabelField>
+				<LabelField name="АдресМестожительства" id="35">
+					<DataPath>Список.АдресМестожительства</DataPath>
+					<ContextMenu name="АдресМестожительстваКонтекстноеМеню" id="36"/>
+					<ExtendedTooltip name="АдресМестожительстваРасширеннаяПодсказка" id="37"/>
+				</LabelField>
+				<LabelField name="АдресДоставки" id="38">
+					<DataPath>Список.АдресДоставки</DataPath>
+					<UserVisible>
+						<xr:Common>false</xr:Common>
+					</UserVisible>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Адрес доставки</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="АдресДоставкиКонтекстноеМеню" id="39"/>
+					<ExtendedTooltip name="АдресДоставкиРасширеннаяПодсказка" id="40"/>
+				</LabelField>
+				<LabelField name="ЗонаДоставки" id="83">
+					<DataPath>Список.ЗонаДоставки</DataPath>
+					<UserVisible>
+						<xr:Common>false</xr:Common>
+					</UserVisible>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Зона доставки</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="ЗонаДоставкиКонтекстноеМеню" id="84"/>
+					<ExtendedTooltip name="ЗонаДоставкиРасширеннаяПодсказка" id="85"/>
+				</LabelField>
+				<LabelField name="ТСР" id="41">
+					<DataPath>Список.ТСР</DataPath>
+					<ContextMenu name="ТСРКонтекстноеМеню" id="42"/>
+					<ExtendedTooltip name="ТСРРасширеннаяПодсказка" id="43"/>
+				</LabelField>
+				<LabelField name="Номенклатура" id="44">
+					<DataPath>Список.Номенклатура</DataPath>
+					<ContextMenu name="НоменклатураКонтекстноеМеню" id="45"/>
+					<ExtendedTooltip name="НоменклатураРасширеннаяПодсказка" id="46"/>
+				</LabelField>
+				<LabelField name="Количество" id="47">
+					<DataPath>Список.Количество</DataPath>
+					<ContextMenu name="КоличествоКонтекстноеМеню" id="48"/>
+					<ExtendedTooltip name="КоличествоРасширеннаяПодсказка" id="49"/>
+				</LabelField>
+				<LabelField name="Цена" id="50">
+					<DataPath>Список.Цена</DataPath>
+					<ContextMenu name="ЦенаКонтекстноеМеню" id="51"/>
+					<ExtendedTooltip name="ЦенаРасширеннаяПодсказка" id="52"/>
+				</LabelField>
+				<LabelField name="НомерРеестра" id="53">
+					<DataPath>Список.НомерРеестра</DataPath>
+					<ContextMenu name="НомерРеестраКонтекстноеМеню" id="54"/>
+					<ExtendedTooltip name="НомерРеестраРасширеннаяПодсказка" id="55"/>
+				</LabelField>
+				<LabelField name="ДатаРеестра" id="56">
+					<DataPath>Список.ДатаРеестра</DataPath>
+					<ContextMenu name="ДатаРеестраКонтекстноеМеню" id="57"/>
+					<ExtendedTooltip name="ДатаРеестраРасширеннаяПодсказка" id="58"/>
+				</LabelField>
+				<LabelField name="НомерНаправления" id="90">
+					<DataPath>Список.НомерНаправления</DataPath>
+					<UserVisible>
+						<xr:Common>false</xr:Common>
+					</UserVisible>
+					<ContextMenu name="НомерНаправленияКонтекстноеМеню" id="91"/>
+					<ExtendedTooltip name="НомерНаправленияРасширеннаяПодсказка" id="92"/>
+				</LabelField>
+				<LabelField name="НомерЗаявки" id="93">
+					<DataPath>Список.НомерЗаявки</DataPath>
+					<UserVisible>
+						<xr:Common>false</xr:Common>
+					</UserVisible>
+					<ContextMenu name="НомерЗаявкиКонтекстноеМеню" id="94"/>
+					<ExtendedTooltip name="НомерЗаявкиРасширеннаяПодсказка" id="95"/>
+				</LabelField>
+				<LabelField name="Статус" id="59">
+					<DataPath>Список.Статус</DataPath>
+					<ContextMenu name="СтатусКонтекстноеМеню" id="60"/>
+					<ExtendedTooltip name="СтатусРасширеннаяПодсказка" id="61"/>
+				</LabelField>
+				<LabelField name="СкладВыдачи" id="62">
+					<DataPath>Список.СкладВыдачи</DataPath>
+					<ContextMenu name="СкладВыдачиКонтекстноеМеню" id="63"/>
+					<ExtendedTooltip name="СкладВыдачиРасширеннаяПодсказка" id="64"/>
+				</LabelField>
+				<LabelField name="Комментарий" id="65">
+					<DataPath>Список.Комментарий</DataPath>
+					<ContextMenu name="КомментарийКонтекстноеМеню" id="66"/>
+					<ExtendedTooltip name="КомментарийРасширеннаяПодсказка" id="67"/>
+				</LabelField>
+				<LabelField name="Контракт" id="68">
+					<DataPath>Список.Контракт</DataPath>
+					<ContextMenu name="КонтрактКонтекстноеМеню" id="69"/>
+					<ExtendedTooltip name="КонтрактРасширеннаяПодсказка" id="70"/>
+				</LabelField>
+				<LabelField name="Ссылка" id="71">
+					<DataPath>Список.Ссылка</DataPath>
+					<ContextMenu name="СсылкаКонтекстноеМеню" id="72"/>
+					<ExtendedTooltip name="СсылкаРасширеннаяПодсказка" id="73"/>
+				</LabelField>
+				<LabelField name="Ответственный" id="74">
+					<DataPath>Список.Ответственный</DataPath>
+					<UserVisible>
+						<xr:Common>false</xr:Common>
+					</UserVisible>
+					<ContextMenu name="ОтветственныйКонтекстноеМеню" id="75"/>
+					<ExtendedTooltip name="ОтветственныйРасширеннаяПодсказка" id="76"/>
+				</LabelField>
+			</ChildItems>
+		</Table>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Список" id="1">
+			<Type>
+				<v8:Type>cfg:DynamicList</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<UseAlways>
+				<Field>Список.Ссылка</Field>
+			</UseAlways>
+			<Settings xsi:type="DynamicList">
+				<ManualQuery>true</ManualQuery>
+				<DynamicDataRead>true</DynamicDataRead>
+				<QueryText>ВЫБРАТЬ
+	ПоручениеЭкспедиторуОснования.Ссылка КАК Ссылка,
+	МАКСИМУМ(ВЫРАЗИТЬ(ПоручениеЭкспедиторуОснования.Основание КАК Документ.ЗаказКлиента)) КАК ДокументОснования
+ПОМЕСТИТЬ СписокОснований
+ИЗ
+	Документ.ПоручениеЭкспедитору.Основания КАК ПоручениеЭкспедиторуОснования
+ГДЕ
+	ПоручениеЭкспедиторуОснования.Ссылка.РСК_АктВыдачиТСР
+
+СГРУППИРОВАТЬ ПО
+	ПоручениеЭкспедиторуОснования.Ссылка
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ДокументПоручениеЭкспедитору.Дата КАК Дата,
+	ДокументПоручениеЭкспедитору.ДатаВыполнения КАК ДатаЗакрытия,
+	ДокументПоручениеЭкспедитору.Номер КАК Номер,
+	ДокументПоручениеЭкспедитору.Пункт КАК Заявитель,
+	ЕСТЬNULL(Партнеры.РСК_СНИЛС, 0) КАК СНИЛС,
+	ДокументПоручениеЭкспедитору.АдресДоставки КАК АдресДоставки,
+	ПОДСТРОКА(ЕСТЬNULL(ПартнерыКонтактнаяИнформация.Представление, ""), 1, 200) КАК АдресМестожительства,
+	ДокументПоручениеЭкспедитору.РСК_ТСР КАК ТСР,
+	ДокументПоручениеЭкспедитору.РСК_Номенклатура КАК Номенклатура,
+	ДокументПоручениеЭкспедитору.РСК_Количество КАК Количество,
+	ДокументПоручениеЭкспедитору.РСК_Цена КАК Цена,
+	ДокументПоручениеЭкспедитору.РСК_НомерРеестра КАК НомерРеестра,
+	ДокументПоручениеЭкспедитору.РСК_ДатаРеестра КАК ДатаРеестра,
+	ДокументПоручениеЭкспедитору.РСК_СтатусАктаВыдачиТСР КАК Статус,
+	ДокументПоручениеЭкспедитору.Склад КАК СкладВыдачи,
+	ДокументПоручениеЭкспедитору.Комментарий КАК Комментарий,
+	ЕСТЬNULL(СписокОснований.ДокументОснования, ЗНАЧЕНИЕ(Документ.ЗаказКлиента.ПустаяСсылка)) КАК Контракт,
+	ДокументПоручениеЭкспедитору.ЗонаДоставки КАК ЗонаДоставки,
+	ДокументПоручениеЭкспедитору.Ответственный КАК Ответственный,
+	ДокументПоручениеЭкспедитору.Ссылка КАК Ссылка,
+	ДокументПоручениеЭкспедитору.ПометкаУдаления КАК ПометкаУдаления,
+	ДокументПоручениеЭкспедитору.Проведен КАК Проведен,
+	ДокументПоручениеЭкспедитору.РСК_НомерНаправления КАК НомерНаправления,
+	ДокументПоручениеЭкспедитору.РСК_НомерЗаявки КАК НомерЗаявки
+ИЗ
+	Документ.ПоручениеЭкспедитору КАК ДокументПоручениеЭкспедитору
+		ЛЕВОЕ СОЕДИНЕНИЕ СписокОснований КАК СписокОснований
+		ПО ДокументПоручениеЭкспедитору.Ссылка = СписокОснований.Ссылка
+		ЛЕВОЕ СОЕДИНЕНИЕ Справочник.Партнеры КАК Партнеры
+			ЛЕВОЕ СОЕДИНЕНИЕ Справочник.Партнеры.КонтактнаяИнформация КАК ПартнерыКонтактнаяИнформация
+			ПО Партнеры.Ссылка = ПартнерыКонтактнаяИнформация.Ссылка
+				И (ПартнерыКонтактнаяИнформация.Вид = ЗНАЧЕНИЕ(Справочник.ВидыКонтактнойИнформации.АдресПартнера))
+		ПО ДокументПоручениеЭкспедитору.Пункт = Партнеры.Ссылка
+ГДЕ
+	ДокументПоручениеЭкспедитору.РСК_АктВыдачиТСР</QueryText>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>РСК_АктВыдачиТСР</dcssch:dataPath>
+					<dcssch:field>РСК_АктВыдачиТСР</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Комментарий</dcssch:dataPath>
+					<dcssch:field>Комментарий</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Ссылка</dcssch:dataPath>
+					<dcssch:field>Ссылка</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Номер</dcssch:dataPath>
+					<dcssch:field>Номер</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>СпособДоставки</dcssch:dataPath>
+					<dcssch:field>СпособДоставки</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Проведен</dcssch:dataPath>
+					<dcssch:field>Проведен</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ПометкаУдаления</dcssch:dataPath>
+					<dcssch:field>ПометкаУдаления</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Дата</dcssch:dataPath>
+					<dcssch:field>Дата</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ВремяДоставкиПо</dcssch:dataPath>
+					<dcssch:field>ВремяДоставкиПо</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ДополнительнаяИнформацияПоДоставке</dcssch:dataPath>
+					<dcssch:field>ДополнительнаяИнформацияПоДоставке</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ДатаВыполнения</dcssch:dataPath>
+					<dcssch:field>ДатаВыполнения</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Пункт</dcssch:dataPath>
+					<dcssch:field>Пункт</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ЗонаДоставки</dcssch:dataPath>
+					<dcssch:field>ЗонаДоставки</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Склад</dcssch:dataPath>
+					<dcssch:field>Склад</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>КонтактноеЛицо</dcssch:dataPath>
+					<dcssch:field>КонтактноеЛицо</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>АдресДоставки</dcssch:dataPath>
+					<dcssch:field>АдресДоставки</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ВремяДоставкиС</dcssch:dataPath>
+					<dcssch:field>ВремяДоставкиС</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ОсобыеУсловияПеревозкиОписание</dcssch:dataPath>
+					<dcssch:field>ОсобыеУсловияПеревозкиОписание</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Ответственный</dcssch:dataPath>
+					<dcssch:field>Ответственный</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>РСК_ДатаНаправления</dcssch:dataPath>
+					<dcssch:field>РСК_ДатаНаправления</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>РСК_СтатусАктаВыдачиТСР</dcssch:dataPath>
+					<dcssch:field>РСК_СтатусАктаВыдачиТСР</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>РСК_НомерРеестра</dcssch:dataPath>
+					<dcssch:field>РСК_НомерРеестра</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>РСК_ДатаРеестра</dcssch:dataPath>
+					<dcssch:field>РСК_ДатаРеестра</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>РСК_Количество</dcssch:dataPath>
+					<dcssch:field>РСК_Количество</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>РСК_Цена</dcssch:dataPath>
+					<dcssch:field>РСК_Цена</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>РСК_Сумма</dcssch:dataPath>
+					<dcssch:field>РСК_Сумма</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>РСК_ТСР</dcssch:dataPath>
+					<dcssch:field>РСК_ТСР</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>РСК_НомерНаправления</dcssch:dataPath>
+					<dcssch:field>РСК_НомерНаправления</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>РСК_Номенклатура</dcssch:dataPath>
+					<dcssch:field>РСК_Номенклатура</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>РСК_Характеристика</dcssch:dataPath>
+					<dcssch:field>РСК_Характеристика</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>РСК_Серия</dcssch:dataPath>
+					<dcssch:field>РСК_Серия</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldNestedDataSet">
+					<dcssch:dataPath>Основания</dcssch:dataPath>
+					<dcssch:field>Основания</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>МоментВремени</dcssch:dataPath>
+					<dcssch:field>МоментВремени</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>СкладВыдачи</dcssch:dataPath>
+					<dcssch:field>СкладВыдачи</dcssch:field>
+					<dcssch:title xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Склад выдачи</v8:content>
+						</v8:item>
+					</dcssch:title>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Количество</dcssch:dataPath>
+					<dcssch:field>Количество</dcssch:field>
+					<dcssch:title xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Количество</v8:content>
+						</v8:item>
+					</dcssch:title>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Статус</dcssch:dataPath>
+					<dcssch:field>Статус</dcssch:field>
+					<dcssch:title xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Статус</v8:content>
+						</v8:item>
+					</dcssch:title>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ДатаЗакрытия</dcssch:dataPath>
+					<dcssch:field>ДатаЗакрытия</dcssch:field>
+					<dcssch:title xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Дата закрытия</v8:content>
+						</v8:item>
+					</dcssch:title>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>СНИЛС</dcssch:dataPath>
+					<dcssch:field>СНИЛС</dcssch:field>
+					<dcssch:title xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>СНИЛС</v8:content>
+						</v8:item>
+					</dcssch:title>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Заявитель</dcssch:dataPath>
+					<dcssch:field>Заявитель</dcssch:field>
+					<dcssch:title xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Заявитель</v8:content>
+						</v8:item>
+					</dcssch:title>
+					<dcssch:inputParameters>
+						<dcscor:item>
+							<dcscor:parameter>ПараметрыВыбора</dcscor:parameter>
+							<dcscor:value xsi:type="dcscor:ChoiceParameters">
+								<dcscor:item>
+									<dcscor:choiceParameter>Отбор.РСК_ЭтоПолучательТСР</dcscor:choiceParameter>
+									<dcscor:value xsi:type="xs:boolean">true</dcscor:value>
+								</dcscor:item>
+							</dcscor:value>
+						</dcscor:item>
+					</dcssch:inputParameters>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ДатаРеестра</dcssch:dataPath>
+					<dcssch:field>ДатаРеестра</dcssch:field>
+					<dcssch:title xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Дата реестра</v8:content>
+						</v8:item>
+					</dcssch:title>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>АдресМестожительства</dcssch:dataPath>
+					<dcssch:field>АдресМестожительства</dcssch:field>
+					<dcssch:title xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Адрес местожительства</v8:content>
+						</v8:item>
+					</dcssch:title>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Контракт</dcssch:dataPath>
+					<dcssch:field>Контракт</dcssch:field>
+					<dcssch:title xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Контракт</v8:content>
+						</v8:item>
+					</dcssch:title>
+					<dcssch:inputParameters>
+						<dcscor:item>
+							<dcscor:parameter>ПараметрыВыбора</dcscor:parameter>
+							<dcscor:value xsi:type="dcscor:ChoiceParameters">
+								<dcscor:item>
+									<dcscor:choiceParameter>Отбор.реа_ДляВыдачи</dcscor:choiceParameter>
+									<dcscor:value xsi:type="xs:boolean">true</dcscor:value>
+								</dcscor:item>
+							</dcscor:value>
+						</dcscor:item>
+					</dcssch:inputParameters>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ТСР</dcssch:dataPath>
+					<dcssch:field>ТСР</dcssch:field>
+					<dcssch:title xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ТСР</v8:content>
+						</v8:item>
+					</dcssch:title>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Номенклатура</dcssch:dataPath>
+					<dcssch:field>Номенклатура</dcssch:field>
+					<dcssch:title xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Номенклатура</v8:content>
+						</v8:item>
+					</dcssch:title>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Цена</dcssch:dataPath>
+					<dcssch:field>Цена</dcssch:field>
+					<dcssch:title xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Цена</v8:content>
+						</v8:item>
+					</dcssch:title>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>НомерРеестра</dcssch:dataPath>
+					<dcssch:field>НомерРеестра</dcssch:field>
+					<dcssch:title xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Номер реестра</v8:content>
+						</v8:item>
+					</dcssch:title>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>РСК_НомерЗаявки</dcssch:dataPath>
+					<dcssch:field>РСК_НомерЗаявки</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>НомерНаправления</dcssch:dataPath>
+					<dcssch:field>НомерНаправления</dcssch:field>
+					<dcssch:title xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Номер направления</v8:content>
+						</v8:item>
+					</dcssch:title>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>НомерЗаявки</dcssch:dataPath>
+					<dcssch:field>НомерЗаявки</dcssch:field>
+					<dcssch:title xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Номер заявки</v8:content>
+						</v8:item>
+					</dcssch:title>
+				</Field>
+				<MainTable>Document.ПоручениеЭкспедитору</MainTable>
+				<ListSettings>
+					<dcsset:filter>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</dcsset:userSettingID>
+					</dcsset:filter>
+					<dcsset:order>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>88619765-ccb3-46c6-ac52-38e9c992ebd4</dcsset:userSettingID>
+					</dcsset:order>
+					<dcsset:conditionalAppearance>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>b75fecce-942b-4aed-abc9-e6a02e460fb3</dcsset:userSettingID>
+					</dcsset:conditionalAppearance>
+					<dcsset:itemsViewMode>Normal</dcsset:itemsViewMode>
+					<dcsset:itemsUserSettingID>911b6018-f537-43e8-a417-da56b22f9aec</dcsset:itemsUserSettingID>
+				</ListSettings>
+			</Settings>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="ИзменитьВыделенные" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Изменить (любые реквизиты)</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Изменить (любые реквизиты)</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.QueryWizardShowChangesTables</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>ИзменитьВыделенные</Action>
+			<Action>РСК_ИзменитьВыделенноеПосле</Action>
+		</Command>
+		<Command name="ВыполнитьРассылкуСМС" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Рассылка СМС</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выполнить рассылку СМС</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>CommonPicture.НаписатьSMS</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>ВыполнитьРассылкуСМС</Action>
+			<Representation>TextPicture</Representation>
+			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+		<Command name="ВключитьВОтчетПоВыдаче" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Включить в отчет по выдаче</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Включить в отчет по выдаче</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.GroupConversation</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>ВключитьВОтчетПоВыдаче</Action>
+		</Command>
+		<Command name="Заполнить" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить (Статус, Комментарий)</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить  (Статус, Комментарий)</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.Change</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>Заполнить</Action>
+		</Command>
+	</Commands>
+</Form>

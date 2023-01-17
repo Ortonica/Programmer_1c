@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+	<Catalog uuid="d12858bd-782c-4a52-8fa5-36166807f6e5">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ОбъектыРасчетов" category="Object">
+				<xr:TypeId>cc6c98ca-f2ae-463b-a751-db8a56afddaa</xr:TypeId>
+				<xr:ValueId>57551b22-51c7-4a69-858d-cccc7eb7326f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ОбъектыРасчетов" category="Ref">
+				<xr:TypeId>fdea8146-30ec-4a5b-87da-8a917f274afc</xr:TypeId>
+				<xr:ValueId>acb1dd7e-fbd5-4ad3-9b7a-08c905630536</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ОбъектыРасчетов" category="Selection">
+				<xr:TypeId>698fd499-48ef-4d80-82e1-d1d366a10328</xr:TypeId>
+				<xr:ValueId>315ceb5b-6b13-4806-912e-401540d39f8f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ОбъектыРасчетов" category="List">
+				<xr:TypeId>71398ac7-a372-44ed-adc8-835e527999e9</xr:TypeId>
+				<xr:ValueId>de57cb6d-80cd-45f9-a7f8-076d69d93212</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ОбъектыРасчетов" category="Manager">
+				<xr:TypeId>f7183627-7c16-406f-b68d-0dacf4a0b5ac</xr:TypeId>
+				<xr:ValueId>5939135f-924a-4fda-ab4f-c70226ae8e73</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ОбъектыРасчетов</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>0c588f17-899d-4631-99f3-44aaf039357e</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="fc7680ad-aa85-44ba-b7e3-fd6f3e8bfdaf">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Договор</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>bba798d9-42bd-4341-8275-e5503a1fd11c</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Form>РС_ПодборОбъектовРасчетов</Form>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>
