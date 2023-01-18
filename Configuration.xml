@@ -112,6 +112,7 @@
 			<StyleItem>ФайлЗанятыйТекущимПользователем</StyleItem>
 			<StyleItem>ЦветФонаТекущейОтправки</StyleItem>
 			<StyleItem>ДобавленныйРеквизитФон</StyleItem>
+			<StyleItem>ВажнаяНадписьШрифт</StyleItem>
 			<CommonPicture>ВключитьВНастройкуФормированияПроводок</CommonPicture>
 			<CommonPicture>Внимание16</CommonPicture>
 			<CommonPicture>ВУпаковочныйЛист</CommonPicture>
@@ -205,6 +206,7 @@
 			<Role>САВ_УсловияТП</Role>
 			<Role>САВ_ЧитатьПланпродаж</Role>
 			<Role>РСК_ПроведениеТоваровНаСкладахПрошлойДатой</Role>
+			<Role>РСК_УтверждениеИРедактированиеТабеляУчетаРабочегоВремени</Role>
 			<CommonTemplate>ДрайверШтрихМТСД</CommonTemplate>
 			<CommonModule>ВариантыОтчетов</CommonModule>
 			<CommonModule>ВариантыОтчетовПереопределяемый</CommonModule>
@@ -274,6 +276,7 @@
 			<CommonModule>СервисДоставкиПереопределяемый</CommonModule>
 			<CommonModule>ЛимитыРасходованияДенежныхСредствСервер</CommonModule>
 			<CommonModule>РаспределениеЗапасовДвижения</CommonModule>
+			<CommonModule>ОтветственныеЛицаСервер</CommonModule>
 			<ExchangePlan>ДатаМобайл_СписокТСД</ExchangePlan>
 			<EventSubscription>РСК_ЗаписатьВерсиюДокумента</EventSubscription>
 			<EventSubscription>РСК_ЗаменаСтатьиДДСОРП</EventSubscription>
@@ -443,6 +446,7 @@
 			<Catalog>КлючиАналитикиУчетаПартий</Catalog>
 			<Catalog>ПроизводственныеКалендари</Catalog>
 			<Catalog>СценарииТоварногоПланирования</Catalog>
+			<Catalog>ТипыСоглашенийСКлиентами</Catalog>
 			<Document>АктОРасхожденияхПослеОтгрузки</Document>
 			<Document>АктОРасхожденияхПослеПеремещения</Document>
 			<Document>ВнутреннееПотребление</Document>
@@ -503,6 +507,7 @@
 			<Document>ПриобретениеУслугПрочихАктивов</Document>
 			<Document>ВозвратТоваровМеждуОрганизациями</Document>
 			<Document>ПередачаТоваровМеждуОрганизациями</Document>
+			<Document>ТабельУчетаРабочегоВремени</Document>
 			<DocumentJournal>СкладскиеОрдера</DocumentJournal>
 			<Enum>ВариантОтбораДляКлючаЦен</Enum>
 			<Enum>ВариантыВыбытияМаркируемойПродукции</Enum>
@@ -584,8 +589,9 @@
 			<Enum>СтатусыСоглашенийСКлиентами</Enum>
 			<Enum>СпособыРасчетаКомиссионногоВознаграждения</Enum>
 			<Enum>Периодичность</Enum>
-			<Enum>ВидИндивидуальногоСоглашения</Enum>
 			<Enum>ВидыСоглашенийСКлиентамиДляОграниченияЧтения</Enum>
+			<Enum>ПериодыВводаДанныхОВремени</Enum>
+			<Enum>СтатусыТабеляУчетаРабочегоВремени</Enum>
 			<Report>РСК_КалендарныйГрафикПоставок</Report>
 			<Report>РСК_ОстаткиТСР</Report>
 			<Report>РСК_ХодИсполненияГК</Report>

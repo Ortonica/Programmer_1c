@@ -253,6 +253,7 @@
 								</InputField>
 								<InputField name="РеестрКомментарийАкта" id="259">
 									<DataPath>Объект.Реестр.КомментарийАкта</DataPath>
+									<TitleBackColor>#CCFFCC</TitleBackColor>
 									<EditMode>EnterOnInput</EditMode>
 									<ContextMenu name="РеестрКомментарийАктаКонтекстноеМеню" id="260"/>
 									<ExtendedTooltip name="РеестрКомментарийАктаРасширеннаяПодсказка" id="261"/>

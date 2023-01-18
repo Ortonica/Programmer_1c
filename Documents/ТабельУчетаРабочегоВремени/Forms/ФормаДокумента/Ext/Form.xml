@@ -1,0 +1,1535 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+	<VerticalScroll>useIfNecessary</VerticalScroll>
+	<AutoTime>CurrentOrLast</AutoTime>
+	<UsePostingMode>Auto</UsePostingMode>
+	<RepostOnWrite>true</RepostOnWrite>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<ChildItems>
+		<UsualGroup name="Шапка" id="157">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Шапка</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Header</v8:content>
+				</v8:item>
+			</Title>
+			<Group>Horizontal</Group>
+			<Behavior>Usual</Behavior>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ШапкаExtendedTooltip" id="304"/>
+			<ChildItems>
+				<UsualGroup name="ШапкаЛевая" id="158">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Шапка левая</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Header left</v8:content>
+						</v8:item>
+					</Title>
+					<Group>Vertical</Group>
+					<Behavior>Usual</Behavior>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ШапкаЛеваяРасширеннаяПодсказка" id="305"/>
+					<ChildItems>
+						<UsualGroup name="МесяцОрганизацияГруппа" id="376">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Месяц организация группа</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Month company group</v8:content>
+								</v8:item>
+							</Title>
+							<Group>Horizontal</Group>
+							<Behavior>Usual</Behavior>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="МесяцОрганизацияГруппаРасширеннаяПодсказка" id="377"/>
+							<ChildItems>
+								<InputField name="МесяцРегистрацииСтрокой" id="164">
+									<Width>13</Width>
+									<HorizontalStretch>false</HorizontalStretch>
+									<ExtendedEdit>true</ExtendedEdit>
+									<ChoiceButton>true</ChoiceButton>
+									<SpinButton>true</SpinButton>
+									<ContextMenu name="МесяцРегистрацииСтрокойКонтекстноеМеню" id="165"/>
+									<ExtendedTooltip name="МесяцРегистрацииСтрокойExtendedTooltip" id="306"/>
+								</InputField>
+								<InputField name="Организация" id="5">
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ОрганизацияКонтекстноеМеню" id="6"/>
+									<ExtendedTooltip name="ОрганизацияExtendedTooltip" id="308"/>
+								</InputField>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="ПериодГруппа" id="260">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Период группа</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Period group</v8:content>
+								</v8:item>
+							</Title>
+							<Group>Horizontal</Group>
+							<Behavior>Usual</Behavior>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ПериодГруппаExtendedTooltip" id="310"/>
+							<ChildItems>
+								<InputField name="ПериодВводаДанныхОВремени" id="296">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Данные за</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Data for</v8:content>
+										</v8:item>
+									</Title>
+									<ChoiceListButton>true</ChoiceListButton>
+									<ContextMenu name="ПериодВводаДанныхОВремениКонтекстноеМеню" id="297"/>
+									<ExtendedTooltip name="ПериодВводаДанныхОВремениExtendedTooltip" id="311"/>
+								</InputField>
+								<InputField name="ДатаНачалаПериода" id="298">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>С</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>FROM</v8:content>
+										</v8:item>
+									</Title>
+									<HorizontalStretch>false</HorizontalStretch>
+									<ContextMenu name="ДатаНачалаПериодаКонтекстноеМеню" id="299"/>
+									<ExtendedTooltip name="ДатаНачалаПериодаExtendedTooltip" id="312"/>
+								</InputField>
+								<InputField name="ДатаОкончанияПериода" id="300">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>По</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>To</v8:content>
+										</v8:item>
+									</Title>
+									<HorizontalStretch>false</HorizontalStretch>
+									<ContextMenu name="ДатаОкончанияПериодаКонтекстноеМеню" id="301"/>
+									<ExtendedTooltip name="ДатаОкончанияПериодаExtendedTooltip" id="313"/>
+								</InputField>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="ШапкаПравая" id="420">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Шапка правая</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Header right</v8:content>
+						</v8:item>
+					</Title>
+					<Group>Vertical</Group>
+					<Behavior>Usual</Behavior>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ШапкаПраваяРасширеннаяПодсказка" id="421"/>
+					<ChildItems>
+						<UsualGroup name="ДатаНомер" id="302">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Дата номер</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Date number</v8:content>
+								</v8:item>
+							</Title>
+							<Group>Horizontal</Group>
+							<Behavior>Usual</Behavior>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ДатаНомерExtendedTooltip" id="315"/>
+							<ChildItems>
+								<InputField name="Дата" id="3">
+									<EditMode>EnterOnInput</EditMode>
+									<Width>10</Width>
+									<HorizontalStretch>false</HorizontalStretch>
+									<ContextMenu name="ДатаКонтекстноеМеню" id="4"/>
+									<ExtendedTooltip name="ДатаExtendedTooltip" id="316"/>
+								</InputField>
+								<InputField name="Номер" id="1">
+									<EditMode>EnterOnInput</EditMode>
+									<HorizontalStretch>false</HorizontalStretch>
+									<ContextMenu name="НомерКонтекстноеМеню" id="2"/>
+									<ExtendedTooltip name="НомерExtendedTooltip" id="317"/>
+								</InputField>
+							</ChildItems>
+						</UsualGroup>
+						<InputField name="Подразделение" id="159">
+							<ContextMenu name="ПодразделениеКонтекстноеМеню" id="160"/>
+							<ExtendedTooltip name="ПодразделениеExtendedTooltip" id="309"/>
+						</InputField>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="КомандыТаблицыГруппа" id="250">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Команды таблицы группа</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Table commands group </v8:content>
+				</v8:item>
+			</Title>
+			<Group>Horizontal</Group>
+			<Behavior>Usual</Behavior>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="КомандыТаблицыГруппаExtendedTooltip" id="319"/>
+			<ChildItems>
+				<Button name="Заполнить" id="241">
+					<Type>UsualButton</Type>
+					<Height>1</Height>
+					<CommandName>0</CommandName>
+					<Font ref="style:LargeTextFont" kind="StyleItem"/>
+					<ExtendedTooltip name="ЗаполнитьExtendedTooltip" id="320"/>
+				</Button>
+				<InputField name="ВысотаСтроки" id="275">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Максимальное количество видов времени на одну дату</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Max number of time kinds on one date</v8:content>
+						</v8:item>
+					</Title>
+					<Width>4</Width>
+					<SpinButton>true</SpinButton>
+					<ContextMenu name="ВысотаСтрокиКонтекстноеМеню" id="276"/>
+					<ExtendedTooltip name="ВысотаСтрокиExtendedTooltip" id="364"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<Table name="ДанныеОВремени" id="166">
+			<Representation>List</Representation>
+			<ChangeRowOrder>false</ChangeRowOrder>
+			<AutoMarkIncomplete>false</AutoMarkIncomplete>
+			<FileDragMode>AsFile</FileDragMode>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Данные о времени</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Data on time</v8:content>
+				</v8:item>
+			</Title>
+			<SearchStringLocation>None</SearchStringLocation>
+			<ViewStatusLocation>None</ViewStatusLocation>
+			<SearchControlLocation>None</SearchControlLocation>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="ДанныеОВремениКонтекстноеМеню" id="167">
+				<ChildItems>
+					<Button name="ДанныеОВремениКонтекстноеМенюПереместитьВверх" id="434">
+						<Type>CommandBarButton</Type>
+						<CommandName>0</CommandName>
+						<ExtendedTooltip name="ДанныеОВремениКонтекстноеМенюПереместитьВверхРасширеннаяПодсказка" id="435"/>
+					</Button>
+					<Button name="ДанныеОВремениКонтекстноеМенюПереместитьВниз" id="436">
+						<Type>CommandBarButton</Type>
+						<CommandName>0</CommandName>
+						<ExtendedTooltip name="ДанныеОВремениКонтекстноеМенюПереместитьВнизРасширеннаяПодсказка" id="437"/>
+					</Button>
+					<Button name="ДанныеОВремениКонтекстноеМенюСортироватьПоВозрастанию" id="438">
+						<Type>CommandBarButton</Type>
+						<CommandName>0</CommandName>
+						<ExtendedTooltip name="ДанныеОВремениКонтекстноеМенюСортироватьПоВозрастаниюРасширеннаяПодсказка" id="439"/>
+					</Button>
+					<Button name="ДанныеОВремениКонтекстноеМенюСортироватьПоУбыванию" id="440">
+						<Type>CommandBarButton</Type>
+						<CommandName>0</CommandName>
+						<ExtendedTooltip name="ДанныеОВремениКонтекстноеМенюСортироватьПоУбываниюРасширеннаяПодсказка" id="441"/>
+					</Button>
+				</ChildItems>
+			</ContextMenu>
+			<AutoCommandBar name="ДанныеОВремениКоманднаяПанель" id="168">
+				<Autofill>false</Autofill>
+				<ChildItems>
+					<Button name="ДанныеОВремениПодбор" id="422">
+						<Type>CommandBarButton</Type>
+						<CommandName>0</CommandName>
+						<ExtendedTooltip name="ДанныеОВремениПодборРасширеннаяПодсказка" id="423"/>
+					</Button>
+					<Button name="ДанныеОВремениНайти" id="430">
+						<Type>CommandBarButton</Type>
+						<CommandName>0</CommandName>
+						<ExtendedTooltip name="ДанныеОВремениНайтиРасширеннаяПодсказка" id="431"/>
+					</Button>
+					<Button name="ДанныеОВремениОтменитьПоиск" id="432">
+						<Type>CommandBarButton</Type>
+						<CommandName>0</CommandName>
+						<ExtendedTooltip name="ДанныеОВремениОтменитьПоискРасширеннаяПодсказка" id="433"/>
+					</Button>
+					<Button name="ДанныеОВремениУдалить" id="424">
+						<Type>CommandBarButton</Type>
+						<CommandName>0</CommandName>
+						<ExtendedTooltip name="ДанныеОВремениУдалитьРасширеннаяПодсказка" id="425"/>
+					</Button>
+					<Button name="ДанныеОВремениПереместитьВверх" id="426">
+						<Type>CommandBarButton</Type>
+						<CommandName>0</CommandName>
+						<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
+						<ExtendedTooltip name="ДанныеОВремениПереместитьВверхРасширеннаяПодсказка" id="427"/>
+					</Button>
+					<Button name="ДанныеОВремениПереместитьВниз" id="428">
+						<Type>CommandBarButton</Type>
+						<CommandName>0</CommandName>
+						<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
+						<ExtendedTooltip name="ДанныеОВремениПереместитьВнизРасширеннаяПодсказка" id="429"/>
+					</Button>
+					<Button name="ДанныеОВремениСортироватьПоВозрастанию" id="442">
+						<Type>CommandBarButton</Type>
+						<CommandName>0</CommandName>
+						<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
+						<ExtendedTooltip name="ДанныеОВремениСортироватьПоВозрастаниюРасширеннаяПодсказка" id="443"/>
+					</Button>
+					<Button name="ДанныеОВремениСортироватьПоУбыванию" id="444">
+						<Type>CommandBarButton</Type>
+						<CommandName>0</CommandName>
+						<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
+						<ExtendedTooltip name="ДанныеОВремениСортироватьПоУбываниюРасширеннаяПодсказка" id="445"/>
+					</Button>
+					<Button name="ДанныеОВремениВывестиСписок" id="446">
+						<Type>CommandBarButton</Type>
+						<CommandName>0</CommandName>
+						<ExtendedTooltip name="ДанныеОВремениВывестиСписокРасширеннаяПодсказка" id="447"/>
+					</Button>
+				</ChildItems>
+			</AutoCommandBar>
+			<ExtendedTooltip name="ДанныеОВремениExtendedTooltip" id="328"/>
+			<SearchStringAddition name="ДанныеОВремениСтрокаПоиска" id="411">
+				<AdditionSource>
+					<Item>ДанныеОВремени</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ДанныеОВремениСтрокаПоискаКонтекстноеМеню" id="412"/>
+				<ExtendedTooltip name="ДанныеОВремениСтрокаПоискаРасширеннаяПодсказка" id="413"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="ДанныеОВремениСостояниеПросмотра" id="414">
+				<AdditionSource>
+					<Item>ДанныеОВремени</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ДанныеОВремениСостояниеПросмотраКонтекстноеМеню" id="415"/>
+				<ExtendedTooltip name="ДанныеОВремениСостояниеПросмотраРасширеннаяПодсказка" id="416"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="ДанныеОВремениУправлениеПоиском" id="417">
+				<AdditionSource>
+					<Item>ДанныеОВремени</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="ДанныеОВремениУправлениеПоискомКонтекстноеМеню" id="418"/>
+				<ExtendedTooltip name="ДанныеОВремениУправлениеПоискомРасширеннаяПодсказка" id="419"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<InputField name="ДанныеОВремениНомерСтрокиСотрудник" id="169">
+					<Enabled>false</Enabled>
+					<ReadOnly>true</ReadOnly>
+					<EditMode>EnterOnInput</EditMode>
+					<FixingInTable>Left</FixingInTable>
+					<Width>2</Width>
+					<ContextMenu name="ДанныеОВремениНомерСтрокиСотрудникКонтекстноеМеню" id="170"/>
+					<ExtendedTooltip name="ДанныеОВремениНомерСтрокиСотрудникExtendedTooltip" id="329"/>
+				</InputField>
+				<InputField name="ДанныеОВремениСотрудник" id="171">
+					<DefaultItem>true</DefaultItem>
+					<SkipOnInput>false</SkipOnInput>
+					<EditMode>EnterOnInput</EditMode>
+					<FixingInTable>Left</FixingInTable>
+					<Width>20</Width>
+					<HorizontalStretch>false</HorizontalStretch>
+					<ContextMenu name="ДанныеОВремениСотрудникКонтекстноеМеню" id="172"/>
+					<ExtendedTooltip name="ДанныеОВремениСотрудникExtendedTooltip" id="330"/>
+				</InputField>
+				<InputField name="ДанныеОВремениВремяИтог" id="173">
+					<ReadOnly>true</ReadOnly>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Итого</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Total</v8:content>
+						</v8:item>
+					</Title>
+					<EditMode>EnterOnInput</EditMode>
+					<FixingInTable>Left</FixingInTable>
+					<Width>12</Width>
+					<HorizontalStretch>false</HorizontalStretch>
+					<Font ref="style:ВажнаяНадписьШрифт" kind="StyleItem"/>
+					<ContextMenu name="ДанныеОВремениВремяИтогКонтекстноеМеню" id="174"/>
+					<ExtendedTooltip name="ДанныеОВремениВремяИтогExtendedTooltip" id="331"/>
+				</InputField>
+				<InputField name="ДанныеОВремениВремя1Представление" id="175">
+					<EditMode>EnterOnInput</EditMode>
+					<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+					<Width>7</Width>
+					<ContextMenu name="ДанныеОВремениВремя1ПредставлениеКонтекстноеМеню" id="176"/>
+					<ExtendedTooltip name="ДанныеОВремениВремя1ПредставлениеExtendedTooltip" id="332"/>
+				</InputField>
+				<InputField name="ДанныеОВремениВремя2Представление" id="177">
+					<EditMode>EnterOnInput</EditMode>
+					<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+					<Width>7</Width>
+					<ContextMenu name="ДанныеОВремениВремя2ПредставлениеКонтекстноеМеню" id="178"/>
+					<ExtendedTooltip name="ДанныеОВремениВремя2ПредставлениеExtendedTooltip" id="333"/>
+				</InputField>
+				<InputField name="ДанныеОВремениВремя3Представление" id="179">
+					<EditMode>EnterOnInput</EditMode>
+					<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+					<Width>7</Width>
+					<ContextMenu name="ДанныеОВремениВремя3ПредставлениеКонтекстноеМеню" id="180"/>
+					<ExtendedTooltip name="ДанныеОВремениВремя3ПредставлениеExtendedTooltip" id="334"/>
+				</InputField>
+				<InputField name="ДанныеОВремениВремя4Представление" id="181">
+					<EditMode>EnterOnInput</EditMode>
+					<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+					<Width>7</Width>
+					<ContextMenu name="ДанныеОВремениВремя4ПредставлениеКонтекстноеМеню" id="182"/>
+					<ExtendedTooltip name="ДанныеОВремениВремя4ПредставлениеExtendedTooltip" id="335"/>
+				</InputField>
+				<InputField name="ДанныеОВремениВремя5Представление" id="183">
+					<EditMode>EnterOnInput</EditMode>
+					<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+					<Width>7</Width>
+					<ContextMenu name="ДанныеОВремениВремя5ПредставлениеКонтекстноеМеню" id="184"/>
+					<ExtendedTooltip name="ДанныеОВремениВремя5ПредставлениеExtendedTooltip" id="336"/>
+				</InputField>
+				<InputField name="ДанныеОВремениВремя6Представление" id="185">
+					<EditMode>EnterOnInput</EditMode>
+					<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+					<Width>7</Width>
+					<ContextMenu name="ДанныеОВремениВремя6ПредставлениеКонтекстноеМеню" id="186"/>
+					<ExtendedTooltip name="ДанныеОВремениВремя6ПредставлениеExtendedTooltip" id="337"/>
+				</InputField>
+				<InputField name="ДанныеОВремениВремя7Представление" id="187">
+					<EditMode>EnterOnInput</EditMode>
+					<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+					<Width>7</Width>
+					<ContextMenu name="ДанныеОВремениВремя7ПредставлениеКонтекстноеМеню" id="188"/>
+					<ExtendedTooltip name="ДанныеОВремениВремя7ПредставлениеExtendedTooltip" id="338"/>
+				</InputField>
+				<InputField name="ДанныеОВремениВремя8Представление" id="189">
+					<EditMode>EnterOnInput</EditMode>
+					<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+					<Width>7</Width>
+					<ContextMenu name="ДанныеОВремениВремя8ПредставлениеКонтекстноеМеню" id="190"/>
+					<ExtendedTooltip name="ДанныеОВремениВремя8ПредставлениеExtendedTooltip" id="339"/>
+				</InputField>
+				<InputField name="ДанныеОВремениВремя9Представление" id="191">
+					<EditMode>EnterOnInput</EditMode>
+					<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+					<Width>7</Width>
+					<ContextMenu name="ДанныеОВремениВремя9ПредставлениеКонтекстноеМеню" id="192"/>
+					<ExtendedTooltip name="ДанныеОВремениВремя9ПредставлениеExtendedTooltip" id="340"/>
+				</InputField>
+				<InputField name="ДанныеОВремениВремя10Представление" id="193">
+					<EditMode>EnterOnInput</EditMode>
+					<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+					<Width>7</Width>
+					<ContextMenu name="ДанныеОВремениВремя10ПредставлениеКонтекстноеМеню" id="194"/>
+					<ExtendedTooltip name="ДанныеОВремениВремя10ПредставлениеExtendedTooltip" id="341"/>
+				</InputField>
+				<InputField name="ДанныеОВремениВремя11Представление" id="195">
+					<EditMode>EnterOnInput</EditMode>
+					<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+					<Width>7</Width>
+					<ContextMenu name="ДанныеОВремениВремя11ПредставлениеКонтекстноеМеню" id="196"/>
+					<ExtendedTooltip name="ДанныеОВремениВремя11ПредставлениеExtendedTooltip" id="342"/>
+				</InputField>
+				<InputField name="ДанныеОВремениВремя12Представление" id="197">
+					<EditMode>EnterOnInput</EditMode>
+					<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+					<Width>7</Width>
+					<ContextMenu name="ДанныеОВремениВремя12ПредставлениеКонтекстноеМеню" id="198"/>
+					<ExtendedTooltip name="ДанныеОВремениВремя12ПредставлениеExtendedTooltip" id="343"/>
+				</InputField>
+				<InputField name="ДанныеОВремениВремя13Представление" id="199">
+					<EditMode>EnterOnInput</EditMode>
+					<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+					<Width>7</Width>
+					<ContextMenu name="ДанныеОВремениВремя13ПредставлениеКонтекстноеМеню" id="200"/>
+					<ExtendedTooltip name="ДанныеОВремениВремя13ПредставлениеExtendedTooltip" id="344"/>
+				</InputField>
+				<InputField name="ДанныеОВремениВремя14Представление" id="201">
+					<EditMode>EnterOnInput</EditMode>
+					<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+					<Width>7</Width>
+					<ContextMenu name="ДанныеОВремениВремя14ПредставлениеКонтекстноеМеню" id="202"/>
+					<ExtendedTooltip name="ДанныеОВремениВремя14ПредставлениеExtendedTooltip" id="345"/>
+				</InputField>
+				<InputField name="ДанныеОВремениВремя15Представление" id="203">
+					<EditMode>EnterOnInput</EditMode>
+					<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+					<Width>7</Width>
+					<ContextMenu name="ДанныеОВремениВремя15ПредставлениеКонтекстноеМеню" id="204"/>
+					<ExtendedTooltip name="ДанныеОВремениВремя15ПредставлениеExtendedTooltip" id="346"/>
+				</InputField>
+				<InputField name="ДанныеОВремениВремя16Представление" id="205">
+					<EditMode>EnterOnInput</EditMode>
+					<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+					<Width>7</Width>
+					<ContextMenu name="ДанныеОВремениВремя16ПредставлениеКонтекстноеМеню" id="206"/>
+					<ExtendedTooltip name="ДанныеОВремениВремя16ПредставлениеExtendedTooltip" id="347"/>
+				</InputField>
+				<InputField name="ДанныеОВремениВремя17Представление" id="207">
+					<EditMode>EnterOnInput</EditMode>
+					<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+					<Width>7</Width>
+					<ContextMenu name="ДанныеОВремениВремя17ПредставлениеКонтекстноеМеню" id="208"/>
+					<ExtendedTooltip name="ДанныеОВремениВремя17ПредставлениеExtendedTooltip" id="348"/>
+				</InputField>
+				<InputField name="ДанныеОВремениВремя18Представление" id="209">
+					<EditMode>EnterOnInput</EditMode>
+					<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+					<Width>7</Width>
+					<ContextMenu name="ДанныеОВремениВремя18ПредставлениеКонтекстноеМеню" id="210"/>
+					<ExtendedTooltip name="ДанныеОВремениВремя18ПредставлениеExtendedTooltip" id="349"/>
+				</InputField>
+				<InputField name="ДанныеОВремениВремя19Представление" id="211">
+					<EditMode>EnterOnInput</EditMode>
+					<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+					<Width>7</Width>
+					<ContextMenu name="ДанныеОВремениВремя19ПредставлениеКонтекстноеМеню" id="212"/>
+					<ExtendedTooltip name="ДанныеОВремениВремя19ПредставлениеExtendedTooltip" id="350"/>
+				</InputField>
+				<InputField name="ДанныеОВремениВремя20Представление" id="213">
+					<EditMode>EnterOnInput</EditMode>
+					<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+					<Width>7</Width>
+					<ContextMenu name="ДанныеОВремениВремя20ПредставлениеКонтекстноеМеню" id="214"/>
+					<ExtendedTooltip name="ДанныеОВремениВремя20ПредставлениеExtendedTooltip" id="351"/>
+				</InputField>
+				<InputField name="ДанныеОВремениВремя21Представление" id="215">
+					<EditMode>EnterOnInput</EditMode>
+					<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+					<Width>7</Width>
+					<ContextMenu name="ДанныеОВремениВремя21ПредставлениеКонтекстноеМеню" id="216"/>
+					<ExtendedTooltip name="ДанныеОВремениВремя21ПредставлениеExtendedTooltip" id="352"/>
+				</InputField>
+				<InputField name="ДанныеОВремениВремя22Представление" id="217">
+					<EditMode>EnterOnInput</EditMode>
+					<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+					<Width>7</Width>
+					<ContextMenu name="ДанныеОВремениВремя22ПредставлениеКонтекстноеМеню" id="218"/>
+					<ExtendedTooltip name="ДанныеОВремениВремя22ПредставлениеExtendedTooltip" id="353"/>
+				</InputField>
+				<InputField name="ДанныеОВремениВремя23Представление" id="219">
+					<EditMode>EnterOnInput</EditMode>
+					<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+					<Width>7</Width>
+					<ContextMenu name="ДанныеОВремениВремя23ПредставлениеКонтекстноеМеню" id="220"/>
+					<ExtendedTooltip name="ДанныеОВремениВремя23ПредставлениеExtendedTooltip" id="354"/>
+				</InputField>
+				<InputField name="ДанныеОВремениВремя24Представление" id="221">
+					<EditMode>EnterOnInput</EditMode>
+					<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+					<Width>7</Width>
+					<ContextMenu name="ДанныеОВремениВремя24ПредставлениеКонтекстноеМеню" id="222"/>
+					<ExtendedTooltip name="ДанныеОВремениВремя24ПредставлениеExtendedTooltip" id="355"/>
+				</InputField>
+				<InputField name="ДанныеОВремениВремя25Представление" id="223">
+					<EditMode>EnterOnInput</EditMode>
+					<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+					<Width>7</Width>
+					<ContextMenu name="ДанныеОВремениВремя25ПредставлениеКонтекстноеМеню" id="224"/>
+					<ExtendedTooltip name="ДанныеОВремениВремя25ПредставлениеExtendedTooltip" id="356"/>
+				</InputField>
+				<InputField name="ДанныеОВремениВремя26Представление" id="225">
+					<EditMode>EnterOnInput</EditMode>
+					<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+					<Width>7</Width>
+					<ContextMenu name="ДанныеОВремениВремя26ПредставлениеКонтекстноеМеню" id="226"/>
+					<ExtendedTooltip name="ДанныеОВремениВремя26ПредставлениеExtendedTooltip" id="357"/>
+				</InputField>
+				<InputField name="ДанныеОВремениВремя27Представление" id="227">
+					<EditMode>EnterOnInput</EditMode>
+					<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+					<Width>7</Width>
+					<ContextMenu name="ДанныеОВремениВремя27ПредставлениеКонтекстноеМеню" id="228"/>
+					<ExtendedTooltip name="ДанныеОВремениВремя27ПредставлениеExtendedTooltip" id="358"/>
+				</InputField>
+				<InputField name="ДанныеОВремениВремя28Представление" id="229">
+					<EditMode>EnterOnInput</EditMode>
+					<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+					<Width>7</Width>
+					<ContextMenu name="ДанныеОВремениВремя28ПредставлениеКонтекстноеМеню" id="230"/>
+					<ExtendedTooltip name="ДанныеОВремениВремя28ПредставлениеExtendedTooltip" id="359"/>
+				</InputField>
+				<InputField name="ДанныеОВремениВремя29Представление" id="231">
+					<EditMode>EnterOnInput</EditMode>
+					<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+					<Width>7</Width>
+					<ContextMenu name="ДанныеОВремениВремя29ПредставлениеКонтекстноеМеню" id="232"/>
+					<ExtendedTooltip name="ДанныеОВремениВремя29ПредставлениеExtendedTooltip" id="360"/>
+				</InputField>
+				<InputField name="ДанныеОВремениВремя30Представление" id="233">
+					<EditMode>EnterOnInput</EditMode>
+					<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+					<Width>7</Width>
+					<ContextMenu name="ДанныеОВремениВремя30ПредставлениеКонтекстноеМеню" id="234"/>
+					<ExtendedTooltip name="ДанныеОВремениВремя30ПредставлениеExtendedTooltip" id="361"/>
+				</InputField>
+				<InputField name="ДанныеОВремениВремя31Представление" id="235">
+					<EditMode>EnterOnInput</EditMode>
+					<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+					<Width>7</Width>
+					<ContextMenu name="ДанныеОВремениВремя31ПредставлениеКонтекстноеМеню" id="236"/>
+					<ExtendedTooltip name="ДанныеОВремениВремя31ПредставлениеExtendedTooltip" id="362"/>
+				</InputField>
+			</ChildItems>
+		</Table>
+		<UsualGroup name="ПодписиГруппа" id="378">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Подписи</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Signatures</v8:content>
+				</v8:item>
+			</Title>
+			<Group>Horizontal</Group>
+			<Behavior>Collapsible</Behavior>
+			<Collapsed>true</Collapsed>
+			<Representation>None</Representation>
+			<ExtendedTooltip name="ПодписиГруппаРасширеннаяПодсказка" id="379"/>
+		</UsualGroup>
+		<UsualGroup name="ГруппаИсправление" id="303">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Исправление</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Correction</v8:content>
+				</v8:item>
+			</Title>
+			<Group>Horizontal</Group>
+			<Behavior>Usual</Behavior>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаИсправлениеExtendedTooltip" id="368"/>
+		</UsualGroup>
+		<UsualGroup name="ГруппаДополнительныеРеквизиты" id="448">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дополнительно</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>More</v8:content>
+				</v8:item>
+			</Title>
+			<Group>Vertical</Group>
+			<Behavior>Usual</Behavior>
+			<Representation>None</Representation>
+			<ExtendedTooltip name="ГруппаДополнительныеРеквизитыExtendedTooltip" id="449"/>
+		</UsualGroup>
+		<UsualGroup name="ГруппаКомментарийОтветственный" id="369">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Комментарий ответственный</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Comment responsible person</v8:content>
+				</v8:item>
+			</Title>
+			<Group>Horizontal</Group>
+			<Behavior>Usual</Behavior>
+			<Representation>None</Representation>
+			<ChildItemsWidth>LeftWide</ChildItemsWidth>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаКомментарийОтветственныйРасширеннаяПодсказка" id="370"/>
+			<ChildItems>
+				<InputField name="Комментарий" id="371">
+					<TitleLocation>Left</TitleLocation>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="КомментарийКонтекстноеМеню" id="372"/>
+					<ExtendedTooltip name="КомментарийExtendedTooltip" id="373"/>
+				</InputField>
+				<InputField name="Ответственный" id="162">
+					<ContextMenu name="ОтветственныйКонтекстноеМеню" id="163"/>
+					<ExtendedTooltip name="ОтветственныйExtendedTooltip" id="318"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<ConditionalAppearance>
+			<dcsset:item>
+				<dcsset:selection>
+					<dcsset:item>
+						<dcsset:field>ДанныеОВремениСотрудник</dcsset:field>
+					</dcsset:item>
+					<dcsset:item>
+						<dcsset:field>ДанныеОВремениНомерСтрокиСотрудник</dcsset:field>
+					</dcsset:item>
+				</dcsset:selection>
+				<dcsset:filter>
+					<dcsset:item xsi:type="dcsset:FilterItemComparison">
+						<dcsset:left xsi:type="dcscor:Field">Объект.ДанныеОВремени.ЭтоПерваяСтрокаПоСотруднику</dcsset:left>
+						<dcsset:comparisonType>Equal</dcsset:comparisonType>
+						<dcsset:right xsi:type="xs:boolean">false</dcsset:right>
+					</dcsset:item>
+				</dcsset:filter>
+				<dcsset:appearance>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>ОтметкаНезаполненного</dcscor:parameter>
+						<dcscor:value xsi:type="xs:boolean">false</dcscor:value>
+					</dcscor:item>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>Текст</dcscor:parameter>
+						<dcscor:value xsi:type="xs:string"/>
+					</dcscor:item>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:use>false</dcscor:use>
+						<dcscor:parameter>Доступность</dcscor:parameter>
+						<dcscor:value xsi:type="xs:boolean">false</dcscor:value>
+					</dcscor:item>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>ТолькоПросмотр</dcscor:parameter>
+						<dcscor:value xsi:type="xs:boolean">true</dcscor:value>
+					</dcscor:item>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:use>false</dcscor:use>
+						<dcscor:parameter>Отображать</dcscor:parameter>
+						<dcscor:value xsi:type="xs:boolean">false</dcscor:value>
+					</dcscor:item>
+				</dcsset:appearance>
+			</dcsset:item>
+			<dcsset:item>
+				<dcsset:selection>
+					<dcsset:item>
+						<dcsset:field>ДанныеОВремени</dcsset:field>
+					</dcsset:item>
+				</dcsset:selection>
+				<dcsset:filter>
+					<dcsset:item xsi:type="dcsset:FilterItemComparison">
+						<dcsset:left xsi:type="dcscor:Field">Объект.ДанныеОВремени.ЧетнаяСтрока</dcsset:left>
+						<dcsset:comparisonType>Equal</dcsset:comparisonType>
+						<dcsset:right xsi:type="xs:boolean">true</dcsset:right>
+					</dcsset:item>
+				</dcsset:filter>
+				<dcsset:appearance>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>ЦветФона</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">#F5F7FC</dcscor:value>
+					</dcscor:item>
+				</dcsset:appearance>
+			</dcsset:item>
+		</ConditionalAppearance>
+	</Attributes>
+	<BaseForm version="2.15">
+		<VerticalScroll>useIfNecessary</VerticalScroll>
+		<AutoTime>CurrentOrLast</AutoTime>
+		<UsePostingMode>Auto</UsePostingMode>
+		<RepostOnWrite>true</RepostOnWrite>
+		<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+		<ChildItems>
+			<UsualGroup name="Шапка" id="157">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Шапка</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Header</v8:content>
+					</v8:item>
+				</Title>
+				<Group>Horizontal</Group>
+				<Behavior>Usual</Behavior>
+				<Representation>None</Representation>
+				<ShowTitle>false</ShowTitle>
+				<ExtendedTooltip name="ШапкаExtendedTooltip" id="304"/>
+				<ChildItems>
+					<UsualGroup name="ШапкаЛевая" id="158">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Шапка левая</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Header left</v8:content>
+							</v8:item>
+						</Title>
+						<Group>Vertical</Group>
+						<Behavior>Usual</Behavior>
+						<Representation>None</Representation>
+						<ShowTitle>false</ShowTitle>
+						<ExtendedTooltip name="ШапкаЛеваяРасширеннаяПодсказка" id="305"/>
+						<ChildItems>
+							<UsualGroup name="МесяцОрганизацияГруппа" id="376">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Месяц организация группа</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Month company group</v8:content>
+									</v8:item>
+								</Title>
+								<Group>Horizontal</Group>
+								<Behavior>Usual</Behavior>
+								<Representation>None</Representation>
+								<ShowTitle>false</ShowTitle>
+								<ExtendedTooltip name="МесяцОрганизацияГруппаРасширеннаяПодсказка" id="377"/>
+								<ChildItems>
+									<InputField name="МесяцРегистрацииСтрокой" id="164">
+										<Width>13</Width>
+										<HorizontalStretch>false</HorizontalStretch>
+										<ExtendedEdit>true</ExtendedEdit>
+										<ChoiceButton>true</ChoiceButton>
+										<SpinButton>true</SpinButton>
+										<ContextMenu name="МесяцРегистрацииСтрокойКонтекстноеМеню" id="165"/>
+										<ExtendedTooltip name="МесяцРегистрацииСтрокойExtendedTooltip" id="306"/>
+									</InputField>
+									<InputField name="Организация" id="5">
+										<EditMode>EnterOnInput</EditMode>
+										<ContextMenu name="ОрганизацияКонтекстноеМеню" id="6"/>
+										<ExtendedTooltip name="ОрганизацияExtendedTooltip" id="308"/>
+									</InputField>
+								</ChildItems>
+							</UsualGroup>
+							<UsualGroup name="ПериодГруппа" id="260">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Период группа</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Period group</v8:content>
+									</v8:item>
+								</Title>
+								<Group>Horizontal</Group>
+								<Behavior>Usual</Behavior>
+								<Representation>None</Representation>
+								<ShowTitle>false</ShowTitle>
+								<ExtendedTooltip name="ПериодГруппаExtendedTooltip" id="310"/>
+								<ChildItems>
+									<InputField name="ПериодВводаДанныхОВремени" id="296">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Данные за</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Data for</v8:content>
+											</v8:item>
+										</Title>
+										<ChoiceListButton>true</ChoiceListButton>
+										<ContextMenu name="ПериодВводаДанныхОВремениКонтекстноеМеню" id="297"/>
+										<ExtendedTooltip name="ПериодВводаДанныхОВремениExtendedTooltip" id="311"/>
+									</InputField>
+									<InputField name="ДатаНачалаПериода" id="298">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>С</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>FROM</v8:content>
+											</v8:item>
+										</Title>
+										<HorizontalStretch>false</HorizontalStretch>
+										<ContextMenu name="ДатаНачалаПериодаКонтекстноеМеню" id="299"/>
+										<ExtendedTooltip name="ДатаНачалаПериодаExtendedTooltip" id="312"/>
+									</InputField>
+									<InputField name="ДатаОкончанияПериода" id="300">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>По</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>To</v8:content>
+											</v8:item>
+										</Title>
+										<HorizontalStretch>false</HorizontalStretch>
+										<ContextMenu name="ДатаОкончанияПериодаКонтекстноеМеню" id="301"/>
+										<ExtendedTooltip name="ДатаОкончанияПериодаExtendedTooltip" id="313"/>
+									</InputField>
+								</ChildItems>
+							</UsualGroup>
+						</ChildItems>
+					</UsualGroup>
+					<UsualGroup name="ШапкаПравая" id="420">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Шапка правая</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Header right</v8:content>
+							</v8:item>
+						</Title>
+						<Group>Vertical</Group>
+						<Behavior>Usual</Behavior>
+						<Representation>None</Representation>
+						<ShowTitle>false</ShowTitle>
+						<ExtendedTooltip name="ШапкаПраваяРасширеннаяПодсказка" id="421"/>
+						<ChildItems>
+							<UsualGroup name="ДатаНомер" id="302">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Дата номер</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Date number</v8:content>
+									</v8:item>
+								</Title>
+								<Group>Horizontal</Group>
+								<Behavior>Usual</Behavior>
+								<Representation>None</Representation>
+								<ShowTitle>false</ShowTitle>
+								<ExtendedTooltip name="ДатаНомерExtendedTooltip" id="315"/>
+								<ChildItems>
+									<InputField name="Дата" id="3">
+										<EditMode>EnterOnInput</EditMode>
+										<Width>10</Width>
+										<HorizontalStretch>false</HorizontalStretch>
+										<ContextMenu name="ДатаКонтекстноеМеню" id="4"/>
+										<ExtendedTooltip name="ДатаExtendedTooltip" id="316"/>
+									</InputField>
+									<InputField name="Номер" id="1">
+										<EditMode>EnterOnInput</EditMode>
+										<HorizontalStretch>false</HorizontalStretch>
+										<ContextMenu name="НомерКонтекстноеМеню" id="2"/>
+										<ExtendedTooltip name="НомерExtendedTooltip" id="317"/>
+									</InputField>
+								</ChildItems>
+							</UsualGroup>
+							<InputField name="Подразделение" id="159">
+								<ContextMenu name="ПодразделениеКонтекстноеМеню" id="160"/>
+								<ExtendedTooltip name="ПодразделениеExtendedTooltip" id="309"/>
+							</InputField>
+						</ChildItems>
+					</UsualGroup>
+				</ChildItems>
+			</UsualGroup>
+			<UsualGroup name="КомандыТаблицыГруппа" id="250">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Команды таблицы группа</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Table commands group </v8:content>
+					</v8:item>
+				</Title>
+				<Group>Horizontal</Group>
+				<Behavior>Usual</Behavior>
+				<Representation>None</Representation>
+				<ShowTitle>false</ShowTitle>
+				<ExtendedTooltip name="КомандыТаблицыГруппаExtendedTooltip" id="319"/>
+				<ChildItems>
+					<Button name="Заполнить" id="241">
+						<Type>UsualButton</Type>
+						<Height>1</Height>
+						<CommandName>0</CommandName>
+						<Font ref="style:LargeTextFont" kind="StyleItem"/>
+						<ExtendedTooltip name="ЗаполнитьExtendedTooltip" id="320"/>
+					</Button>
+					<InputField name="ВысотаСтроки" id="275">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Максимальное количество видов времени на одну дату</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Max number of time kinds on one date</v8:content>
+							</v8:item>
+						</Title>
+						<Width>4</Width>
+						<SpinButton>true</SpinButton>
+						<ContextMenu name="ВысотаСтрокиКонтекстноеМеню" id="276"/>
+						<ExtendedTooltip name="ВысотаСтрокиExtendedTooltip" id="364"/>
+					</InputField>
+				</ChildItems>
+			</UsualGroup>
+			<Table name="ДанныеОВремени" id="166">
+				<Representation>List</Representation>
+				<ChangeRowOrder>false</ChangeRowOrder>
+				<AutoMarkIncomplete>false</AutoMarkIncomplete>
+				<FileDragMode>AsFile</FileDragMode>
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Данные о времени</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Data on time</v8:content>
+					</v8:item>
+				</Title>
+				<SearchStringLocation>None</SearchStringLocation>
+				<ViewStatusLocation>None</ViewStatusLocation>
+				<SearchControlLocation>None</SearchControlLocation>
+				<RowFilter xsi:nil="true"/>
+				<ContextMenu name="ДанныеОВремениКонтекстноеМеню" id="167">
+					<ChildItems>
+						<Button name="ДанныеОВремениКонтекстноеМенюПереместитьВверх" id="434">
+							<Type>CommandBarButton</Type>
+							<CommandName>0</CommandName>
+							<ExtendedTooltip name="ДанныеОВремениКонтекстноеМенюПереместитьВверхРасширеннаяПодсказка" id="435"/>
+						</Button>
+						<Button name="ДанныеОВремениКонтекстноеМенюПереместитьВниз" id="436">
+							<Type>CommandBarButton</Type>
+							<CommandName>0</CommandName>
+							<ExtendedTooltip name="ДанныеОВремениКонтекстноеМенюПереместитьВнизРасширеннаяПодсказка" id="437"/>
+						</Button>
+						<Button name="ДанныеОВремениКонтекстноеМенюСортироватьПоВозрастанию" id="438">
+							<Type>CommandBarButton</Type>
+							<CommandName>0</CommandName>
+							<ExtendedTooltip name="ДанныеОВремениКонтекстноеМенюСортироватьПоВозрастаниюРасширеннаяПодсказка" id="439"/>
+						</Button>
+						<Button name="ДанныеОВремениКонтекстноеМенюСортироватьПоУбыванию" id="440">
+							<Type>CommandBarButton</Type>
+							<CommandName>0</CommandName>
+							<ExtendedTooltip name="ДанныеОВремениКонтекстноеМенюСортироватьПоУбываниюРасширеннаяПодсказка" id="441"/>
+						</Button>
+					</ChildItems>
+				</ContextMenu>
+				<AutoCommandBar name="ДанныеОВремениКоманднаяПанель" id="168">
+					<Autofill>false</Autofill>
+					<ChildItems>
+						<Button name="ДанныеОВремениПодбор" id="422">
+							<Type>CommandBarButton</Type>
+							<CommandName>0</CommandName>
+							<ExtendedTooltip name="ДанныеОВремениПодборРасширеннаяПодсказка" id="423"/>
+						</Button>
+						<Button name="ДанныеОВремениНайти" id="430">
+							<Type>CommandBarButton</Type>
+							<CommandName>0</CommandName>
+							<ExtendedTooltip name="ДанныеОВремениНайтиРасширеннаяПодсказка" id="431"/>
+						</Button>
+						<Button name="ДанныеОВремениОтменитьПоиск" id="432">
+							<Type>CommandBarButton</Type>
+							<CommandName>0</CommandName>
+							<ExtendedTooltip name="ДанныеОВремениОтменитьПоискРасширеннаяПодсказка" id="433"/>
+						</Button>
+						<Button name="ДанныеОВремениУдалить" id="424">
+							<Type>CommandBarButton</Type>
+							<CommandName>0</CommandName>
+							<ExtendedTooltip name="ДанныеОВремениУдалитьРасширеннаяПодсказка" id="425"/>
+						</Button>
+						<Button name="ДанныеОВремениПереместитьВверх" id="426">
+							<Type>CommandBarButton</Type>
+							<CommandName>0</CommandName>
+							<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
+							<ExtendedTooltip name="ДанныеОВремениПереместитьВверхРасширеннаяПодсказка" id="427"/>
+						</Button>
+						<Button name="ДанныеОВремениПереместитьВниз" id="428">
+							<Type>CommandBarButton</Type>
+							<CommandName>0</CommandName>
+							<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
+							<ExtendedTooltip name="ДанныеОВремениПереместитьВнизРасширеннаяПодсказка" id="429"/>
+						</Button>
+						<Button name="ДанныеОВремениСортироватьПоВозрастанию" id="442">
+							<Type>CommandBarButton</Type>
+							<CommandName>0</CommandName>
+							<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
+							<ExtendedTooltip name="ДанныеОВремениСортироватьПоВозрастаниюРасширеннаяПодсказка" id="443"/>
+						</Button>
+						<Button name="ДанныеОВремениСортироватьПоУбыванию" id="444">
+							<Type>CommandBarButton</Type>
+							<CommandName>0</CommandName>
+							<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
+							<ExtendedTooltip name="ДанныеОВремениСортироватьПоУбываниюРасширеннаяПодсказка" id="445"/>
+						</Button>
+						<Button name="ДанныеОВремениВывестиСписок" id="446">
+							<Type>CommandBarButton</Type>
+							<CommandName>0</CommandName>
+							<ExtendedTooltip name="ДанныеОВремениВывестиСписокРасширеннаяПодсказка" id="447"/>
+						</Button>
+					</ChildItems>
+				</AutoCommandBar>
+				<ExtendedTooltip name="ДанныеОВремениExtendedTooltip" id="328"/>
+				<SearchStringAddition name="ДанныеОВремениСтрокаПоиска" id="411">
+					<AdditionSource>
+						<Item>ДанныеОВремени</Item>
+						<Type>SearchStringRepresentation</Type>
+					</AdditionSource>
+					<ContextMenu name="ДанныеОВремениСтрокаПоискаКонтекстноеМеню" id="412"/>
+					<ExtendedTooltip name="ДанныеОВремениСтрокаПоискаРасширеннаяПодсказка" id="413"/>
+				</SearchStringAddition>
+				<ViewStatusAddition name="ДанныеОВремениСостояниеПросмотра" id="414">
+					<AdditionSource>
+						<Item>ДанныеОВремени</Item>
+						<Type>ViewStatusRepresentation</Type>
+					</AdditionSource>
+					<ContextMenu name="ДанныеОВремениСостояниеПросмотраКонтекстноеМеню" id="415"/>
+					<ExtendedTooltip name="ДанныеОВремениСостояниеПросмотраРасширеннаяПодсказка" id="416"/>
+				</ViewStatusAddition>
+				<SearchControlAddition name="ДанныеОВремениУправлениеПоиском" id="417">
+					<AdditionSource>
+						<Item>ДанныеОВремени</Item>
+						<Type>SearchControl</Type>
+					</AdditionSource>
+					<ContextMenu name="ДанныеОВремениУправлениеПоискомКонтекстноеМеню" id="418"/>
+					<ExtendedTooltip name="ДанныеОВремениУправлениеПоискомРасширеннаяПодсказка" id="419"/>
+				</SearchControlAddition>
+				<ChildItems>
+					<InputField name="ДанныеОВремениНомерСтрокиСотрудник" id="169">
+						<Enabled>false</Enabled>
+						<ReadOnly>true</ReadOnly>
+						<EditMode>EnterOnInput</EditMode>
+						<FixingInTable>Left</FixingInTable>
+						<Width>2</Width>
+						<ContextMenu name="ДанныеОВремениНомерСтрокиСотрудникКонтекстноеМеню" id="170"/>
+						<ExtendedTooltip name="ДанныеОВремениНомерСтрокиСотрудникExtendedTooltip" id="329"/>
+					</InputField>
+					<InputField name="ДанныеОВремениСотрудник" id="171">
+						<DefaultItem>true</DefaultItem>
+						<SkipOnInput>false</SkipOnInput>
+						<EditMode>EnterOnInput</EditMode>
+						<FixingInTable>Left</FixingInTable>
+						<Width>20</Width>
+						<HorizontalStretch>false</HorizontalStretch>
+						<ContextMenu name="ДанныеОВремениСотрудникКонтекстноеМеню" id="172"/>
+						<ExtendedTooltip name="ДанныеОВремениСотрудникExtendedTooltip" id="330"/>
+					</InputField>
+					<InputField name="ДанныеОВремениВремяИтог" id="173">
+						<ReadOnly>true</ReadOnly>
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Итого</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Total</v8:content>
+							</v8:item>
+						</Title>
+						<EditMode>EnterOnInput</EditMode>
+						<FixingInTable>Left</FixingInTable>
+						<Width>12</Width>
+						<HorizontalStretch>false</HorizontalStretch>
+						<Font ref="style:ВажнаяНадписьШрифт" kind="StyleItem"/>
+						<ContextMenu name="ДанныеОВремениВремяИтогКонтекстноеМеню" id="174"/>
+						<ExtendedTooltip name="ДанныеОВремениВремяИтогExtendedTooltip" id="331"/>
+					</InputField>
+					<InputField name="ДанныеОВремениВремя1Представление" id="175">
+						<EditMode>EnterOnInput</EditMode>
+						<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+						<Width>7</Width>
+						<ContextMenu name="ДанныеОВремениВремя1ПредставлениеКонтекстноеМеню" id="176"/>
+						<ExtendedTooltip name="ДанныеОВремениВремя1ПредставлениеExtendedTooltip" id="332"/>
+					</InputField>
+					<InputField name="ДанныеОВремениВремя2Представление" id="177">
+						<EditMode>EnterOnInput</EditMode>
+						<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+						<Width>7</Width>
+						<ContextMenu name="ДанныеОВремениВремя2ПредставлениеКонтекстноеМеню" id="178"/>
+						<ExtendedTooltip name="ДанныеОВремениВремя2ПредставлениеExtendedTooltip" id="333"/>
+					</InputField>
+					<InputField name="ДанныеОВремениВремя3Представление" id="179">
+						<EditMode>EnterOnInput</EditMode>
+						<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+						<Width>7</Width>
+						<ContextMenu name="ДанныеОВремениВремя3ПредставлениеКонтекстноеМеню" id="180"/>
+						<ExtendedTooltip name="ДанныеОВремениВремя3ПредставлениеExtendedTooltip" id="334"/>
+					</InputField>
+					<InputField name="ДанныеОВремениВремя4Представление" id="181">
+						<EditMode>EnterOnInput</EditMode>
+						<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+						<Width>7</Width>
+						<ContextMenu name="ДанныеОВремениВремя4ПредставлениеКонтекстноеМеню" id="182"/>
+						<ExtendedTooltip name="ДанныеОВремениВремя4ПредставлениеExtendedTooltip" id="335"/>
+					</InputField>
+					<InputField name="ДанныеОВремениВремя5Представление" id="183">
+						<EditMode>EnterOnInput</EditMode>
+						<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+						<Width>7</Width>
+						<ContextMenu name="ДанныеОВремениВремя5ПредставлениеКонтекстноеМеню" id="184"/>
+						<ExtendedTooltip name="ДанныеОВремениВремя5ПредставлениеExtendedTooltip" id="336"/>
+					</InputField>
+					<InputField name="ДанныеОВремениВремя6Представление" id="185">
+						<EditMode>EnterOnInput</EditMode>
+						<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+						<Width>7</Width>
+						<ContextMenu name="ДанныеОВремениВремя6ПредставлениеКонтекстноеМеню" id="186"/>
+						<ExtendedTooltip name="ДанныеОВремениВремя6ПредставлениеExtendedTooltip" id="337"/>
+					</InputField>
+					<InputField name="ДанныеОВремениВремя7Представление" id="187">
+						<EditMode>EnterOnInput</EditMode>
+						<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+						<Width>7</Width>
+						<ContextMenu name="ДанныеОВремениВремя7ПредставлениеКонтекстноеМеню" id="188"/>
+						<ExtendedTooltip name="ДанныеОВремениВремя7ПредставлениеExtendedTooltip" id="338"/>
+					</InputField>
+					<InputField name="ДанныеОВремениВремя8Представление" id="189">
+						<EditMode>EnterOnInput</EditMode>
+						<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+						<Width>7</Width>
+						<ContextMenu name="ДанныеОВремениВремя8ПредставлениеКонтекстноеМеню" id="190"/>
+						<ExtendedTooltip name="ДанныеОВремениВремя8ПредставлениеExtendedTooltip" id="339"/>
+					</InputField>
+					<InputField name="ДанныеОВремениВремя9Представление" id="191">
+						<EditMode>EnterOnInput</EditMode>
+						<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+						<Width>7</Width>
+						<ContextMenu name="ДанныеОВремениВремя9ПредставлениеКонтекстноеМеню" id="192"/>
+						<ExtendedTooltip name="ДанныеОВремениВремя9ПредставлениеExtendedTooltip" id="340"/>
+					</InputField>
+					<InputField name="ДанныеОВремениВремя10Представление" id="193">
+						<EditMode>EnterOnInput</EditMode>
+						<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+						<Width>7</Width>
+						<ContextMenu name="ДанныеОВремениВремя10ПредставлениеКонтекстноеМеню" id="194"/>
+						<ExtendedTooltip name="ДанныеОВремениВремя10ПредставлениеExtendedTooltip" id="341"/>
+					</InputField>
+					<InputField name="ДанныеОВремениВремя11Представление" id="195">
+						<EditMode>EnterOnInput</EditMode>
+						<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+						<Width>7</Width>
+						<ContextMenu name="ДанныеОВремениВремя11ПредставлениеКонтекстноеМеню" id="196"/>
+						<ExtendedTooltip name="ДанныеОВремениВремя11ПредставлениеExtendedTooltip" id="342"/>
+					</InputField>
+					<InputField name="ДанныеОВремениВремя12Представление" id="197">
+						<EditMode>EnterOnInput</EditMode>
+						<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+						<Width>7</Width>
+						<ContextMenu name="ДанныеОВремениВремя12ПредставлениеКонтекстноеМеню" id="198"/>
+						<ExtendedTooltip name="ДанныеОВремениВремя12ПредставлениеExtendedTooltip" id="343"/>
+					</InputField>
+					<InputField name="ДанныеОВремениВремя13Представление" id="199">
+						<EditMode>EnterOnInput</EditMode>
+						<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+						<Width>7</Width>
+						<ContextMenu name="ДанныеОВремениВремя13ПредставлениеКонтекстноеМеню" id="200"/>
+						<ExtendedTooltip name="ДанныеОВремениВремя13ПредставлениеExtendedTooltip" id="344"/>
+					</InputField>
+					<InputField name="ДанныеОВремениВремя14Представление" id="201">
+						<EditMode>EnterOnInput</EditMode>
+						<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+						<Width>7</Width>
+						<ContextMenu name="ДанныеОВремениВремя14ПредставлениеКонтекстноеМеню" id="202"/>
+						<ExtendedTooltip name="ДанныеОВремениВремя14ПредставлениеExtendedTooltip" id="345"/>
+					</InputField>
+					<InputField name="ДанныеОВремениВремя15Представление" id="203">
+						<EditMode>EnterOnInput</EditMode>
+						<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+						<Width>7</Width>
+						<ContextMenu name="ДанныеОВремениВремя15ПредставлениеКонтекстноеМеню" id="204"/>
+						<ExtendedTooltip name="ДанныеОВремениВремя15ПредставлениеExtendedTooltip" id="346"/>
+					</InputField>
+					<InputField name="ДанныеОВремениВремя16Представление" id="205">
+						<EditMode>EnterOnInput</EditMode>
+						<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+						<Width>7</Width>
+						<ContextMenu name="ДанныеОВремениВремя16ПредставлениеКонтекстноеМеню" id="206"/>
+						<ExtendedTooltip name="ДанныеОВремениВремя16ПредставлениеExtendedTooltip" id="347"/>
+					</InputField>
+					<InputField name="ДанныеОВремениВремя17Представление" id="207">
+						<EditMode>EnterOnInput</EditMode>
+						<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+						<Width>7</Width>
+						<ContextMenu name="ДанныеОВремениВремя17ПредставлениеКонтекстноеМеню" id="208"/>
+						<ExtendedTooltip name="ДанныеОВремениВремя17ПредставлениеExtendedTooltip" id="348"/>
+					</InputField>
+					<InputField name="ДанныеОВремениВремя18Представление" id="209">
+						<EditMode>EnterOnInput</EditMode>
+						<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+						<Width>7</Width>
+						<ContextMenu name="ДанныеОВремениВремя18ПредставлениеКонтекстноеМеню" id="210"/>
+						<ExtendedTooltip name="ДанныеОВремениВремя18ПредставлениеExtendedTooltip" id="349"/>
+					</InputField>
+					<InputField name="ДанныеОВремениВремя19Представление" id="211">
+						<EditMode>EnterOnInput</EditMode>
+						<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+						<Width>7</Width>
+						<ContextMenu name="ДанныеОВремениВремя19ПредставлениеКонтекстноеМеню" id="212"/>
+						<ExtendedTooltip name="ДанныеОВремениВремя19ПредставлениеExtendedTooltip" id="350"/>
+					</InputField>
+					<InputField name="ДанныеОВремениВремя20Представление" id="213">
+						<EditMode>EnterOnInput</EditMode>
+						<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+						<Width>7</Width>
+						<ContextMenu name="ДанныеОВремениВремя20ПредставлениеКонтекстноеМеню" id="214"/>
+						<ExtendedTooltip name="ДанныеОВремениВремя20ПредставлениеExtendedTooltip" id="351"/>
+					</InputField>
+					<InputField name="ДанныеОВремениВремя21Представление" id="215">
+						<EditMode>EnterOnInput</EditMode>
+						<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+						<Width>7</Width>
+						<ContextMenu name="ДанныеОВремениВремя21ПредставлениеКонтекстноеМеню" id="216"/>
+						<ExtendedTooltip name="ДанныеОВремениВремя21ПредставлениеExtendedTooltip" id="352"/>
+					</InputField>
+					<InputField name="ДанныеОВремениВремя22Представление" id="217">
+						<EditMode>EnterOnInput</EditMode>
+						<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+						<Width>7</Width>
+						<ContextMenu name="ДанныеОВремениВремя22ПредставлениеКонтекстноеМеню" id="218"/>
+						<ExtendedTooltip name="ДанныеОВремениВремя22ПредставлениеExtendedTooltip" id="353"/>
+					</InputField>
+					<InputField name="ДанныеОВремениВремя23Представление" id="219">
+						<EditMode>EnterOnInput</EditMode>
+						<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+						<Width>7</Width>
+						<ContextMenu name="ДанныеОВремениВремя23ПредставлениеКонтекстноеМеню" id="220"/>
+						<ExtendedTooltip name="ДанныеОВремениВремя23ПредставлениеExtendedTooltip" id="354"/>
+					</InputField>
+					<InputField name="ДанныеОВремениВремя24Представление" id="221">
+						<EditMode>EnterOnInput</EditMode>
+						<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+						<Width>7</Width>
+						<ContextMenu name="ДанныеОВремениВремя24ПредставлениеКонтекстноеМеню" id="222"/>
+						<ExtendedTooltip name="ДанныеОВремениВремя24ПредставлениеExtendedTooltip" id="355"/>
+					</InputField>
+					<InputField name="ДанныеОВремениВремя25Представление" id="223">
+						<EditMode>EnterOnInput</EditMode>
+						<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+						<Width>7</Width>
+						<ContextMenu name="ДанныеОВремениВремя25ПредставлениеКонтекстноеМеню" id="224"/>
+						<ExtendedTooltip name="ДанныеОВремениВремя25ПредставлениеExtendedTooltip" id="356"/>
+					</InputField>
+					<InputField name="ДанныеОВремениВремя26Представление" id="225">
+						<EditMode>EnterOnInput</EditMode>
+						<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+						<Width>7</Width>
+						<ContextMenu name="ДанныеОВремениВремя26ПредставлениеКонтекстноеМеню" id="226"/>
+						<ExtendedTooltip name="ДанныеОВремениВремя26ПредставлениеExtendedTooltip" id="357"/>
+					</InputField>
+					<InputField name="ДанныеОВремениВремя27Представление" id="227">
+						<EditMode>EnterOnInput</EditMode>
+						<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+						<Width>7</Width>
+						<ContextMenu name="ДанныеОВремениВремя27ПредставлениеКонтекстноеМеню" id="228"/>
+						<ExtendedTooltip name="ДанныеОВремениВремя27ПредставлениеExtendedTooltip" id="358"/>
+					</InputField>
+					<InputField name="ДанныеОВремениВремя28Представление" id="229">
+						<EditMode>EnterOnInput</EditMode>
+						<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+						<Width>7</Width>
+						<ContextMenu name="ДанныеОВремениВремя28ПредставлениеКонтекстноеМеню" id="230"/>
+						<ExtendedTooltip name="ДанныеОВремениВремя28ПредставлениеExtendedTooltip" id="359"/>
+					</InputField>
+					<InputField name="ДанныеОВремениВремя29Представление" id="231">
+						<EditMode>EnterOnInput</EditMode>
+						<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+						<Width>7</Width>
+						<ContextMenu name="ДанныеОВремениВремя29ПредставлениеКонтекстноеМеню" id="232"/>
+						<ExtendedTooltip name="ДанныеОВремениВремя29ПредставлениеExtendedTooltip" id="360"/>
+					</InputField>
+					<InputField name="ДанныеОВремениВремя30Представление" id="233">
+						<EditMode>EnterOnInput</EditMode>
+						<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+						<Width>7</Width>
+						<ContextMenu name="ДанныеОВремениВремя30ПредставлениеКонтекстноеМеню" id="234"/>
+						<ExtendedTooltip name="ДанныеОВремениВремя30ПредставлениеExtendedTooltip" id="361"/>
+					</InputField>
+					<InputField name="ДанныеОВремениВремя31Представление" id="235">
+						<EditMode>EnterOnInput</EditMode>
+						<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+						<Width>7</Width>
+						<ContextMenu name="ДанныеОВремениВремя31ПредставлениеКонтекстноеМеню" id="236"/>
+						<ExtendedTooltip name="ДанныеОВремениВремя31ПредставлениеExtendedTooltip" id="362"/>
+					</InputField>
+				</ChildItems>
+			</Table>
+			<UsualGroup name="ПодписиГруппа" id="378">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Подписи</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Signatures</v8:content>
+					</v8:item>
+				</Title>
+				<Group>Horizontal</Group>
+				<Behavior>Collapsible</Behavior>
+				<Collapsed>true</Collapsed>
+				<Representation>None</Representation>
+				<ExtendedTooltip name="ПодписиГруппаРасширеннаяПодсказка" id="379"/>
+			</UsualGroup>
+			<UsualGroup name="ГруппаИсправление" id="303">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Исправление</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Correction</v8:content>
+					</v8:item>
+				</Title>
+				<Group>Horizontal</Group>
+				<Behavior>Usual</Behavior>
+				<Representation>None</Representation>
+				<ShowTitle>false</ShowTitle>
+				<ExtendedTooltip name="ГруппаИсправлениеExtendedTooltip" id="368"/>
+			</UsualGroup>
+			<UsualGroup name="ГруппаДополнительныеРеквизиты" id="448">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Дополнительно</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>More</v8:content>
+					</v8:item>
+				</Title>
+				<Group>Vertical</Group>
+				<Behavior>Usual</Behavior>
+				<Representation>None</Representation>
+				<ExtendedTooltip name="ГруппаДополнительныеРеквизитыExtendedTooltip" id="449"/>
+			</UsualGroup>
+			<UsualGroup name="ГруппаКомментарийОтветственный" id="369">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Комментарий ответственный</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Comment responsible person</v8:content>
+					</v8:item>
+				</Title>
+				<Group>Horizontal</Group>
+				<Behavior>Usual</Behavior>
+				<Representation>None</Representation>
+				<ChildItemsWidth>LeftWide</ChildItemsWidth>
+				<ShowTitle>false</ShowTitle>
+				<ExtendedTooltip name="ГруппаКомментарийОтветственныйРасширеннаяПодсказка" id="370"/>
+				<ChildItems>
+					<InputField name="Комментарий" id="371">
+						<TitleLocation>Left</TitleLocation>
+						<EditMode>EnterOnInput</EditMode>
+						<ContextMenu name="КомментарийКонтекстноеМеню" id="372"/>
+						<ExtendedTooltip name="КомментарийExtendedTooltip" id="373"/>
+					</InputField>
+					<InputField name="Ответственный" id="162">
+						<ContextMenu name="ОтветственныйКонтекстноеМеню" id="163"/>
+						<ExtendedTooltip name="ОтветственныйExtendedTooltip" id="318"/>
+					</InputField>
+				</ChildItems>
+			</UsualGroup>
+		</ChildItems>
+		<Attributes>
+			<ConditionalAppearance>
+				<dcsset:item>
+					<dcsset:selection>
+						<dcsset:item>
+							<dcsset:field>ДанныеОВремениСотрудник</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>ДанныеОВремениНомерСтрокиСотрудник</dcsset:field>
+						</dcsset:item>
+					</dcsset:selection>
+					<dcsset:filter>
+						<dcsset:item xsi:type="dcsset:FilterItemComparison">
+							<dcsset:left xsi:type="dcscor:Field">Объект.ДанныеОВремени.ЭтоПерваяСтрокаПоСотруднику</dcsset:left>
+							<dcsset:comparisonType>Equal</dcsset:comparisonType>
+							<dcsset:right xsi:type="xs:boolean">false</dcsset:right>
+						</dcsset:item>
+					</dcsset:filter>
+					<dcsset:appearance>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:parameter>ОтметкаНезаполненного</dcscor:parameter>
+							<dcscor:value xsi:type="xs:boolean">false</dcscor:value>
+						</dcscor:item>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:parameter>Текст</dcscor:parameter>
+							<dcscor:value xsi:type="xs:string"/>
+						</dcscor:item>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:use>false</dcscor:use>
+							<dcscor:parameter>Доступность</dcscor:parameter>
+							<dcscor:value xsi:type="xs:boolean">false</dcscor:value>
+						</dcscor:item>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:parameter>ТолькоПросмотр</dcscor:parameter>
+							<dcscor:value xsi:type="xs:boolean">true</dcscor:value>
+						</dcscor:item>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:use>false</dcscor:use>
+							<dcscor:parameter>Отображать</dcscor:parameter>
+							<dcscor:value xsi:type="xs:boolean">false</dcscor:value>
+						</dcscor:item>
+					</dcsset:appearance>
+				</dcsset:item>
+				<dcsset:item>
+					<dcsset:selection>
+						<dcsset:item>
+							<dcsset:field>ДанныеОВремени</dcsset:field>
+						</dcsset:item>
+					</dcsset:selection>
+					<dcsset:filter>
+						<dcsset:item xsi:type="dcsset:FilterItemComparison">
+							<dcsset:left xsi:type="dcscor:Field">Объект.ДанныеОВремени.ЧетнаяСтрока</dcsset:left>
+							<dcsset:comparisonType>Equal</dcsset:comparisonType>
+							<dcsset:right xsi:type="xs:boolean">true</dcsset:right>
+						</dcsset:item>
+					</dcsset:filter>
+					<dcsset:appearance>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:parameter>ЦветФона</dcscor:parameter>
+							<dcscor:value xsi:type="v8ui:Color">#F5F7FC</dcscor:value>
+						</dcscor:item>
+					</dcsset:appearance>
+				</dcsset:item>
+			</ConditionalAppearance>
+		</Attributes>
+	</BaseForm>
+</Form>

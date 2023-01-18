@@ -2285,7 +2285,6 @@ Displayed in field 110 of the payment order print form.</v8:content>
 							<RowFilter xsi:nil="true"/>
 							<ContextMenu name="РСК_ПодтверждающиеДокументыКонтекстноеМеню" id="1436"/>
 							<AutoCommandBar name="РСК_ПодтверждающиеДокументыКоманднаяПанель" id="1437">
-								<Autofill>false</Autofill>
 								<ChildItems>
 									<Button name="РСК_ПодтверждающиеДокументыДобавить" id="1462">
 										<Type>CommandBarButton</Type>
@@ -3233,7 +3232,6 @@ Displayed in field 110 of the payment order print form.</v8:content>
 															<ExtendedTooltip name="РасшифровкаПлатежаКурсЧислительВзаиморасчетовРасширеннаяПодсказка" id="1349"/>
 														</InputField>
 														<InputField name="РасшифровкаПлатежаКурсЧислительВзаиморасчетовТекст" id="1350">
-															<DataPath>Объект.РасшифровкаПлатежа.КурсЧислительВзаиморасчетовТекст</DataPath>
 															<TitleLocation>None</TitleLocation>
 															<EditMode>EnterOnInput</EditMode>
 															<ShowInHeader>false</ShowInHeader>
@@ -3373,7 +3371,6 @@ Displayed in field 110 of the payment order print form.</v8:content>
 													</ChildItems>
 												</ColumnGroup>
 												<InputField name="РасшифровкаПлатежаПредставлениеОтраженияВРеглУчете" id="1280">
-													<DataPath>Объект.РасшифровкаПлатежа.ПредставлениеОтраженияВРеглУчете</DataPath>
 													<ReadOnly>true</ReadOnly>
 													<EditMode>EnterOnInput</EditMode>
 													<CellHyperlink>true</CellHyperlink>
@@ -3626,7 +3623,6 @@ Displayed in field 110 of the payment order print form.</v8:content>
 									<ExtendedTooltip name="ЛицевыеСчетаСотрудниковСуммаExtendedTooltip" id="780"/>
 								</InputField>
 								<LabelField name="ЛицевыеСчетаСотрудниковРастяжка" id="1271">
-									<DataPath>Объект.ЛицевыеСчетаСотрудников.Растяжка</DataPath>
 									<TitleLocation>None</TitleLocation>
 									<EditMode>EnterOnInput</EditMode>
 									<HorizontalStretch>true</HorizontalStretch>
@@ -7525,7 +7521,6 @@ Displayed in field 110 of the payment order print form.</v8:content>
 																<ExtendedTooltip name="РасшифровкаПлатежаКурсЧислительВзаиморасчетовРасширеннаяПодсказка" id="1349"/>
 															</InputField>
 															<InputField name="РасшифровкаПлатежаКурсЧислительВзаиморасчетовТекст" id="1350">
-																<DataPath>Объект.РасшифровкаПлатежа.КурсЧислительВзаиморасчетовТекст</DataPath>
 																<TitleLocation>None</TitleLocation>
 																<EditMode>EnterOnInput</EditMode>
 																<ShowInHeader>false</ShowInHeader>
@@ -7662,7 +7657,6 @@ Displayed in field 110 of the payment order print form.</v8:content>
 														</ChildItems>
 													</ColumnGroup>
 													<InputField name="РасшифровкаПлатежаПредставлениеОтраженияВРеглУчете" id="1280">
-														<DataPath>Объект.РасшифровкаПлатежа.ПредставлениеОтраженияВРеглУчете</DataPath>
 														<ReadOnly>true</ReadOnly>
 														<EditMode>EnterOnInput</EditMode>
 														<CellHyperlink>true</CellHyperlink>
@@ -7915,7 +7909,6 @@ Displayed in field 110 of the payment order print form.</v8:content>
 										<ExtendedTooltip name="ЛицевыеСчетаСотрудниковСуммаExtendedTooltip" id="780"/>
 									</InputField>
 									<LabelField name="ЛицевыеСчетаСотрудниковРастяжка" id="1271">
-										<DataPath>Объект.ЛицевыеСчетаСотрудников.Растяжка</DataPath>
 										<TitleLocation>None</TitleLocation>
 										<EditMode>EnterOnInput</EditMode>
 										<HorizontalStretch>true</HorizontalStretch>

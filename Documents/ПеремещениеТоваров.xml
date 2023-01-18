@@ -580,6 +580,7 @@
 				</ChildObjects>
 			</TabularSection>
 			<Template>РС_ПФ_MXL_ТОРГ13_ru</Template>
+			<Template>ПФ_MXL_ТОРГ13_ru1</Template>
 		</ChildObjects>
 	</Document>
 </MetaDataObject>

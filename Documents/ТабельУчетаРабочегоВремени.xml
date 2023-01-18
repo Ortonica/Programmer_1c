@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+	<Document uuid="0816af47-8c22-4998-8dfb-912a9b4fd559">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ТабельУчетаРабочегоВремени" category="Object">
+				<xr:TypeId>cfde2d33-016f-4207-86e4-590db609f6ba</xr:TypeId>
+				<xr:ValueId>5fd0acae-5659-45ba-a307-bc417f43362b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ТабельУчетаРабочегоВремени" category="Ref">
+				<xr:TypeId>a6dbebd5-609d-42c5-8427-bee01d8fb69c</xr:TypeId>
+				<xr:ValueId>0bbe9a07-2ad5-4f44-9c19-b031182acb70</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ТабельУчетаРабочегоВремени" category="Selection">
+				<xr:TypeId>8f84a5ef-7878-4648-b977-6d93dd61e397</xr:TypeId>
+				<xr:ValueId>8b17e104-15e6-4c5f-8cfe-42c0f2e073ad</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ТабельУчетаРабочегоВремени" category="List">
+				<xr:TypeId>430b3a4b-d5a1-4701-adbb-c9ef0f01f2d3</xr:TypeId>
+				<xr:ValueId>1687bb4a-52ee-4b09-be69-db113d04f2aa</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ТабельУчетаРабочегоВремени" category="Manager">
+				<xr:TypeId>177aafd8-d905-4e4f-8d9d-f69327ea1db4</xr:TypeId>
+				<xr:ValueId>876e10f1-b820-4011-80fd-a6859362c518</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ТабельУчетаРабочегоВремени</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>277a8466-59bd-4734-9e62-beafce0b4dd7</ExtendedConfigurationObject>
+			<NumberType>String</NumberType>
+			<NumberLength>11</NumberLength>
+			<NumberAllowedLength>Variable</NumberAllowedLength>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="a76a5d96-ffad-4953-b94a-89ef63b3f0bb">
+				<Properties>
+					<Name>Статус</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Статус</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:Type>cfg:EnumRef.СтатусыТабеляУчетаРабочегоВремени</v8:Type>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillValue xsi:nil="true"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<Indexing>DontIndex</Indexing>
+					<FullTextSearch>Use</FullTextSearch>
+					<DataHistory>Use</DataHistory>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="95287fc5-6018-426a-b4ba-ef6a50ab690f">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Подразделение</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>e814a641-c09d-4f07-96da-bdf5c615c469</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ПодразделенияОрганизаций</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="4ee2a37c-03fe-40ca-90e0-e98182e7eddc">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДатаОкончанияПериода</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>b31b41ae-e174-4215-8650-d44f28d07ab2</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Date</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="a01674a7-9fce-418f-a955-44ebfbe796cd">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДатаНачалаПериода</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>ad9709fa-8be9-4847-b2d4-0f6b0c0cedc2</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Date</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="b49c8cfa-a04d-4757-b905-f26bcb560206">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Организация</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>8b4db7eb-01c2-4c43-8f32-3a6041589872</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Организации</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="4887d4e7-a759-4629-8e63-d70de78f111e">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ПериодВводаДанныхОВремени</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>734ef43c-be69-4e00-a5ee-cf875d3e635b</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:EnumRef.ПериодыВводаДанныхОВремени</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="dea81a38-4d4c-4fe1-9bde-1819f76b594d">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Комментарий</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>dcc5353d-628f-4d33-ad81-c3822ac0cf95</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="46cf74bf-afea-4acd-a3b7-7138b792c222">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Ответственный</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>b5e4f9ca-a440-493c-9f69-31811ad81aa4</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Пользователи</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Form>ФормаДокумента</Form>
+			<Form>ФормаДокументаАльтернативная</Form>
+			<TabularSection uuid="0940eb5b-1fe3-4c3e-bdb1-cb8f1184bb2b">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ТабельУчетаРабочегоВремени.Смены" category="TabularSection">
+						<xr:TypeId>c17357cc-66f2-456c-8ecf-e5a069d26f98</xr:TypeId>
+						<xr:ValueId>ac87e667-00e8-419f-be8d-cbce7860a4f8</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ТабельУчетаРабочегоВремени.Смены" category="TabularSectionRow">
+						<xr:TypeId>f1948b8d-8cf4-4b87-9d29-92f96f09ca77</xr:TypeId>
+						<xr:ValueId>d8fcfe60-5abf-4455-a6f5-2c950fb77d7f</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Смены</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>1ee7bdb1-2a9d-4dc6-badc-7cf58b56c22a</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects/>
+			</TabularSection>
+			<TabularSection uuid="b955417a-35a2-43a1-b86d-a15587534f5d">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ТабельУчетаРабочегоВремени.ДанныеОВремени" category="TabularSection">
+						<xr:TypeId>37bfaa97-9a4b-467a-962b-809ceee8892f</xr:TypeId>
+						<xr:ValueId>e35af75d-824d-4b59-9293-0fcb9c639f33</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ТабельУчетаРабочегоВремени.ДанныеОВремени" category="TabularSectionRow">
+						<xr:TypeId>5a97ef92-cc39-4b62-b7c4-23c7bd057ac0</xr:TypeId>
+						<xr:ValueId>48279e1e-c305-422c-9841-710f5b3c9302</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДанныеОВремени</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>2f029c9a-196e-4975-a0cd-666bdacda40e</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects/>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

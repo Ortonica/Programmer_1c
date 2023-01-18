@@ -1318,7 +1318,7 @@
 						</v8:item>
 					</Title>
 					<Type>
-						<v8:Type>cfg:EnumRef.ВидИндивидуальногоСоглашения</v8:Type>
+						<v8:TypeId>bea13c00-b440-4d5c-8d9d-550585198624</v8:TypeId>
 					</Type>
 				</Column>
 			</Columns>
