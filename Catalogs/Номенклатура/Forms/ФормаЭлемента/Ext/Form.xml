@@ -559,6 +559,7 @@
 	</AutoCommandBar>
 	<Events>
 		<Event name="OnOpen" callType="After">САВ_ПриОткрытииПосле</Event>
+		<Event name="OnCreateAtServer" callType="After">РСК_ПриСозданииНаСервереПосле</Event>
 	</Events>
 	<ChildItems>
 		<Pages name="СтраницыКарточкаНоменклатуры" id="682">
@@ -4493,6 +4494,157 @@
 						</Table>
 					</ChildItems>
 				</Page>
+				<Page name="ГруппаДокументация" id="1590">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Документация</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа документация</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="ГруппаДокументацияРасширеннаяПодсказка" id="1591"/>
+					<ChildItems>
+						<Table name="Документация" id="1592">
+							<Representation>List</Representation>
+							<CommandBarLocation>Top</CommandBarLocation>
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>Документация</DataPath>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="ДокументацияКонтекстноеМеню" id="1593"/>
+							<AutoCommandBar name="ДокументацияКоманднаяПанель" id="1594">
+								<Autofill>false</Autofill>
+								<ChildItems>
+									<Button name="ДокументацияДобавить" id="1619">
+										<Type>CommandBarButton</Type>
+										<Representation>Picture</Representation>
+										<CommandName>Form.Item.Документация.StandardCommand.Add</CommandName>
+										<Picture>
+											<xr:Ref>StdPicture.CreateListItem</xr:Ref>
+											<xr:LoadTransparent>true</xr:LoadTransparent>
+										</Picture>
+										<ExtendedTooltip name="ДокументацияДобавитьРасширеннаяПодсказка" id="1620"/>
+									</Button>
+									<ButtonGroup name="ДокументацияГруппаКнопки" id="1625">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Документация группа кнопки</v8:content>
+											</v8:item>
+										</Title>
+										<ToolTip>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Документация группа кнопки</v8:content>
+											</v8:item>
+										</ToolTip>
+										<ExtendedTooltip name="ДокументацияГруппаКнопкиРасширеннаяПодсказка" id="1626"/>
+										<ChildItems>
+											<Button name="ДокументацияОбновитьФайл" id="1621">
+												<Type>CommandBarButton</Type>
+												<CommandName>Form.Command.ОбновитьФайл</CommandName>
+												<ExtendedTooltip name="ДокументацияОбновитьФайлРасширеннаяПодсказка" id="1622"/>
+											</Button>
+											<Button name="ДокументацияУдалитьФайл" id="1623">
+												<Type>CommandBarButton</Type>
+												<CommandName>Form.Command.УдалитьФайл</CommandName>
+												<Picture>
+													<xr:Ref>StdPicture.Delete</xr:Ref>
+													<xr:LoadTransparent>true</xr:LoadTransparent>
+												</Picture>
+												<ExtendedTooltip name="ДокументацияУдалитьФайлРасширеннаяПодсказка" id="1624"/>
+											</Button>
+										</ChildItems>
+									</ButtonGroup>
+								</ChildItems>
+							</AutoCommandBar>
+							<ExtendedTooltip name="ДокументацияРасширеннаяПодсказка" id="1595"/>
+							<SearchStringAddition name="ДокументацияСтрокаПоиска" id="1596">
+								<AdditionSource>
+									<Item>Документация</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ДокументацияСтрокаПоискаКонтекстноеМеню" id="1597"/>
+								<ExtendedTooltip name="ДокументацияСтрокаПоискаРасширеннаяПодсказка" id="1598"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="ДокументацияСостояниеПросмотра" id="1599">
+								<AdditionSource>
+									<Item>Документация</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ДокументацияСостояниеПросмотраКонтекстноеМеню" id="1600"/>
+								<ExtendedTooltip name="ДокументацияСостояниеПросмотраРасширеннаяПодсказка" id="1601"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="ДокументацияУправлениеПоиском" id="1602">
+								<AdditionSource>
+									<Item>Документация</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="ДокументацияУправлениеПоискомКонтекстноеМеню" id="1603"/>
+								<ExtendedTooltip name="ДокументацияУправлениеПоискомРасширеннаяПодсказка" id="1604"/>
+							</SearchControlAddition>
+							<Events>
+								<Event name="Selection" callType="After">РСК_ДокументацияВыборПосле</Event>
+							</Events>
+							<ChildItems>
+								<InputField name="ДокументацияТипДокумента" id="1605">
+									<DataPath>Документация.ТипДокумента</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ДокументацияТипДокументаКонтекстноеМеню" id="1606"/>
+									<ExtendedTooltip name="ДокументацияТипДокументаРасширеннаяПодсказка" id="1607"/>
+								</InputField>
+								<ColumnGroup name="ДокументацияГруппаФайл" id="1614">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Документация группа файл</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Документация группа файл</v8:content>
+										</v8:item>
+									</ToolTip>
+									<Group>InCell</Group>
+									<ExtendedTooltip name="ДокументацияГруппаФайлРасширеннаяПодсказка" id="1615"/>
+									<ChildItems>
+										<PictureField name="ДокументацияИндексКартинки" id="1611">
+											<DataPath>Документация.ИндексКартинки</DataPath>
+											<TitleLocation>None</TitleLocation>
+											<EditMode>EnterOnInput</EditMode>
+											<ValuesPicture>
+												<xr:Ref>CommonPicture.КоллекцияПиктограммФайлов</xr:Ref>
+												<xr:LoadTransparent>true</xr:LoadTransparent>
+											</ValuesPicture>
+											<ContextMenu name="ДокументацияИндексКартинкиКонтекстноеМеню" id="1612"/>
+											<ExtendedTooltip name="ДокументацияИндексКартинкиРасширеннаяПодсказка" id="1613"/>
+										</PictureField>
+										<InputField name="ДокументацияИмяФайла" id="1616">
+											<DataPath>Документация.ИмяФайла</DataPath>
+											<ReadOnly>true</ReadOnly>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Файл</v8:content>
+												</v8:item>
+											</Title>
+											<EditMode>EnterOnInput</EditMode>
+											<ContextMenu name="ДокументацияИмяФайлаКонтекстноеМеню" id="1617"/>
+											<ExtendedTooltip name="ДокументацияИмяФайлаРасширеннаяПодсказка" id="1618"/>
+										</InputField>
+									</ChildItems>
+								</ColumnGroup>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
 			</ChildItems>
 		</Pages>
 		<UsualGroup name="ПодсказкиБизнесСеть" id="1479">
@@ -4585,6 +4737,72 @@
 				</Column>
 			</Columns>
 		</Attribute>
+		<Attribute name="Документация" id="1000002">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Документация</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="ТипДокумента" id="1000000">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Тип документа</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>cfg:EnumRef.ДокументацияНоменклатуры</v8:Type>
+					</Type>
+				</Column>
+				<Column name="Ссылка" id="1000001">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Ссылка</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>cfg:CatalogRef.НоменклатураПрисоединенныеФайлы</v8:Type>
+					</Type>
+				</Column>
+				<Column name="ИндексКартинки" id="1000002">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Индекс картинки</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>10</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Column>
+				<Column name="ИмяФайла" id="1000003">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Имя файла</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
 	</Attributes>
 	<Commands>
 		<Command name="ЗагрузитьДругиеПараметры" id="1000000">
@@ -4648,6 +4866,44 @@
 			</ToolTip>
 			<Action callType="Before">КомандаПерейти</Action>
 			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+		<Command name="ОбновитьФайл" id="1000003">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обновить файл</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обновить файл</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>CommonPicture.ОбновитьФайлИзФайлаНаДиске</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action callType="After">РСК_ОбновитьФайлПосле</Action>
+		</Command>
+		<Command name="УдалитьФайл" id="1000004">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Удалить файл</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Удалить файл</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.AppearanceCross</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action callType="After">РСК_УдалитьФайлПосле</Action>
 		</Command>
 	</Commands>
 	<BaseForm version="2.15">

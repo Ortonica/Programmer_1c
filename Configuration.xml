@@ -207,6 +207,7 @@
 			<Role>САВ_ЧитатьПланпродаж</Role>
 			<Role>РСК_ПроведениеТоваровНаСкладахПрошлойДатой</Role>
 			<Role>РСК_УтверждениеИРедактированиеТабеляУчетаРабочегоВремени</Role>
+			<Role>РСК_ДобавлениеДокументацииНоменклатуры</Role>
 			<CommonTemplate>ДрайверШтрихМТСД</CommonTemplate>
 			<CommonModule>ВариантыОтчетов</CommonModule>
 			<CommonModule>ВариантыОтчетовПереопределяемый</CommonModule>
@@ -447,6 +448,7 @@
 			<Catalog>ПроизводственныеКалендари</Catalog>
 			<Catalog>СценарииТоварногоПланирования</Catalog>
 			<Catalog>ТипыСоглашенийСКлиентами</Catalog>
+			<Catalog>НоменклатураПрисоединенныеФайлы</Catalog>
 			<Document>АктОРасхожденияхПослеОтгрузки</Document>
 			<Document>АктОРасхожденияхПослеПеремещения</Document>
 			<Document>ВнутреннееПотребление</Document>
@@ -592,6 +594,7 @@
 			<Enum>ВидыСоглашенийСКлиентамиДляОграниченияЧтения</Enum>
 			<Enum>ПериодыВводаДанныхОВремени</Enum>
 			<Enum>СтатусыТабеляУчетаРабочегоВремени</Enum>
+			<Enum>ДокументацияНоменклатуры</Enum>
 			<Report>РСК_КалендарныйГрафикПоставок</Report>
 			<Report>РСК_ОстаткиТСР</Report>
 			<Report>РСК_ХодИсполненияГК</Report>
@@ -629,6 +632,7 @@
 			<DataProcessor>ПомощникПродаж</DataProcessor>
 			<DataProcessor>СамообслуживаниеПартнеров</DataProcessor>
 			<DataProcessor>НастройкаУсловийПродаж_v101</DataProcessor>
+			<DataProcessor>ПечатьШтрихкодовСотрудниковИСкладскихОпераций</DataProcessor>
 			<InformationRegister>ДокументыФизическихЛиц</InformationRegister>
 			<InformationRegister>ИдентификационныеДанныеПользователей</InformationRegister>
 			<InformationRegister>НастройкиАдресныхСкладов</InformationRegister>
