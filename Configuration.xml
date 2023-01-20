@@ -278,6 +278,9 @@
 			<CommonModule>ЛимитыРасходованияДенежныхСредствСервер</CommonModule>
 			<CommonModule>РаспределениеЗапасовДвижения</CommonModule>
 			<CommonModule>ОтветственныеЛицаСервер</CommonModule>
+			<CommonModule>УправлениеДоступомУТ</CommonModule>
+			<CommonModule>УправлениеДоступомКА</CommonModule>
+			<CommonModule>УправлениеДоступомУП</CommonModule>
 			<ExchangePlan>ДатаМобайл_СписокТСД</ExchangePlan>
 			<EventSubscription>РСК_ЗаписатьВерсиюДокумента</EventSubscription>
 			<EventSubscription>РСК_ЗаменаСтатьиДДСОРП</EventSubscription>
@@ -449,10 +452,14 @@
 			<Catalog>СценарииТоварногоПланирования</Catalog>
 			<Catalog>ТипыСоглашенийСКлиентами</Catalog>
 			<Catalog>НоменклатураПрисоединенныеФайлы</Catalog>
+			<Document>АктВыполненныхРабот</Document>
 			<Document>АктОРасхожденияхПослеОтгрузки</Document>
 			<Document>АктОРасхожденияхПослеПеремещения</Document>
 			<Document>ВнутреннееПотребление</Document>
+			<Document>ВозвратТоваровМеждуОрганизациями</Document>
+			<Document>ВозвратТоваровОтКлиента</Document>
 			<Document>ДвижениеПродукцииИМатериалов</Document>
+			<Document>ДоговорЗаймаСотруднику</Document>
 			<Document>ЗаданиеНаПеревозку</Document>
 			<Document>ЗаданиеТорговомуПредставителю</Document>
 			<Document>ЗаказДавальца</Document>
@@ -469,17 +476,25 @@
 			<Document>ЗаказПоставщику</Document>
 			<Document>ЗапросКоммерческогоПредложенияОтКлиента</Document>
 			<Document>ЗаявкаНаВозвратТоваровОтКлиента</Document>
+			<Document>ЗаявкаНаРасходованиеДенежныхСредств</Document>
 			<Document>КоммерческоеПредложениеКлиенту</Document>
+			<Document>КорректировкаРеализации</Document>
 			<Document>КорректировкаРегистров</Document>
 			<Document>ОперацияПоЯндексКассе</Document>
 			<Document>ОрдерНаПеремещениеТоваров</Document>
 			<Document>ОтборРазмещениеТоваров</Document>
 			<Document>ОтчетКомиссионера</Document>
+			<Document>ОтчетОРозничныхПродажах</Document>
 			<Document>ПередачаМатериаловВПроизводство</Document>
+			<Document>ПередачаТоваровМеждуОрганизациями</Document>
 			<Document>ПеремещениеТоваров</Document>
+			<Document>ПересчетТоваров</Document>
 			<Document>ПоручениеЭкспедитору</Document>
+			<Document>ПоступлениеБезналичныхДенежныхСредств</Document>
 			<Document>ПоступлениеТоваровНаСклад</Document>
+			<Document>ПриемкаТоваровНаХранение</Document>
 			<Document>ПриобретениеТоваровУслуг</Document>
+			<Document>ПриобретениеУслугПрочихАктивов</Document>
 			<Document>ПриходныйОрдерНаТовары</Document>
 			<Document>ПрочееОприходованиеТоваров</Document>
 			<Document>РасходныйОрдерНаТовары</Document>
@@ -491,25 +506,13 @@
 			<Document>СборкаТоваров</Document>
 			<Document>СверкаВзаиморасчетов</Document>
 			<Document>СчетФактураВыданный</Document>
+			<Document>ТабельУчетаРабочегоВремени</Document>
 			<Document>ТаможеннаяДекларацияИмпорт</Document>
 			<Document>УпаковочныйЛист</Document>
-			<Document>ЭлектронноеПисьмоИсходящее</Document>
-			<Document>ЭтапПроизводства2_2</Document>
-			<Document>ЗаявкаНаРасходованиеДенежныхСредств</Document>
-			<Document>ДоговорЗаймаСотруднику</Document>
-			<Document>АктВыполненныхРабот</Document>
-			<Document>ЭлектронныйДокументВходящийЭДО</Document>
-			<Document>ПересчетТоваров</Document>
-			<Document>ВозвратТоваровОтКлиента</Document>
-			<Document>КорректировкаРеализации</Document>
-			<Document>ПоступлениеБезналичныхДенежныхСредств</Document>
-			<Document>ОтчетОРозничныхПродажах</Document>
 			<Document>УстановкаЦенНоменклатуры</Document>
-			<Document>ПриемкаТоваровНаХранение</Document>
-			<Document>ПриобретениеУслугПрочихАктивов</Document>
-			<Document>ВозвратТоваровМеждуОрганизациями</Document>
-			<Document>ПередачаТоваровМеждуОрганизациями</Document>
-			<Document>ТабельУчетаРабочегоВремени</Document>
+			<Document>ЭлектронноеПисьмоИсходящее</Document>
+			<Document>ЭлектронныйДокументВходящийЭДО</Document>
+			<Document>ЭтапПроизводства2_2</Document>
 			<DocumentJournal>СкладскиеОрдера</DocumentJournal>
 			<Enum>ВариантОтбораДляКлючаЦен</Enum>
 			<Enum>ВариантыВыбытияМаркируемойПродукции</Enum>

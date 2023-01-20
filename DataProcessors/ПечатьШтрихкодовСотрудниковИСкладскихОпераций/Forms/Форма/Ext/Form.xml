@@ -3,6 +3,9 @@
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<Autofill>false</Autofill>
 	</AutoCommandBar>
+	<Events>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
 	<ChildItems>
 		<UsualGroup name="ТриКолонки" id="19">
 			<Title>
@@ -38,76 +41,71 @@
 					<Group>Vertical</Group>
 					<ExtendedTooltip name="ИсточникиРасширеннаяПодсказка" id="22"/>
 					<ChildItems>
-						<Table name="СписокСотрудников" id="23">
+						<Table name="СписокСотрудников" id="63">
+							<Representation>List</Representation>
 							<TitleLocation>Top</TitleLocation>
-							<Height>4</Height>
+							<ChangeRowSet>false</ChangeRowSet>
+							<Height>3</Height>
 							<HeightControlVariant>UseHeightInFormRows</HeightControlVariant>
-							<UseAlternationRowColor>true</UseAlternationRowColor>
+							<ChoiceMode>true</ChoiceMode>
+							<AutoInsertNewRow>true</AutoInsertNewRow>
 							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
 							<DataPath>СписокСотрудников</DataPath>
-							<RowPictureDataPath>СписокСотрудников.DefaultPicture</RowPictureDataPath>
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Складские сотрудники</v8:content>
-								</v8:item>
-							</Title>
-							<AutoRefresh>false</AutoRefresh>
-							<AutoRefreshPeriod>60</AutoRefreshPeriod>
-							<Period>
-								<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
-								<v8:startDate>0001-01-01T00:00:00</v8:startDate>
-								<v8:endDate>0001-01-01T00:00:00</v8:endDate>
-							</Period>
-							<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
-							<RestoreCurrentRow>false</RestoreCurrentRow>
-							<TopLevelParent xsi:nil="true"/>
-							<ShowRoot>true</ShowRoot>
-							<AllowRootChoice>false</AllowRootChoice>
-							<UpdateOnDataChange>Auto</UpdateOnDataChange>
-							<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
-							<ContextMenu name="СписокСотрудниковКонтекстноеМеню" id="24"/>
-							<AutoCommandBar name="СписокСотрудниковКоманднаяПанель" id="25"/>
-							<ExtendedTooltip name="СписокСотрудниковРасширеннаяПодсказка" id="26"/>
-							<SearchStringAddition name="СписокСотрудниковСтрокаПоиска" id="27">
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="СписокСотрудниковКонтекстноеМеню" id="64"/>
+							<AutoCommandBar name="СписокСотрудниковКоманднаяПанель" id="65">
+								<ChildItems>
+									<Button name="СписокСотрудниковСписокСотрудниковОбновить" id="82">
+										<Type>CommandBarButton</Type>
+										<CommandName>Form.Command.СписокСотрудниковОбновить</CommandName>
+										<ExtendedTooltip name="СписокСотрудниковСписокСотрудниковОбновитьРасширеннаяПодсказка" id="83"/>
+									</Button>
+								</ChildItems>
+							</AutoCommandBar>
+							<ExtendedTooltip name="СписокСотрудниковРасширеннаяПодсказка" id="66"/>
+							<SearchStringAddition name="СписокСотрудниковСтрокаПоиска" id="67">
 								<AdditionSource>
 									<Item>СписокСотрудников</Item>
 									<Type>SearchStringRepresentation</Type>
 								</AdditionSource>
-								<ContextMenu name="СписокСотрудниковСтрокаПоискаКонтекстноеМеню" id="28"/>
-								<ExtendedTooltip name="СписокСотрудниковСтрокаПоискаРасширеннаяПодсказка" id="29"/>
+								<ContextMenu name="СписокСотрудниковСтрокаПоискаКонтекстноеМеню" id="68"/>
+								<ExtendedTooltip name="СписокСотрудниковСтрокаПоискаРасширеннаяПодсказка" id="69"/>
 							</SearchStringAddition>
-							<ViewStatusAddition name="СписокСотрудниковСостояниеПросмотра" id="30">
+							<ViewStatusAddition name="СписокСотрудниковСостояниеПросмотра" id="70">
 								<AdditionSource>
 									<Item>СписокСотрудников</Item>
 									<Type>ViewStatusRepresentation</Type>
 								</AdditionSource>
-								<ContextMenu name="СписокСотрудниковСостояниеПросмотраКонтекстноеМеню" id="31"/>
-								<ExtendedTooltip name="СписокСотрудниковСостояниеПросмотраРасширеннаяПодсказка" id="32"/>
+								<ContextMenu name="СписокСотрудниковСостояниеПросмотраКонтекстноеМеню" id="71"/>
+								<ExtendedTooltip name="СписокСотрудниковСостояниеПросмотраРасширеннаяПодсказка" id="72"/>
 							</ViewStatusAddition>
-							<SearchControlAddition name="СписокСотрудниковУправлениеПоиском" id="33">
+							<SearchControlAddition name="СписокСотрудниковУправлениеПоиском" id="73">
 								<AdditionSource>
 									<Item>СписокСотрудников</Item>
 									<Type>SearchControl</Type>
 								</AdditionSource>
-								<ContextMenu name="СписокСотрудниковУправлениеПоискомКонтекстноеМеню" id="34"/>
-								<ExtendedTooltip name="СписокСотрудниковУправлениеПоискомРасширеннаяПодсказка" id="35"/>
+								<ContextMenu name="СписокСотрудниковУправлениеПоискомКонтекстноеМеню" id="74"/>
+								<ExtendedTooltip name="СписокСотрудниковУправлениеПоискомРасширеннаяПодсказка" id="75"/>
 							</SearchControlAddition>
 							<Events>
 								<Event name="Selection">СписокСотрудниковВыбор</Event>
-								<Event name="BeforeDeleteRow">СписокСотрудниковПередУдалением</Event>
 							</Events>
 							<ChildItems>
-								<LabelField name="СписокСотрудниковПользователь" id="36">
+								<InputField name="СписокСотрудниковПользователь" id="76">
 									<DataPath>СписокСотрудников.Пользователь</DataPath>
-									<ContextMenu name="СписокСотрудниковПользовательКонтекстноеМеню" id="37"/>
-									<ExtendedTooltip name="СписокСотрудниковПользовательРасширеннаяПодсказка" id="38"/>
-								</LabelField>
-								<LabelField name="СписокСотрудниковШтрихкод" id="39">
+									<ReadOnly>true</ReadOnly>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="СписокСотрудниковПользовательКонтекстноеМеню" id="77"/>
+									<ExtendedTooltip name="СписокСотрудниковПользовательРасширеннаяПодсказка" id="78"/>
+								</InputField>
+								<InputField name="СписокСотрудниковШтрихкод" id="79">
 									<DataPath>СписокСотрудников.Штрихкод</DataPath>
-									<ContextMenu name="СписокСотрудниковШтрихкодКонтекстноеМеню" id="40"/>
-									<ExtendedTooltip name="СписокСотрудниковШтрихкодРасширеннаяПодсказка" id="41"/>
-								</LabelField>
+									<ReadOnly>true</ReadOnly>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="СписокСотрудниковШтрихкодКонтекстноеМеню" id="80"/>
+									<ExtendedTooltip name="СписокСотрудниковШтрихкодРасширеннаяПодсказка" id="81"/>
+								</InputField>
 							</ChildItems>
 						</Table>
 						<Table name="СписокОпераций" id="44">
@@ -296,32 +294,36 @@
 				</v8:item>
 			</Title>
 			<Type>
-				<v8:Type>cfg:DynamicList</v8:Type>
+				<v8:Type>v8:ValueTable</v8:Type>
 			</Type>
-			<UseAlways>
-				<Field>СписокСотрудников.Пользователь</Field>
-			</UseAlways>
-			<Settings xsi:type="DynamicList">
-				<ManualQuery>false</ManualQuery>
-				<DynamicDataRead>true</DynamicDataRead>
-				<MainTable>InformationRegister.ИдентификационныеДанныеПользователей</MainTable>
-				<ListSettings>
-					<dcsset:filter>
-						<dcsset:viewMode>Normal</dcsset:viewMode>
-						<dcsset:userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</dcsset:userSettingID>
-					</dcsset:filter>
-					<dcsset:order>
-						<dcsset:viewMode>Normal</dcsset:viewMode>
-						<dcsset:userSettingID>88619765-ccb3-46c6-ac52-38e9c992ebd4</dcsset:userSettingID>
-					</dcsset:order>
-					<dcsset:conditionalAppearance>
-						<dcsset:viewMode>Normal</dcsset:viewMode>
-						<dcsset:userSettingID>b75fecce-942b-4aed-abc9-e6a02e460fb3</dcsset:userSettingID>
-					</dcsset:conditionalAppearance>
-					<dcsset:itemsViewMode>Normal</dcsset:itemsViewMode>
-					<dcsset:itemsUserSettingID>911b6018-f537-43e8-a417-da56b22f9aec</dcsset:itemsUserSettingID>
-				</ListSettings>
-			</Settings>
+			<Columns>
+				<Column name="Пользователь" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Пользователь</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Пользователи</v8:Type>
+					</Type>
+				</Column>
+				<Column name="Штрихкод" id="2">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Штрихкод</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+			</Columns>
 		</Attribute>
 		<Attribute name="СписокОпераций" id="4">
 			<Title>
@@ -379,6 +381,24 @@
 			</Picture>
 			<Action>НапечататьШтрихкоды</Action>
 			<Representation>TextPicture</Representation>
+		</Command>
+		<Command name="СписокСотрудниковОбновить" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обновить</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обновить</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.Refresh</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
 		</Command>
 	</Commands>
 </Form>
