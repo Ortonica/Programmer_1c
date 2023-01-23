@@ -5968,13 +5968,207 @@ picked</v8:content>
 			</c>
 			<c>
 				<c>
-					<f>0</f>
+					<f>12</f>
 				</c>
 			</c>
 		</row>
 	</rowsItem>
 	<rowsItem>
 		<index>38</index>
+		<row>
+			<columnsID>9f1e0fa8-0148-4021-a4fa-30803f9ef2ed</columnsID>
+			<c>
+				<c>
+					<f>0</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>2</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>2</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>93</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>93</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>93</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>93</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>93</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>93</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>94</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>95</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>96</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>11</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>2</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>2</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>2</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>2</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>2</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>2</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>2</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>2</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>39</index>
+		<row>
+			<columnsID>9f1e0fa8-0148-4021-a4fa-30803f9ef2ed</columnsID>
+			<c>
+				<c>
+					<f>0</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>2</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>2</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>2</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>2</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>2</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>2</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>2</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>2</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>8</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>97</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>98</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Дата печати: [ДатаПечати]</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<i>21</i>
+				<c>
+					<f>0</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>40</index>
 		<row>
 			<c>
 				<c>
@@ -6209,9 +6403,244 @@ picked</v8:content>
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>39</index>
+		<index>41</index>
 		<row>
-			<formatIndex>93</formatIndex>
+			<c>
+				<c>
+					<f>1</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>2</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>2</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>2</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>2</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>2</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>2</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>2</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>2</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>2</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>2</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>2</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>13</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>42</index>
+		<row>
+			<formatIndex>99</formatIndex>
 			<c>
 				<i>23</i>
 				<c>
@@ -6331,13 +6760,13 @@ picked</v8:content>
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>40</index>
+		<index>43</index>
 		<row>
-			<formatIndex>94</formatIndex>
+			<formatIndex>100</formatIndex>
 			<c>
 				<i>1</i>
 				<c>
-					<f>95</f>
+					<f>101</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -6349,7 +6778,7 @@ picked</v8:content>
 			<c>
 				<i>33</i>
 				<c>
-					<f>96</f>
+					<f>102</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -6361,22 +6790,22 @@ picked</v8:content>
 			<c>
 				<i>45</i>
 				<c>
-					<f>97</f>
+					<f>103</f>
 				</c>
 			</c>
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>41</index>
+		<index>44</index>
 		<row>
-			<formatIndex>98</formatIndex>
+			<formatIndex>104</formatIndex>
 			<empty>true</empty>
 		</row>
 	</rowsItem>
 	<drawing>
 		<drawingType>Picture</drawingType>
 		<id>1</id>
-		<formatIndex>99</formatIndex>
+		<formatIndex>105</formatIndex>
 		<beginRow>0</beginRow>
 		<beginRowOffset>3</beginRowOffset>
 		<endRow>3</endRow>
@@ -6391,9 +6820,9 @@ picked</v8:content>
 		<pictureIndex>1</pictureIndex>
 	</drawing>
 	<templateMode>true</templateMode>
-	<defaultFormatIndex>100</defaultFormatIndex>
-	<height>42</height>
-	<vgRows>42</vgRows>
+	<defaultFormatIndex>106</defaultFormatIndex>
+	<height>45</height>
+	<vgRows>45</vgRows>
 	<merge>
 		<r>5</r>
 		<c>1</c>
@@ -6736,22 +7165,27 @@ picked</v8:content>
 		<w>3</w>
 	</merge>
 	<merge>
-		<r>40</r>
+		<r>39</r>
+		<c>11</c>
+		<w>9</w>
+	</merge>
+	<merge>
+		<r>43</r>
 		<c>1</c>
 		<w>31</w>
 	</merge>
 	<merge>
-		<r>40</r>
+		<r>43</r>
 		<c>33</c>
 		<w>11</w>
 	</merge>
 	<merge>
-		<r>41</r>
+		<r>44</r>
 		<c>1</c>
 		<w>31</w>
 	</merge>
 	<merge>
-		<r>41</r>
+		<r>44</r>
 		<c>33</c>
 		<w>11</w>
 	</merge>
@@ -7749,87 +8183,92 @@ picked</v8:content>
 	<verticalUnmerge>
 		<r>38</r>
 		<c>7</c>
-		<w>7</w>
+		<w>3</w>
 	</verticalUnmerge>
 	<verticalUnmerge>
 		<r>38</r>
+		<c>12</c>
+		<w>1</w>
+	</verticalUnmerge>
+	<verticalUnmerge>
+		<r>38</r>
+		<c>14</c>
+		<w>3</w>
+	</verticalUnmerge>
+	<verticalUnmerge>
+		<r>38</r>
+		<c>18</c>
+		<w>3</w>
+	</verticalUnmerge>
+	<verticalUnmerge>
+		<r>39</r>
+		<c>0</c>
+		<w>2</w>
+	</verticalUnmerge>
+	<verticalUnmerge>
+		<r>39</r>
+		<c>3</c>
+		<w>3</w>
+	</verticalUnmerge>
+	<verticalUnmerge>
+		<r>39</r>
+		<c>7</c>
+		<w>3</w>
+	</verticalUnmerge>
+	<verticalUnmerge>
+		<r>39</r>
+		<c>18</c>
+		<w>3</w>
+	</verticalUnmerge>
+	<verticalUnmerge>
+		<r>40</r>
+		<c>0</c>
+		<w>2</w>
+	</verticalUnmerge>
+	<verticalUnmerge>
+		<r>40</r>
+		<c>3</c>
+		<w>3</w>
+	</verticalUnmerge>
+	<verticalUnmerge>
+		<r>40</r>
+		<c>7</c>
+		<w>7</w>
+	</verticalUnmerge>
+	<verticalUnmerge>
+		<r>40</r>
 		<c>15</c>
 		<w>3</w>
 	</verticalUnmerge>
 	<verticalUnmerge>
-		<r>38</r>
+		<r>40</r>
 		<c>19</c>
 		<w>3</w>
 	</verticalUnmerge>
 	<verticalUnmerge>
-		<r>38</r>
+		<r>40</r>
 		<c>23</c>
-		<w>3</w>
-	</verticalUnmerge>
-	<verticalUnmerge>
-		<r>38</r>
-		<c>27</c>
-		<w>3</w>
-	</verticalUnmerge>
-	<verticalUnmerge>
-		<r>38</r>
-		<c>31</c>
-		<w>4</w>
-	</verticalUnmerge>
-	<verticalUnmerge>
-		<r>38</r>
-		<c>36</c>
-		<w>1</w>
-	</verticalUnmerge>
-	<verticalUnmerge>
-		<r>38</r>
-		<c>38</c>
-		<w>3</w>
-	</verticalUnmerge>
-	<verticalUnmerge>
-		<r>38</r>
-		<c>42</c>
-		<w>3</w>
-	</verticalUnmerge>
-	<verticalUnmerge>
-		<r>39</r>
-		<c>23</c>
-		<w>3</w>
-	</verticalUnmerge>
-	<verticalUnmerge>
-		<r>39</r>
-		<c>27</c>
-		<w>3</w>
-	</verticalUnmerge>
-	<verticalUnmerge>
-		<r>39</r>
-		<c>31</c>
-		<w>4</w>
-	</verticalUnmerge>
-	<verticalUnmerge>
-		<r>39</r>
-		<c>36</c>
-		<w>1</w>
-	</verticalUnmerge>
-	<verticalUnmerge>
-		<r>39</r>
-		<c>38</c>
-		<w>3</w>
-	</verticalUnmerge>
-	<verticalUnmerge>
-		<r>39</r>
-		<c>42</c>
 		<w>3</w>
 	</verticalUnmerge>
 	<verticalUnmerge>
 		<r>40</r>
-		<c>0</c>
-		<w>2</w>
+		<c>27</c>
+		<w>3</w>
 	</verticalUnmerge>
 	<verticalUnmerge>
 		<r>40</r>
 		<c>31</c>
 		<w>4</w>
+	</verticalUnmerge>
+	<verticalUnmerge>
+		<r>40</r>
+		<c>36</c>
+		<w>1</w>
+	</verticalUnmerge>
+	<verticalUnmerge>
+		<r>40</r>
+		<c>38</c>
+		<w>3</w>
 	</verticalUnmerge>
 	<verticalUnmerge>
 		<r>40</r>
@@ -7843,11 +8282,111 @@ picked</v8:content>
 	</verticalUnmerge>
 	<verticalUnmerge>
 		<r>41</r>
+		<c>3</c>
+		<w>3</w>
+	</verticalUnmerge>
+	<verticalUnmerge>
+		<r>41</r>
+		<c>7</c>
+		<w>7</w>
+	</verticalUnmerge>
+	<verticalUnmerge>
+		<r>41</r>
+		<c>15</c>
+		<w>3</w>
+	</verticalUnmerge>
+	<verticalUnmerge>
+		<r>41</r>
+		<c>19</c>
+		<w>3</w>
+	</verticalUnmerge>
+	<verticalUnmerge>
+		<r>41</r>
+		<c>23</c>
+		<w>3</w>
+	</verticalUnmerge>
+	<verticalUnmerge>
+		<r>41</r>
+		<c>27</c>
+		<w>3</w>
+	</verticalUnmerge>
+	<verticalUnmerge>
+		<r>41</r>
 		<c>31</c>
 		<w>4</w>
 	</verticalUnmerge>
 	<verticalUnmerge>
 		<r>41</r>
+		<c>36</c>
+		<w>1</w>
+	</verticalUnmerge>
+	<verticalUnmerge>
+		<r>41</r>
+		<c>38</c>
+		<w>3</w>
+	</verticalUnmerge>
+	<verticalUnmerge>
+		<r>41</r>
+		<c>42</c>
+		<w>3</w>
+	</verticalUnmerge>
+	<verticalUnmerge>
+		<r>42</r>
+		<c>23</c>
+		<w>3</w>
+	</verticalUnmerge>
+	<verticalUnmerge>
+		<r>42</r>
+		<c>27</c>
+		<w>3</w>
+	</verticalUnmerge>
+	<verticalUnmerge>
+		<r>42</r>
+		<c>31</c>
+		<w>4</w>
+	</verticalUnmerge>
+	<verticalUnmerge>
+		<r>42</r>
+		<c>36</c>
+		<w>1</w>
+	</verticalUnmerge>
+	<verticalUnmerge>
+		<r>42</r>
+		<c>38</c>
+		<w>3</w>
+	</verticalUnmerge>
+	<verticalUnmerge>
+		<r>42</r>
+		<c>42</c>
+		<w>3</w>
+	</verticalUnmerge>
+	<verticalUnmerge>
+		<r>43</r>
+		<c>0</c>
+		<w>2</w>
+	</verticalUnmerge>
+	<verticalUnmerge>
+		<r>43</r>
+		<c>31</c>
+		<w>4</w>
+	</verticalUnmerge>
+	<verticalUnmerge>
+		<r>43</r>
+		<c>42</c>
+		<w>3</w>
+	</verticalUnmerge>
+	<verticalUnmerge>
+		<r>44</r>
+		<c>0</c>
+		<w>2</w>
+	</verticalUnmerge>
+	<verticalUnmerge>
+		<r>44</r>
+		<c>31</c>
+		<w>4</w>
+	</verticalUnmerge>
+	<verticalUnmerge>
+		<r>44</r>
 		<c>42</c>
 		<w>3</w>
 	</verticalUnmerge>
@@ -7875,8 +8414,8 @@ picked</v8:content>
 		<name>ИтогиПодвал</name>
 		<area>
 			<type>Rows</type>
-			<beginRow>39</beginRow>
-			<endRow>41</endRow>
+			<beginRow>42</beginRow>
+			<endRow>44</endRow>
 			<beginColumn>-1</beginColumn>
 			<endColumn>-1</endColumn>
 		</area>
@@ -7964,10 +8503,9 @@ picked</v8:content>
 		<area>
 			<type>Rows</type>
 			<beginRow>37</beginRow>
-			<endRow>37</endRow>
+			<endRow>39</endRow>
 			<beginColumn>-1</beginColumn>
 			<endColumn>-1</endColumn>
-			<columnsID>9f1e0fa8-0148-4021-a4fa-30803f9ef2ed</columnsID>
 		</area>
 	</namedItem>
 	<namedItem xsi:type="NamedItemCells">
@@ -8029,6 +8567,9 @@ picked</v8:content>
 		<v8ui:style xsi:type="v8ui:SpreadsheetDocumentCellLineType">Solid</v8ui:style>
 	</line>
 	<line width="1" gap="false">
+		<v8ui:style xsi:type="v8ui:SpreadsheetDocumentCellLineType">None</v8ui:style>
+	</line>
+	<line width="1" gap="false">
 		<v8ui:style xsi:type="v8ui:SpreadsheetDocumentDrawingLineType">None</v8ui:style>
 	</line>
 	<font faceName="Arial" height="14" bold="false" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
@@ -8038,6 +8579,7 @@ picked</v8:content>
 	<font faceName="Arial" height="12" bold="true" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
 	<font faceName="Arial" height="7" bold="false" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
 	<font faceName="Arial" height="7" bold="true" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
+	<font faceName="Arial" height="10" bold="false" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
 	<format>
 		<width>6</width>
 	</format>
@@ -8520,6 +9062,41 @@ picked</v8:content>
 		<fillType>Parameter</fillType>
 	</format>
 	<format>
+		<topBorder>2</topBorder>
+		<width>18</width>
+	</format>
+	<format>
+		<topBorder>2</topBorder>
+		<width>101</width>
+	</format>
+	<format>
+		<topBorder>2</topBorder>
+		<width>349</width>
+	</format>
+	<format>
+		<font>6</font>
+		<leftBorder>2</leftBorder>
+		<topBorder>0</topBorder>
+		<rightBorder>2</rightBorder>
+		<bottomBorder>2</bottomBorder>
+		<width>34</width>
+		<verticalAlignment>Top</verticalAlignment>
+		<textPlacement>Wrap</textPlacement>
+	</format>
+	<format>
+		<font>2</font>
+		<width>349</width>
+		<horizontalAlignment>Right</horizontalAlignment>
+	</format>
+	<format>
+		<font>7</font>
+		<width>34</width>
+		<horizontalAlignment>Right</horizontalAlignment>
+		<verticalAlignment>Top</verticalAlignment>
+		<textPlacement>Wrap</textPlacement>
+		<fillType>Template</fillType>
+	</format>
+	<format>
 		<height>87</height>
 	</format>
 	<format>
@@ -8533,7 +9110,7 @@ picked</v8:content>
 	</format>
 	<format>
 		<font>2</font>
-		<horizontalAlignment>Right</horizontalAlignment>
+		<horizontalAlignment>Left</horizontalAlignment>
 		<fillType>Text</fillType>
 	</format>
 	<format>
@@ -8544,7 +9121,7 @@ picked</v8:content>
 		<height>78</height>
 	</format>
 	<format>
-		<drawingBorder>2</drawingBorder>
+		<drawingBorder>3</drawingBorder>
 		<verticalAlignment>Top</verticalAlignment>
 		<backColor>style:FieldBackColor</backColor>
 	</format>
