@@ -189,6 +189,8 @@
 			<CommonPicture>Пламя</CommonPicture>
 			<CommonPicture>ЗаказКлиента</CommonPicture>
 			<CommonPicture>НаборСтрелкаВлево</CommonPicture>
+			<CommonPicture>НастройкаПродажи</CommonPicture>
+			<CommonPicture>ЗагрузитьДокументыИзСкановФото</CommonPicture>
 			<SessionParameter>РСК_АвторизовавшийсяКладовщик</SessionParameter>
 			<SessionParameter>РСК_ВремяПоследнегоСканированияКладовщиком</SessionParameter>
 			<SessionParameter>РСК_ПроводитьДокументыПослеЗагрузкиЧерезXML</SessionParameter>
@@ -677,6 +679,7 @@
 			<InformationRegister>РСК_ОтраженныеУслугиСоисполнителей</InformationRegister>
 			<InformationRegister>РСК_РегистраторыТоваровОрганизаций</InformationRegister>
 			<InformationRegister>РСК_МатериальноОтветственныеЛица</InformationRegister>
+			<InformationRegister>СостоянияЗаказовКлиентов</InformationRegister>
 			<AccumulationRegister>ЗаказыКлиентов</AccumulationRegister>
 			<AccumulationRegister>ПланыОплатПоставщикам</AccumulationRegister>
 			<AccumulationRegister>РСК_СостояниеЗаказовКлиентовПоВыдаче</AccumulationRegister>
