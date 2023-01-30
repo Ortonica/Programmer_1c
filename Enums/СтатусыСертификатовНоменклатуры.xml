@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+	<Enum uuid="a93e205c-e14a-4932-912b-e1980b8d86d1">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.СтатусыСертификатовНоменклатуры" category="Ref">
+				<xr:TypeId>32114840-6395-4a03-9234-b103bc54f97a</xr:TypeId>
+				<xr:ValueId>00ca670d-0bc5-4909-bea2-74addb4c2698</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.СтатусыСертификатовНоменклатуры" category="Manager">
+				<xr:TypeId>7e2be619-ea92-4dfc-95ce-49b88374dbc9</xr:TypeId>
+				<xr:ValueId>8e96846e-ef28-4f4b-924b-952a0620d527</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.СтатусыСертификатовНоменклатуры" category="List">
+				<xr:TypeId>ed870390-09a1-486f-b785-7620506ce8b5</xr:TypeId>
+				<xr:ValueId>9f73fc3e-885b-4faa-a09d-d89b9acf054e</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>СтатусыСертификатовНоменклатуры</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>76758038-693e-46ce-8b9a-5e51f8519fc6</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

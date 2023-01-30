@@ -19,6 +19,7 @@
 		</Properties>
 		<ChildObjects>
 			<Form>ПоказСообщенийТребующихРасшифровки</Form>
+			<Form>ИнформацияПоТребованиям</Form>
 		</ChildObjects>
 	</DataProcessor>
 </MetaDataObject>

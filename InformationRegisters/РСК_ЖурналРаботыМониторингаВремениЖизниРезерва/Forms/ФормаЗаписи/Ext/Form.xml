@@ -1,0 +1,385 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="ГруппаСтатус" id="13">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа статус</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа статус</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>AlwaysHorizontal</Group>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаСтатусРасширеннаяПодсказка" id="14"/>
+			<ChildItems>
+				<InputField name="Период" id="10">
+					<DataPath>Запись.Period</DataPath>
+					<ContextMenu name="ПериодКонтекстноеМеню" id="11"/>
+					<ExtendedTooltip name="ПериодРасширеннаяПодсказка" id="12"/>
+				</InputField>
+				<InputField name="Статус" id="4">
+					<DataPath>Запись.Статус</DataPath>
+					<ReadOnly>true</ReadOnly>
+					<ContextMenu name="СтатусКонтекстноеМеню" id="5"/>
+					<ExtendedTooltip name="СтатусРасширеннаяПодсказка" id="6"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<InputField name="Действие" id="7">
+			<DataPath>Запись.Действие</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<ContextMenu name="ДействиеКонтекстноеМеню" id="8"/>
+			<ExtendedTooltip name="ДействиеРасширеннаяПодсказка" id="9"/>
+		</InputField>
+		<Pages name="ГруппаСтраницы" id="15">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа страницы</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа страницы</v8:content>
+				</v8:item>
+			</ToolTip>
+			<PagesRepresentation>None</PagesRepresentation>
+			<ExtendedTooltip name="ГруппаСтраницыРасширеннаяПодсказка" id="16"/>
+			<ChildItems>
+				<Page name="Резервы" id="17">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Резервы</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Резервы</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="РезервыРасширеннаяПодсказка" id="18"/>
+					<ChildItems>
+						<Table name="ДеревоИзменений" id="21">
+							<Representation>Tree</Representation>
+							<CommandBarLocation>None</CommandBarLocation>
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>ДеревоИзменений</DataPath>
+							<ContextMenu name="ДеревоИзмененийКонтекстноеМеню" id="22"/>
+							<AutoCommandBar name="ДеревоИзмененийКоманднаяПанель" id="23"/>
+							<ExtendedTooltip name="ДеревоИзмененийРасширеннаяПодсказка" id="24"/>
+							<SearchStringAddition name="ДеревоИзмененийСтрокаПоиска" id="25">
+								<AdditionSource>
+									<Item>ДеревоИзменений</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ДеревоИзмененийСтрокаПоискаКонтекстноеМеню" id="26"/>
+								<ExtendedTooltip name="ДеревоИзмененийСтрокаПоискаРасширеннаяПодсказка" id="27"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="ДеревоИзмененийСостояниеПросмотра" id="28">
+								<AdditionSource>
+									<Item>ДеревоИзменений</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ДеревоИзмененийСостояниеПросмотраКонтекстноеМеню" id="29"/>
+								<ExtendedTooltip name="ДеревоИзмененийСостояниеПросмотраРасширеннаяПодсказка" id="30"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="ДеревоИзмененийУправлениеПоиском" id="31">
+								<AdditionSource>
+									<Item>ДеревоИзменений</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="ДеревоИзмененийУправлениеПоискомКонтекстноеМеню" id="32"/>
+								<ExtendedTooltip name="ДеревоИзмененийУправлениеПоискомРасширеннаяПодсказка" id="33"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<InputField name="ДеревоИзмененийОбъект" id="34">
+									<DataPath>ДеревоИзменений.Объект</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ДеревоИзмененийОбъектКонтекстноеМеню" id="35"/>
+									<ExtendedTooltip name="ДеревоИзмененийОбъектРасширеннаяПодсказка" id="36"/>
+								</InputField>
+								<InputField name="ДеревоИзмененийНомерСтроки" id="37">
+									<DataPath>ДеревоИзменений.НомерСтроки</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ДеревоИзмененийНомерСтрокиКонтекстноеМеню" id="38"/>
+									<ExtendedTooltip name="ДеревоИзмененийНомерСтрокиРасширеннаяПодсказка" id="39"/>
+								</InputField>
+								<InputField name="ДеревоИзмененийНоменклатура" id="40">
+									<DataPath>ДеревоИзменений.Номенклатура</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ДеревоИзмененийНоменклатураКонтекстноеМеню" id="41"/>
+									<ExtendedTooltip name="ДеревоИзмененийНоменклатураРасширеннаяПодсказка" id="42"/>
+								</InputField>
+								<InputField name="ДеревоИзмененийХарактеристика" id="43">
+									<DataPath>ДеревоИзменений.Характеристика</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ДеревоИзмененийХарактеристикаКонтекстноеМеню" id="44"/>
+									<ExtendedTooltip name="ДеревоИзмененийХарактеристикаРасширеннаяПодсказка" id="45"/>
+								</InputField>
+								<InputField name="ДеревоИзмененийСерия" id="46">
+									<DataPath>ДеревоИзменений.Серия</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ДеревоИзмененийСерияКонтекстноеМеню" id="47"/>
+									<ExtendedTooltip name="ДеревоИзмененийСерияРасширеннаяПодсказка" id="48"/>
+								</InputField>
+								<InputField name="ДеревоИзмененийСумма" id="49">
+									<DataPath>ДеревоИзменений.Сумма</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ДеревоИзмененийСуммаКонтекстноеМеню" id="50"/>
+									<ExtendedTooltip name="ДеревоИзмененийСуммаРасширеннаяПодсказка" id="51"/>
+								</InputField>
+								<CheckBoxField name="ДеревоИзмененийВыполненоСОшибками" id="55">
+									<DataPath>ДеревоИзменений.ВыполненоСОшибками</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Ошибка</v8:content>
+										</v8:item>
+									</Title>
+									<EditMode>EnterOnInput</EditMode>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="ДеревоИзмененийВыполненоСОшибкамиКонтекстноеМеню" id="56"/>
+									<ExtendedTooltip name="ДеревоИзмененийВыполненоСОшибкамиРасширеннаяПодсказка" id="57"/>
+								</CheckBoxField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+				<Page name="Статусы" id="19">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Статусы</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Статусы</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="СтатусыРасширеннаяПодсказка" id="20"/>
+					<ChildItems>
+						<Table name="ТаблицаСтатусы" id="58">
+							<Representation>List</Representation>
+							<CommandBarLocation>None</CommandBarLocation>
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>ТаблицаСтатусы</DataPath>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="ТаблицаСтатусыКонтекстноеМеню" id="59"/>
+							<AutoCommandBar name="ТаблицаСтатусыКоманднаяПанель" id="60"/>
+							<ExtendedTooltip name="ТаблицаСтатусыРасширеннаяПодсказка" id="61"/>
+							<SearchStringAddition name="ТаблицаСтатусыСтрокаПоиска" id="62">
+								<AdditionSource>
+									<Item>ТаблицаСтатусы</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ТаблицаСтатусыСтрокаПоискаКонтекстноеМеню" id="63"/>
+								<ExtendedTooltip name="ТаблицаСтатусыСтрокаПоискаРасширеннаяПодсказка" id="64"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="ТаблицаСтатусыСостояниеПросмотра" id="65">
+								<AdditionSource>
+									<Item>ТаблицаСтатусы</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ТаблицаСтатусыСостояниеПросмотраКонтекстноеМеню" id="66"/>
+								<ExtendedTooltip name="ТаблицаСтатусыСостояниеПросмотраРасширеннаяПодсказка" id="67"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="ТаблицаСтатусыУправлениеПоиском" id="68">
+								<AdditionSource>
+									<Item>ТаблицаСтатусы</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="ТаблицаСтатусыУправлениеПоискомКонтекстноеМеню" id="69"/>
+								<ExtendedTooltip name="ТаблицаСтатусыУправлениеПоискомРасширеннаяПодсказка" id="70"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<InputField name="ТаблицаСтатусыОбъект" id="71">
+									<DataPath>ТаблицаСтатусы.Объект</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ТаблицаСтатусыОбъектКонтекстноеМеню" id="72"/>
+									<ExtendedTooltip name="ТаблицаСтатусыОбъектРасширеннаяПодсказка" id="73"/>
+								</InputField>
+								<CheckBoxField name="ТаблицаСтатусыВыполненоСОшибками" id="74">
+									<DataPath>ТаблицаСтатусы.ВыполненоСОшибками</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Ошибка изменения</v8:content>
+										</v8:item>
+									</Title>
+									<EditMode>EnterOnInput</EditMode>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="ТаблицаСтатусыВыполненоСОшибкамиКонтекстноеМеню" id="75"/>
+									<ExtendedTooltip name="ТаблицаСтатусыВыполненоСОшибкамиРасширеннаяПодсказка" id="76"/>
+								</CheckBoxField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+			</ChildItems>
+		</Pages>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Запись" id="1">
+			<Type>
+				<v8:Type>cfg:InformationRegisterRecordManager.РСК_ЖурналРаботыМониторингаВремениЖизниРезерва</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+		<Attribute name="ДеревоИзменений" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дерево изменений</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTree</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="Объект" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Объект</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>cfg:DocumentRef.ЗаказКлиента</v8:Type>
+					</Type>
+				</Column>
+				<Column name="НомерСтроки" id="2">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Номер строки</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>10</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Column>
+				<Column name="Номенклатура" id="3">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Номенклатура</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Номенклатура</v8:Type>
+					</Type>
+				</Column>
+				<Column name="Характеристика" id="4">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Характеристика</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ХарактеристикиНоменклатуры</v8:Type>
+					</Type>
+				</Column>
+				<Column name="Серия" id="5">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Серия</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>cfg:CatalogRef.СерииНоменклатуры</v8:Type>
+					</Type>
+				</Column>
+				<Column name="Сумма" id="6">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Сумма</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>15</v8:Digits>
+							<v8:FractionDigits>2</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Column>
+				<Column name="ВыполненоСОшибками" id="8">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Выполнено с ошибками</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+		<Attribute name="ТаблицаСтатусы" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Таблица статусы</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="Объект" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Объект</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>cfg:DocumentRef.ЗаказКлиента</v8:Type>
+					</Type>
+				</Column>
+				<Column name="ВыполненоСОшибками" id="2">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Выполнено с ошибками</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+	</Attributes>
+</Form>

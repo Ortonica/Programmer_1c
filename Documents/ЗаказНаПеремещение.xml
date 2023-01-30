@@ -622,6 +622,30 @@
 							</Type>
 						</Properties>
 					</Attribute>
+					<Attribute uuid="6fb87e01-7f2d-4f53-923d-0b92d298d63a">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>ХарактеристикаНабора</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>ee29f120-3961-4cf3-93d4-5d97b868849f</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>cfg:CatalogRef.ХарактеристикиНоменклатуры</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="da270fec-d67c-49d1-a766-a942d283b319">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>НоменклатураНабора</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>5bc181c4-40e9-45b8-9f99-6b68843f64d2</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>cfg:CatalogRef.Номенклатура</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
 				</ChildObjects>
 			</TabularSection>
 		</ChildObjects>

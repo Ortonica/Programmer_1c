@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+	<Document uuid="3af59242-16e7-453b-992a-799fbfa2af5f">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ОтгрузкаТоваровСХранения" category="Object">
+				<xr:TypeId>91e7480c-3292-4e55-9471-959bdddb3464</xr:TypeId>
+				<xr:ValueId>18747cf1-185f-4054-8c17-2ac4e6fe96ec</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ОтгрузкаТоваровСХранения" category="Ref">
+				<xr:TypeId>4207debc-6e03-4804-a726-c8331f2fa1ad</xr:TypeId>
+				<xr:ValueId>4a4e3e47-3d37-48ed-8055-4b9941c0ee78</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ОтгрузкаТоваровСХранения" category="Selection">
+				<xr:TypeId>4705ea37-4706-4eab-b41e-f40637fd560c</xr:TypeId>
+				<xr:ValueId>8f4c01d0-069f-480e-a746-c417e7a586dd</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ОтгрузкаТоваровСХранения" category="List">
+				<xr:TypeId>70bde11c-2f3f-4cfe-b3a6-97dc4ea477c9</xr:TypeId>
+				<xr:ValueId>f1532748-588f-4285-81eb-bcc0cf0eeadf</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ОтгрузкаТоваровСХранения" category="Manager">
+				<xr:TypeId>04b2d2ca-583d-4e12-80b6-55a613dc5130</xr:TypeId>
+				<xr:ValueId>98070a00-24a7-4f88-8fcf-bd5c8869de95</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ОтгрузкаТоваровСХранения</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>d4ea3dd1-aebc-4e26-808c-a5edc9ee54b1</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="ae81e7f3-a5a8-4266-9f2c-4249ac4081b5">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Договор</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>90d447ed-4bc2-4aae-9330-8552c4186a11</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ДоговорыКонтрагентов</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<TabularSection uuid="7863a17a-0c7c-47b2-b343-1e317f92a34c">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ОтгрузкаТоваровСХранения.Товары" category="TabularSection">
+						<xr:TypeId>3f132aa4-981e-49ad-b33e-3be8f82a977e</xr:TypeId>
+						<xr:ValueId>7a05de87-cab2-41e4-b213-7704d153a20e</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ОтгрузкаТоваровСХранения.Товары" category="TabularSectionRow">
+						<xr:TypeId>ba6a5b03-eed2-4c83-8a71-615e6af500c3</xr:TypeId>
+						<xr:ValueId>645b3fbd-bfe4-4dd4-a596-750d59e5c7e6</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Товары</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>f9b1514e-2c07-4e45-9b9b-69b475902aea</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects/>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

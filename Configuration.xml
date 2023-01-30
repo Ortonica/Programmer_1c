@@ -209,80 +209,80 @@
 			<Role>САВ_ЧитатьПланпродаж</Role>
 			<Role>РСК_ПроведениеТоваровНаСкладахПрошлойДатой</Role>
 			<Role>РСК_УтверждениеИРедактированиеТабеляУчетаРабочегоВремени</Role>
-			<Role>РСК_ДобавлениеДокументацииНоменклатуры</Role>
 			<CommonTemplate>ДрайверШтрихМТСД</CommonTemplate>
+			<CommonModule>БюджетированиеСервер</CommonModule>
 			<CommonModule>ВариантыОтчетов</CommonModule>
 			<CommonModule>ВариантыОтчетовПереопределяемый</CommonModule>
 			<CommonModule>ВзаиморасчетыКлиент</CommonModule>
+			<CommonModule>ВзаиморасчетыСервер</CommonModule>
 			<CommonModule>ДатаМобайл_HTTP_Логика</CommonModule>
+			<CommonModule>ДатаМобайл_ОбщийМодуль</CommonModule>
+			<CommonModule>ДенежныеСредстваСервер</CommonModule>
 			<CommonModule>ДоставкаТоваров</CommonModule>
 			<CommonModule>ДоставкаТоваровКлиентСервер</CommonModule>
 			<CommonModule>ЗаказКлиентаЛокализация</CommonModule>
 			<CommonModule>ЗакупкиВызовСервера</CommonModule>
+			<CommonModule>ЗапасыСервер</CommonModule>
+			<CommonModule>ЗаявкаНаРасходованиеДенежныхСредствЛокализация</CommonModule>
 			<CommonModule>ИнтеграцияМТСКлиент</CommonModule>
 			<CommonModule>ИнтеграцияМТССервер</CommonModule>
 			<CommonModule>ИнтеграцияС1СДокументооборот3</CommonModule>
 			<CommonModule>ИнтеграцияС1СДокументооборотБазоваяФункциональность</CommonModule>
+			<CommonModule>ИнтеграцияС1СДокументооборотБазоваяФункциональностьПереопределяемый</CommonModule>
 			<CommonModule>ИнтеграцияСЯндексКассойУТ</CommonModule>
 			<CommonModule>ИнтеграцияЭДО</CommonModule>
+			<CommonModule>ИнтерфейсДокументовЭДО</CommonModule>
+			<CommonModule>ЛимитыРасходованияДенежныхСредствСервер</CommonModule>
+			<CommonModule>НакладныеКлиент</CommonModule>
 			<CommonModule>НакладныеСервер</CommonModule>
 			<CommonModule>НоменклатураСервер</CommonModule>
 			<CommonModule>ОбеспечениеВДокументахКлиент</CommonModule>
 			<CommonModule>ОбменДаннымиПереопределяемый</CommonModule>
 			<CommonModule>ОбменСКонтрагентамиУТ</CommonModule>
+			<CommonModule>ОбработкаТабличнойЧастиКлиентСервер</CommonModule>
+			<CommonModule>ОбработкаТабличнойЧастиСервер</CommonModule>
 			<CommonModule>ОбщегоНазначения</CommonModule>
 			<CommonModule>ОнлайнОплатыСлужебный</CommonModule>
+			<CommonModule>ОперативныеВзаиморасчетыСервер</CommonModule>
+			<CommonModule>ОтветственныеЛицаСервер</CommonModule>
 			<CommonModule>ПеремещениеТоваровЛокализация</CommonModule>
+			<CommonModule>ПроверкаИПодборПродукцииИС</CommonModule>
+			<CommonModule>ПродажиВызовСервера</CommonModule>
 			<CommonModule>ПродажиКлиент</CommonModule>
 			<CommonModule>ПродажиСервер</CommonModule>
+			<CommonModule>РаботаСАдресами</CommonModule>
 			<CommonModule>РаботаСПочтовымиСообщениямиКлиент</CommonModule>
 			<CommonModule>РаботаСФайлами</CommonModule>
 			<CommonModule>РаботаСФайламиСлужебныйКлиент</CommonModule>
+			<CommonModule>РаспределениеЗапасовДвижения</CommonModule>
 			<CommonModule>реа_ОбщийСерверПовтИсп</CommonModule>
 			<CommonModule>РеализацияТоваровУслугЛокализация</CommonModule>
 			<CommonModule>РозничныеПродажиВызовСервера</CommonModule>
+			<CommonModule>РС_МониторОбмена</CommonModule>
 			<CommonModule>РСК_ВызовСервера</CommonModule>
 			<CommonModule>РСК_Клиент</CommonModule>
 			<CommonModule>РСК_ПовтИсп</CommonModule>
 			<CommonModule>РСК_РаботаСоСканером</CommonModule>
 			<CommonModule>РСК_РаботаСоСтроками</CommonModule>
 			<CommonModule>РСК_Сервер</CommonModule>
+			<CommonModule>СервисДоставкиПереопределяемый</CommonModule>
 			<CommonModule>СинхронизацияЭДОСлужебный</CommonModule>
 			<CommonModule>СкладыСервер</CommonModule>
 			<CommonModule>СопоставлениеНоменклатурыКонтрагентов</CommonModule>
+			<CommonModule>УправлениеДоступомКА</CommonModule>
+			<CommonModule>УправлениеДоступомУП</CommonModule>
+			<CommonModule>УправлениеДоступомУТ</CommonModule>
 			<CommonModule>УправлениеПечатьюПереопределяемый</CommonModule>
 			<CommonModule>УправлениеПечатьюРФ</CommonModule>
 			<CommonModule>УправлениеСвойствами</CommonModule>
 			<CommonModule>УчетНДСРФ</CommonModule>
 			<CommonModule>ФизическиеЛицаЗарплатаКадрыРасширенныйПереопределяемый</CommonModule>
+			<CommonModule>ФорматноЛогическийКонтрольКлиентСервер</CommonModule>
 			<CommonModule>ФормированиеПараметровФискальногоЧекаСерверПереопределяемый</CommonModule>
 			<CommonModule>ШаблоныСообщенийСлужебный</CommonModule>
 			<CommonModule>ЭлектронноеАктированиеЕИС</CommonModule>
 			<CommonModule>ЭлектронноеАктированиеЕИСПолучениеВходящих</CommonModule>
 			<CommonModule>ЭлектронноеАктированиеЕИСУТ</CommonModule>
-			<CommonModule>НакладныеКлиент</CommonModule>
-			<CommonModule>ДенежныеСредстваСервер</CommonModule>
-			<CommonModule>ПроверкаИПодборПродукцииИС</CommonModule>
-			<CommonModule>ДатаМобайл_ОбщийМодуль</CommonModule>
-			<CommonModule>ИнтерфейсДокументовЭДО</CommonModule>
-			<CommonModule>ВзаиморасчетыСервер</CommonModule>
-			<CommonModule>ЗаявкаНаРасходованиеДенежныхСредствЛокализация</CommonModule>
-			<CommonModule>ФорматноЛогическийКонтрольКлиентСервер</CommonModule>
-			<CommonModule>ИнтеграцияС1СДокументооборотБазоваяФункциональностьПереопределяемый</CommonModule>
-			<CommonModule>РС_МониторОбмена</CommonModule>
-			<CommonModule>РаботаСАдресами</CommonModule>
-			<CommonModule>ОбработкаТабличнойЧастиКлиентСервер</CommonModule>
-			<CommonModule>БюджетированиеСервер</CommonModule>
-			<CommonModule>ЗапасыСервер</CommonModule>
-			<CommonModule>ОбработкаТабличнойЧастиСервер</CommonModule>
-			<CommonModule>ПродажиВызовСервера</CommonModule>
-			<CommonModule>СервисДоставкиПереопределяемый</CommonModule>
-			<CommonModule>ЛимитыРасходованияДенежныхСредствСервер</CommonModule>
-			<CommonModule>РаспределениеЗапасовДвижения</CommonModule>
-			<CommonModule>ОтветственныеЛицаСервер</CommonModule>
-			<CommonModule>УправлениеДоступомУТ</CommonModule>
-			<CommonModule>УправлениеДоступомКА</CommonModule>
-			<CommonModule>УправлениеДоступомУП</CommonModule>
 			<ExchangePlan>ДатаМобайл_СписокТСД</ExchangePlan>
 			<EventSubscription>РСК_ЗаписатьВерсиюДокумента</EventSubscription>
 			<EventSubscription>РСК_ЗаменаСтатьиДДСОРП</EventSubscription>
@@ -338,6 +338,8 @@
 			<CommonCommand>РСК_ВвестиОтчётОВыдаче</CommonCommand>
 			<CommonCommand>РСК_ВвестиЗаказНаПеремещение</CommonCommand>
 			<CommonCommand>РСК_ВвестиРеализацияТоваровИУслуг</CommonCommand>
+			<CommonCommand>РСК_ЗаказНаПеремещение</CommonCommand>
+			<CommonCommand>РСК_УстановкаТарифовЗаДоставкуТСР</CommonCommand>
 			<CommandGroup>РСК_Документы</CommandGroup>
 			<CommandGroup>РСК_Справочники</CommandGroup>
 			<Constant>ИспользоватьОнлайнОплаты</Constant>
@@ -350,12 +352,16 @@
 			<CommonForm>СвязанныеДокументы</CommonForm>
 			<CommonForm>РегламентированнаяОтчетность</CommonForm>
 			<Catalog>БанковскиеСчетаКонтрагентов</Catalog>
+			<Catalog>БанковскиеСчетаОрганизаций</Catalog>
 			<Catalog>БизнесРегионы</Catalog>
 			<Catalog>Валюты</Catalog>
 			<Catalog>ВидыДокументовФизическихЛиц</Catalog>
+			<Catalog>ВидыДокументовЭДО</Catalog>
 			<Catalog>ВидыЗапасов</Catalog>
 			<Catalog>ВидыКонтактнойИнформации</Catalog>
 			<Catalog>ВидыНоменклатуры</Catalog>
+			<Catalog>ВидыПланов</Catalog>
+			<Catalog>ВидыПодтверждающихДокументов</Catalog>
 			<Catalog>ВидыСделокСКлиентами</Catalog>
 			<Catalog>ВидыЦен</Catalog>
 			<Catalog>ВидыЦенПоставщиков</Catalog>
@@ -364,16 +370,24 @@
 			<Catalog>ГруппыДоступаПартнеров</Catalog>
 			<Catalog>ГруппыДоступаФизическихЛиц</Catalog>
 			<Catalog>ГруппыФинансовогоУчетаРасчетов</Catalog>
+			<Catalog>ДоговорыАренды</Catalog>
 			<Catalog>ДоговорыКонтрагентов</Catalog>
+			<Catalog>ДоговорыКонтрагентовПрисоединенныеФайлы</Catalog>
+			<Catalog>ДоговорыКредитовИДепозитов</Catalog>
+			<Catalog>ДоговорыЭквайринга</Catalog>
 			<Catalog>ДополнительныеОтчетыИОбработки</Catalog>
+			<Catalog>ДСТ_ГруппыТоварныхКатегорий</Catalog>
 			<Catalog>ЗаказКлиентаПрисоединенныеФайлы</Catalog>
+			<Catalog>ЗаявкаНаРасходованиеДенежныхСредствПрисоединенныеФайлы</Catalog>
 			<Catalog>ЗначенияСвойствОбъектов</Catalog>
 			<Catalog>ЗоныДоставки</Catalog>
 			<Catalog>ИдентификаторыОбъектовМетаданных</Catalog>
 			<Catalog>КартыЛояльности</Catalog>
 			<Catalog>Кассы</Catalog>
+			<Catalog>КлассификаторБанков</Catalog>
 			<Catalog>КлассификаторТНВЭД</Catalog>
 			<Catalog>КлючиАналитикиУчетаНоменклатуры</Catalog>
+			<Catalog>КлючиАналитикиУчетаПартий</Catalog>
 			<Catalog>КонтактныеЛицаПартнеров</Catalog>
 			<Catalog>Контрагенты</Catalog>
 			<Catalog>Назначения</Catalog>
@@ -381,6 +395,7 @@
 			<Catalog>НастройкиОнлайнОплат</Catalog>
 			<Catalog>Номенклатура</Catalog>
 			<Catalog>НоменклатураКонтрагентов</Catalog>
+			<Catalog>НоменклатураПрисоединенныеФайлы</Catalog>
 			<Catalog>НомераГТД</Catalog>
 			<Catalog>ОбластиХранения</Catalog>
 			<Catalog>ОбъектыРасчетов</Catalog>
@@ -389,15 +404,19 @@
 			<Catalog>Партнеры</Catalog>
 			<Catalog>ПодразделенияОрганизаций</Catalog>
 			<Catalog>Пользователи</Catalog>
+			<Catalog>ПравилаОбменаСПодключаемымОборудованиемOffline</Catalog>
 			<Catalog>Приоритеты</Catalog>
+			<Catalog>ПриоритетыОплаты</Catalog>
 			<Catalog>ПричиныОтменыЗаказовКлиентов</Catalog>
 			<Catalog>ПричиныОтменыЗаказовПоставщикам</Catalog>
+			<Catalog>ПроизводственныеКалендари</Catalog>
 			<Catalog>РабочиеУчастки</Catalog>
 			<Catalog>РолиКонтактныхЛицПартнеров</Catalog>
 			<Catalog>РСК_ВариантыМакетовПечатныхФорм</Catalog>
 			<Catalog>РСК_КодыСтатусовОтправкиСМС</Catalog>
 			<Catalog>РСК_КолонкиИмпорта</Catalog>
 			<Catalog>РСК_НастройкиPayKeeper</Catalog>
+			<Catalog>РСК_НастройкиПодтвержадющихДокументовЗРДС</Catalog>
 			<Catalog>РСК_ПунктыМаршрутовКонтейнеров</Catalog>
 			<Catalog>РСК_СкладскиеОперации</Catalog>
 			<Catalog>РСК_СхемыИмпорта</Catalog>
@@ -405,7 +424,11 @@
 			<Catalog>САВ_ВидыСвойствНоменклатуры</Catalog>
 			<Catalog>САВ_РолиПользователей</Catalog>
 			<Catalog>СделкиСКлиентами</Catalog>
+			<Catalog>СегментыНоменклатуры</Catalog>
+			<Catalog>СегментыПартнеров</Catalog>
 			<Catalog>СерииНоменклатуры</Catalog>
+			<Catalog>СерииНоменклатурыДляЦенообразования</Catalog>
+			<Catalog>СертификатыНоменклатуры</Catalog>
 			<Catalog>СкладскиеГруппыНоменклатуры</Catalog>
 			<Catalog>СкладскиеГруппыУпаковок</Catalog>
 			<Catalog>СкладскиеПомещения</Catalog>
@@ -418,42 +441,22 @@
 			<Catalog>СтатьиДвиженияДенежныхСредств</Catalog>
 			<Catalog>СтраныМира</Catalog>
 			<Catalog>СтруктураПредприятия</Catalog>
+			<Catalog>СценарииТоварногоПланирования</Catalog>
+			<Catalog>ТипыПлатежейФЗ275</Catalog>
+			<Catalog>ТипыСоглашенийСКлиентами</Catalog>
 			<Catalog>ТипыТранспортныхСредств</Catalog>
+			<Catalog>ТоварныеКатегории</Catalog>
 			<Catalog>ТранспортныеСредства</Catalog>
 			<Catalog>УпаковкиЕдиницыИзмерения</Catalog>
 			<Catalog>УсловияОбслуживанияПартнеровТорговымиПредставителями</Catalog>
 			<Catalog>ФизическиеЛица</Catalog>
+			<Catalog>ФорматыМагазинов</Catalog>
 			<Catalog>ХарактеристикиНоменклатуры</Catalog>
+			<Catalog>ХарактеристикиНоменклатурыДляЦенообразования</Catalog>
+			<Catalog>ЦеновыеГруппы</Catalog>
 			<Catalog>ШаблоныСообщений</Catalog>
 			<Catalog>ШаблоныЭтикетокИЦенников</Catalog>
-			<Catalog>БанковскиеСчетаОрганизаций</Catalog>
-			<Catalog>ПриоритетыОплаты</Catalog>
-			<Catalog>ДоговорыЭквайринга</Catalog>
-			<Catalog>ДоговорыКредитовИДепозитов</Catalog>
-			<Catalog>ДоговорыАренды</Catalog>
-			<Catalog>ТипыПлатежейФЗ275</Catalog>
-			<Catalog>ВидыПодтверждающихДокументов</Catalog>
-			<Catalog>ПравилаОбменаСПодключаемымОборудованиемOffline</Catalog>
-			<Catalog>ФорматыМагазинов</Catalog>
-			<Catalog>ДСТ_ГруппыТоварныхКатегорий</Catalog>
-			<Catalog>ТоварныеКатегории</Catalog>
-			<Catalog>ЗаявкаНаРасходованиеДенежныхСредствПрисоединенныеФайлы</Catalog>
-			<Catalog>РСК_НастройкиПодтвержадющихДокументовЗРДС</Catalog>
-			<Catalog>КлассификаторБанков</Catalog>
-			<Catalog>ЦеновыеГруппы</Catalog>
-			<Catalog>ХарактеристикиНоменклатурыДляЦенообразования</Catalog>
-			<Catalog>СерииНоменклатурыДляЦенообразования</Catalog>
-			<Catalog>ВидыДокументовЭДО</Catalog>
-			<Catalog>ДоговорыКонтрагентовПрисоединенныеФайлы</Catalog>
 			<Catalog>ЭтапыПроизводства</Catalog>
-			<Catalog>СегментыНоменклатуры</Catalog>
-			<Catalog>ВидыПланов</Catalog>
-			<Catalog>СегментыПартнеров</Catalog>
-			<Catalog>КлючиАналитикиУчетаПартий</Catalog>
-			<Catalog>ПроизводственныеКалендари</Catalog>
-			<Catalog>СценарииТоварногоПланирования</Catalog>
-			<Catalog>ТипыСоглашенийСКлиентами</Catalog>
-			<Catalog>НоменклатураПрисоединенныеФайлы</Catalog>
 			<Document>АктВыполненныхРабот</Document>
 			<Document>АктОРасхожденияхПослеОтгрузки</Document>
 			<Document>АктОРасхожденияхПослеПеремещения</Document>
@@ -485,6 +488,7 @@
 			<Document>ОперацияПоЯндексКассе</Document>
 			<Document>ОрдерНаПеремещениеТоваров</Document>
 			<Document>ОтборРазмещениеТоваров</Document>
+			<Document>ОтгрузкаТоваровСХранения</Document>
 			<Document>ОтчетКомиссионера</Document>
 			<Document>ОтчетОРозничныхПродажах</Document>
 			<Document>ПередачаМатериаловВПроизводство</Document>
@@ -600,6 +604,7 @@
 			<Enum>ПериодыВводаДанныхОВремени</Enum>
 			<Enum>СтатусыТабеляУчетаРабочегоВремени</Enum>
 			<Enum>ДокументацияНоменклатуры</Enum>
+			<Enum>СтатусыСертификатовНоменклатуры</Enum>
 			<Report>РСК_КалендарныйГрафикПоставок</Report>
 			<Report>РСК_ОстаткиТСР</Report>
 			<Report>РСК_ХодИсполненияГК</Report>
@@ -608,13 +613,24 @@
 			<Report>ОстаткиИДоступностьТоваров</Report>
 			<Report>РСК_ВедомостьПоОстаткамТСР</Report>
 			<DataProcessor>ДатаМобайл_АРМДиспетчера</DataProcessor>
+			<DataProcessor>ДокументооборотСКонтролирующимиОрганами</DataProcessor>
+			<DataProcessor>ЖурналДокументовБезналичныеПлатежи</DataProcessor>
 			<DataProcessor>ЖурналДокументовВнутреннегоТовародвижения</DataProcessor>
 			<DataProcessor>ЖурналДокументовПродажи</DataProcessor>
 			<DataProcessor>ЗапросКоличестваИСерий</DataProcessor>
+			<DataProcessor>ИнтеграцияС1СДокументооборот3</DataProcessor>
 			<DataProcessor>ИнтерфейсДокументовЭДО</DataProcessor>
+			<DataProcessor>КлиентБанк</DataProcessor>
+			<DataProcessor>НастройкаУсловийПродаж_v101</DataProcessor>
+			<DataProcessor>ПечатьЗаданияНаОтборРазмещениеТоваров</DataProcessor>
 			<DataProcessor>ПечатьОбщихФорм</DataProcessor>
 			<DataProcessor>ПечатьСчетовНаОплату</DataProcessor>
+			<DataProcessor>ПечатьШтрихкодовСотрудниковИСкладскихОпераций</DataProcessor>
 			<DataProcessor>ПечатьЭтикетокИЦенников2_5</DataProcessor>
+			<DataProcessor>ПлатежныйКалендарь</DataProcessor>
+			<DataProcessor>ПодборСерийВДокументы</DataProcessor>
+			<DataProcessor>ПомощникПродаж</DataProcessor>
+			<DataProcessor>ПрайсЛист</DataProcessor>
 			<DataProcessor>ПредпросмотрЧека</DataProcessor>
 			<DataProcessor>РаботаСФайлами</DataProcessor>
 			<DataProcessor>РабочееМестоМенеджераПоДоставке</DataProcessor>
@@ -623,63 +639,55 @@
 			<DataProcessor>РСК_ОтменаАктовПриСмертиПолучателяТСР</DataProcessor>
 			<DataProcessor>РСК_ПолучателиТСР</DataProcessor>
 			<DataProcessor>РСК_СопоставлениеОбъектовЭДО</DataProcessor>
+			<DataProcessor>РСК_УстановкаТарифовЗаДоставкуТСР</DataProcessor>
+			<DataProcessor>СамообслуживаниеПартнеров</DataProcessor>
 			<DataProcessor>УниверсальныйОбменДаннымиXML</DataProcessor>
 			<DataProcessor>УправлениеОтгрузкой</DataProcessor>
 			<DataProcessor>УправлениеПоступлением</DataProcessor>
-			<DataProcessor>ПодборСерийВДокументы</DataProcessor>
-			<DataProcessor>ПрайсЛист</DataProcessor>
-			<DataProcessor>ПлатежныйКалендарь</DataProcessor>
-			<DataProcessor>КлиентБанк</DataProcessor>
-			<DataProcessor>ПечатьЗаданияНаОтборРазмещениеТоваров</DataProcessor>
-			<DataProcessor>ИнтеграцияС1СДокументооборот3</DataProcessor>
-			<DataProcessor>ЖурналДокументовБезналичныеПлатежи</DataProcessor>
-			<DataProcessor>ДокументооборотСКонтролирующимиОрганами</DataProcessor>
-			<DataProcessor>ПомощникПродаж</DataProcessor>
-			<DataProcessor>СамообслуживаниеПартнеров</DataProcessor>
-			<DataProcessor>НастройкаУсловийПродаж_v101</DataProcessor>
-			<DataProcessor>ПечатьШтрихкодовСотрудниковИСкладскихОпераций</DataProcessor>
+			<DataProcessor>РСК_СопоставлениеНоменклатурыГК</DataProcessor>
+			<InformationRegister>ГрафикПлатежей</InformationRegister>
 			<InformationRegister>ДокументыФизическихЛиц</InformationRegister>
 			<InformationRegister>ИдентификационныеДанныеПользователей</InformationRegister>
+			<InformationRegister>КонтрольОтраженияВУчетеЭДО</InformationRegister>
+			<InformationRegister>НаличиеФайлов</InformationRegister>
 			<InformationRegister>НастройкиАдресныхСкладов</InformationRegister>
 			<InformationRegister>НастройкиВерсионированияОбъектов</InformationRegister>
+			<InformationRegister>НастройкиОбменаЕИС</InformationRegister>
+			<InformationRegister>НоменклатураСегмента</InformationRegister>
+			<InformationRegister>НормативныйГрафикСтруктурыЗаказа</InformationRegister>
+			<InformationRegister>ОбъектыИнтегрированныеС1СДокументооборотом</InformationRegister>
+			<InformationRegister>ОбъектыУчетаДокументовЭДО</InformationRegister>
+			<InformationRegister>ПакетыДокументовЭДО</InformationRegister>
 			<InformationRegister>ПравилаРазмещенияТоваровВЯчейках</InformationRegister>
+			<InformationRegister>ПроверкиЭлектронныхПодписейЭДО</InformationRegister>
+			<InformationRegister>РаспределениеЗапасов</InformationRegister>
 			<InformationRegister>реа_ПредопределенныеЗначения</InformationRegister>
+			<InformationRegister>РеестрДокументов</InformationRegister>
 			<InformationRegister>РСК_АктВыдачиТСР</InformationRegister>
+			<InformationRegister>РСК_ЖурналРаботыМониторингаВремениЖизниРезерва</InformationRegister>
+			<InformationRegister>РСК_НастройкиМониторингаСрокаЖизниРезерва</InformationRegister>
+			<InformationRegister>РСК_НоменклатураИТарифыДоставкиТСР</InformationRegister>
 			<InformationRegister>РСК_НормативныеСрокиДоставки</InformationRegister>
+			<InformationRegister>РСК_ОтраженныеУслугиСоисполнителей</InformationRegister>
+			<InformationRegister>РСК_РегистраторыТоваровОрганизаций</InformationRegister>
 			<InformationRegister>РСК_СообщенияСМС</InformationRegister>
 			<InformationRegister>РСК_СоответствиеНоменклатур</InformationRegister>
 			<InformationRegister>РСК_СтатусыВыполненияКонтрактов</InformationRegister>
-			<InformationRegister>СостоянияВыполненияЗадачМТСКоординатор</InformationRegister>
-			<InformationRegister>САВ_ХарактеристикиНоменклатуры</InformationRegister>
-			<InformationRegister>САВ_ОтветственныеПоРолям</InformationRegister>
-			<InformationRegister>НастройкиОбменаЕИС</InformationRegister>
 			<InformationRegister>РСК_ТелефоныДляРассылкиСМС</InformationRegister>
-			<InformationRegister>САВ_НастройкаМаршрутаПодразделения</InformationRegister>
 			<InformationRegister>САВ_КодыХраненияНоменклатуры</InformationRegister>
-			<InformationRegister>ГрафикПлатежей</InformationRegister>
-			<InformationRegister>СоставПакетовДокументовЭДО</InformationRegister>
-			<InformationRegister>СостоянияДокументовЭДО</InformationRegister>
+			<InformationRegister>САВ_НастройкаМаршрутаПодразделения</InformationRegister>
+			<InformationRegister>САВ_ОтветственныеПоРолям</InformationRegister>
+			<InformationRegister>САВ_ХарактеристикиНоменклатуры</InformationRegister>
 			<InformationRegister>СведенияОПрочтенииДокументовЭДО</InformationRegister>
-			<InformationRegister>ПакетыДокументовЭДО</InformationRegister>
-			<InformationRegister>КонтрольОтраженияВУчетеЭДО</InformationRegister>
-			<InformationRegister>ПроверкиЭлектронныхПодписейЭДО</InformationRegister>
-			<InformationRegister>ОбъектыУчетаДокументовЭДО</InformationRegister>
-			<InformationRegister>ТоварыКДоставке</InformationRegister>
-			<InformationRegister>РеестрДокументов</InformationRegister>
-			<InformationRegister>ОбъектыИнтегрированныеС1СДокументооборотом</InformationRegister>
-			<InformationRegister>СостоянияПоОбъектамУчетаЭДО</InformationRegister>
-			<InformationRegister>НаличиеФайлов</InformationRegister>
-			<InformationRegister>ШтрихкодыНоменклатуры</InformationRegister>
-			<InformationRegister>СтавкиНДСНоменклатуры</InformationRegister>
-			<InformationRegister>РСК_НастройкиМониторингаСрокаЖизниРезерва</InformationRegister>
-			<InformationRegister>НоменклатураСегмента</InformationRegister>
-			<InformationRegister>РаспределениеЗапасов</InformationRegister>
-			<InformationRegister>СтруктураЗаказа</InformationRegister>
-			<InformationRegister>НормативныйГрафикСтруктурыЗаказа</InformationRegister>
-			<InformationRegister>РСК_ОтраженныеУслугиСоисполнителей</InformationRegister>
-			<InformationRegister>РСК_РегистраторыТоваровОрганизаций</InformationRegister>
-			<InformationRegister>РСК_МатериальноОтветственныеЛица</InformationRegister>
+			<InformationRegister>СоставПакетовДокументовЭДО</InformationRegister>
+			<InformationRegister>СостоянияВыполненияЗадачМТСКоординатор</InformationRegister>
+			<InformationRegister>СостоянияДокументовЭДО</InformationRegister>
 			<InformationRegister>СостоянияЗаказовКлиентов</InformationRegister>
+			<InformationRegister>СостоянияПоОбъектамУчетаЭДО</InformationRegister>
+			<InformationRegister>СтавкиНДСНоменклатуры</InformationRegister>
+			<InformationRegister>СтруктураЗаказа</InformationRegister>
+			<InformationRegister>ТоварыКДоставке</InformationRegister>
+			<InformationRegister>ШтрихкодыНоменклатуры</InformationRegister>
 			<AccumulationRegister>ЗаказыКлиентов</AccumulationRegister>
 			<AccumulationRegister>ПланыОплатПоставщикам</AccumulationRegister>
 			<AccumulationRegister>РСК_СостояниеЗаказовКлиентовПоВыдаче</AccumulationRegister>

@@ -30,6 +30,38 @@
 			<ExtendedConfigurationObject>57116b0a-51e0-4695-a63b-61fbb6a83fc6</ExtendedConfigurationObject>
 			<RegisterRecords/>
 		</Properties>
-		<ChildObjects/>
+		<ChildObjects>
+			<Attribute uuid="13d601a3-8e00-4d93-b7c2-7785564c9ce7">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Договор</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>9f242c42-a22f-4bea-9a49-b3805261c3ff</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ДоговорыКонтрагентов</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<TabularSection uuid="af040c95-efba-4e9d-b52e-ed577dcd5308">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ПриемкаТоваровНаХранение.Товары" category="TabularSection">
+						<xr:TypeId>35159c75-bd00-4226-ba27-64174837163b</xr:TypeId>
+						<xr:ValueId>0550b66d-ad04-4029-b267-183115aeb3bc</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ПриемкаТоваровНаХранение.Товары" category="TabularSectionRow">
+						<xr:TypeId>95006199-8a8d-42b0-a53d-d547af142d7f</xr:TypeId>
+						<xr:ValueId>0701fa8b-18d1-4668-b35d-9e383784698f</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Товары</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>41b73787-c590-4d99-9366-14e9b7260e6d</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects/>
+			</TabularSection>
+		</ChildObjects>
 	</Document>
 </MetaDataObject>

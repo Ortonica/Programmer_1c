@@ -1,0 +1,494 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+	<Title>
+		<v8:item>
+			<v8:lang>ru</v8:lang>
+			<v8:content>1С-Отчетность</v8:content>
+		</v8:item>
+		<v8:item>
+			<v8:lang>en</v8:lang>
+			<v8:content>1C Reporting</v8:content>
+		</v8:item>
+	</Title>
+	<Width>100</Width>
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<AutoTitle>false</AutoTitle>
+	<VerticalSpacing>Double</VerticalSpacing>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<Autofill>false</Autofill>
+	</AutoCommandBar>
+	<Events>
+		<Event name="OnOpen" callType="Override">РСК_ПриОткрытииВместо</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="ГруппаШапка" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Шапка</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Header</v8:content>
+				</v8:item>
+			</Title>
+			<Group>AlwaysHorizontal</Group>
+			<Behavior>Usual</Behavior>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаШапкаРасширеннаяПодсказка" id="2"/>
+			<ChildItems>
+				<PictureDecoration name="Картинка" id="3">
+					<Title formatted="false">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Картинка</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Picture</v8:content>
+						</v8:item>
+					</Title>
+					<GroupVerticalAlign>Center</GroupVerticalAlign>
+					<ContextMenu name="КартинкаКонтекстноеМеню" id="4"/>
+					<ExtendedTooltip name="КартинкаРасширеннаяПодсказка" id="5"/>
+				</PictureDecoration>
+				<LabelDecoration name="НадписьШапка" id="6">
+					<Width>73</Width>
+					<AutoMaxWidth>false</AutoMaxWidth>
+					<Title formatted="false">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Ответ по 1 требованию к организации ООО "Ромашка" не был отправлен вовремя. Также есть 2 требования, на которые нужно ответить в ближайшее время</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>The response to requirement 1 to North Start, LLC was not sent on time. There are also 2 requirements that require responses as soon as possible</v8:content>
+						</v8:item>
+					</Title>
+					<GroupVerticalAlign>Center</GroupVerticalAlign>
+					<ContextMenu name="НадписьШапкаКонтекстноеМеню" id="7"/>
+					<ExtendedTooltip name="НадписьШапкаРасширеннаяПодсказка" id="8"/>
+				</LabelDecoration>
+			</ChildItems>
+		</UsualGroup>
+		<Table name="ТаблицаТребований" id="9">
+			<Representation>List</Representation>
+			<ReadOnly>true</ReadOnly>
+			<ChangeRowSet>false</ChangeRowSet>
+			<ChangeRowOrder>false</ChangeRowOrder>
+			<Height>14</Height>
+			<RowSelectionMode>Row</RowSelectionMode>
+			<UseAlternationRowColor>true</UseAlternationRowColor>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="ТаблицаТребованийКонтекстноеМеню" id="10"/>
+			<AutoCommandBar name="ТаблицаТребованийКоманднаяПанель" id="11">
+				<Autofill>false</Autofill>
+			</AutoCommandBar>
+			<ExtendedTooltip name="ТаблицаТребованийРасширеннаяПодсказка" id="12"/>
+			<SearchStringAddition name="ТаблицаТребованийСтрокаПоиска" id="13">
+				<AdditionSource>
+					<Item>ТаблицаТребований</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ТаблицаТребованийСтрокаПоискаКонтекстноеМеню" id="14"/>
+				<ExtendedTooltip name="ТаблицаТребованийСтрокаПоискаРасширеннаяПодсказка" id="15"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="ТаблицаТребованийСостояниеПросмотра" id="16">
+				<AdditionSource>
+					<Item>ТаблицаТребований</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ТаблицаТребованийСостояниеПросмотраКонтекстноеМеню" id="17"/>
+				<ExtendedTooltip name="ТаблицаТребованийСостояниеПросмотраРасширеннаяПодсказка" id="18"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="ТаблицаТребованийУправлениеПоиском" id="19">
+				<AdditionSource>
+					<Item>ТаблицаТребований</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="ТаблицаТребованийУправлениеПоискомКонтекстноеМеню" id="20"/>
+				<ExtendedTooltip name="ТаблицаТребованийУправлениеПоискомРасширеннаяПодсказка" id="21"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<InputField name="ТаблицаТребованийВидДокумента" id="45">
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ТаблицаТребованийВидДокументаКонтекстноеМеню" id="46"/>
+					<ExtendedTooltip name="ТаблицаТребованийВидДокументаРасширеннаяПодсказка" id="47"/>
+				</InputField>
+				<InputField name="ТаблицаТребованийНомер" id="48">
+					<EditMode>EnterOnInput</EditMode>
+					<Width>8</Width>
+					<HorizontalStretch>false</HorizontalStretch>
+					<ContextMenu name="ТаблицаТребованийНомерКонтекстноеМеню" id="49"/>
+					<ExtendedTooltip name="ТаблицаТребованийНомерРасширеннаяПодсказка" id="50"/>
+				</InputField>
+				<InputField name="ТаблицаТребованийДата" id="51">
+					<EditMode>EnterOnInput</EditMode>
+					<Width>8</Width>
+					<HorizontalStretch>false</HorizontalStretch>
+					<ContextMenu name="ТаблицаТребованийДатаКонтекстноеМеню" id="52"/>
+					<ExtendedTooltip name="ТаблицаТребованийДатаРасширеннаяПодсказка" id="53"/>
+				</InputField>
+				<InputField name="ТаблицаТребованийПредставлениеГосОргана" id="54">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ФНС</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>FTS</v8:content>
+						</v8:item>
+					</Title>
+					<EditMode>EnterOnInput</EditMode>
+					<Width>10</Width>
+					<HorizontalStretch>false</HorizontalStretch>
+					<ContextMenu name="ТаблицаТребованийПредставлениеГосОрганаКонтекстноеМеню" id="55"/>
+					<ExtendedTooltip name="ТаблицаТребованийПредставлениеГосОрганаРасширеннаяПодсказка" id="56"/>
+				</InputField>
+				<PictureField name="ТаблицаТребованийПросрочено" id="57">
+					<TitleLocation>None</TitleLocation>
+					<HorizontalAlign>Center</HorizontalAlign>
+					<EditMode>EnterOnInput</EditMode>
+					<ShowInFooter>false</ShowInFooter>
+					<Width>1</Width>
+					<ValuesPicture>
+						<xr:Ref>CommonPicture.Пламя</xr:Ref>
+						<xr:LoadTransparent>false</xr:LoadTransparent>
+					</ValuesPicture>
+					<ContextMenu name="ТаблицаТребованийПросроченоКонтекстноеМеню" id="58"/>
+					<ExtendedTooltip name="ТаблицаТребованийПросроченоРасширеннаяПодсказка" id="59"/>
+				</PictureField>
+				<InputField name="ТаблицаТребованийСрокПредставление" id="31">
+					<EditMode>EnterOnInput</EditMode>
+					<Width>25</Width>
+					<HorizontalStretch>false</HorizontalStretch>
+					<TextColor>style:ЦветОшибкиОтправкиБРО</TextColor>
+					<ContextMenu name="ТаблицаТребованийСрокПредставлениеКонтекстноеМеню" id="32"/>
+					<ExtendedTooltip name="ТаблицаТребованийСрокПредставлениеРасширеннаяПодсказка" id="33"/>
+				</InputField>
+			</ChildItems>
+		</Table>
+		<LabelDecoration name="НадписьПодвал" id="34">
+			<AutoMaxWidth>false</AutoMaxWidth>
+			<Title formatted="true">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отсутствие (просрочка) подтверждения приема или ответа может привести к санкциям со стороны ФНС. &lt;link Подробнее о сроках&gt;Подробнее о сроках&lt;/&gt;
+Если ответ на требование не требуется, укажите это в карточке требования.</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>If there is no receipt confirmation or response, it may lead to sanctions from the Federal Tax Service. &lt;link Подробнее о сроках&gt;Learn more about due dates&lt;/&gt;
+If you don't need a response to your requirement, please specify it in the requirement card.</v8:content>
+				</v8:item>
+			</Title>
+			<ContextMenu name="НадписьПодвалКонтекстноеМеню" id="35"/>
+			<ExtendedTooltip name="НадписьПодвалРасширеннаяПодсказка" id="36"/>
+		</LabelDecoration>
+		<CommandBar name="ГруппаКнопки" id="37">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Кнопки</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Buttons</v8:content>
+				</v8:item>
+			</Title>
+			<HorizontalLocation>Right</HorizontalLocation>
+			<ExtendedTooltip name="ГруппаКнопкиРасширеннаяПодсказка" id="38"/>
+			<ChildItems>
+				<Button name="Открыть" id="39">
+					<Type>CommandBarButton</Type>
+					<DefaultButton>true</DefaultButton>
+					<CommandName>0</CommandName>
+					<ExtendedTooltip name="ОткрытьРасширеннаяПодсказка" id="40"/>
+				</Button>
+				<Button name="ПодтвердитьПрием" id="60">
+					<Type>CommandBarButton</Type>
+					<CommandName>0</CommandName>
+					<ExtendedTooltip name="ПодтвердитьПриемРасширеннаяПодсказка" id="61"/>
+				</Button>
+				<Button name="НеПоказывать" id="43">
+					<Type>CommandBarButton</Type>
+					<CommandName>0</CommandName>
+					<ExtendedTooltip name="НеПоказыватьРасширеннаяПодсказка" id="44"/>
+				</Button>
+			</ChildItems>
+		</CommandBar>
+	</ChildItems>
+	<Attributes>
+		<ConditionalAppearance>
+			<dcsset:item>
+				<dcsset:selection>
+					<dcsset:item>
+						<dcsset:field>ТаблицаТребованийВидДокумента</dcsset:field>
+					</dcsset:item>
+				</dcsset:selection>
+				<dcsset:filter>
+					<dcsset:item xsi:type="dcsset:FilterItemComparison">
+						<dcsset:left xsi:type="dcscor:Field">ТаблицаТребований.Жирным</dcsset:left>
+						<dcsset:comparisonType>Equal</dcsset:comparisonType>
+						<dcsset:right xsi:type="xs:boolean">true</dcsset:right>
+					</dcsset:item>
+				</dcsset:filter>
+				<dcsset:appearance>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>Шрифт</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Font" ref="sys:DefaultGUIFont" bold="true" italic="false" underline="false" strikeout="false" kind="WindowsFont"/>
+					</dcscor:item>
+				</dcsset:appearance>
+			</dcsset:item>
+		</ConditionalAppearance>
+	</Attributes>
+	<BaseForm version="2.15">
+		<Title>
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>1С-Отчетность</v8:content>
+			</v8:item>
+			<v8:item>
+				<v8:lang>en</v8:lang>
+				<v8:content>1C Reporting</v8:content>
+			</v8:item>
+		</Title>
+		<Width>100</Width>
+		<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+		<AutoTitle>false</AutoTitle>
+		<VerticalSpacing>Double</VerticalSpacing>
+		<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+			<Autofill>false</Autofill>
+		</AutoCommandBar>
+		<ChildItems>
+			<UsualGroup name="ГруппаШапка" id="1">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Шапка</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Header</v8:content>
+					</v8:item>
+				</Title>
+				<Group>AlwaysHorizontal</Group>
+				<Behavior>Usual</Behavior>
+				<Representation>None</Representation>
+				<ShowTitle>false</ShowTitle>
+				<ExtendedTooltip name="ГруппаШапкаРасширеннаяПодсказка" id="2"/>
+				<ChildItems>
+					<PictureDecoration name="Картинка" id="3">
+						<Title formatted="false">
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Картинка</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Picture</v8:content>
+							</v8:item>
+						</Title>
+						<GroupVerticalAlign>Center</GroupVerticalAlign>
+						<ContextMenu name="КартинкаКонтекстноеМеню" id="4"/>
+						<ExtendedTooltip name="КартинкаРасширеннаяПодсказка" id="5"/>
+					</PictureDecoration>
+					<LabelDecoration name="НадписьШапка" id="6">
+						<Width>73</Width>
+						<AutoMaxWidth>false</AutoMaxWidth>
+						<Title formatted="false">
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Ответ по 1 требованию к организации ООО "Ромашка" не был отправлен вовремя. Также есть 2 требования, на которые нужно ответить в ближайшее время</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>The response to requirement 1 to North Start, LLC was not sent on time. There are also 2 requirements that require responses as soon as possible</v8:content>
+							</v8:item>
+						</Title>
+						<GroupVerticalAlign>Center</GroupVerticalAlign>
+						<ContextMenu name="НадписьШапкаКонтекстноеМеню" id="7"/>
+						<ExtendedTooltip name="НадписьШапкаРасширеннаяПодсказка" id="8"/>
+					</LabelDecoration>
+				</ChildItems>
+			</UsualGroup>
+			<Table name="ТаблицаТребований" id="9">
+				<Representation>List</Representation>
+				<ReadOnly>true</ReadOnly>
+				<ChangeRowSet>false</ChangeRowSet>
+				<ChangeRowOrder>false</ChangeRowOrder>
+				<Height>14</Height>
+				<RowSelectionMode>Row</RowSelectionMode>
+				<UseAlternationRowColor>true</UseAlternationRowColor>
+				<EnableStartDrag>true</EnableStartDrag>
+				<EnableDrag>true</EnableDrag>
+				<RowFilter xsi:nil="true"/>
+				<ContextMenu name="ТаблицаТребованийКонтекстноеМеню" id="10"/>
+				<AutoCommandBar name="ТаблицаТребованийКоманднаяПанель" id="11">
+					<Autofill>false</Autofill>
+				</AutoCommandBar>
+				<ExtendedTooltip name="ТаблицаТребованийРасширеннаяПодсказка" id="12"/>
+				<SearchStringAddition name="ТаблицаТребованийСтрокаПоиска" id="13">
+					<AdditionSource>
+						<Item>ТаблицаТребований</Item>
+						<Type>SearchStringRepresentation</Type>
+					</AdditionSource>
+					<ContextMenu name="ТаблицаТребованийСтрокаПоискаКонтекстноеМеню" id="14"/>
+					<ExtendedTooltip name="ТаблицаТребованийСтрокаПоискаРасширеннаяПодсказка" id="15"/>
+				</SearchStringAddition>
+				<ViewStatusAddition name="ТаблицаТребованийСостояниеПросмотра" id="16">
+					<AdditionSource>
+						<Item>ТаблицаТребований</Item>
+						<Type>ViewStatusRepresentation</Type>
+					</AdditionSource>
+					<ContextMenu name="ТаблицаТребованийСостояниеПросмотраКонтекстноеМеню" id="17"/>
+					<ExtendedTooltip name="ТаблицаТребованийСостояниеПросмотраРасширеннаяПодсказка" id="18"/>
+				</ViewStatusAddition>
+				<SearchControlAddition name="ТаблицаТребованийУправлениеПоиском" id="19">
+					<AdditionSource>
+						<Item>ТаблицаТребований</Item>
+						<Type>SearchControl</Type>
+					</AdditionSource>
+					<ContextMenu name="ТаблицаТребованийУправлениеПоискомКонтекстноеМеню" id="20"/>
+					<ExtendedTooltip name="ТаблицаТребованийУправлениеПоискомРасширеннаяПодсказка" id="21"/>
+				</SearchControlAddition>
+				<ChildItems>
+					<InputField name="ТаблицаТребованийВидДокумента" id="45">
+						<EditMode>EnterOnInput</EditMode>
+						<ContextMenu name="ТаблицаТребованийВидДокументаКонтекстноеМеню" id="46"/>
+						<ExtendedTooltip name="ТаблицаТребованийВидДокументаРасширеннаяПодсказка" id="47"/>
+					</InputField>
+					<InputField name="ТаблицаТребованийНомер" id="48">
+						<EditMode>EnterOnInput</EditMode>
+						<Width>8</Width>
+						<HorizontalStretch>false</HorizontalStretch>
+						<ContextMenu name="ТаблицаТребованийНомерКонтекстноеМеню" id="49"/>
+						<ExtendedTooltip name="ТаблицаТребованийНомерРасширеннаяПодсказка" id="50"/>
+					</InputField>
+					<InputField name="ТаблицаТребованийДата" id="51">
+						<EditMode>EnterOnInput</EditMode>
+						<Width>8</Width>
+						<HorizontalStretch>false</HorizontalStretch>
+						<ContextMenu name="ТаблицаТребованийДатаКонтекстноеМеню" id="52"/>
+						<ExtendedTooltip name="ТаблицаТребованийДатаРасширеннаяПодсказка" id="53"/>
+					</InputField>
+					<InputField name="ТаблицаТребованийПредставлениеГосОргана" id="54">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>ФНС</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>FTS</v8:content>
+							</v8:item>
+						</Title>
+						<EditMode>EnterOnInput</EditMode>
+						<Width>10</Width>
+						<HorizontalStretch>false</HorizontalStretch>
+						<ContextMenu name="ТаблицаТребованийПредставлениеГосОрганаКонтекстноеМеню" id="55"/>
+						<ExtendedTooltip name="ТаблицаТребованийПредставлениеГосОрганаРасширеннаяПодсказка" id="56"/>
+					</InputField>
+					<PictureField name="ТаблицаТребованийПросрочено" id="57">
+						<TitleLocation>None</TitleLocation>
+						<HorizontalAlign>Center</HorizontalAlign>
+						<EditMode>EnterOnInput</EditMode>
+						<ShowInFooter>false</ShowInFooter>
+						<Width>1</Width>
+						<ValuesPicture>
+							<xr:Ref>CommonPicture.Пламя</xr:Ref>
+							<xr:LoadTransparent>false</xr:LoadTransparent>
+						</ValuesPicture>
+						<ContextMenu name="ТаблицаТребованийПросроченоКонтекстноеМеню" id="58"/>
+						<ExtendedTooltip name="ТаблицаТребованийПросроченоРасширеннаяПодсказка" id="59"/>
+					</PictureField>
+					<InputField name="ТаблицаТребованийСрокПредставление" id="31">
+						<EditMode>EnterOnInput</EditMode>
+						<Width>25</Width>
+						<HorizontalStretch>false</HorizontalStretch>
+						<TextColor>style:ЦветОшибкиОтправкиБРО</TextColor>
+						<ContextMenu name="ТаблицаТребованийСрокПредставлениеКонтекстноеМеню" id="32"/>
+						<ExtendedTooltip name="ТаблицаТребованийСрокПредставлениеРасширеннаяПодсказка" id="33"/>
+					</InputField>
+				</ChildItems>
+			</Table>
+			<LabelDecoration name="НадписьПодвал" id="34">
+				<AutoMaxWidth>false</AutoMaxWidth>
+				<Title formatted="true">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Отсутствие (просрочка) подтверждения приема или ответа может привести к санкциям со стороны ФНС. &lt;link Подробнее о сроках&gt;Подробнее о сроках&lt;/&gt;
+Если ответ на требование не требуется, укажите это в карточке требования.</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>If there is no receipt confirmation or response, it may lead to sanctions from the Federal Tax Service. &lt;link Подробнее о сроках&gt;Learn more about due dates&lt;/&gt;
+If you don't need a response to your requirement, please specify it in the requirement card.</v8:content>
+					</v8:item>
+				</Title>
+				<ContextMenu name="НадписьПодвалКонтекстноеМеню" id="35"/>
+				<ExtendedTooltip name="НадписьПодвалРасширеннаяПодсказка" id="36"/>
+			</LabelDecoration>
+			<CommandBar name="ГруппаКнопки" id="37">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Кнопки</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Buttons</v8:content>
+					</v8:item>
+				</Title>
+				<HorizontalLocation>Right</HorizontalLocation>
+				<ExtendedTooltip name="ГруппаКнопкиРасширеннаяПодсказка" id="38"/>
+				<ChildItems>
+					<Button name="Открыть" id="39">
+						<Type>CommandBarButton</Type>
+						<DefaultButton>true</DefaultButton>
+						<CommandName>0</CommandName>
+						<ExtendedTooltip name="ОткрытьРасширеннаяПодсказка" id="40"/>
+					</Button>
+					<Button name="ПодтвердитьПрием" id="60">
+						<Type>CommandBarButton</Type>
+						<CommandName>0</CommandName>
+						<ExtendedTooltip name="ПодтвердитьПриемРасширеннаяПодсказка" id="61"/>
+					</Button>
+					<Button name="НеПоказывать" id="43">
+						<Type>CommandBarButton</Type>
+						<CommandName>0</CommandName>
+						<ExtendedTooltip name="НеПоказыватьРасширеннаяПодсказка" id="44"/>
+					</Button>
+				</ChildItems>
+			</CommandBar>
+		</ChildItems>
+		<Attributes>
+			<ConditionalAppearance>
+				<dcsset:item>
+					<dcsset:selection>
+						<dcsset:item>
+							<dcsset:field>ТаблицаТребованийВидДокумента</dcsset:field>
+						</dcsset:item>
+					</dcsset:selection>
+					<dcsset:filter>
+						<dcsset:item xsi:type="dcsset:FilterItemComparison">
+							<dcsset:left xsi:type="dcscor:Field">ТаблицаТребований.Жирным</dcsset:left>
+							<dcsset:comparisonType>Equal</dcsset:comparisonType>
+							<dcsset:right xsi:type="xs:boolean">true</dcsset:right>
+						</dcsset:item>
+					</dcsset:filter>
+					<dcsset:appearance>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:parameter>Шрифт</dcscor:parameter>
+							<dcscor:value xsi:type="v8ui:Font" ref="sys:DefaultGUIFont" bold="true" italic="false" underline="false" strikeout="false" kind="WindowsFont"/>
+						</dcscor:item>
+					</dcsset:appearance>
+				</dcsset:item>
+			</ConditionalAppearance>
+		</Attributes>
+	</BaseForm>
+</Form>

@@ -10,17 +10,38 @@
 				<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 				<ExtendedTooltip name="КнопкаПолучитьИзЕИСРасширеннаяПодсказка" id="427"/>
 			</Button>
+			<Button name="ФормаРС_ПолучитьИзЕИС" id="487">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.РС_ПолучитьИзЕИС</CommandName>
+				<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
+				<ExtendedTooltip name="ФормаРС_ПолучитьИзЕИСРасширеннаяПодсказка" id="488"/>
+			</Button>
 			<Button name="ФормаСохранитьКонтрактВФайл" id="428">
 				<Type>CommandBarButton</Type>
+				<UserVisible>
+					<xr:Common>false</xr:Common>
+				</UserVisible>
 				<CommandName>0</CommandName>
 				<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 				<ExtendedTooltip name="ФормаСохранитьКонтрактВФайлРасширеннаяПодсказка" id="429"/>
 			</Button>
 			<Button name="ФормаПрочитатьИзФайла" id="430">
 				<Type>CommandBarButton</Type>
+				<UserVisible>
+					<xr:Common>false</xr:Common>
+				</UserVisible>
 				<CommandName>0</CommandName>
 				<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 				<ExtendedTooltip name="ФормаПрочитатьИзФайлаРасширеннаяПодсказка" id="431"/>
+			</Button>
+			<Button name="ФормаПолучитьИзОткрытойЧастиЕИС" id="484">
+				<Type>CommandBarButton</Type>
+				<UserVisible>
+					<xr:Common>false</xr:Common>
+				</UserVisible>
+				<CommandName>0</CommandName>
+				<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
+				<ExtendedTooltip name="ФормаПолучитьИзОткрытойЧастиЕИСРасширеннаяПодсказка" id="486"/>
 			</Button>
 			<Popup name="ПодменюОтчеты" id="68">
 				<Title>
@@ -1215,6 +1236,7 @@
 						</InputField>
 						<InputField name="ВнутреннийИдентификаторЕИС" id="233">
 							<DataPath>Объект.ВнутреннийИдентификаторЕИС</DataPath>
+							<ReadOnly>true</ReadOnly>
 							<ContextMenu name="ВнутреннийИдентификаторЕИСКонтекстноеМеню" id="234"/>
 							<ExtendedTooltip name="ВнутреннийИдентификаторЕИСРасширеннаяПодсказка" id="235"/>
 						</InputField>
@@ -1481,11 +1503,12 @@
 				</Column>
 				<Column name="НомерСтроки" id="4">
 					<Type>
-						<v8:Type>xs:string</v8:Type>
-						<v8:StringQualifiers>
-							<v8:Length>3</v8:Length>
-							<v8:AllowedLength>Variable</v8:AllowedLength>
-						</v8:StringQualifiers>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>6</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
 					</Type>
 				</Column>
 				<Column name="Цена" id="5">
@@ -1829,6 +1852,21 @@
 			</ToolTip>
 			<Action callType="After">РСК_РС_СоздатьДоговорПосле</Action>
 		</Command>
+		<Command name="РС_ПолучитьИзЕИС" id="1000005">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Получить из ЕИС (без номенклатуры)</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Получить из ЕИС (без номенклатуры)</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action callType="After">РСК_РС_ПолучитьИзЕИСПосле</Action>
+		</Command>
 	</Commands>
 	<BaseForm version="2.15">
 		<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
@@ -1843,15 +1881,30 @@
 				</Button>
 				<Button name="ФормаСохранитьКонтрактВФайл" id="428">
 					<Type>CommandBarButton</Type>
+					<UserVisible>
+						<xr:Common>false</xr:Common>
+					</UserVisible>
 					<CommandName>0</CommandName>
 					<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 					<ExtendedTooltip name="ФормаСохранитьКонтрактВФайлРасширеннаяПодсказка" id="429"/>
 				</Button>
 				<Button name="ФормаПрочитатьИзФайла" id="430">
 					<Type>CommandBarButton</Type>
+					<UserVisible>
+						<xr:Common>false</xr:Common>
+					</UserVisible>
 					<CommandName>0</CommandName>
 					<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 					<ExtendedTooltip name="ФормаПрочитатьИзФайлаРасширеннаяПодсказка" id="431"/>
+				</Button>
+				<Button name="ФормаПолучитьИзОткрытойЧастиЕИС" id="450">
+					<Type>CommandBarButton</Type>
+					<UserVisible>
+						<xr:Common>false</xr:Common>
+					</UserVisible>
+					<CommandName>0</CommandName>
+					<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
+					<ExtendedTooltip name="ФормаПолучитьИзОткрытойЧастиЕИСРасширеннаяПодсказка" id="451"/>
 				</Button>
 				<Popup name="ПодменюОтчеты" id="68">
 					<Title>
@@ -2894,7 +2947,6 @@
 							</InputField>
 							<InputField name="НомерИГК" id="224">
 								<DataPath>Объект.НомерИГК</DataPath>
-								<ReadOnly>true</ReadOnly>
 								<ContextMenu name="НомерИГККонтекстноеМеню" id="225"/>
 								<ExtendedTooltip name="НомерИГКРасширеннаяПодсказка" id="226"/>
 							</InputField>
@@ -3173,11 +3225,12 @@
 					</Column>
 					<Column name="НомерСтроки" id="4">
 						<Type>
-							<v8:Type>xs:string</v8:Type>
-							<v8:StringQualifiers>
-								<v8:Length>3</v8:Length>
-								<v8:AllowedLength>Variable</v8:AllowedLength>
-							</v8:StringQualifiers>
+							<v8:Type>xs:decimal</v8:Type>
+							<v8:NumberQualifiers>
+								<v8:Digits>6</v8:Digits>
+								<v8:FractionDigits>0</v8:FractionDigits>
+								<v8:AllowedSign>Any</v8:AllowedSign>
+							</v8:NumberQualifiers>
 						</Type>
 					</Column>
 					<Column name="Цена" id="5">

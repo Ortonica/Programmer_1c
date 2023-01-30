@@ -401,6 +401,7 @@
 								</InputField>
 								<InputField name="Приоритет" id="569">
 									<DataPath>Объект.Приоритет</DataPath>
+									<ReadOnly>true</ReadOnly>
 									<Width>11</Width>
 									<HorizontalStretch>false</HorizontalStretch>
 									<Wrap>false</Wrap>
