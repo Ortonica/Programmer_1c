@@ -259,9 +259,7 @@
 		</ChildItems>
 	</AutoCommandBar>
 	<Events>
-		<Event name="OnCreateAtServer" callType="After">РСК_ПриСозданииНаСервереПосле</Event>
-		<Event name="OnWriteAtServer" callType="After">РСК_ПриЗаписиНаСервереПосле</Event>
-		<Event name="OnClose" callType="After">РСК_ПриЗакрытииПосле</Event>
+		<Event name="OnCreateAtServer" callType="Before">РСК_ПриСозданииНаСервереПеред</Event>
 	</Events>
 	<ChildItems>
 		<LabelField name="СтрокаИсправление" id="786">
@@ -847,6 +845,11 @@
 												<CommandName>0</CommandName>
 												<ExtendedTooltip name="РасходыУстановитьСтатьюРасходовExtendedTooltip" id="468"/>
 											</Button>
+											<Button name="РасходыПодобратьУслугиСоисполнителей" id="821">
+												<Type>CommandBarButton</Type>
+												<CommandName>Form.Command.ПодобратьУслугиСоисполнителей</CommandName>
+												<ExtendedTooltip name="РасходыПодобратьУслугиСоисполнителейРасширеннаяПодсказка" id="822"/>
+											</Button>
 											<Button name="РасходыЗаполнитьПодразделение" id="555">
 												<Type>CommandBarButton</Type>
 												<CommandName>0</CommandName>
@@ -1023,6 +1026,9 @@
 									</ChoiceParameters>
 									<ContextMenu name="РасходыСтатьяРасходовКонтекстноеМеню" id="384"/>
 									<ExtendedTooltip name="РасходыСтатьяРасходовExtendedTooltip" id="480"/>
+									<Events>
+										<Event name="OnChange" callType="After">РСК_РасходыСтатьяРасходовПриИзмененииПосле</Event>
+									</Events>
 								</InputField>
 								<ColumnGroup name="РасходыГруппаАналитика" id="683">
 									<Title>
@@ -1940,22 +1946,56 @@ name</v8:content>
 		</UsualGroup>
 	</ChildItems>
 	<Attributes>
-		<Attribute name="АдресХранилищаСтрокиКОтражению" id="1000001">
+		<Attribute name="СтатьяРасходовУслугиСоиполнителей" id="1000001">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Адрес хранилища строки к отражению</v8:content>
+					<v8:content>Статья расходов услуги соиполнителей</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
-				<v8:Type>xs:string</v8:Type>
-				<v8:StringQualifiers>
-					<v8:Length>0</v8:Length>
-					<v8:AllowedLength>Variable</v8:AllowedLength>
-				</v8:StringQualifiers>
+				<v8:Type>cfg:ChartOfCharacteristicTypesRef.СтатьиРасходов</v8:Type>
 			</Type>
 		</Attribute>
+		<ConditionalAppearance>
+			<dcsset:item>
+				<dcsset:selection>
+					<dcsset:item>
+						<dcsset:field>РасходыСтатьяРасходов</dcsset:field>
+					</dcsset:item>
+				</dcsset:selection>
+				<dcsset:filter>
+					<dcsset:item xsi:type="dcsset:FilterItemComparison">
+						<dcsset:left xsi:type="dcscor:Field">Объект.Расходы.КомментарийРаспределения</dcsset:left>
+						<dcsset:comparisonType>Filled</dcsset:comparisonType>
+					</dcsset:item>
+				</dcsset:filter>
+				<dcsset:appearance>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>Видимость</dcscor:parameter>
+						<dcscor:value xsi:type="xs:boolean">false</dcscor:value>
+					</dcscor:item>
+				</dcsset:appearance>
+			</dcsset:item>
+		</ConditionalAppearance>
 	</Attributes>
+	<Commands>
+		<Command name="ПодобратьУслугиСоисполнителей" id="1000000">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Подобрать услуги соисполнителей</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Подобрать услуги соисполнителей</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action callType="After">РСК_ПодобратьУслугиСоисполнителейПосле</Action>
+		</Command>
+	</Commands>
 	<BaseForm version="2.15">
 		<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 			<ChildItems>

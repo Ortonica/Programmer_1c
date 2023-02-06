@@ -10,12 +10,6 @@
 				<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 				<ExtendedTooltip name="КнопкаПолучитьИзЕИСРасширеннаяПодсказка" id="427"/>
 			</Button>
-			<Button name="ФормаРС_ПолучитьИзЕИС" id="487">
-				<Type>CommandBarButton</Type>
-				<CommandName>Form.Command.РС_ПолучитьИзЕИС</CommandName>
-				<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
-				<ExtendedTooltip name="ФормаРС_ПолучитьИзЕИСРасширеннаяПодсказка" id="488"/>
-			</Button>
 			<Button name="ФормаСохранитьКонтрактВФайл" id="428">
 				<Type>CommandBarButton</Type>
 				<UserVisible>
@@ -102,31 +96,83 @@
 					</ButtonGroup>
 				</ChildItems>
 			</Popup>
-			<Button name="ФормаРС_СопоставитьНоменклатуру" id="457">
-				<Type>CommandBarButton</Type>
-				<Representation>PictureAndText</Representation>
-				<CommandName>Form.Command.РС_СопоставитьНоменклатуру</CommandName>
+			<Popup name="КнопкиКП" id="491">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Функции КП</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Кнопки КП</v8:content>
+					</v8:item>
+				</ToolTip>
 				<Picture>
-					<xr:Ref>CommonPicture.ЗагрузкаИзФайлаКоммерческиеПредложения</xr:Ref>
+					<xr:Ref>CommonPicture.КоммерческоеПредложение</xr:Ref>
 					<xr:LoadTransparent>true</xr:LoadTransparent>
 				</Picture>
-				<ExtendedTooltip name="ФормаРС_СопоставитьНоменклатуруРасширеннаяПодсказка" id="458"/>
-			</Button>
-			<Button name="ФормаРС_СоздатьЗаказы" id="452">
-				<Type>CommandBarButton</Type>
-				<Representation>PictureAndText</Representation>
-				<CommandName>Form.Command.РС_СоздатьЗаказы</CommandName>
+				<ExtendedTooltip name="КнопкиКПРасширеннаяПодсказка" id="492"/>
+				<ChildItems>
+					<Button name="ФормаРС_СопоставитьНоменклатуру" id="457">
+						<Type>CommandBarButton</Type>
+						<Representation>PictureAndText</Representation>
+						<CommandName>Form.Command.РС_СопоставитьНоменклатуру</CommandName>
+						<Picture>
+							<xr:Ref>CommonPicture.ЗагрузкаИзФайлаКоммерческиеПредложения</xr:Ref>
+							<xr:LoadTransparent>true</xr:LoadTransparent>
+						</Picture>
+						<ExtendedTooltip name="ФормаРС_СопоставитьНоменклатуруРасширеннаяПодсказка" id="458"/>
+					</Button>
+					<Button name="ФормаРС_СоздатьЗаказы" id="452">
+						<Type>CommandBarButton</Type>
+						<Representation>PictureAndText</Representation>
+						<CommandName>Form.Command.РС_СоздатьЗаказы</CommandName>
+						<Picture>
+							<xr:Ref>CommonPicture.ГруппаФункций</xr:Ref>
+							<xr:LoadTransparent>true</xr:LoadTransparent>
+						</Picture>
+						<ExtendedTooltip name="ФормаРС_СоздатьЗаказыРасширеннаяПодсказка" id="453"/>
+					</Button>
+				</ChildItems>
+			</Popup>
+			<Popup name="КнопкиЕИС" id="493">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Функции ЕИС</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Кнопки ЕИС</v8:content>
+					</v8:item>
+				</ToolTip>
 				<Picture>
-					<xr:Ref>CommonPicture.ГруппаФункций</xr:Ref>
+					<xr:Ref>CommonPicture.ЭмблемаСервиса1СЭДО</xr:Ref>
 					<xr:LoadTransparent>true</xr:LoadTransparent>
 				</Picture>
-				<ExtendedTooltip name="ФормаРС_СоздатьЗаказыРасширеннаяПодсказка" id="453"/>
-			</Button>
-			<Button name="ФормаРС_ЗаполнитьНоменклатуруПартнераГосКонтракта" id="450">
-				<Type>CommandBarButton</Type>
-				<CommandName>Form.Command.РС_ЗаполнитьНоменклатуруПартнераГосКонтракта</CommandName>
-				<ExtendedTooltip name="ФормаРС_ЗаполнитьНоменклатуруПартнераГосКонтрактаРасширеннаяПодсказка" id="451"/>
-			</Button>
+				<ExtendedTooltip name="КнопкиЕИСРасширеннаяПодсказка" id="494"/>
+				<ChildItems>
+					<Button name="ФормаРС_ПолучитьИзЕИС1" id="495">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.РС_ПолучитьИзЕИС</CommandName>
+						<ExtendedTooltip name="ФормаРС_ПолучитьИзЕИС1РасширеннаяПодсказка" id="496"/>
+					</Button>
+					<Button name="ФормаРС_СопоставитьНоменклатуруВГК" id="489">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.РС_СопоставитьНоменклатуруВГК</CommandName>
+						<ExtendedTooltip name="ФормаРС_СопоставитьНоменклатуруВГКРасширеннаяПодсказка" id="490"/>
+					</Button>
+					<Button name="ФормаРС_ЗаполнитьНоменклатуруПартнераГосКонтракта" id="450">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.РС_ЗаполнитьНоменклатуруПартнераГосКонтракта</CommandName>
+						<ExtendedTooltip name="ФормаРС_ЗаполнитьНоменклатуруПартнераГосКонтрактаРасширеннаяПодсказка" id="451"/>
+					</Button>
+				</ChildItems>
+			</Popup>
 		</ChildItems>
 	</AutoCommandBar>
 	<ChildItems>
@@ -1796,7 +1842,7 @@
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Создать заказы</v8:content>
+					<v8:content>Создать заказы по КП</v8:content>
 				</v8:item>
 			</Title>
 			<ToolTip>
@@ -1811,13 +1857,13 @@
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Сопоставить номенклатуру</v8:content>
+					<v8:content>Сопоставить номенклатуру по КП</v8:content>
 				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Сопоставить номенклатуру</v8:content>
+					<v8:content>Сопоставить номенклатуру по коммерческому предложению</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action callType="After">РСК_РС_СопоставитьНоменклатуруПосле</Action>
@@ -1865,7 +1911,30 @@
 					<v8:content>Получить из ЕИС (без номенклатуры)</v8:content>
 				</v8:item>
 			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.GotoExternalURL</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
 			<Action callType="After">РСК_РС_ПолучитьИзЕИСПосле</Action>
+		</Command>
+		<Command name="РС_СопоставитьНоменклатуруВГК" id="1000006">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сопоставить номенклатуру по документу</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сопоставить номенклатуру по документу</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>CommonPicture.ПодобратьТовары</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action callType="After">РСК_РС_СопоставитьНоменклатуруВГКПосле</Action>
 		</Command>
 	</Commands>
 	<BaseForm version="2.15">

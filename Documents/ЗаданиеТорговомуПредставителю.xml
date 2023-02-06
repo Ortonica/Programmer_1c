@@ -32,7 +32,9 @@
 			<NumberLength>11</NumberLength>
 			<NumberAllowedLength>Fixed</NumberAllowedLength>
 			<DefaultObjectForm>Document.ЗаданиеТорговомуПредставителю.Form.ФормаДокумента</DefaultObjectForm>
-			<RegisterRecords/>
+			<RegisterRecords>
+				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.РСК_УслугиСоисполнителей</xr:Item>
+			</RegisterRecords>
 		</Properties>
 		<ChildObjects>
 			<Attribute uuid="dc598f5b-68a6-4449-b02a-035cad00090a">
@@ -541,7 +543,6 @@
 			</Attribute>
 			<Form>ФормаДокумента</Form>
 			<Form>ФормаСписка</Form>
-			<Form>РСК_ФормаПодбораСтрок</Form>
 			<TabularSection uuid="a1ab1e90-9834-41e4-8709-7832d82ce28c">
 				<InternalInfo>
 					<xr:GeneratedType name="DocumentTabularSection.ЗаданиеТорговомуПредставителю.САВ_Услуги" category="TabularSection">

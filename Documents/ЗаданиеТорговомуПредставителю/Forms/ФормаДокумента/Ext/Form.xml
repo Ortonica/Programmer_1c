@@ -1681,6 +1681,7 @@
 									<v8:content>Услуги СИ</v8:content>
 								</v8:item>
 							</ToolTip>
+							<TitleDataPath>Объект.САВ_Услуги.RowsCount</TitleDataPath>
 							<ExtendedTooltip name="УслугиСИРасширеннаяПодсказка" id="592"/>
 							<ChildItems>
 								<CheckBoxField name="УчетПоЗонамДоставки" id="593">

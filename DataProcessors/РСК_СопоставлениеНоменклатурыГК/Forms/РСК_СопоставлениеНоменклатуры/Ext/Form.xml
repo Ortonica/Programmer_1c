@@ -29,14 +29,23 @@
 	<ChildItems>
 		<InputField name="РеализацияТоваровИУслуг" id="81">
 			<DataPath>РеализацияТоваровИУслуг</DataPath>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Реализация товаров и услуг / заказ клиента</v8:content>
+				</v8:item>
+			</Title>
 			<ContextMenu name="РеализацияТоваровИУслугКонтекстноеМеню" id="82"/>
 			<ExtendedTooltip name="РеализацияТоваровИУслугРасширеннаяПодсказка" id="83"/>
 			<Events>
 				<Event name="OnChange">РеализацияТоваровИУслугПриИзменении</Event>
+				<Event name="StartChoice">РеализацияТоваровИУслугНачалоВыбора</Event>
+				<Event name="ChoiceProcessing">РеализацияТоваровИУслугОбработкаВыбора</Event>
 			</Events>
 		</InputField>
 		<InputField name="ГосКонтракт1" id="84">
 			<DataPath>ГосКонтракт</DataPath>
+			<Visible>false</Visible>
 			<ContextMenu name="ГосКонтракт1КонтекстноеМеню" id="85"/>
 			<ExtendedTooltip name="ГосКонтракт1РасширеннаяПодсказка" id="86"/>
 			<Events>
@@ -68,14 +77,10 @@
 							<ContextMenu name="ГосКонтрактКонтекстноеМеню" id="58"/>
 							<ExtendedTooltip name="ГосКонтрактРасширеннаяПодсказка" id="59"/>
 						</LabelField>
-						<Button name="ДобавитьНоменклатуру" id="87">
-							<Type>UsualButton</Type>
-							<CommandName>Form.Command.ДобавитьНоменклатуру</CommandName>
-							<ExtendedTooltip name="ДобавитьНоменклатуруРасширеннаяПодсказка" id="88"/>
-						</Button>
 						<Table name="ТаблицаНоменклатура" id="1">
 							<Representation>List</Representation>
 							<CommandBarLocation>None</CommandBarLocation>
+							<ReadOnly>true</ReadOnly>
 							<AutoInsertNewRow>true</AutoInsertNewRow>
 							<EnableStartDrag>true</EnableStartDrag>
 							<EnableDrag>true</EnableDrag>
@@ -102,7 +107,15 @@
 								<ExcludedCommand>SortListDesc</ExcludedCommand>
 							</CommandSet>
 							<RowFilter xsi:nil="true"/>
-							<ContextMenu name="ТаблицаНоменклатураКонтекстноеМеню" id="2"/>
+							<ContextMenu name="ТаблицаНоменклатураКонтекстноеМеню" id="2">
+								<ChildItems>
+									<Button name="МенюЗаменаНоменклатурыПартнера" id="91">
+										<Type>CommandBarButton</Type>
+										<CommandName>Form.Command.ЗаменаНоменклатурыПартнера</CommandName>
+										<ExtendedTooltip name="МенюЗаменаНоменклатурыПартнераРасширеннаяПодсказка" id="92"/>
+									</Button>
+								</ChildItems>
+							</ContextMenu>
 							<AutoCommandBar name="ТаблицаНоменклатураКоманднаяПанель" id="3"/>
 							<ExtendedTooltip name="ТаблицаНоменклатураРасширеннаяПодсказка" id="4"/>
 							<SearchStringAddition name="ТаблицаНоменклатураСтрокаПоиска" id="5">
@@ -186,17 +199,50 @@
 						</Table>
 					</ChildItems>
 				</UsualGroup>
-				<Button name="СопоставитьВлево" id="50">
-					<Type>UsualButton</Type>
-					<Representation>Picture</Representation>
-					<Width>5</Width>
-					<MaxWidth>30</MaxWidth>
-					<Height>3</Height>
-					<MaxHeight>40</MaxHeight>
+				<UsualGroup name="ГруппаКоманды" id="89">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа команды</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа команды</v8:content>
+						</v8:item>
+					</ToolTip>
 					<GroupVerticalAlign>Center</GroupVerticalAlign>
-					<CommandName>Form.Command.ПрименитьКСтроке</CommandName>
-					<ExtendedTooltip name="СопоставитьВлевоРасширеннаяПодсказка" id="51"/>
-				</Button>
+					<Group>Vertical</Group>
+					<VerticalAlign>Center</VerticalAlign>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаКомандыРасширеннаяПодсказка" id="90"/>
+					<ChildItems>
+						<Button name="СопоставитьВлево" id="50">
+							<Type>UsualButton</Type>
+							<Representation>Picture</Representation>
+							<Width>5</Width>
+							<MaxWidth>30</MaxWidth>
+							<Height>3</Height>
+							<MaxHeight>40</MaxHeight>
+							<GroupVerticalAlign>Center</GroupVerticalAlign>
+							<CommandName>Form.Command.ПрименитьКСтроке</CommandName>
+							<ExtendedTooltip name="СопоставитьВлевоРасширеннаяПодсказка" id="51"/>
+						</Button>
+						<Button name="ДобавитьНоменклатуру" id="87">
+							<Type>UsualButton</Type>
+							<Representation>PictureAndText</Representation>
+							<Width>5</Width>
+							<Height>3</Height>
+							<CommandName>Form.Command.ДобавитьНоменклатуру</CommandName>
+							<Picture>
+								<xr:Abs>Picture.png</xr:Abs>
+								<xr:LoadTransparent>false</xr:LoadTransparent>
+							</Picture>
+							<ExtendedTooltip name="ДобавитьНоменклатуруРасширеннаяПодсказка" id="88"/>
+						</Button>
+					</ChildItems>
+				</UsualGroup>
 				<UsualGroup name="Группа2" id="55">
 					<Title>
 						<v8:item>
@@ -519,6 +565,7 @@
 			</Title>
 			<Type>
 				<v8:Type>cfg:DocumentRef.РеализацияТоваровУслуг</v8:Type>
+				<v8:Type>cfg:DocumentRef.ЗаказКлиента</v8:Type>
 			</Type>
 		</Attribute>
 		<Attribute name="ОбъектыЗакупки" id="5">
@@ -752,10 +799,30 @@
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Добавить номенклатуру</v8:content>
+					<v8:content>Скопировать и заполнить</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ДобавитьНоменклатуру</Action>
+		</Command>
+		<Command name="ЗаменаНоменклатурыПартнера" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Замена номенклатуры партнера</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Замена номенклатуры партнера</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>CommonPicture.НастройкаПродажи</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>ЗаменаНоменклатурыПартнера</Action>
+			<Representation>TextPicture</Representation>
 		</Command>
 	</Commands>
 </Form>

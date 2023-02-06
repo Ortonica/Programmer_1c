@@ -70,6 +70,7 @@
 			<Subsystem>РСК_ВыдачаТСР</Subsystem>
 			<Subsystem>Склад</Subsystem>
 			<Subsystem>Администрирование</Subsystem>
+			<Subsystem>Продажи</Subsystem>
 			<StyleItem>ВладелецФайловШрифт</StyleItem>
 			<StyleItem>ГиперссылкаТабличнойЧасти</StyleItem>
 			<StyleItem>ГиперссылкаЦвет</StyleItem>
@@ -191,6 +192,8 @@
 			<CommonPicture>НаборСтрелкаВлево</CommonPicture>
 			<CommonPicture>НастройкаПродажи</CommonPicture>
 			<CommonPicture>ЗагрузитьДокументыИзСкановФото</CommonPicture>
+			<CommonPicture>ЭмблемаСервиса1СЭДО</CommonPicture>
+			<CommonPicture>КоммерческоеПредложение</CommonPicture>
 			<SessionParameter>РСК_АвторизовавшийсяКладовщик</SessionParameter>
 			<SessionParameter>РСК_ВремяПоследнегоСканированияКладовщиком</SessionParameter>
 			<SessionParameter>РСК_ПроводитьДокументыПослеЗагрузкиЧерезXML</SessionParameter>
@@ -283,6 +286,7 @@
 			<CommonModule>ЭлектронноеАктированиеЕИС</CommonModule>
 			<CommonModule>ЭлектронноеАктированиеЕИСПолучениеВходящих</CommonModule>
 			<CommonModule>ЭлектронноеАктированиеЕИСУТ</CommonModule>
+			<CommonModule>ПроведениеДокументов</CommonModule>
 			<ExchangePlan>ДатаМобайл_СписокТСД</ExchangePlan>
 			<EventSubscription>РСК_ЗаписатьВерсиюДокумента</EventSubscription>
 			<EventSubscription>РСК_ЗаменаСтатьиДДСОРП</EventSubscription>
@@ -351,6 +355,7 @@
 			<CommonForm>РСК_ВыборПериода</CommonForm>
 			<CommonForm>СвязанныеДокументы</CommonForm>
 			<CommonForm>РегламентированнаяОтчетность</CommonForm>
+			<CommonForm>РСК_ФормаПодбораСтрок</CommonForm>
 			<Catalog>БанковскиеСчетаКонтрагентов</Catalog>
 			<Catalog>БанковскиеСчетаОрганизаций</Catalog>
 			<Catalog>БизнесРегионы</Catalog>
@@ -688,6 +693,7 @@
 			<InformationRegister>СтруктураЗаказа</InformationRegister>
 			<InformationRegister>ТоварыКДоставке</InformationRegister>
 			<InformationRegister>ШтрихкодыНоменклатуры</InformationRegister>
+			<InformationRegister>ЦеныНоменклатурыПоставщиков</InformationRegister>
 			<AccumulationRegister>ЗаказыКлиентов</AccumulationRegister>
 			<AccumulationRegister>ПланыОплатПоставщикам</AccumulationRegister>
 			<AccumulationRegister>РСК_СостояниеЗаказовКлиентовПоВыдаче</AccumulationRegister>
@@ -702,6 +708,7 @@
 			<AccumulationRegister>ПланыПродаж</AccumulationRegister>
 			<AccumulationRegister>ТоварыНаСкладах</AccumulationRegister>
 			<AccumulationRegister>ЗапасыИПотребности</AccumulationRegister>
+			<AccumulationRegister>РСК_УслугиСоисполнителей</AccumulationRegister>
 			<ChartOfCharacteristicTypes>СтатьиРасходов</ChartOfCharacteristicTypes>
 			<ChartOfCharacteristicTypes>ДополнительныеРеквизитыИСведения</ChartOfCharacteristicTypes>
 			<ChartOfCharacteristicTypes>СтатьиАктивовПассивов</ChartOfCharacteristicTypes>

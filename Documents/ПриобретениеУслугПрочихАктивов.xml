@@ -31,7 +31,9 @@
 			<NumberType>String</NumberType>
 			<NumberLength>11</NumberLength>
 			<NumberAllowedLength>Variable</NumberAllowedLength>
-			<RegisterRecords/>
+			<RegisterRecords>
+				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.РСК_УслугиСоисполнителей</xr:Item>
+			</RegisterRecords>
 		</Properties>
 		<ChildObjects>
 			<Attribute uuid="d3e7c71b-d76c-4dba-8f7e-4a9463f61fad">
@@ -314,6 +316,7 @@
 				</Properties>
 			</Attribute>
 			<Form>ФормаДокумента</Form>
+			<Form>РСК_ЗаполнениеПоДоставленнымТСР</Form>
 			<TabularSection uuid="fa9490f1-693d-40d9-885d-c08900f80b11">
 				<InternalInfo>
 					<xr:GeneratedType name="DocumentTabularSection.ПриобретениеУслугПрочихАктивов.Расходы" category="TabularSection">
@@ -610,6 +613,43 @@
 									<v8:Length>36</v8:Length>
 									<v8:AllowedLength>Variable</v8:AllowedLength>
 								</v8:StringQualifiers>
+							</Type>
+							<PasswordMode>false</PasswordMode>
+							<Format/>
+							<EditFormat/>
+							<ToolTip/>
+							<MarkNegatives>false</MarkNegatives>
+							<Mask/>
+							<MultiLine>false</MultiLine>
+							<ExtendedEdit>false</ExtendedEdit>
+							<MinValue xsi:nil="true"/>
+							<MaxValue xsi:nil="true"/>
+							<FillChecking>DontCheck</FillChecking>
+							<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+							<ChoiceParameterLinks/>
+							<ChoiceParameters/>
+							<QuickChoice>Auto</QuickChoice>
+							<CreateOnInput>Auto</CreateOnInput>
+							<ChoiceForm/>
+							<LinkByType/>
+							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+							<Indexing>DontIndex</Indexing>
+							<FullTextSearch>Use</FullTextSearch>
+							<DataHistory>Use</DataHistory>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="5d1a8eb2-6b30-4c7f-bf07-92fd715771a3">
+						<Properties>
+							<Name>Сделка</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Сделка</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<Type>
+								<v8:Type>cfg:CatalogRef.СделкиСКлиентами</v8:Type>
 							</Type>
 							<PasswordMode>false</PasswordMode>
 							<Format/>
