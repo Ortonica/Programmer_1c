@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.13">
 	<DataProcessor uuid="332ce6d0-fc0a-475e-a7fa-1dda60254779">
 		<InternalInfo>
 			<xr:GeneratedType name="DataProcessorObject.УниверсальныйОбменДаннымиXML" category="Object">
@@ -12,18 +12,18 @@
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<ObjectBelonging>Adopted</ObjectBelonging>
 			<Name>УниверсальныйОбменДаннымиXML</Name>
 			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
 			<ExtendedConfigurationObject>c9035b0f-cfc4-4761-9ba0-a8aacfaa9c72</ExtendedConfigurationObject>
 		</Properties>
 		<ChildObjects>
 			<Attribute uuid="5eca8337-a08c-4e2d-906a-7fb4ad9f088c">
 				<InternalInfo/>
 				<Properties>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>АрхивироватьФайл</Name>
 					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>7efb0bf4-d40c-417b-b9bc-f4a5af66ec09</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>xs:boolean</v8:Type>
@@ -33,9 +33,9 @@
 			<Attribute uuid="de451b34-91be-4a71-a0ea-bbd032ec0ea2">
 				<InternalInfo/>
 				<Properties>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>Данные</Name>
 					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>21258174-3a95-4c10-bb8f-4d6db0c5ae0e</ExtendedConfigurationObject>
 					<Type/>
 				</Properties>
@@ -43,9 +43,9 @@
 			<Attribute uuid="787b2396-6dd1-4010-88da-c2b3b81c6e6b">
 				<InternalInfo/>
 				<Properties>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>ПарольИнформационнойБазыДляПодключения</Name>
 					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>a6794f74-08a4-4b73-add7-e6d0d1b6e7a3</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
@@ -59,9 +59,9 @@
 			<Attribute uuid="7b44b032-73ed-436a-b71c-a9cd1b557682">
 				<InternalInfo/>
 				<Properties>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>РежимОтладкиАлгоритмов</Name>
 					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>b64fd964-cee8-4619-872f-82d2fdc14240</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>xs:decimal</v8:Type>
@@ -76,9 +76,9 @@
 			<Attribute uuid="7c452c70-398b-4d61-842b-15613dba55e5">
 				<InternalInfo/>
 				<Properties>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>ОбрезатьСтрокиСправа</Name>
 					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>9134dc40-a8f1-4c60-9431-27cb98be5ecd</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>xs:boolean</v8:Type>
@@ -88,9 +88,9 @@
 			<Attribute uuid="369bb3c9-c03f-47ac-841e-65d0cfe7ada3">
 				<InternalInfo/>
 				<Properties>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>НеВыводитьНикакихИнформационныхСообщенийПользователю</Name>
 					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>53c0d900-5e96-4381-a1ed-4424a5799608</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>xs:boolean</v8:Type>
@@ -100,9 +100,9 @@
 			<Attribute uuid="9971d11b-fc18-4576-9947-5d358ee48f23">
 				<InternalInfo/>
 				<Properties>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>ИмяИнформационнойБазыНаСервереДляПодключения</Name>
 					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>b28c3a8f-8cad-45eb-90d3-6d90a0b3f881</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
@@ -116,9 +116,9 @@
 			<Attribute uuid="d36cb908-54d0-4dc3-a542-81f56d709b76">
 				<InternalInfo/>
 				<Properties>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>АутентификацияWindowsИнформационнойБазыДляПодключения</Name>
 					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>4cd4694f-17f8-43ba-8940-07628bd937fe</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>xs:boolean</v8:Type>
@@ -128,9 +128,9 @@
 			<Attribute uuid="c024b228-5c58-4930-8b92-d092116beb38">
 				<InternalInfo/>
 				<Properties>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>ИмяСервераИнформационнойБазыДляПодключения</Name>
 					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>3c5974ec-f76d-401c-a8e4-d51c7cd4c4fb</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
@@ -144,9 +144,9 @@
 			<Attribute uuid="f8402a1f-bcd2-4e01-a60f-31c6e4d2a235">
 				<InternalInfo/>
 				<Properties>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>ИмяФайлаПротоколаОбмена</Name>
 					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>fc19586c-d89c-495c-b473-6f85967ed48e</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
@@ -160,9 +160,9 @@
 			<Attribute uuid="5d289c0d-f2a8-4e28-aefa-87a566accfc2">
 				<InternalInfo/>
 				<Properties>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>ФлагРежимОтладкиОбработчиков</Name>
 					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>9bcc8f9a-ec12-45f2-8a32-6946d556f57a</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>xs:boolean</v8:Type>
@@ -172,9 +172,9 @@
 			<Attribute uuid="625e8d23-a4fd-4cce-9f06-e0bfb30ac94d">
 				<InternalInfo/>
 				<Properties>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>ТаблицаПравилВыгрузки</Name>
 					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>4eeab8c2-d901-4b95-adea-4a08f79d0fa2</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>v8:ValueTree</v8:Type>
@@ -184,9 +184,9 @@
 			<Attribute uuid="7229bbca-e720-43d2-b2bf-5bca62fd773b">
 				<InternalInfo/>
 				<Properties>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>КоличествоЭлементовВТранзакцииПриВыгрузкеДляПлановОбмена</Name>
 					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>4b5ff142-47b8-4548-b6f9-56ebcbd40e35</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>xs:decimal</v8:Type>
@@ -201,9 +201,9 @@
 			<Attribute uuid="c9baa4a5-fc98-4ace-8c03-2f7515b277fc">
 				<InternalInfo/>
 				<Properties>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>ТаблицаНастройкиПараметров</Name>
 					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>79528a0e-1e48-4d14-bd28-756fd5db57b9</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>v8:ValueTable</v8:Type>
@@ -213,9 +213,9 @@
 			<Attribute uuid="024aab79-5ea4-4ce6-b747-075084063703">
 				<InternalInfo/>
 				<Properties>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>ТаблицаПравилОчистки</Name>
 					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>7ce1f9eb-ac51-46fd-adc5-c8b9bfb32e44</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>v8:ValueTree</v8:Type>
@@ -225,9 +225,9 @@
 			<Attribute uuid="68c94b0f-5c8d-4f2d-aed9-d0f26a06900d">
 				<InternalInfo/>
 				<Properties>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>ТаблицаПравилКонвертации</Name>
 					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>d9426219-4b37-4776-8d5d-acab5825e789</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>v8:ValueTable</v8:Type>
@@ -237,9 +237,9 @@
 			<Attribute uuid="710fcb25-6773-4800-b62a-86a71face8fd">
 				<InternalInfo/>
 				<Properties>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>ЗагружатьДанныеВРежимеОбмена</Name>
 					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>14b65111-4c0e-4521-9fcd-2a8d4aaa6b4b</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>xs:boolean</v8:Type>
@@ -249,9 +249,9 @@
 			<Attribute uuid="6a19a2ff-0f15-43dd-9e13-74223735002e">
 				<InternalInfo/>
 				<Properties>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>ОбъектыПоСсылкеЗагружатьБезПометкиУдаления</Name>
 					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>16c4622a-33af-4a95-b44e-0861a6df21d2</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>xs:boolean</v8:Type>
@@ -261,9 +261,9 @@
 			<Attribute uuid="617601f8-c6e4-42bb-b6e4-12c50b4ac449">
 				<InternalInfo/>
 				<Properties>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>ЗадаватьВопросПриЗагрузкеДанныхПриОткрытииОбработки</Name>
 					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>1f1def7c-e0ee-4963-afea-1751bf1b812c</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>xs:boolean</v8:Type>
@@ -273,9 +273,9 @@
 			<Attribute uuid="fb69bb1e-9afc-45eb-8e19-5fe83c5dd132">
 				<InternalInfo/>
 				<Properties>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>ДатаОкончания</Name>
 					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>26a1279f-91f0-4632-ad7c-21cf2f524208</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>xs:dateTime</v8:Type>
@@ -288,9 +288,9 @@
 			<Attribute uuid="8c151950-bbe1-459d-a7c1-6bf69c3c5ac6">
 				<InternalInfo/>
 				<Properties>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>ПользовательИнформационнойБазыДляПодключения</Name>
 					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>29233058-ccb1-4110-a9bc-cdb4c531f35a</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
@@ -304,9 +304,9 @@
 			<Attribute uuid="cc5838e1-160f-4235-9cbe-c2d3a2dcf109">
 				<InternalInfo/>
 				<Properties>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>ИспользоватьТранзакции</Name>
 					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>91b320d8-3426-44d3-97d7-c200287d7343</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>xs:boolean</v8:Type>
@@ -316,9 +316,9 @@
 			<Attribute uuid="126eceeb-ce98-4602-aa30-5faddda636ff">
 				<InternalInfo/>
 				<Properties>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>ИмяФайлаОбмена</Name>
 					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>d22ed498-c7df-45bb-869f-f16d3aa2d3d3</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
@@ -332,9 +332,9 @@
 			<Attribute uuid="3a850d85-6345-4314-9d26-67cd007794b7">
 				<InternalInfo/>
 				<Properties>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>ЗаписыватьВИнформационнуюБазуТолькоИзмененныеОбъекты</Name>
 					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>9a4c0898-ab56-425c-8191-5ab90f4e12bf</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>xs:boolean</v8:Type>
@@ -344,9 +344,9 @@
 			<Attribute uuid="0cc46644-dfbf-4988-b0b7-441d04b9d5fa">
 				<InternalInfo/>
 				<Properties>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>ИмяФайлаПротоколаОбменаЗагрузка</Name>
 					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>2ac7c701-a281-4e77-a5f8-294526021e2d</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
@@ -360,9 +360,9 @@
 			<Attribute uuid="f1367f0b-a4b5-4b26-977c-ea97fa231284">
 				<InternalInfo/>
 				<Properties>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>КоличествоОбработанныхОбъектовДляОбновленияСтатуса</Name>
 					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>2ce3a350-86f1-4275-8299-3c3693ca11fa</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>xs:decimal</v8:Type>
@@ -377,9 +377,9 @@
 			<Attribute uuid="c6284a69-0a0b-45e1-a492-c5052df600cb">
 				<InternalInfo/>
 				<Properties>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>ВыводВПротоколСообщенийОбОшибках</Name>
 					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>4311a250-64af-443e-a711-93b7c41175cf</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>xs:boolean</v8:Type>
@@ -389,9 +389,9 @@
 			<Attribute uuid="dfe87e50-1d8b-4995-bcee-04a41a44d674">
 				<InternalInfo/>
 				<Properties>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>ДописыватьДанныеВПротоколОбмена</Name>
 					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>bf751ed0-ee47-4eaf-81bd-f0da00bef343</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>xs:boolean</v8:Type>
@@ -401,9 +401,9 @@
 			<Attribute uuid="a03bcd36-ca95-4fdc-b513-1d5531e6149a">
 				<InternalInfo/>
 				<Properties>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>КомментарийПриВыгрузкеДанных</Name>
 					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>79bd24d0-61a9-4558-90ac-4e726066789c</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
@@ -417,9 +417,9 @@
 			<Attribute uuid="cbbc89cc-eaef-4936-bd69-de5553079311">
 				<InternalInfo/>
 				<Properties>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>ОткрыватьПротоколыОбменаПослеВыполненияОпераций</Name>
 					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>37213c65-bf26-4e50-a2fa-58eb45439b58</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>xs:boolean</v8:Type>
@@ -429,9 +429,9 @@
 			<Attribute uuid="e1639c26-6a6a-44aa-9e8b-64e353d52774">
 				<InternalInfo/>
 				<Properties>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>КаталогИнформационнойБазыДляПодключения</Name>
 					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>41cf3916-216f-4c4e-a587-82777f4263e0</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
@@ -445,9 +445,9 @@
 			<Attribute uuid="93ef9806-ee57-4835-892b-a80ce360efcd">
 				<InternalInfo/>
 				<Properties>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>ВыводВПротоколИнформационныхСообщений</Name>
 					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>fc4cfed6-e492-4420-b357-8143a8c2a41a</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>xs:boolean</v8:Type>
@@ -457,9 +457,9 @@
 			<Attribute uuid="4f5948ed-d67a-483d-98b7-f136ab4b8a78">
 				<InternalInfo/>
 				<Properties>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>РежимОбмена</Name>
 					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>429d08b7-0b98-4f9b-a053-d04dd84a7026</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
@@ -473,9 +473,9 @@
 			<Attribute uuid="51e3ba9e-9636-4e05-ab6b-b7b78bbccf75">
 				<InternalInfo/>
 				<Properties>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>ОбработкиНастройкиВыгрузки</Name>
 					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>45ca9e20-1246-4400-a019-ffb521af6ea7</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>v8:ValueListType</v8:Type>
@@ -485,9 +485,9 @@
 			<Attribute uuid="bfe08c03-f56f-4d45-97a6-c9e06c4d4d2c">
 				<InternalInfo/>
 				<Properties>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>ИмяФайлаОбработчиковСобытий</Name>
 					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>4a966f6e-87dd-4dae-9cc0-dbabee9424dc</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
@@ -501,9 +501,9 @@
 			<Attribute uuid="8da01bf8-d77e-42f2-a272-d15a2ee1cf00">
 				<InternalInfo/>
 				<Properties>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>ТипИнформационнойБазыДляПодключения</Name>
 					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>4fef5026-1cba-4c33-ae75-5f9570a8e6b6</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>xs:boolean</v8:Type>
@@ -513,9 +513,9 @@
 			<Attribute uuid="858bf42b-447d-490a-9555-2352e41d3cb5">
 				<InternalInfo/>
 				<Properties>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>КоличествоОбъектовНаТранзакцию</Name>
 					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>59f0ed15-c84c-4f41-bdd4-26317e4e914d</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>xs:decimal</v8:Type>
@@ -530,9 +530,9 @@
 			<Attribute uuid="73dafd3d-a88e-4e4f-b0b5-ddc7f18f9411">
 				<InternalInfo/>
 				<Properties>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>ВыводВОкноСообщенийИнформационныхСообщений</Name>
 					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>5a8c3621-595a-4168-8bba-a7f8d499e47e</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>xs:boolean</v8:Type>
@@ -542,9 +542,9 @@
 			<Attribute uuid="f629851d-6b41-4c90-85ad-eab6bdd41ffa">
 				<InternalInfo/>
 				<Properties>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>СохраненныеНастройки</Name>
 					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>5ce7846d-9806-40f5-8631-4e14deb8bc95</ExtendedConfigurationObject>
 					<Type/>
 				</Properties>
@@ -552,9 +552,9 @@
 			<Attribute uuid="3442a20a-325f-423b-83a9-a13d5daf68a3">
 				<InternalInfo/>
 				<Properties>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>ИмяФайлаВнешнейОбработкиОбработчиковСобытий</Name>
 					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>609a9bc9-4225-4fe1-91fa-90c9c2e5cfba</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
@@ -568,9 +568,9 @@
 			<Attribute uuid="dfa7a6a3-8ec6-4282-a70e-618b67702c5d">
 				<InternalInfo/>
 				<Properties>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>ИспользоватьОтборПоДатеДляВсехОбъектов</Name>
 					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>979df549-889d-496a-b6ce-c56d54c771b5</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>xs:boolean</v8:Type>
@@ -580,9 +580,9 @@
 			<Attribute uuid="c9a4c36e-c07e-4cde-82ef-7916849be7d8">
 				<InternalInfo/>
 				<Properties>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>НеЗадаватьВопросПриЗагрузкеДанныхПриОткрытииОбработки</Name>
 					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>64fe317a-7d0e-4758-b5cf-0d871d2bf4ad</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>xs:boolean</v8:Type>
@@ -592,9 +592,9 @@
 			<Attribute uuid="45992853-d738-4b3c-a101-576cbbad17a8">
 				<InternalInfo/>
 				<Properties>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>ЗаписыватьРегистрыНаборамиЗаписей</Name>
 					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>6841ec47-7a84-441a-b975-69d089072ce7</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>xs:boolean</v8:Type>
@@ -604,9 +604,9 @@
 			<Attribute uuid="cd1faff4-6e85-4c1f-a1ef-2dc27dc9d7b4">
 				<InternalInfo/>
 				<Properties>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>ОбработкиНастройкиЗагрузки</Name>
 					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>73eed854-5c3a-4a10-9bfa-793fd517f303</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>v8:ValueListType</v8:Type>
@@ -616,9 +616,9 @@
 			<Attribute uuid="e4fcca86-6957-4c43-a393-199e07334288">
 				<InternalInfo/>
 				<Properties>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>ВерсияПлатформыИнформационнойБазыДляПодключения</Name>
 					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>7df6c94b-3cfe-4764-988e-858d733e35d9</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
@@ -632,9 +632,9 @@
 			<Attribute uuid="76c9df8d-6695-4173-9e84-2ae213ffd970">
 				<InternalInfo/>
 				<Properties>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>ВыгружатьТолькоРазрешенные</Name>
 					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>804b6c57-1d7b-4927-be5b-84b7959fe55e</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>xs:boolean</v8:Type>
@@ -644,9 +644,9 @@
 			<Attribute uuid="786abc35-b6aa-4ea0-a1be-6611adf59174">
 				<InternalInfo/>
 				<Properties>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>КомментарийПриЗагрузкеДанных</Name>
 					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>d843cbd7-e2b5-4c50-8ed2-7cb0baac8ecc</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
@@ -660,9 +660,9 @@
 			<Attribute uuid="8684c681-763c-4d19-aece-3ac5415a2d6c">
 				<InternalInfo/>
 				<Properties>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>ВестиДополнительныйКонтрольЗаписиВXML</Name>
 					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>87b3153d-bef0-4441-8b1c-a5fc7ba4c36a</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>xs:boolean</v8:Type>
@@ -672,9 +672,9 @@
 			<Attribute uuid="1dc8de61-4a44-4e5e-baf7-2242014be578">
 				<InternalInfo/>
 				<Properties>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>ВерсияПравилОбмена</Name>
 					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>8b251c7d-2d55-4734-a1da-7f1115d95080</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>xs:dateTime</v8:Type>
@@ -687,9 +687,9 @@
 			<Attribute uuid="df0d3c7f-2a41-4624-8cf3-573870dbbf07">
 				<InternalInfo/>
 				<Properties>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>Комментарий</Name>
 					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>8fef790c-a3f4-460c-9093-5065cbdba196</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
@@ -703,9 +703,9 @@
 			<Attribute uuid="b1ee6e80-c435-4cc3-80df-34b12a094864">
 				<InternalInfo/>
 				<Properties>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>ДатаНачала</Name>
 					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>a64d4b1b-fae4-43ae-ae98-bdc4e59a94c1</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>xs:dateTime</v8:Type>
@@ -718,9 +718,9 @@
 			<Attribute uuid="e1bc08e6-c5cd-467f-bd19-2523c3ddebd3">
 				<InternalInfo/>
 				<Properties>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>НепосредственноеЧтениеВИБПриемнике</Name>
 					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>abfb7ac3-ebfa-4275-a039-a6b94bb9a76f</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>xs:boolean</v8:Type>
@@ -730,9 +730,9 @@
 			<Attribute uuid="3a3c6286-a4c9-410b-bcc2-7c03c92e3035">
 				<InternalInfo/>
 				<Properties>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>ПарольДляСжатияФайлаОбмена</Name>
 					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>deb8b883-142e-47d0-a722-7c734a0cf9b3</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
@@ -746,9 +746,9 @@
 			<Attribute uuid="30075f94-fbce-4c22-a79e-7a312d3a0d83">
 				<InternalInfo/>
 				<Properties>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>ПарольДляРаспаковкиФайлаОбмена</Name>
 					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>b6b31892-73ee-4c9b-92b0-2735536c4938</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
@@ -762,9 +762,9 @@
 			<Attribute uuid="39a9130a-bb34-4779-8740-31c89c56d058">
 				<InternalInfo/>
 				<Properties>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>ИспользоватьТранзакцииПриВыгрузкеДляПлановОбмена</Name>
 					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>b9297f72-b40a-4adb-9975-bb693d4834a4</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>xs:boolean</v8:Type>
@@ -774,9 +774,9 @@
 			<Attribute uuid="39a6495c-aa3a-49bd-a85e-08f0add24bab">
 				<InternalInfo/>
 				<Properties>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>ОбработчикиСобытийЧитаемИзФайлаПравилОбмена</Name>
 					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>c3eb2836-ea4d-48cc-a03f-3a0c30f67e7f</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>xs:boolean</v8:Type>
@@ -786,9 +786,9 @@
 			<Attribute uuid="14e86c3b-e51e-4158-9316-b10bf0cda09d">
 				<InternalInfo/>
 				<Properties>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>ОптимизированнаяЗаписьОбъектов</Name>
 					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>d8cac67b-cce2-4a00-a8df-c6570c50153f</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>xs:boolean</v8:Type>
@@ -798,9 +798,9 @@
 			<Attribute uuid="0a5a0711-dda6-425c-a8d2-2f209c7fbfea">
 				<InternalInfo/>
 				<Properties>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>КодировкаФайлаПротоколаОбмена</Name>
 					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>905b787b-c638-4703-af70-416a2ce43b50</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
@@ -814,9 +814,9 @@
 			<Attribute uuid="c9216f74-19f4-4a50-b9a0-2eadc62028a1">
 				<InternalInfo/>
 				<Properties>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>Параметры</Name>
 					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>e43c08a9-6496-4c8e-bfe2-9d728e31d63d</ExtendedConfigurationObject>
 					<Type/>
 				</Properties>
@@ -824,9 +824,9 @@
 			<Attribute uuid="0f06c2dd-ff9d-4738-907b-05c48cd456c7">
 				<InternalInfo/>
 				<Properties>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>НастройкаАвтоматическойЗагрузкиДанных</Name>
 					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>ef356548-51a4-4b09-b37d-ede5b8f3edb6</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>xs:decimal</v8:Type>
@@ -841,9 +841,9 @@
 			<Attribute uuid="7b785b4d-07df-491a-8e4d-18f973d6c201">
 				<InternalInfo/>
 				<Properties>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>ВыполнитьОбменДаннымиВОптимизированномФормате</Name>
 					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>f2655d85-79ea-4736-8f41-94a4f9b2b998</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>xs:boolean</v8:Type>
@@ -853,9 +853,9 @@
 			<Attribute uuid="b1b084d2-b1ca-4a60-959e-603baee9cb0c">
 				<InternalInfo/>
 				<Properties>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>ФлагРежимОтладки</Name>
 					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>f9e48170-62eb-4d6b-b861-c7af1b4a38c3</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>xs:boolean</v8:Type>
@@ -865,9 +865,9 @@
 			<Attribute uuid="a779cda2-d48a-4523-ae66-6cfa64f0beaa">
 				<InternalInfo/>
 				<Properties>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>БезопаснаяЗагрузка</Name>
 					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>9b9e81f9-e23f-4c77-bf6f-edbce8ebabfa</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>xs:boolean</v8:Type>
@@ -877,9 +877,9 @@
 			<Attribute uuid="6c87c7e8-ac84-4dd5-9526-b06c951c7179">
 				<InternalInfo/>
 				<Properties>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>ДатаВыгрузкиДанных</Name>
 					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>a8eb5ed9-df99-405b-afad-eeaa98956eee</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>xs:dateTime</v8:Type>

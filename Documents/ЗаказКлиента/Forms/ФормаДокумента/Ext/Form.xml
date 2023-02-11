@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.13">
 	<AutoSaveDataInSettings>Use</AutoSaveDataInSettings>
 	<CommandSet>
 		<ExcludedCommand>Post</ExcludedCommand>
@@ -502,6 +502,8 @@
 									<v8:content>Pages</v8:content>
 								</v8:item>
 							</Title>
+							<Height>43</Height>
+							<VerticalStretch>false</VerticalStretch>
 							<PagesRepresentation>TabsOnTop</PagesRepresentation>
 							<ExtendedTooltip name="ГруппаСтраницыExtendedTooltip" id="1145"/>
 							<ChildItems>
@@ -4587,6 +4589,62 @@ notes</v8:content>
 												</LabelDecoration>
 											</ChildItems>
 										</UsualGroup>
+										<UsualGroup name="ГруппаФайлыЕИС" id="2465">
+											<Visible>false</Visible>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Файлы ЕИС</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>UIS files</v8:content>
+												</v8:item>
+											</Title>
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Группа файлы ЕИС</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Group UIS files</v8:content>
+												</v8:item>
+											</ToolTip>
+											<Group>Vertical</Group>
+											<Behavior>Usual</Behavior>
+											<Representation>None</Representation>
+											<ShowTitle>false</ShowTitle>
+											<ExtendedTooltip name="ГруппаФайлыЕИСРасширеннаяПодсказка" id="2468"/>
+											<ChildItems>
+												<LabelDecoration name="ДекорацияФайлыЕИС" id="2467">
+													<AutoMaxWidth>false</AutoMaxWidth>
+													<Title formatted="false">
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Файлы ЕИС</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>UIS files</v8:content>
+														</v8:item>
+													</Title>
+													<ToolTip>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Прикрепленные файлы к документу ЕИС</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>UIS document attachments</v8:content>
+														</v8:item>
+													</ToolTip>
+													<Hyperlink>true</Hyperlink>
+													<ContextMenu name="ДекорацияФайлыЕИСКонтекстноеМеню" id="2407"/>
+													<ExtendedTooltip name="ДекорацияФайлыЕИСРасширеннаяПодсказка" id="2408"/>
+												</LabelDecoration>
+											</ChildItems>
+										</UsualGroup>
 									</ChildItems>
 								</UsualGroup>
 								<UsualGroup name="ГруппаИтогоРасчеты" id="1463">
@@ -5085,7 +5143,7 @@ notes</v8:content>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 	</Commands>
-	<BaseForm version="2.15">
+	<BaseForm version="2.13">
 		<AutoSaveDataInSettings>Use</AutoSaveDataInSettings>
 		<CommandSet>
 			<ExcludedCommand>Post</ExcludedCommand>
@@ -6068,11 +6126,15 @@ notes</v8:content>
 														<ChildItems>
 															<LabelField name="ДекорацияЭтапыОплаты" id="2380">
 																<TitleLocation>None</TitleLocation>
+																<AutoMaxWidth>false</AutoMaxWidth>
+																<MaxWidth>28</MaxWidth>
 																<Hiperlink>true</Hiperlink>
 																<ContextMenu name="ДекорацияЭтапыОплатыКонтекстноеМеню" id="2381"/>
 																<ExtendedTooltip name="ДекорацияЭтапыОплатыРасширеннаяПодсказка" id="2379"/>
 															</LabelField>
 															<LabelDecoration name="ДекорацияСостояниеРасчетов" id="1751">
+																<AutoMaxWidth>false</AutoMaxWidth>
+																<MaxWidth>35</MaxWidth>
 																<Title formatted="false">
 																	<v8:item>
 																		<v8:lang>ru</v8:lang>
@@ -9491,6 +9553,62 @@ notes</v8:content>
 													</LabelDecoration>
 												</ChildItems>
 											</UsualGroup>
+											<UsualGroup name="ГруппаФайлыЕИС" id="2404">
+												<Visible>false</Visible>
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Файлы ЕИС</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>UIS files</v8:content>
+													</v8:item>
+												</Title>
+												<ToolTip>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Группа файлы ЕИС</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Group UIS files</v8:content>
+													</v8:item>
+												</ToolTip>
+												<Group>Vertical</Group>
+												<Behavior>Usual</Behavior>
+												<Representation>None</Representation>
+												<ShowTitle>false</ShowTitle>
+												<ExtendedTooltip name="ГруппаФайлыЕИСРасширеннаяПодсказка" id="2405"/>
+												<ChildItems>
+													<LabelDecoration name="ДекорацияФайлыЕИС" id="2406">
+														<AutoMaxWidth>false</AutoMaxWidth>
+														<Title formatted="false">
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>Файлы ЕИС</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>UIS files</v8:content>
+															</v8:item>
+														</Title>
+														<ToolTip>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>Прикрепленные файлы к документу ЕИС</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>UIS document attachments</v8:content>
+															</v8:item>
+														</ToolTip>
+														<Hyperlink>true</Hyperlink>
+														<ContextMenu name="ДекорацияФайлыЕИСКонтекстноеМеню" id="2407"/>
+														<ExtendedTooltip name="ДекорацияФайлыЕИСРасширеннаяПодсказка" id="2408"/>
+													</LabelDecoration>
+												</ChildItems>
+											</UsualGroup>
 										</ChildItems>
 									</UsualGroup>
 									<UsualGroup name="ГруппаИтогоРасчеты" id="1463">
@@ -9887,7 +10005,7 @@ notes</v8:content>
 			</Attribute>
 		</Attributes>
 		<Commands>
-			<Command name="РезервироватьПоМереПоступления" id="1000003">
+			<Command name="РезервироватьПоМереПоступления" id="1000001">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -9899,7 +10017,6 @@ notes</v8:content>
 					</v8:item>
 				</Title>
 				<Shortcut>Ctrl+U</Shortcut>
-				<Action callType="Before">РезервироватьПоМереПоступления</Action>
 				<FunctionalOptions>
 					<Item>FunctionalOption.ИспользоватьПострочнуюОтгрузкуВЗаказеКлиента</Item>
 				</FunctionalOptions>

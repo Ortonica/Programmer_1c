@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.13">
 	<Catalog uuid="bdfc1f79-3ad7-4b11-9e1c-638655881606">
 		<InternalInfo>
 			<xr:GeneratedType name="CatalogObject.СтатьиДвиженияДенежныхСредств" category="Object">
@@ -24,9 +24,9 @@
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<ObjectBelonging>Adopted</ObjectBelonging>
 			<Name>СтатьиДвиженияДенежныхСредств</Name>
 			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
 			<ExtendedConfigurationObject>14acec6d-fed6-45ff-b38d-019e8efe98fa</ExtendedConfigurationObject>
 			<Hierarchical>true</Hierarchical>
 			<CodeLength>9</CodeLength>
@@ -38,9 +38,9 @@
 			<Attribute uuid="b336ffdd-22a6-4eec-a52c-d0be1377eabf">
 				<InternalInfo/>
 				<Properties>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>ПриоритетОплаты</Name>
 					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>d5baa7da-f88d-434c-b1f8-57627695ebaf</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>cfg:CatalogRef.ПриоритетыОплаты</v8:Type>
@@ -90,9 +90,9 @@
 			<Attribute uuid="7eae00bd-1c47-4534-9f81-03fe72622290">
 				<InternalInfo/>
 				<Properties>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>Описание</Name>
 					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>01eb198e-c00b-4242-9b92-9eb2105a849f</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
@@ -106,9 +106,9 @@
 			<Attribute uuid="dc8f6f20-c94d-4308-afde-a033aa466940">
 				<InternalInfo/>
 				<Properties>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>НеУчитываетсяВНалоговойБазеАУСН</Name>
 					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>585785f5-ff0e-435a-a422-2f06bb4fcb15</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>xs:boolean</v8:Type>
@@ -118,9 +118,9 @@
 			<Attribute uuid="44b385f9-6a21-4c1b-be36-65780b26c0ac">
 				<InternalInfo/>
 				<Properties>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>ВидДвиженияДенежныхСредств</Name>
 					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>a09e4f58-630a-4136-b56e-83a4c8c07af3</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>cfg:EnumRef.ВидыДвиженийДенежныхСредств</v8:Type>
@@ -130,9 +130,9 @@
 			<Attribute uuid="44a75ab1-0ca3-462f-b2c7-8c303b027f92">
 				<InternalInfo/>
 				<Properties>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>КорреспондирующийСчет</Name>
 					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>8bea1e18-7867-4155-8c93-3017bfdb986b</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
@@ -155,9 +155,9 @@
 					</xr:GeneratedType>
 				</InternalInfo>
 				<Properties>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>ХозяйственныеОперации</Name>
 					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>afa9ad35-d19c-472b-a8c7-5ea51030da7c</ExtendedConfigurationObject>
 				</Properties>
 				<ChildObjects/>

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.13">
 	<Catalog uuid="825ad009-ad08-4684-b2a9-2bf170f36ab4">
 		<InternalInfo>
 			<xr:GeneratedType name="CatalogObject.НоменклатураПрисоединенныеФайлы" category="Object">
@@ -24,9 +24,9 @@
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<ObjectBelonging>Adopted</ObjectBelonging>
 			<Name>НоменклатураПрисоединенныеФайлы</Name>
 			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
 			<ExtendedConfigurationObject>2cb474ac-2906-439d-89dd-dacdb4e90a6c</ExtendedConfigurationObject>
 		</Properties>
 		<ChildObjects>
@@ -73,9 +73,9 @@
 			<Attribute uuid="3d81c3ae-c480-4592-8f6e-866357b7042d">
 				<InternalInfo/>
 				<Properties>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>ВладелецФайла</Name>
 					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>4cbc4bf7-017f-48f7-b2a5-e1cf7ebee076</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>cfg:CatalogRef.Номенклатура</v8:Type>
@@ -85,9 +85,9 @@
 			<Attribute uuid="41c3b63e-e4b7-4e2f-bb37-135448620db7">
 				<InternalInfo/>
 				<Properties>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>ИндексКартинки</Name>
 					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>593e5b75-d057-485d-a6d1-0563e55b6c2f</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>xs:decimal</v8:Type>

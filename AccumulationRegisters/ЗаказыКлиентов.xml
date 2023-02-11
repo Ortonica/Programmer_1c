@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.13">
 	<AccumulationRegister uuid="f760a302-7634-48ff-bd72-e5e00b17540d">
 		<InternalInfo>
 			<xr:GeneratedType name="AccumulationRegisterRecord.ЗаказыКлиентов" category="Record">
@@ -28,9 +28,9 @@
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<ObjectBelonging>Adopted</ObjectBelonging>
 			<Name>ЗаказыКлиентов</Name>
 			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
 			<ExtendedConfigurationObject>83215cb0-88b1-4142-8d87-b3ffeff2a138</ExtendedConfigurationObject>
 			<RegisterType>Balance</RegisterType>
 		</Properties>
@@ -38,9 +38,9 @@
 			<Resource uuid="707d6997-d218-4748-94fe-ca0d8d10ee08">
 				<InternalInfo/>
 				<Properties>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>КОформлению</Name>
 					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>e55e672e-8c3f-49d2-b98c-8276f9a7e69e</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>xs:decimal</v8:Type>
@@ -52,12 +52,53 @@
 					</Type>
 				</Properties>
 			</Resource>
+			<Resource uuid="505c645e-89d8-4c4a-ae80-69274540b2aa">
+				<InternalInfo/>
+				<Properties>
+					<Name>Заказано</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>0a172407-3cd3-4465-817b-ef136d69b074</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>15</v8:Digits>
+							<v8:FractionDigits>3</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="9c4747ee-c81e-44b8-86e1-dfb28857c785">
+				<InternalInfo/>
+				<Properties>
+					<Name>Сумма</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>c4cbee16-b1aa-4234-bb50-af90c6374383</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:DefinedType.ДенежнаяСуммаЛюбогоЗнака</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Resource>
+			<Attribute uuid="14e4879f-bb4f-43f7-adef-f6ca15ae49f0">
+				<InternalInfo/>
+				<Properties>
+					<Name>ПричинаОтмены</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>3249e658-649f-436a-9854-2fb26f1c08ae</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ПричиныОтменыЗаказовКлиентов</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
 			<Dimension uuid="e237a7f0-a738-4f3e-9784-709da98816c2">
 				<InternalInfo/>
 				<Properties>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>ЗаказКлиента</Name>
 					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>1a95e6a2-8f14-4c13-ae8a-d9c1e573586c</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>cfg:DocumentRef.ЗаказКлиента</v8:Type>
@@ -68,12 +109,36 @@
 			<Dimension uuid="e29fa0c4-f476-4d0f-8d42-2f29a5c44ba0">
 				<InternalInfo/>
 				<Properties>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>Склад</Name>
 					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>6b6e1f3a-4719-481b-8fb1-9ad2067ac3d6</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>cfg:CatalogRef.Склады</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="940ba9b7-e432-4a93-b6ed-e9c59228f802">
+				<InternalInfo/>
+				<Properties>
+					<Name>Номенклатура</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>4026360e-dc55-40a3-a674-993e70555e7a</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Номенклатура</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="a0f741ae-a485-4e05-9b77-6bb1261ae718">
+				<InternalInfo/>
+				<Properties>
+					<Name>Характеристика</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>a463c29a-bb15-4948-ba28-6779b6063445</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ХарактеристикиНоменклатуры</v8:Type>
 					</Type>
 				</Properties>
 			</Dimension>

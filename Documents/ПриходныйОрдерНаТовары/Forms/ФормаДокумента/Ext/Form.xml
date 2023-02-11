@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.13">
 	<AutoSaveDataInSettings>Use</AutoSaveDataInSettings>
 	<CommandSet>
 		<ExcludedCommand>Copy</ExcludedCommand>
@@ -687,89 +687,95 @@
 					<Height>10</Height>
 					<ExtendedTooltip name="ГруппаТоварыExtendedTooltip" id="381"/>
 					<ChildItems>
-						<UsualGroup name="ГруппаРежимПросмотраНавигация" id="696">
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Режим просмотра навигация</v8:content>
-								</v8:item>
-								<v8:item>
-									<v8:lang>en</v8:lang>
-									<v8:content>View mode navigation</v8:content>
-								</v8:item>
-							</Title>
-							<Group>Horizontal</Group>
-							<Behavior>Usual</Behavior>
-							<Representation>None</Representation>
+						<UsualGroup name="ГруппаТоварыЗаголовок" id="938">
 							<ShowTitle>false</ShowTitle>
-							<ExtendedTooltip name="ГруппаРежимПросмотраНавигацияРасширеннаяПодсказка" id="697"/>
+							<ExtendedTooltip name="ГруппаТоварыЗаголовокРасширеннаяПодсказка" id="940"/>
 							<ChildItems>
-								<LabelField name="НадписьНавигация" id="698">
-									<TitleLocation>None</TitleLocation>
-									<AutoMaxWidth>false</AutoMaxWidth>
-									<HorizontalStretch>true</HorizontalStretch>
-									<ContextMenu name="НадписьНавигацияКонтекстноеМеню" id="699"/>
-									<ExtendedTooltip name="НадписьНавигацияРасширеннаяПодсказка" id="700"/>
-								</LabelField>
-								<LabelDecoration name="ОтступНавигация" id="887">
-									<AutoMaxWidth>false</AutoMaxWidth>
-									<HorizontalStretch>true</HorizontalStretch>
-									<ContextMenu name="ОтступНавигацияКонтекстноеМеню" id="888"/>
-									<ExtendedTooltip name="ОтступНавигацияРасширеннаяПодсказка" id="889"/>
-								</LabelDecoration>
-								<RadioButtonField name="РежимПросмотра" id="704">
-									<DataPath>Объект.РежимПросмотраПоТоварам</DataPath>
-									<TitleLocation>None</TitleLocation>
-									<ToolTip>
+								<UsualGroup name="ГруппаРежимПросмотраНавигация" id="696">
+									<Title>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
-											<v8:content>Режим просмотра списка товарных мест</v8:content>
+											<v8:content>Режим просмотра навигация</v8:content>
 										</v8:item>
 										<v8:item>
 											<v8:lang>en</v8:lang>
-											<v8:content>Collo list view mode</v8:content>
+											<v8:content>View mode navigation</v8:content>
 										</v8:item>
-									</ToolTip>
-									<RadioButtonType>Tumbler</RadioButtonType>
-									<ChoiceList>
-										<xr:Item>
-											<xr:Presentation/>
-											<xr:CheckState>0</xr:CheckState>
-											<xr:Value xsi:type="FormChoiceListDesTimeValue">
-												<Presentation>
-													<v8:item>
-														<v8:lang>ru</v8:lang>
-														<v8:content>По товарным местам</v8:content>
-													</v8:item>
-													<v8:item>
-														<v8:lang>en</v8:lang>
-														<v8:content>By colli</v8:content>
-													</v8:item>
-												</Presentation>
-												<Value xsi:type="xs:decimal">0</Value>
-											</xr:Value>
-										</xr:Item>
-										<xr:Item>
-											<xr:Presentation/>
-											<xr:CheckState>0</xr:CheckState>
-											<xr:Value xsi:type="FormChoiceListDesTimeValue">
-												<Presentation>
-													<v8:item>
-														<v8:lang>ru</v8:lang>
-														<v8:content>По товарам</v8:content>
-													</v8:item>
-													<v8:item>
-														<v8:lang>en</v8:lang>
-														<v8:content>By goods</v8:content>
-													</v8:item>
-												</Presentation>
-												<Value xsi:type="xs:decimal">1</Value>
-											</xr:Value>
-										</xr:Item>
-									</ChoiceList>
-									<ContextMenu name="РежимПросмотраКонтекстноеМеню" id="705"/>
-									<ExtendedTooltip name="РежимПросмотраРасширеннаяПодсказка" id="706"/>
-								</RadioButtonField>
+									</Title>
+									<Group>Horizontal</Group>
+									<Behavior>Usual</Behavior>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="ГруппаРежимПросмотраНавигацияРасширеннаяПодсказка" id="697"/>
+									<ChildItems>
+										<LabelField name="НадписьНавигация" id="698">
+											<TitleLocation>None</TitleLocation>
+											<AutoMaxWidth>false</AutoMaxWidth>
+											<HorizontalStretch>true</HorizontalStretch>
+											<ContextMenu name="НадписьНавигацияКонтекстноеМеню" id="699"/>
+											<ExtendedTooltip name="НадписьНавигацияРасширеннаяПодсказка" id="700"/>
+										</LabelField>
+										<LabelDecoration name="ОтступНавигация" id="887">
+											<AutoMaxWidth>false</AutoMaxWidth>
+											<HorizontalStretch>true</HorizontalStretch>
+											<ContextMenu name="ОтступНавигацияКонтекстноеМеню" id="888"/>
+											<ExtendedTooltip name="ОтступНавигацияРасширеннаяПодсказка" id="889"/>
+										</LabelDecoration>
+										<RadioButtonField name="РежимПросмотра" id="704">
+											<DataPath>Объект.РежимПросмотраПоТоварам</DataPath>
+											<TitleLocation>None</TitleLocation>
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Режим просмотра списка товарных мест</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Collo list view mode</v8:content>
+												</v8:item>
+											</ToolTip>
+											<RadioButtonType>Tumbler</RadioButtonType>
+											<ChoiceList>
+												<xr:Item>
+													<xr:Presentation/>
+													<xr:CheckState>0</xr:CheckState>
+													<xr:Value xsi:type="FormChoiceListDesTimeValue">
+														<Presentation>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>По товарным местам</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>By colli</v8:content>
+															</v8:item>
+														</Presentation>
+														<Value xsi:type="xs:decimal">0</Value>
+													</xr:Value>
+												</xr:Item>
+												<xr:Item>
+													<xr:Presentation/>
+													<xr:CheckState>0</xr:CheckState>
+													<xr:Value xsi:type="FormChoiceListDesTimeValue">
+														<Presentation>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>По товарам</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>By goods</v8:content>
+															</v8:item>
+														</Presentation>
+														<Value xsi:type="xs:decimal">1</Value>
+													</xr:Value>
+												</xr:Item>
+											</ChoiceList>
+											<ContextMenu name="РежимПросмотраКонтекстноеМеню" id="705"/>
+											<ExtendedTooltip name="РежимПросмотраРасширеннаяПодсказка" id="706"/>
+										</RadioButtonField>
+									</ChildItems>
+								</UsualGroup>
 							</ChildItems>
 						</UsualGroup>
 						<Table name="Товары" id="11">
@@ -1064,7 +1070,6 @@
 									<ExtendedTooltip name="ТоварыГруппаКартинкаНомерСтрокиРасширеннаяПодсказка" id="740"/>
 									<ChildItems>
 										<PictureField name="ТоварыКартинкаУпаковочногоЛиста" id="736">
-											<DataPath>Объект.Товары.ПризнакКартинкиУпаковочногоЛиста</DataPath>
 											<EditMode>EnterOnInput</EditMode>
 											<FixingInTable>Left</FixingInTable>
 											<ShowInHeader>false</ShowInHeader>
@@ -1079,7 +1084,6 @@
 											<ExtendedTooltip name="ТоварыКартинкаУпаковочногоЛистаРасширеннаяПодсказка" id="738"/>
 										</PictureField>
 										<InputField name="ТоварыНомерСтрокиОтображаемый" id="733">
-											<DataPath>Объект.Товары.НомерСтрокиОтображаемый</DataPath>
 											<ReadOnly>true</ReadOnly>
 											<EditMode>EnterOnInput</EditMode>
 											<FixingInTable>Left</FixingInTable>
@@ -1099,7 +1103,6 @@
 									<ExtendedTooltip name="ТоварыШтрихкодРасширеннаяПодсказка" id="695"/>
 								</LabelField>
 								<InputField name="ТоварыУпаковочныйЛистРодитель" id="723">
-									<DataPath>Объект.Товары.УпаковочныйЛистРодительКод</DataPath>
 									<SkipOnInput>true</SkipOnInput>
 									<Title>
 										<v8:item>
@@ -1124,7 +1127,6 @@
 									<ExtendedTooltip name="ТоварыУпаковочныйЛистРодительРасширеннаяПодсказка" id="725"/>
 								</InputField>
 								<LabelField name="ТоварыНоменклатураТипНоменклатуры" id="338">
-									<DataPath>Объект.Товары.ТипНоменклатуры</DataPath>
 									<UserVisible>
 										<xr:Common>false</xr:Common>
 									</UserVisible>
@@ -1192,7 +1194,6 @@
 									</ChildItems>
 								</ColumnGroup>
 								<LabelField name="ТоварыНоменклатураАртикул" id="172">
-									<DataPath>Объект.Товары.Артикул</DataPath>
 									<UserVisible>
 										<xr:Common>false</xr:Common>
 									</UserVisible>
@@ -1249,7 +1250,6 @@
 													<ExtendedTooltip name="ТоварыНоменклатураExtendedTooltip" id="406"/>
 												</InputField>
 												<InputField name="ТоварыДопИнфоНоменклатура" id="728">
-													<DataPath>Объект.Товары.ДополнительнаяИнформация</DataPath>
 													<ReadOnly>true</ReadOnly>
 													<Title>
 														<v8:item>
@@ -1306,7 +1306,6 @@
 													<ExtendedTooltip name="ТоварыУпаковочныйЛистРасширеннаяПодсказка" id="722"/>
 												</InputField>
 												<InputField name="ТоварыДопИнфоУпаковочныйЛист" id="784">
-													<DataPath>Объект.Товары.ДополнительнаяИнформация</DataPath>
 													<EditMode>EnterOnInput</EditMode>
 													<ShowInHeader>false</ShowInHeader>
 													<Width>4</Width>
@@ -1442,7 +1441,6 @@
 									<ExtendedTooltip name="ТоварыГруппаВесРасширеннаяПодсказка" id="866"/>
 									<ChildItems>
 										<InputField name="ТоварыВес" id="867">
-											<DataPath>Объект.Товары.Вес</DataPath>
 											<SkipOnInput>true</SkipOnInput>
 											<EditMode>EnterOnInput</EditMode>
 											<Width>8</Width>
@@ -1450,7 +1448,6 @@
 											<ExtendedTooltip name="ТоварыВесРасширеннаяПодсказка" id="869"/>
 										</InputField>
 										<LabelField name="ТоварыЕдиницаИзмеренияВеса" id="870">
-											<DataPath>Объект.Товары.ЕдиницаИзмеренияВеса</DataPath>
 											<EditMode>EnterOnInput</EditMode>
 											<ShowInHeader>false</ShowInHeader>
 											<Width>4</Width>
@@ -1474,7 +1471,6 @@
 									<ExtendedTooltip name="ТоварыГруппаОбъемРасширеннаяПодсказка" id="874"/>
 									<ChildItems>
 										<InputField name="ТоварыОбъем" id="875">
-											<DataPath>Объект.Товары.Объем</DataPath>
 											<SkipOnInput>true</SkipOnInput>
 											<EditMode>EnterOnInput</EditMode>
 											<Width>8</Width>
@@ -1482,7 +1478,6 @@
 											<ExtendedTooltip name="ТоварыОбъемРасширеннаяПодсказка" id="877"/>
 										</InputField>
 										<LabelField name="ТоварыЕдиницаИзмеренияОбъема" id="878">
-											<DataPath>Объект.Товары.ЕдиницаИзмеренияОбъема</DataPath>
 											<EditMode>EnterOnInput</EditMode>
 											<ShowInHeader>false</ShowInHeader>
 											<Width>4</Width>
@@ -1604,6 +1599,10 @@
 														<v8:item>
 															<v8:lang>ru</v8:lang>
 															<v8:content>&lt;colorstyle -16&gt;Отобраны товарные места, требующие обработки.&lt;/&gt; &lt;link СнятьОтбор&gt;Снять отбор&lt;/&gt;</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>&lt;colorstyle -16&gt;Colli that require processing were picked.&lt;/&gt; &lt;link СнятьОтбор&gt;Remove filter&lt;/&gt;</v8:content>
 														</v8:item>
 													</Title>
 													<ContextMenu name="ДекорацияФильтрСнятьКонтекстноеМеню" id="764"/>
@@ -2471,357 +2470,11 @@
 				<Field>Объект.RegisterRecords</Field>
 			</UseAlways>
 			<Columns>
-				<AdditionalColumns table="Объект.Товары">
-					<Column name="ХарактеристикиИспользуются" id="1">
-						<Title>
-							<v8:item>
-								<v8:lang>ru</v8:lang>
-								<v8:content>Характеристики используются</v8:content>
-							</v8:item>
-							<v8:item>
-								<v8:lang>en</v8:lang>
-								<v8:content>Variants are used</v8:content>
-							</v8:item>
-						</Title>
-						<Type>
-							<v8:Type>xs:boolean</v8:Type>
-						</Type>
-					</Column>
-					<Column name="ТипНоменклатуры" id="2">
-						<Title>
-							<v8:item>
-								<v8:lang>ru</v8:lang>
-								<v8:content>Тип номенклатуры</v8:content>
-							</v8:item>
-							<v8:item>
-								<v8:lang>en</v8:lang>
-								<v8:content>Item type</v8:content>
-							</v8:item>
-						</Title>
-						<Type>
-							<v8:Type>cfg:EnumRef.ТипыНоменклатуры</v8:Type>
-						</Type>
-					</Column>
-					<Column name="Артикул" id="3">
-						<Title>
-							<v8:item>
-								<v8:lang>ru</v8:lang>
-								<v8:content>Артикул</v8:content>
-							</v8:item>
-							<v8:item>
-								<v8:lang>en</v8:lang>
-								<v8:content>Item ID</v8:content>
-							</v8:item>
-						</Title>
-						<Type>
-							<v8:TypeSet>cfg:DefinedType.Артикул</v8:TypeSet>
-						</Type>
-					</Column>
-					<Column name="ДополнительнаяИнформация" id="4">
-						<Title>
-							<v8:item>
-								<v8:lang>ru</v8:lang>
-								<v8:content>Дополнительная информация</v8:content>
-							</v8:item>
-							<v8:item>
-								<v8:lang>en</v8:lang>
-								<v8:content>Additional information</v8:content>
-							</v8:item>
-						</Title>
-						<Type>
-							<v8:Type>xs:string</v8:Type>
-							<v8:StringQualifiers>
-								<v8:Length>50</v8:Length>
-								<v8:AllowedLength>Variable</v8:AllowedLength>
-							</v8:StringQualifiers>
-						</Type>
-					</Column>
-					<Column name="НомерСтрокиОтображаемый" id="5">
-						<Title>
-							<v8:item>
-								<v8:lang>ru</v8:lang>
-								<v8:content>N</v8:content>
-							</v8:item>
-							<v8:item>
-								<v8:lang>en</v8:lang>
-								<v8:content>N</v8:content>
-							</v8:item>
-						</Title>
-						<Type>
-							<v8:Type>xs:decimal</v8:Type>
-							<v8:NumberQualifiers>
-								<v8:Digits>10</v8:Digits>
-								<v8:FractionDigits>0</v8:FractionDigits>
-								<v8:AllowedSign>Nonnegative</v8:AllowedSign>
-							</v8:NumberQualifiers>
-						</Type>
-					</Column>
-					<Column name="УпаковочныйЛистКод" id="6">
-						<Title>
-							<v8:item>
-								<v8:lang>ru</v8:lang>
-								<v8:content>Упаковочный лист код</v8:content>
-							</v8:item>
-							<v8:item>
-								<v8:lang>en</v8:lang>
-								<v8:content>Packing list code</v8:content>
-							</v8:item>
-						</Title>
-						<Type>
-							<v8:Type>xs:string</v8:Type>
-							<v8:StringQualifiers>
-								<v8:Length>200</v8:Length>
-								<v8:AllowedLength>Variable</v8:AllowedLength>
-							</v8:StringQualifiers>
-						</Type>
-					</Column>
-					<Column name="УпаковочныйЛистДата" id="7">
-						<Title>
-							<v8:item>
-								<v8:lang>ru</v8:lang>
-								<v8:content>Упаковочный лист дата</v8:content>
-							</v8:item>
-							<v8:item>
-								<v8:lang>en</v8:lang>
-								<v8:content>Packing list date</v8:content>
-							</v8:item>
-						</Title>
-						<Type>
-							<v8:Type>xs:dateTime</v8:Type>
-							<v8:DateQualifiers>
-								<v8:DateFractions>DateTime</v8:DateFractions>
-							</v8:DateQualifiers>
-						</Type>
-					</Column>
-					<Column name="УпаковочныйЛистРодительКод" id="8">
-						<Title>
-							<v8:item>
-								<v8:lang>ru</v8:lang>
-								<v8:content>Упаковочный лист</v8:content>
-							</v8:item>
-							<v8:item>
-								<v8:lang>en</v8:lang>
-								<v8:content>Packing list</v8:content>
-							</v8:item>
-						</Title>
-						<Type>
-							<v8:Type>xs:string</v8:Type>
-							<v8:StringQualifiers>
-								<v8:Length>200</v8:Length>
-								<v8:AllowedLength>Variable</v8:AllowedLength>
-							</v8:StringQualifiers>
-						</Type>
-					</Column>
-					<Column name="ШтрихкодНеОпределен" id="9">
-						<Title>
-							<v8:item>
-								<v8:lang>ru</v8:lang>
-								<v8:content>Штрихкод не определен</v8:content>
-							</v8:item>
-							<v8:item>
-								<v8:lang>en</v8:lang>
-								<v8:content>Barcode is not recognized</v8:content>
-							</v8:item>
-						</Title>
-						<Type>
-							<v8:Type>xs:decimal</v8:Type>
-							<v8:NumberQualifiers>
-								<v8:Digits>1</v8:Digits>
-								<v8:FractionDigits>0</v8:FractionDigits>
-								<v8:AllowedSign>Nonnegative</v8:AllowedSign>
-							</v8:NumberQualifiers>
-						</Type>
-					</Column>
-					<Column name="КоличествоЗаполненныхПодчиненныхПозиций" id="10">
-						<Title>
-							<v8:item>
-								<v8:lang>ru</v8:lang>
-								<v8:content>Количество заполненных подчиненных позиций</v8:content>
-							</v8:item>
-							<v8:item>
-								<v8:lang>en</v8:lang>
-								<v8:content>Number of completed subordinate positions</v8:content>
-							</v8:item>
-						</Title>
-						<Type>
-							<v8:Type>xs:decimal</v8:Type>
-							<v8:NumberQualifiers>
-								<v8:Digits>10</v8:Digits>
-								<v8:FractionDigits>0</v8:FractionDigits>
-								<v8:AllowedSign>Nonnegative</v8:AllowedSign>
-							</v8:NumberQualifiers>
-						</Type>
-					</Column>
-					<Column name="ТребуетсяОбработка" id="11">
-						<Title>
-							<v8:item>
-								<v8:lang>ru</v8:lang>
-								<v8:content>Требуется обработка</v8:content>
-							</v8:item>
-							<v8:item>
-								<v8:lang>en</v8:lang>
-								<v8:content>Processing is required</v8:content>
-							</v8:item>
-						</Title>
-						<Type>
-							<v8:Type>xs:decimal</v8:Type>
-							<v8:NumberQualifiers>
-								<v8:Digits>1</v8:Digits>
-								<v8:FractionDigits>0</v8:FractionDigits>
-								<v8:AllowedSign>Nonnegative</v8:AllowedSign>
-							</v8:NumberQualifiers>
-						</Type>
-					</Column>
-					<Column name="ПризнакКартинкиУпаковочногоЛиста" id="13">
-						<Title>
-							<v8:item>
-								<v8:lang>ru</v8:lang>
-								<v8:content>Признак картинки упаковочного листа</v8:content>
-							</v8:item>
-							<v8:item>
-								<v8:lang>en</v8:lang>
-								<v8:content>Shows a packing list picture</v8:content>
-							</v8:item>
-						</Title>
-						<Type>
-							<v8:Type>xs:decimal</v8:Type>
-							<v8:NumberQualifiers>
-								<v8:Digits>1</v8:Digits>
-								<v8:FractionDigits>0</v8:FractionDigits>
-								<v8:AllowedSign>Nonnegative</v8:AllowedSign>
-							</v8:NumberQualifiers>
-						</Type>
-					</Column>
-					<Column name="Вес" id="14">
-						<Title>
-							<v8:item>
-								<v8:lang>ru</v8:lang>
-								<v8:content>Вес</v8:content>
-							</v8:item>
-							<v8:item>
-								<v8:lang>en</v8:lang>
-								<v8:content>Weight</v8:content>
-							</v8:item>
-						</Title>
-						<Type>
-							<v8:Type>xs:decimal</v8:Type>
-							<v8:NumberQualifiers>
-								<v8:Digits>15</v8:Digits>
-								<v8:FractionDigits>3</v8:FractionDigits>
-								<v8:AllowedSign>Any</v8:AllowedSign>
-							</v8:NumberQualifiers>
-						</Type>
-					</Column>
-					<Column name="Объем" id="15">
-						<Title>
-							<v8:item>
-								<v8:lang>ru</v8:lang>
-								<v8:content>Объем</v8:content>
-							</v8:item>
-							<v8:item>
-								<v8:lang>en</v8:lang>
-								<v8:content>Volume</v8:content>
-							</v8:item>
-						</Title>
-						<Type>
-							<v8:Type>xs:decimal</v8:Type>
-							<v8:NumberQualifiers>
-								<v8:Digits>15</v8:Digits>
-								<v8:FractionDigits>3</v8:FractionDigits>
-								<v8:AllowedSign>Any</v8:AllowedSign>
-							</v8:NumberQualifiers>
-						</Type>
-					</Column>
-					<Column name="ТипИзмеряемойВеличины" id="16">
-						<Title>
-							<v8:item>
-								<v8:lang>ru</v8:lang>
-								<v8:content>Тип измеряемой величины</v8:content>
-							</v8:item>
-							<v8:item>
-								<v8:lang>en</v8:lang>
-								<v8:content>Measurable value type</v8:content>
-							</v8:item>
-						</Title>
-						<Type>
-							<v8:Type>cfg:EnumRef.ТипыИзмеряемыхВеличин</v8:Type>
-						</Type>
-					</Column>
-					<Column name="ВесУпаковки" id="17">
-						<Title>
-							<v8:item>
-								<v8:lang>ru</v8:lang>
-								<v8:content>Вес упаковки</v8:content>
-							</v8:item>
-							<v8:item>
-								<v8:lang>en</v8:lang>
-								<v8:content>Package weight</v8:content>
-							</v8:item>
-						</Title>
-						<Type>
-							<v8:Type>xs:decimal</v8:Type>
-							<v8:NumberQualifiers>
-								<v8:Digits>18</v8:Digits>
-								<v8:FractionDigits>9</v8:FractionDigits>
-								<v8:AllowedSign>Any</v8:AllowedSign>
-							</v8:NumberQualifiers>
-						</Type>
-					</Column>
-					<Column name="ОбъемУпаковки" id="18">
-						<Title>
-							<v8:item>
-								<v8:lang>ru</v8:lang>
-								<v8:content>Объем упаковки</v8:content>
-							</v8:item>
-							<v8:item>
-								<v8:lang>en</v8:lang>
-								<v8:content>Packaging unit volume</v8:content>
-							</v8:item>
-						</Title>
-						<Type>
-							<v8:Type>xs:decimal</v8:Type>
-							<v8:NumberQualifiers>
-								<v8:Digits>18</v8:Digits>
-								<v8:FractionDigits>9</v8:FractionDigits>
-								<v8:AllowedSign>Any</v8:AllowedSign>
-							</v8:NumberQualifiers>
-						</Type>
-					</Column>
-					<Column name="ЕдиницаИзмеренияВеса" id="19">
-						<Title>
-							<v8:item>
-								<v8:lang>ru</v8:lang>
-								<v8:content>Единица измерения веса</v8:content>
-							</v8:item>
-							<v8:item>
-								<v8:lang>en</v8:lang>
-								<v8:content>Unit of weight</v8:content>
-							</v8:item>
-						</Title>
-						<Type>
-							<v8:Type>cfg:CatalogRef.УпаковкиЕдиницыИзмерения</v8:Type>
-						</Type>
-					</Column>
-					<Column name="ЕдиницаИзмеренияОбъема" id="20">
-						<Title>
-							<v8:item>
-								<v8:lang>ru</v8:lang>
-								<v8:content>Единица измерения объема</v8:content>
-							</v8:item>
-							<v8:item>
-								<v8:lang>en</v8:lang>
-								<v8:content>Unit of volume</v8:content>
-							</v8:item>
-						</Title>
-						<Type>
-							<v8:Type>cfg:CatalogRef.УпаковкиЕдиницыИзмерения</v8:Type>
-						</Type>
-					</Column>
-				</AdditionalColumns>
+				<AdditionalColumns table="Объект.Товары"/>
 			</Columns>
 		</Attribute>
 	</Attributes>
-	<BaseForm version="2.15">
+	<BaseForm version="2.13">
 		<AutoSaveDataInSettings>Use</AutoSaveDataInSettings>
 		<CommandSet>
 			<ExcludedCommand>Copy</ExcludedCommand>
@@ -3506,89 +3159,95 @@
 						<Height>10</Height>
 						<ExtendedTooltip name="ГруппаТоварыExtendedTooltip" id="381"/>
 						<ChildItems>
-							<UsualGroup name="ГруппаРежимПросмотраНавигация" id="696">
-								<Title>
-									<v8:item>
-										<v8:lang>ru</v8:lang>
-										<v8:content>Режим просмотра навигация</v8:content>
-									</v8:item>
-									<v8:item>
-										<v8:lang>en</v8:lang>
-										<v8:content>View mode navigation</v8:content>
-									</v8:item>
-								</Title>
-								<Group>Horizontal</Group>
-								<Behavior>Usual</Behavior>
-								<Representation>None</Representation>
+							<UsualGroup name="ГруппаТоварыЗаголовок" id="917">
 								<ShowTitle>false</ShowTitle>
-								<ExtendedTooltip name="ГруппаРежимПросмотраНавигацияРасширеннаяПодсказка" id="697"/>
+								<ExtendedTooltip name="ГруппаТоварыЗаголовокРасширеннаяПодсказка" id="918"/>
 								<ChildItems>
-									<LabelField name="НадписьНавигация" id="698">
-										<TitleLocation>None</TitleLocation>
-										<AutoMaxWidth>false</AutoMaxWidth>
-										<HorizontalStretch>true</HorizontalStretch>
-										<ContextMenu name="НадписьНавигацияКонтекстноеМеню" id="699"/>
-										<ExtendedTooltip name="НадписьНавигацияРасширеннаяПодсказка" id="700"/>
-									</LabelField>
-									<LabelDecoration name="ОтступНавигация" id="887">
-										<AutoMaxWidth>false</AutoMaxWidth>
-										<HorizontalStretch>true</HorizontalStretch>
-										<ContextMenu name="ОтступНавигацияКонтекстноеМеню" id="888"/>
-										<ExtendedTooltip name="ОтступНавигацияРасширеннаяПодсказка" id="889"/>
-									</LabelDecoration>
-									<RadioButtonField name="РежимПросмотра" id="704">
-										<DataPath>Объект.РежимПросмотраПоТоварам</DataPath>
-										<TitleLocation>None</TitleLocation>
-										<ToolTip>
+									<UsualGroup name="ГруппаРежимПросмотраНавигация" id="696">
+										<Title>
 											<v8:item>
 												<v8:lang>ru</v8:lang>
-												<v8:content>Режим просмотра списка товарных мест</v8:content>
+												<v8:content>Режим просмотра навигация</v8:content>
 											</v8:item>
 											<v8:item>
 												<v8:lang>en</v8:lang>
-												<v8:content>Collo list view mode</v8:content>
+												<v8:content>View mode navigation</v8:content>
 											</v8:item>
-										</ToolTip>
-										<RadioButtonType>Tumbler</RadioButtonType>
-										<ChoiceList>
-											<xr:Item>
-												<xr:Presentation/>
-												<xr:CheckState>0</xr:CheckState>
-												<xr:Value xsi:type="FormChoiceListDesTimeValue">
-													<Presentation>
-														<v8:item>
-															<v8:lang>ru</v8:lang>
-															<v8:content>По товарным местам</v8:content>
-														</v8:item>
-														<v8:item>
-															<v8:lang>en</v8:lang>
-															<v8:content>By colli</v8:content>
-														</v8:item>
-													</Presentation>
-													<Value xsi:type="xs:decimal">0</Value>
-												</xr:Value>
-											</xr:Item>
-											<xr:Item>
-												<xr:Presentation/>
-												<xr:CheckState>0</xr:CheckState>
-												<xr:Value xsi:type="FormChoiceListDesTimeValue">
-													<Presentation>
-														<v8:item>
-															<v8:lang>ru</v8:lang>
-															<v8:content>По товарам</v8:content>
-														</v8:item>
-														<v8:item>
-															<v8:lang>en</v8:lang>
-															<v8:content>By goods</v8:content>
-														</v8:item>
-													</Presentation>
-													<Value xsi:type="xs:decimal">1</Value>
-												</xr:Value>
-											</xr:Item>
-										</ChoiceList>
-										<ContextMenu name="РежимПросмотраКонтекстноеМеню" id="705"/>
-										<ExtendedTooltip name="РежимПросмотраРасширеннаяПодсказка" id="706"/>
-									</RadioButtonField>
+										</Title>
+										<Group>Horizontal</Group>
+										<Behavior>Usual</Behavior>
+										<Representation>None</Representation>
+										<ShowTitle>false</ShowTitle>
+										<ExtendedTooltip name="ГруппаРежимПросмотраНавигацияРасширеннаяПодсказка" id="697"/>
+										<ChildItems>
+											<LabelField name="НадписьНавигация" id="698">
+												<TitleLocation>None</TitleLocation>
+												<AutoMaxWidth>false</AutoMaxWidth>
+												<HorizontalStretch>true</HorizontalStretch>
+												<ContextMenu name="НадписьНавигацияКонтекстноеМеню" id="699"/>
+												<ExtendedTooltip name="НадписьНавигацияРасширеннаяПодсказка" id="700"/>
+											</LabelField>
+											<LabelDecoration name="ОтступНавигация" id="887">
+												<AutoMaxWidth>false</AutoMaxWidth>
+												<HorizontalStretch>true</HorizontalStretch>
+												<ContextMenu name="ОтступНавигацияКонтекстноеМеню" id="888"/>
+												<ExtendedTooltip name="ОтступНавигацияРасширеннаяПодсказка" id="889"/>
+											</LabelDecoration>
+											<RadioButtonField name="РежимПросмотра" id="704">
+												<DataPath>Объект.РежимПросмотраПоТоварам</DataPath>
+												<TitleLocation>None</TitleLocation>
+												<ToolTip>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Режим просмотра списка товарных мест</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Collo list view mode</v8:content>
+													</v8:item>
+												</ToolTip>
+												<RadioButtonType>Tumbler</RadioButtonType>
+												<ChoiceList>
+													<xr:Item>
+														<xr:Presentation/>
+														<xr:CheckState>0</xr:CheckState>
+														<xr:Value xsi:type="FormChoiceListDesTimeValue">
+															<Presentation>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>По товарным местам</v8:content>
+																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>By colli</v8:content>
+																</v8:item>
+															</Presentation>
+															<Value xsi:type="xs:decimal">0</Value>
+														</xr:Value>
+													</xr:Item>
+													<xr:Item>
+														<xr:Presentation/>
+														<xr:CheckState>0</xr:CheckState>
+														<xr:Value xsi:type="FormChoiceListDesTimeValue">
+															<Presentation>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>По товарам</v8:content>
+																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>By goods</v8:content>
+																</v8:item>
+															</Presentation>
+															<Value xsi:type="xs:decimal">1</Value>
+														</xr:Value>
+													</xr:Item>
+												</ChoiceList>
+												<ContextMenu name="РежимПросмотраКонтекстноеМеню" id="705"/>
+												<ExtendedTooltip name="РежимПросмотраРасширеннаяПодсказка" id="706"/>
+											</RadioButtonField>
+										</ChildItems>
+									</UsualGroup>
 								</ChildItems>
 							</UsualGroup>
 							<Table name="Товары" id="11">
@@ -3883,7 +3542,6 @@
 										<ExtendedTooltip name="ТоварыГруппаКартинкаНомерСтрокиРасширеннаяПодсказка" id="740"/>
 										<ChildItems>
 											<PictureField name="ТоварыКартинкаУпаковочногоЛиста" id="736">
-												<DataPath>Объект.Товары.ПризнакКартинкиУпаковочногоЛиста</DataPath>
 												<EditMode>EnterOnInput</EditMode>
 												<FixingInTable>Left</FixingInTable>
 												<ShowInHeader>false</ShowInHeader>
@@ -3898,7 +3556,6 @@
 												<ExtendedTooltip name="ТоварыКартинкаУпаковочногоЛистаРасширеннаяПодсказка" id="738"/>
 											</PictureField>
 											<InputField name="ТоварыНомерСтрокиОтображаемый" id="733">
-												<DataPath>Объект.Товары.НомерСтрокиОтображаемый</DataPath>
 												<ReadOnly>true</ReadOnly>
 												<EditMode>EnterOnInput</EditMode>
 												<FixingInTable>Left</FixingInTable>
@@ -3918,7 +3575,6 @@
 										<ExtendedTooltip name="ТоварыШтрихкодРасширеннаяПодсказка" id="695"/>
 									</LabelField>
 									<InputField name="ТоварыУпаковочныйЛистРодитель" id="723">
-										<DataPath>Объект.Товары.УпаковочныйЛистРодительКод</DataPath>
 										<SkipOnInput>true</SkipOnInput>
 										<Title>
 											<v8:item>
@@ -3943,7 +3599,6 @@
 										<ExtendedTooltip name="ТоварыУпаковочныйЛистРодительРасширеннаяПодсказка" id="725"/>
 									</InputField>
 									<LabelField name="ТоварыНоменклатураТипНоменклатуры" id="338">
-										<DataPath>Объект.Товары.ТипНоменклатуры</DataPath>
 										<UserVisible>
 											<xr:Common>false</xr:Common>
 										</UserVisible>
@@ -4011,7 +3666,6 @@
 										</ChildItems>
 									</ColumnGroup>
 									<LabelField name="ТоварыНоменклатураАртикул" id="172">
-										<DataPath>Объект.Товары.Артикул</DataPath>
 										<UserVisible>
 											<xr:Common>false</xr:Common>
 										</UserVisible>
@@ -4068,7 +3722,6 @@
 														<ExtendedTooltip name="ТоварыНоменклатураExtendedTooltip" id="406"/>
 													</InputField>
 													<InputField name="ТоварыДопИнфоНоменклатура" id="728">
-														<DataPath>Объект.Товары.ДополнительнаяИнформация</DataPath>
 														<ReadOnly>true</ReadOnly>
 														<Title>
 															<v8:item>
@@ -4125,7 +3778,6 @@
 														<ExtendedTooltip name="ТоварыУпаковочныйЛистРасширеннаяПодсказка" id="722"/>
 													</InputField>
 													<InputField name="ТоварыДопИнфоУпаковочныйЛист" id="784">
-														<DataPath>Объект.Товары.ДополнительнаяИнформация</DataPath>
 														<EditMode>EnterOnInput</EditMode>
 														<ShowInHeader>false</ShowInHeader>
 														<Width>4</Width>
@@ -4261,7 +3913,6 @@
 										<ExtendedTooltip name="ТоварыГруппаВесРасширеннаяПодсказка" id="866"/>
 										<ChildItems>
 											<InputField name="ТоварыВес" id="867">
-												<DataPath>Объект.Товары.Вес</DataPath>
 												<SkipOnInput>true</SkipOnInput>
 												<EditMode>EnterOnInput</EditMode>
 												<Width>8</Width>
@@ -4269,7 +3920,6 @@
 												<ExtendedTooltip name="ТоварыВесРасширеннаяПодсказка" id="869"/>
 											</InputField>
 											<LabelField name="ТоварыЕдиницаИзмеренияВеса" id="870">
-												<DataPath>Объект.Товары.ЕдиницаИзмеренияВеса</DataPath>
 												<EditMode>EnterOnInput</EditMode>
 												<ShowInHeader>false</ShowInHeader>
 												<Width>4</Width>
@@ -4293,7 +3943,6 @@
 										<ExtendedTooltip name="ТоварыГруппаОбъемРасширеннаяПодсказка" id="874"/>
 										<ChildItems>
 											<InputField name="ТоварыОбъем" id="875">
-												<DataPath>Объект.Товары.Объем</DataPath>
 												<SkipOnInput>true</SkipOnInput>
 												<EditMode>EnterOnInput</EditMode>
 												<Width>8</Width>
@@ -4301,7 +3950,6 @@
 												<ExtendedTooltip name="ТоварыОбъемРасширеннаяПодсказка" id="877"/>
 											</InputField>
 											<LabelField name="ТоварыЕдиницаИзмеренияОбъема" id="878">
-												<DataPath>Объект.Товары.ЕдиницаИзмеренияОбъема</DataPath>
 												<EditMode>EnterOnInput</EditMode>
 												<ShowInHeader>false</ShowInHeader>
 												<Width>4</Width>
@@ -4423,6 +4071,10 @@
 															<v8:item>
 																<v8:lang>ru</v8:lang>
 																<v8:content>&lt;colorstyle -16&gt;Отобраны товарные места, требующие обработки.&lt;/&gt; &lt;link СнятьОтбор&gt;Снять отбор&lt;/&gt;</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>&lt;colorstyle -16&gt;Colli that require processing were picked.&lt;/&gt; &lt;link СнятьОтбор&gt;Remove filter&lt;/&gt;</v8:content>
 															</v8:item>
 														</Title>
 														<ContextMenu name="ДекорацияФильтрСнятьКонтекстноеМеню" id="764"/>
@@ -5229,355 +4881,6 @@
 				<UseAlways>
 					<Field>Объект.RegisterRecords</Field>
 				</UseAlways>
-				<Columns>
-					<AdditionalColumns table="Объект.Товары">
-						<Column name="ХарактеристикиИспользуются" id="1">
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Характеристики используются</v8:content>
-								</v8:item>
-								<v8:item>
-									<v8:lang>en</v8:lang>
-									<v8:content>Variants are used</v8:content>
-								</v8:item>
-							</Title>
-							<Type>
-								<v8:Type>xs:boolean</v8:Type>
-							</Type>
-						</Column>
-						<Column name="ТипНоменклатуры" id="2">
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Тип номенклатуры</v8:content>
-								</v8:item>
-								<v8:item>
-									<v8:lang>en</v8:lang>
-									<v8:content>Item type</v8:content>
-								</v8:item>
-							</Title>
-							<Type>
-								<v8:Type>cfg:EnumRef.ТипыНоменклатуры</v8:Type>
-							</Type>
-						</Column>
-						<Column name="Артикул" id="3">
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Артикул</v8:content>
-								</v8:item>
-								<v8:item>
-									<v8:lang>en</v8:lang>
-									<v8:content>Item ID</v8:content>
-								</v8:item>
-							</Title>
-							<Type>
-								<v8:TypeSet>cfg:DefinedType.Артикул</v8:TypeSet>
-							</Type>
-						</Column>
-						<Column name="ДополнительнаяИнформация" id="4">
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Дополнительная информация</v8:content>
-								</v8:item>
-								<v8:item>
-									<v8:lang>en</v8:lang>
-									<v8:content>Additional information</v8:content>
-								</v8:item>
-							</Title>
-							<Type>
-								<v8:Type>xs:string</v8:Type>
-								<v8:StringQualifiers>
-									<v8:Length>50</v8:Length>
-									<v8:AllowedLength>Variable</v8:AllowedLength>
-								</v8:StringQualifiers>
-							</Type>
-						</Column>
-						<Column name="НомерСтрокиОтображаемый" id="5">
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>N</v8:content>
-								</v8:item>
-								<v8:item>
-									<v8:lang>en</v8:lang>
-									<v8:content>N</v8:content>
-								</v8:item>
-							</Title>
-							<Type>
-								<v8:Type>xs:decimal</v8:Type>
-								<v8:NumberQualifiers>
-									<v8:Digits>10</v8:Digits>
-									<v8:FractionDigits>0</v8:FractionDigits>
-									<v8:AllowedSign>Nonnegative</v8:AllowedSign>
-								</v8:NumberQualifiers>
-							</Type>
-						</Column>
-						<Column name="УпаковочныйЛистКод" id="6">
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Упаковочный лист код</v8:content>
-								</v8:item>
-								<v8:item>
-									<v8:lang>en</v8:lang>
-									<v8:content>Packing list code</v8:content>
-								</v8:item>
-							</Title>
-							<Type>
-								<v8:Type>xs:string</v8:Type>
-								<v8:StringQualifiers>
-									<v8:Length>200</v8:Length>
-									<v8:AllowedLength>Variable</v8:AllowedLength>
-								</v8:StringQualifiers>
-							</Type>
-						</Column>
-						<Column name="УпаковочныйЛистДата" id="7">
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Упаковочный лист дата</v8:content>
-								</v8:item>
-								<v8:item>
-									<v8:lang>en</v8:lang>
-									<v8:content>Packing list date</v8:content>
-								</v8:item>
-							</Title>
-							<Type>
-								<v8:Type>xs:dateTime</v8:Type>
-								<v8:DateQualifiers>
-									<v8:DateFractions>DateTime</v8:DateFractions>
-								</v8:DateQualifiers>
-							</Type>
-						</Column>
-						<Column name="УпаковочныйЛистРодительКод" id="8">
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Упаковочный лист</v8:content>
-								</v8:item>
-								<v8:item>
-									<v8:lang>en</v8:lang>
-									<v8:content>Packing list</v8:content>
-								</v8:item>
-							</Title>
-							<Type>
-								<v8:Type>xs:string</v8:Type>
-								<v8:StringQualifiers>
-									<v8:Length>200</v8:Length>
-									<v8:AllowedLength>Variable</v8:AllowedLength>
-								</v8:StringQualifiers>
-							</Type>
-						</Column>
-						<Column name="ШтрихкодНеОпределен" id="9">
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Штрихкод не определен</v8:content>
-								</v8:item>
-								<v8:item>
-									<v8:lang>en</v8:lang>
-									<v8:content>Barcode is not recognized</v8:content>
-								</v8:item>
-							</Title>
-							<Type>
-								<v8:Type>xs:decimal</v8:Type>
-								<v8:NumberQualifiers>
-									<v8:Digits>1</v8:Digits>
-									<v8:FractionDigits>0</v8:FractionDigits>
-									<v8:AllowedSign>Nonnegative</v8:AllowedSign>
-								</v8:NumberQualifiers>
-							</Type>
-						</Column>
-						<Column name="КоличествоЗаполненныхПодчиненныхПозиций" id="10">
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Количество заполненных подчиненных позиций</v8:content>
-								</v8:item>
-								<v8:item>
-									<v8:lang>en</v8:lang>
-									<v8:content>Number of completed subordinate positions</v8:content>
-								</v8:item>
-							</Title>
-							<Type>
-								<v8:Type>xs:decimal</v8:Type>
-								<v8:NumberQualifiers>
-									<v8:Digits>10</v8:Digits>
-									<v8:FractionDigits>0</v8:FractionDigits>
-									<v8:AllowedSign>Nonnegative</v8:AllowedSign>
-								</v8:NumberQualifiers>
-							</Type>
-						</Column>
-						<Column name="ТребуетсяОбработка" id="11">
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Требуется обработка</v8:content>
-								</v8:item>
-								<v8:item>
-									<v8:lang>en</v8:lang>
-									<v8:content>Processing is required</v8:content>
-								</v8:item>
-							</Title>
-							<Type>
-								<v8:Type>xs:decimal</v8:Type>
-								<v8:NumberQualifiers>
-									<v8:Digits>1</v8:Digits>
-									<v8:FractionDigits>0</v8:FractionDigits>
-									<v8:AllowedSign>Nonnegative</v8:AllowedSign>
-								</v8:NumberQualifiers>
-							</Type>
-						</Column>
-						<Column name="ПризнакКартинкиУпаковочногоЛиста" id="13">
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Признак картинки упаковочного листа</v8:content>
-								</v8:item>
-								<v8:item>
-									<v8:lang>en</v8:lang>
-									<v8:content>Shows a packing list picture</v8:content>
-								</v8:item>
-							</Title>
-							<Type>
-								<v8:Type>xs:decimal</v8:Type>
-								<v8:NumberQualifiers>
-									<v8:Digits>1</v8:Digits>
-									<v8:FractionDigits>0</v8:FractionDigits>
-									<v8:AllowedSign>Nonnegative</v8:AllowedSign>
-								</v8:NumberQualifiers>
-							</Type>
-						</Column>
-						<Column name="Вес" id="14">
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Вес</v8:content>
-								</v8:item>
-								<v8:item>
-									<v8:lang>en</v8:lang>
-									<v8:content>Weight</v8:content>
-								</v8:item>
-							</Title>
-							<Type>
-								<v8:Type>xs:decimal</v8:Type>
-								<v8:NumberQualifiers>
-									<v8:Digits>15</v8:Digits>
-									<v8:FractionDigits>3</v8:FractionDigits>
-									<v8:AllowedSign>Any</v8:AllowedSign>
-								</v8:NumberQualifiers>
-							</Type>
-						</Column>
-						<Column name="Объем" id="15">
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Объем</v8:content>
-								</v8:item>
-								<v8:item>
-									<v8:lang>en</v8:lang>
-									<v8:content>Volume</v8:content>
-								</v8:item>
-							</Title>
-							<Type>
-								<v8:Type>xs:decimal</v8:Type>
-								<v8:NumberQualifiers>
-									<v8:Digits>15</v8:Digits>
-									<v8:FractionDigits>3</v8:FractionDigits>
-									<v8:AllowedSign>Any</v8:AllowedSign>
-								</v8:NumberQualifiers>
-							</Type>
-						</Column>
-						<Column name="ТипИзмеряемойВеличины" id="16">
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Тип измеряемой величины</v8:content>
-								</v8:item>
-								<v8:item>
-									<v8:lang>en</v8:lang>
-									<v8:content>Measurable value type</v8:content>
-								</v8:item>
-							</Title>
-							<Type>
-								<v8:Type>cfg:EnumRef.ТипыИзмеряемыхВеличин</v8:Type>
-							</Type>
-						</Column>
-						<Column name="ВесУпаковки" id="17">
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Вес упаковки</v8:content>
-								</v8:item>
-								<v8:item>
-									<v8:lang>en</v8:lang>
-									<v8:content>Package weight</v8:content>
-								</v8:item>
-							</Title>
-							<Type>
-								<v8:Type>xs:decimal</v8:Type>
-								<v8:NumberQualifiers>
-									<v8:Digits>18</v8:Digits>
-									<v8:FractionDigits>9</v8:FractionDigits>
-									<v8:AllowedSign>Any</v8:AllowedSign>
-								</v8:NumberQualifiers>
-							</Type>
-						</Column>
-						<Column name="ОбъемУпаковки" id="18">
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Объем упаковки</v8:content>
-								</v8:item>
-								<v8:item>
-									<v8:lang>en</v8:lang>
-									<v8:content>Packaging unit volume</v8:content>
-								</v8:item>
-							</Title>
-							<Type>
-								<v8:Type>xs:decimal</v8:Type>
-								<v8:NumberQualifiers>
-									<v8:Digits>18</v8:Digits>
-									<v8:FractionDigits>9</v8:FractionDigits>
-									<v8:AllowedSign>Any</v8:AllowedSign>
-								</v8:NumberQualifiers>
-							</Type>
-						</Column>
-						<Column name="ЕдиницаИзмеренияВеса" id="19">
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Единица измерения веса</v8:content>
-								</v8:item>
-								<v8:item>
-									<v8:lang>en</v8:lang>
-									<v8:content>Unit of weight</v8:content>
-								</v8:item>
-							</Title>
-							<Type>
-								<v8:Type>cfg:CatalogRef.УпаковкиЕдиницыИзмерения</v8:Type>
-							</Type>
-						</Column>
-						<Column name="ЕдиницаИзмеренияОбъема" id="20">
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Единица измерения объема</v8:content>
-								</v8:item>
-								<v8:item>
-									<v8:lang>en</v8:lang>
-									<v8:content>Unit of volume</v8:content>
-								</v8:item>
-							</Title>
-							<Type>
-								<v8:Type>cfg:CatalogRef.УпаковкиЕдиницыИзмерения</v8:Type>
-							</Type>
-						</Column>
-					</AdditionalColumns>
-				</Columns>
 			</Attribute>
 		</Attributes>
 	</BaseForm>

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.13">
 	<InformationRegister uuid="3de4551a-6a76-402a-b3b5-6c00afc7a7e5">
 		<InternalInfo>
 			<xr:GeneratedType name="InformationRegisterRecord.ДокументыФизическихЛиц" category="Record">
@@ -32,9 +32,9 @@
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<ObjectBelonging>Adopted</ObjectBelonging>
 			<Name>ДокументыФизическихЛиц</Name>
 			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
 			<ExtendedConfigurationObject>1a4991f8-7832-4ca9-8809-88a97de88749</ExtendedConfigurationObject>
 			<InformationRegisterPeriodicity>Day</InformationRegisterPeriodicity>
 			<WriteMode>Independent</WriteMode>
@@ -43,9 +43,9 @@
 			<Resource uuid="9e094bdd-6a4f-4a43-b4c9-0f3193d42b67">
 				<InternalInfo/>
 				<Properties>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>ДатаВыдачи</Name>
 					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>433e502d-ab5c-4e8e-a7c0-0fde1aa6f767</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>xs:dateTime</v8:Type>
@@ -58,9 +58,9 @@
 			<Resource uuid="ca36fda2-6025-450d-9270-4503dcf4791d">
 				<InternalInfo/>
 				<Properties>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>КодПодразделения</Name>
 					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>a2910bb8-fdd2-480c-8ae2-78661d7d18e0</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
@@ -74,9 +74,9 @@
 			<Resource uuid="22fa9d9e-19b3-443e-ad1f-44d51cb3404b">
 				<InternalInfo/>
 				<Properties>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>Серия</Name>
 					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>4f44c1c0-0480-415e-8058-41b28f2f43a0</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
@@ -90,9 +90,9 @@
 			<Resource uuid="426992ae-a88a-4e09-90ba-d1ca622d060a">
 				<InternalInfo/>
 				<Properties>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>ИмяЛатиницей</Name>
 					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>e22a7536-dd59-4093-bfc8-335178b9da44</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
@@ -106,9 +106,9 @@
 			<Resource uuid="b0a0abc3-ca6f-4f0e-9697-ecd817e32894">
 				<InternalInfo/>
 				<Properties>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>ФамилияЛатиницей</Name>
 					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>cadcf4bd-2047-4fcb-b58e-bd6c09c5577a</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
@@ -122,9 +122,9 @@
 			<Resource uuid="c5b43e5d-cfbb-43be-847e-10bde13b19bf">
 				<InternalInfo/>
 				<Properties>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>Номер</Name>
 					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>3b708ec7-6543-40ff-8ea2-16d4ddb7d56f</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
@@ -138,9 +138,9 @@
 			<Resource uuid="ef31cf22-3b32-4146-bd07-ca744bf0f520">
 				<InternalInfo/>
 				<Properties>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>СрокДействия</Name>
 					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>6bd65f02-9531-4dd4-bd4a-4132aa3c4787</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>xs:dateTime</v8:Type>
@@ -153,9 +153,9 @@
 			<Resource uuid="8a3ca88f-c5e4-4941-b377-36a875649307">
 				<InternalInfo/>
 				<Properties>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>КемВыдан</Name>
 					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>5d9863e6-aab7-4808-a516-8bc42dae5d01</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
@@ -169,9 +169,9 @@
 			<Resource uuid="ed7f2a0b-733f-4ec0-8939-bdb3b9c10802">
 				<InternalInfo/>
 				<Properties>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>СтранаВыдачи</Name>
 					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>af40a979-1391-4411-b5a4-9f9a91fb8123</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>cfg:CatalogRef.СтраныМира</v8:Type>
@@ -181,9 +181,9 @@
 			<Resource uuid="523bdfd1-ddb6-4b90-9b6a-c2852e28c2cb">
 				<InternalInfo/>
 				<Properties>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>ЯвляетсяДокументомУдостоверяющимЛичность</Name>
 					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>218302fa-674d-45e1-a7e2-2cce2d011342</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>xs:boolean</v8:Type>
@@ -193,9 +193,9 @@
 			<Resource uuid="72501b24-1984-44ed-9df7-0d9bd0b243bb">
 				<InternalInfo/>
 				<Properties>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>Представление</Name>
 					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>70264a0a-95c5-426f-a1bf-0f57b86d4030</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
@@ -209,9 +209,9 @@
 			<Dimension uuid="5ade952b-273a-4692-8515-698a69f0028c">
 				<InternalInfo/>
 				<Properties>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>Физлицо</Name>
 					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>3291428e-6727-43cc-a1f8-c62f90320e90</ExtendedConfigurationObject>
 					<Type>
 						<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
@@ -221,9 +221,9 @@
 			<Dimension uuid="7bfe1cf7-6d0a-4899-9bff-b46fe8d13d29">
 				<InternalInfo/>
 				<Properties>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>ВидДокумента</Name>
 					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>d867720c-c937-4689-b241-0afda05ef993</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>cfg:CatalogRef.ВидыДокументовФизическихЛиц</v8:Type>

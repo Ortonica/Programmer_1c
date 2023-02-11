@@ -22856,10 +22856,80 @@
 			</c>
 		</row>
 	</rowsItem>
+	<rowsItem>
+		<index>170</index>
+		<indexTo>178</indexTo>
+		<row>
+			<empty>true</empty>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>179</index>
+		<row>
+			<c>
+				<i>1</i>
+				<c>
+					<f>173</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Порядок оплаты:</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>180</index>
+		<row>
+			<empty>true</empty>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>181</index>
+		<row>
+			<c>
+				<i>1</i>
+				<c>
+					<f>173</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Условия поставки:</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>182</index>
+		<row>
+			<empty>true</empty>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>183</index>
+		<row>
+			<c>
+				<i>1</i>
+				<c>
+					<f>173</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Срок поставки:</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
 	<drawing>
 		<drawingType>Picture</drawingType>
 		<id>1</id>
-		<formatIndex>173</formatIndex>
+		<formatIndex>174</formatIndex>
 		<beginRow>148</beginRow>
 		<beginRowOffset>12</beginRowOffset>
 		<endRow>163</endRow>
@@ -22876,7 +22946,7 @@
 	<drawing>
 		<drawingType>Picture</drawingType>
 		<id>2</id>
-		<formatIndex>174</formatIndex>
+		<formatIndex>175</formatIndex>
 		<beginRow>1</beginRow>
 		<beginRowOffset>0</beginRowOffset>
 		<endRow>4</endRow>
@@ -22893,7 +22963,7 @@
 	<drawing>
 		<drawingType>Picture</drawingType>
 		<id>3</id>
-		<formatIndex>175</formatIndex>
+		<formatIndex>176</formatIndex>
 		<beginRow>1</beginRow>
 		<beginRowOffset>87</beginRowOffset>
 		<endRow>2</endRow>
@@ -22910,7 +22980,7 @@
 	<drawing>
 		<drawingType>Picture</drawingType>
 		<id>4</id>
-		<formatIndex>176</formatIndex>
+		<formatIndex>177</formatIndex>
 		<beginRow>18</beginRow>
 		<beginRowOffset>42</beginRowOffset>
 		<endRow>29</endRow>
@@ -22927,7 +22997,7 @@
 	<drawing>
 		<drawingType>Picture</drawingType>
 		<id>5</id>
-		<formatIndex>176</formatIndex>
+		<formatIndex>177</formatIndex>
 		<beginRow>141</beginRow>
 		<beginRowOffset>15</beginRowOffset>
 		<endRow>145</endRow>
@@ -22944,7 +23014,7 @@
 	<drawing>
 		<drawingType>Picture</drawingType>
 		<id>6</id>
-		<formatIndex>176</formatIndex>
+		<formatIndex>177</formatIndex>
 		<beginRow>166</beginRow>
 		<beginRowOffset>21</beginRowOffset>
 		<endRow>170</endRow>
@@ -22960,8 +23030,8 @@
 	</drawing>
 	<templateMode>true</templateMode>
 	<defaultFormatIndex>7</defaultFormatIndex>
-	<height>175</height>
-	<vgRows>175</vgRows>
+	<height>188</height>
+	<vgRows>188</vgRows>
 	<merge>
 		<r>1</r>
 		<c>8</c>
@@ -24410,6 +24480,16 @@
 	<namedItem xsi:type="NamedItemDrawing">
 		<name>Логотип</name>
 		<drawingID>2</drawingID>
+	</namedItem>
+	<namedItem xsi:type="NamedItemCells">
+		<name>ОбластьУсловия</name>
+		<area>
+			<type>Rows</type>
+			<beginRow>177</beginRow>
+			<endRow>187</endRow>
+			<beginColumn>-1</beginColumn>
+			<endColumn>-1</endColumn>
+		</area>
 	</namedItem>
 	<namedItem xsi:type="NamedItemCells">
 		<name>ОбластьФаксимиле</name>
@@ -26146,6 +26226,9 @@
 		<horizontalAlignment>Left</horizontalAlignment>
 		<verticalAlignment>Top</verticalAlignment>
 		<columnSizeChange>Normal</columnSizeChange>
+	</format>
+	<format>
+		<font>1</font>
 	</format>
 	<format>
 		<drawingBorder>3</drawingBorder>

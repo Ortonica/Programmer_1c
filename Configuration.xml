@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.13">
 	<Configuration uuid="3d9c1c32-23af-48f9-a42e-499c98cc8311">
 		<InternalInfo>
 			<xr:ContainedObject>
@@ -32,7 +32,6 @@
 			</xr:ContainedObject>
 		</InternalInfo>
 		<Properties>
-			<ObjectBelonging>Adopted</ObjectBelonging>
 			<Name>_РСК</Name>
 			<Synonym>
 				<v8:item>
@@ -42,9 +41,10 @@
 			</Synonym>
 			<Comment/>
 			<ConfigurationExtensionPurpose>AddOn</ConfigurationExtensionPurpose>
+			<ObjectBelonging>Adopted</ObjectBelonging>
 			<KeepMappingToExtendedConfigurationObjectsByIDs>true</KeepMappingToExtendedConfigurationObjectsByIDs>
 			<NamePrefix>РСК_</NamePrefix>
-			<ConfigurationExtensionCompatibilityMode>Version8_3_21</ConfigurationExtensionCompatibilityMode>
+			<ConfigurationExtensionCompatibilityMode>Version8_3_20</ConfigurationExtensionCompatibilityMode>
 			<DefaultRunMode>ManagedApplication</DefaultRunMode>
 			<UsePurposes>
 				<v8:Value xsi:type="app:ApplicationUsePurpose">PlatformApplication</v8:Value>
@@ -62,7 +62,7 @@
 			<VendorInformationAddress/>
 			<ConfigurationInformationAddress/>
 			<InterfaceCompatibilityMode>TaxiEnableVersion8_2</InterfaceCompatibilityMode>
-			<CompatibilityMode>Version8_3_21</CompatibilityMode>
+			<CompatibilityMode>Version8_3_20</CompatibilityMode>
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
@@ -287,6 +287,7 @@
 			<CommonModule>ЭлектронноеАктированиеЕИСПолучениеВходящих</CommonModule>
 			<CommonModule>ЭлектронноеАктированиеЕИСУТ</CommonModule>
 			<CommonModule>ПроведениеДокументов</CommonModule>
+			<CommonModule>РС_СверткаТаблицыПриОтправкеВЕИС</CommonModule>
 			<ExchangePlan>ДатаМобайл_СписокТСД</ExchangePlan>
 			<EventSubscription>РСК_ЗаписатьВерсиюДокумента</EventSubscription>
 			<EventSubscription>РСК_ЗаменаСтатьиДДСОРП</EventSubscription>
@@ -344,6 +345,8 @@
 			<CommonCommand>РСК_ВвестиРеализацияТоваровИУслуг</CommonCommand>
 			<CommonCommand>РСК_ЗаказНаПеремещение</CommonCommand>
 			<CommonCommand>РСК_УстановкаТарифовЗаДоставкуТСР</CommonCommand>
+			<CommonCommand>РСК_ВвестиПроизводствоБезЗаказаИзЗаказаКлиента</CommonCommand>
+			<CommonCommand>РСК_ВвестиПриходныйОрдерИзПроизводскаБезЗаказа</CommonCommand>
 			<CommandGroup>РСК_Документы</CommandGroup>
 			<CommandGroup>РСК_Справочники</CommandGroup>
 			<Constant>ИспользоватьОнлайнОплаты</Constant>
@@ -507,6 +510,7 @@
 			<Document>ПриобретениеТоваровУслуг</Document>
 			<Document>ПриобретениеУслугПрочихАктивов</Document>
 			<Document>ПриходныйОрдерНаТовары</Document>
+			<Document>ПроизводствоБезЗаказа</Document>
 			<Document>ПрочееОприходованиеТоваров</Document>
 			<Document>РасходныйОрдерНаТовары</Document>
 			<Document>РеализацияТоваровУслуг</Document>
@@ -617,6 +621,7 @@
 			<Report>СравнительныйАнализПоказателейРаботыМенеджеров</Report>
 			<Report>ОстаткиИДоступностьТоваров</Report>
 			<Report>РСК_ВедомостьПоОстаткамТСР</Report>
+			<Report>АнализПричинОтменыЗаказовКлиентов</Report>
 			<DataProcessor>ДатаМобайл_АРМДиспетчера</DataProcessor>
 			<DataProcessor>ДокументооборотСКонтролирующимиОрганами</DataProcessor>
 			<DataProcessor>ЖурналДокументовБезналичныеПлатежи</DataProcessor>
@@ -694,6 +699,7 @@
 			<InformationRegister>ТоварыКДоставке</InformationRegister>
 			<InformationRegister>ШтрихкодыНоменклатуры</InformationRegister>
 			<InformationRegister>ЦеныНоменклатурыПоставщиков</InformationRegister>
+			<InformationRegister>ПартнерыСегмента</InformationRegister>
 			<AccumulationRegister>ЗаказыКлиентов</AccumulationRegister>
 			<AccumulationRegister>ПланыОплатПоставщикам</AccumulationRegister>
 			<AccumulationRegister>РСК_СостояниеЗаказовКлиентовПоВыдаче</AccumulationRegister>

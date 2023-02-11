@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.13">
 	<AccumulationRegister uuid="433b017c-3ce1-464e-9660-9d2b1fdaf1c2">
 		<InternalInfo>
 			<xr:GeneratedType name="AccumulationRegisterRecord.ПланыПродаж" category="Record">
@@ -28,9 +28,9 @@
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<ObjectBelonging>Adopted</ObjectBelonging>
 			<Name>ПланыПродаж</Name>
 			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
 			<ExtendedConfigurationObject>3984ba59-628f-44a0-9f98-9543d6fd5223</ExtendedConfigurationObject>
 			<RegisterType>Turnovers</RegisterType>
 		</Properties>
@@ -38,9 +38,9 @@
 			<Resource uuid="3fe09195-d3a3-4365-91d8-ed89f6874d37">
 				<InternalInfo/>
 				<Properties>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>Количество</Name>
 					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>fefce5d3-71bd-435f-b736-a7be76588da1</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>xs:decimal</v8:Type>
@@ -55,9 +55,9 @@
 			<Resource uuid="c55389e2-0b56-4bf3-b2c1-60c58d466656">
 				<InternalInfo/>
 				<Properties>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>Сумма</Name>
 					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>f660ed38-7285-4075-9c69-19b5d449e457</ExtendedConfigurationObject>
 					<Type>
 						<v8:TypeSet>cfg:DefinedType.ДенежнаяСуммаЛюбогоЗнака</v8:TypeSet>
@@ -67,9 +67,9 @@
 			<Dimension uuid="9a819bdb-d325-4608-a639-4588e00bbc1d">
 				<InternalInfo/>
 				<Properties>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>Статус</Name>
 					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>8ace560b-795d-4771-aa54-fb1f4166d1f9</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>cfg:EnumRef.СтатусыПланов</v8:Type>
@@ -79,9 +79,9 @@
 			<Dimension uuid="69141d27-f56e-4e81-9fa8-e2f1abbffe90">
 				<InternalInfo/>
 				<Properties>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>ВидПлана</Name>
 					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>0fdb3120-428b-45dd-9b63-8b7f01920403</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>cfg:CatalogRef.ВидыПланов</v8:Type>
@@ -91,9 +91,9 @@
 			<Dimension uuid="d9a9c6a5-7816-4ef9-8520-a1e6d7a9e70a">
 				<InternalInfo/>
 				<Properties>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>Номенклатура</Name>
 					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>50b32c94-971d-4b77-b8a3-6b89ade0e338</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>cfg:CatalogRef.Номенклатура</v8:Type>
@@ -103,9 +103,9 @@
 			<Dimension uuid="9faef0d0-9160-4ae7-b7e7-24e16894aee2">
 				<InternalInfo/>
 				<Properties>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>Характеристика</Name>
 					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>7c2a2df7-ba99-4445-8b38-3228bcfab2af</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>cfg:CatalogRef.ХарактеристикиНоменклатуры</v8:Type>
@@ -115,9 +115,9 @@
 			<Dimension uuid="38892972-23f2-410c-8f8f-f618e695c0a6">
 				<InternalInfo/>
 				<Properties>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>Склад</Name>
 					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>04a7ec6d-e82e-4db3-96d6-e821aa3d1adf</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>cfg:CatalogRef.Склады</v8:Type>
@@ -127,9 +127,9 @@
 			<Dimension uuid="fe583aac-323b-4351-8e47-5de883fc8cc5">
 				<InternalInfo/>
 				<Properties>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>Назначение</Name>
 					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>4531d2b7-e470-4c61-9211-43a56bdf06e4</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>cfg:CatalogRef.Назначения</v8:Type>

@@ -1,25 +1,22 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.15">
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.13">
 	<Item id="3b8e1dca-19ea-4eef-a221-f28495fd0992">
 		<Name>СправочникПартнеры</Name>
 		<Code/>
 		<Description>Контактная информация справочника "Партнеры"</Description>
 		<IsFolder>true</IsFolder>
-		<ExtensionState>AdoptedCheck</ExtensionState>
 		<ChildItems>
 			<Item id="e96453f1-8f47-4ab6-8768-ccd5eca02a23">
 				<Name>АдресПартнера</Name>
 				<Code/>
 				<Description>Адрес</Description>
 				<IsFolder>false</IsFolder>
-				<ExtensionState>AdoptedCheck</ExtensionState>
 			</Item>
 			<Item id="66a86494-e4df-46db-9aed-fbe64bb6885d">
 				<Name>ТелефонПартнера</Name>
 				<Code/>
 				<Description>Телефон</Description>
 				<IsFolder>false</IsFolder>
-				<ExtensionState>AdoptedCheck</ExtensionState>
 			</Item>
 		</ChildItems>
 	</Item>

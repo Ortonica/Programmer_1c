@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.13">
 	<AccumulationRegister uuid="35caad51-f4a4-4e8e-84de-8122e2b9494f">
 		<InternalInfo>
 			<xr:GeneratedType name="AccumulationRegisterRecord.ТоварыКОтбору" category="Record">
@@ -28,9 +28,9 @@
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<ObjectBelonging>Adopted</ObjectBelonging>
 			<Name>ТоварыКОтбору</Name>
 			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
 			<ExtendedConfigurationObject>6e2e3859-3112-428b-a0ef-8aacfd1336a8</ExtendedConfigurationObject>
 			<RegisterType>Balance</RegisterType>
 		</Properties>
@@ -38,9 +38,9 @@
 			<Resource uuid="be1142e0-449d-48f2-b186-307b28ab07af">
 				<InternalInfo/>
 				<Properties>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>КОтбору</Name>
 					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>e4898ae7-6aeb-463e-86ef-f9824bc28b8d</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>xs:decimal</v8:Type>
@@ -55,9 +55,9 @@
 			<Resource uuid="dcb3c5c9-2214-48fd-b0c0-594184ea2d5e">
 				<InternalInfo/>
 				<Properties>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>Отбирается</Name>
 					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>2b067aad-0c81-4034-b9b7-f5c6ecc6c7a8</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>xs:decimal</v8:Type>
@@ -72,9 +72,9 @@
 			<Resource uuid="eabe7a49-c160-44c5-838f-2c921672036e">
 				<InternalInfo/>
 				<Properties>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>Отобрано</Name>
 					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>49fd9898-c4df-40ed-9234-3948ba163c4e</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>xs:decimal</v8:Type>
@@ -89,9 +89,9 @@
 			<Dimension uuid="94c04bb9-e8b4-4235-816a-c924008995c5">
 				<InternalInfo/>
 				<Properties>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>Распоряжение</Name>
 					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>7e5a1af1-4d83-432c-ac4c-296b8bee04d1</ExtendedConfigurationObject>
 					<Type>
 						<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
@@ -101,9 +101,9 @@
 			<Dimension uuid="546d1149-bb67-4f63-b74f-f02afa435346">
 				<InternalInfo/>
 				<Properties>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>Номенклатура</Name>
 					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>db78e9e1-a6b3-422c-8f35-3159bc151bac</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>cfg:CatalogRef.Номенклатура</v8:Type>
@@ -113,9 +113,9 @@
 			<Dimension uuid="c0778d48-8012-4048-b7ea-a722ef535e49">
 				<InternalInfo/>
 				<Properties>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>Характеристика</Name>
 					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>3eada5d0-dbd4-4412-a2d2-e5d0940e06ef</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>cfg:CatalogRef.ХарактеристикиНоменклатуры</v8:Type>
@@ -125,9 +125,9 @@
 			<Dimension uuid="afbd5edd-ac4c-4837-8f0a-a1d3b252e54f">
 				<InternalInfo/>
 				<Properties>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>Назначение</Name>
 					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>20a686c2-4df7-4fd8-b938-02248d8536e1</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>cfg:CatalogRef.Назначения</v8:Type>
@@ -137,9 +137,9 @@
 			<Dimension uuid="e58b3ef4-e205-49ea-a773-a7cfd11b753f">
 				<InternalInfo/>
 				<Properties>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>Серия</Name>
 					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>32f777d2-1c06-44e4-94b7-728dcc72206d</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>cfg:CatalogRef.СерииНоменклатуры</v8:Type>
@@ -149,9 +149,9 @@
 			<Dimension uuid="b80e28af-5057-4d2f-90f7-83d0ae8766ad">
 				<InternalInfo/>
 				<Properties>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>ТоварноеМесто</Name>
 					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>59361d99-0b61-4c04-9a38-c65c1ac6c693</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>cfg:CatalogRef.УпаковкиЕдиницыИзмерения</v8:Type>

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.13">
 	<Document uuid="2c0f7219-f3cb-4f6a-b3f1-01e408671d05">
 		<InternalInfo>
 			<xr:GeneratedType name="DocumentObject.ПоступлениеБезналичныхДенежныхСредств" category="Object">
@@ -24,9 +24,9 @@
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<ObjectBelonging>Adopted</ObjectBelonging>
 			<Name>ПоступлениеБезналичныхДенежныхСредств</Name>
 			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
 			<ExtendedConfigurationObject>59afd471-d060-43ed-bc09-86b5b5a4a65b</ExtendedConfigurationObject>
 			<RegisterRecords/>
 		</Properties>
@@ -34,9 +34,9 @@
 			<Attribute uuid="4d1f06e3-f884-4e3a-aa33-f97902978d33">
 				<InternalInfo/>
 				<Properties>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>ХозяйственнаяОперация</Name>
 					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>40a1311b-0830-4aef-8735-fbaaeab0239a</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>cfg:EnumRef.ХозяйственныеОперации</v8:Type>
@@ -46,9 +46,9 @@
 			<Attribute uuid="62e6e2bb-368d-4aa9-8d2c-7d8fbba8f75e">
 				<InternalInfo/>
 				<Properties>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>Партнер</Name>
 					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>7650e90a-6a1f-47da-a52d-3fcd1b0be752</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>cfg:CatalogRef.Партнеры</v8:Type>
@@ -58,9 +58,9 @@
 			<Attribute uuid="b8841353-3075-4ea6-bec5-eaa9d941e39b">
 				<InternalInfo/>
 				<Properties>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>НазначениеПлатежа</Name>
 					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>7b0cc2f5-a235-4403-ac97-9279b5ea2623</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
@@ -74,9 +74,9 @@
 			<Attribute uuid="7721029f-55a4-46e3-b7fd-bebfbf917ab4">
 				<InternalInfo/>
 				<Properties>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>Договор</Name>
 					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>592bf0ba-feb4-4dc0-ae2e-d417e510e025</ExtendedConfigurationObject>
 					<Type>
 						<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
@@ -86,9 +86,9 @@
 			<Attribute uuid="59273ef4-7ae6-44e7-a8db-eec200e42cf2">
 				<InternalInfo/>
 				<Properties>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>Контрагент</Name>
 					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>1c5af67e-1520-46dd-aaa5-68c1760c0000</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>cfg:CatalogRef.Контрагенты</v8:Type>
@@ -107,9 +107,9 @@
 					</xr:GeneratedType>
 				</InternalInfo>
 				<Properties>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>РасшифровкаПлатежа</Name>
 					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>d4822dd8-1037-4c98-9be7-a73bb03d013a</ExtendedConfigurationObject>
 				</Properties>
 				<ChildObjects/>

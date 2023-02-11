@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.13">
 	<Catalog uuid="5850d123-da9f-4a80-ac45-899e6c900de3">
 		<InternalInfo>
 			<xr:GeneratedType name="CatalogObject.ФизическиеЛица" category="Object">
@@ -24,9 +24,9 @@
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<ObjectBelonging>Adopted</ObjectBelonging>
 			<Name>ФизическиеЛица</Name>
 			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
 			<ExtendedConfigurationObject>92d7cba0-7873-47d5-9b94-61cc91a45609</ExtendedConfigurationObject>
 			<Hierarchical>true</Hierarchical>
 			<CodeLength>10</CodeLength>
@@ -79,9 +79,9 @@
 			<Attribute uuid="9799ae92-4af3-4f38-98f3-c05976f6065a">
 				<InternalInfo/>
 				<Properties>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>СтраховойНомерПФР</Name>
 					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>8accddff-65fa-4075-98d0-0526bb454d14</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
@@ -95,9 +95,9 @@
 			<Attribute uuid="cd4c9351-8e2c-4d01-b7ed-b8a4b4da7d09">
 				<InternalInfo/>
 				<Properties>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>ФИО</Name>
 					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>f20201ce-88a2-4584-a9c7-ac67fe446cbc</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
@@ -111,9 +111,9 @@
 			<Attribute uuid="5696555f-4db9-4c8e-93e3-858ed951ce96">
 				<InternalInfo/>
 				<Properties>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>ГруппаДоступа</Name>
 					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>7c850725-4a33-4be2-8851-3ff12eec6e6e</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>cfg:CatalogRef.ГруппыДоступаФизическихЛиц</v8:Type>
@@ -123,9 +123,9 @@
 			<Attribute uuid="4c04c960-26bb-43a0-96d5-2117372df4ec">
 				<InternalInfo/>
 				<Properties>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>ДатаРождения</Name>
 					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>1051c0c7-1058-427c-8bf5-5e30b8fbfb54</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>xs:dateTime</v8:Type>
@@ -138,9 +138,9 @@
 			<Attribute uuid="3208b08c-a207-41af-ad95-a4ba230852b1">
 				<InternalInfo/>
 				<Properties>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>Пол</Name>
 					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>b27688c3-6682-45e1-a03f-0d2e8b1214e4</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>cfg:EnumRef.ПолФизическогоЛица</v8:Type>
@@ -150,9 +150,9 @@
 			<Attribute uuid="3a1aa302-b6bb-4ec4-a4e5-d0abd383cc12">
 				<InternalInfo/>
 				<Properties>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>ИНН</Name>
 					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>c316fe99-f4e7-4aa9-97db-b0d55c55c130</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
@@ -166,9 +166,9 @@
 			<Attribute uuid="494e52f7-0614-46cb-b3a9-3c9b841124bb">
 				<InternalInfo/>
 				<Properties>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>УточнениеНаименования</Name>
 					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>3f0c489a-46a7-4681-bbb7-c4601e7e4c25</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
@@ -191,9 +191,9 @@
 					</xr:GeneratedType>
 				</InternalInfo>
 				<Properties>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>УдалитьОбразование</Name>
 					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>5a75d200-9ec3-4490-aed6-3855b5a7af2b</ExtendedConfigurationObject>
 				</Properties>
 				<ChildObjects/>
@@ -210,9 +210,9 @@
 					</xr:GeneratedType>
 				</InternalInfo>
 				<Properties>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>УдалитьСтажи</Name>
 					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>2b09e1fa-d05a-42e9-805f-a441c06fbd25</ExtendedConfigurationObject>
 				</Properties>
 				<ChildObjects/>
@@ -229,9 +229,9 @@
 					</xr:GeneratedType>
 				</InternalInfo>
 				<Properties>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>УдалитьПрофессии</Name>
 					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>c4dba6ca-3513-489d-86c4-0814ed6fbc8b</ExtendedConfigurationObject>
 				</Properties>
 				<ChildObjects/>
@@ -248,9 +248,9 @@
 					</xr:GeneratedType>
 				</InternalInfo>
 				<Properties>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>УдалитьНаграды</Name>
 					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>62e145df-0b2d-4b8e-99ca-cf9fd9d4117e</ExtendedConfigurationObject>
 				</Properties>
 				<ChildObjects/>
@@ -267,9 +267,9 @@
 					</xr:GeneratedType>
 				</InternalInfo>
 				<Properties>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>УдалитьУченыеЗвания</Name>
 					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>a93c344f-679d-4b15-b4a4-b9b2eb440808</ExtendedConfigurationObject>
 				</Properties>
 				<ChildObjects/>
@@ -286,9 +286,9 @@
 					</xr:GeneratedType>
 				</InternalInfo>
 				<Properties>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>УдалитьЗнаниеЯзыков</Name>
 					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>937cbddc-9439-4c29-9ecc-96f8cfec28c8</ExtendedConfigurationObject>
 				</Properties>
 				<ChildObjects/>
@@ -305,9 +305,9 @@
 					</xr:GeneratedType>
 				</InternalInfo>
 				<Properties>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>УдалитьТрудоваяДеятельность</Name>
 					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>dd9d1f7f-6987-477e-9f5f-660accc0ab7f</ExtendedConfigurationObject>
 				</Properties>
 				<ChildObjects/>
@@ -324,9 +324,9 @@
 					</xr:GeneratedType>
 				</InternalInfo>
 				<Properties>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>УдалитьУченыеСтепени</Name>
 					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>eeb1380c-89c4-49fb-94ff-3e89b452971b</ExtendedConfigurationObject>
 				</Properties>
 				<ChildObjects/>
@@ -343,9 +343,9 @@
 					</xr:GeneratedType>
 				</InternalInfo>
 				<Properties>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>УдалитьСоставСемьи</Name>
 					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>f4786c82-ddee-4568-b75a-9c271f57866e</ExtendedConfigurationObject>
 				</Properties>
 				<ChildObjects/>

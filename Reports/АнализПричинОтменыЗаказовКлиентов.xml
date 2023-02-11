@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.13">
+	<Report uuid="6644c086-88e8-4347-9d9b-7d2afb834a85">
+		<InternalInfo>
+			<xr:GeneratedType name="ReportObject.АнализПричинОтменыЗаказовКлиентов" category="Object">
+				<xr:TypeId>467d6e0e-6caa-44a0-a604-2b7ce8f47e73</xr:TypeId>
+				<xr:ValueId>e73ef018-ae6d-4cc8-bd8d-82eba9cf7175</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ReportManager.АнализПричинОтменыЗаказовКлиентов" category="Manager">
+				<xr:TypeId>e30730e5-3de2-4bbe-a87f-0fc263301ec9</xr:TypeId>
+				<xr:ValueId>72170299-0497-4944-ba61-5e78d482186e</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>АнализПричинОтменыЗаказовКлиентов</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>4fb6b322-eac3-464f-bd56-a98db8874e29</ExtendedConfigurationObject>
+			<MainDataCompositionSchema>Report.АнализПричинОтменыЗаказовКлиентов.Template.РСК_ОсновнаяСхемаКомпоновкиДанных</MainDataCompositionSchema>
+		</Properties>
+		<ChildObjects>
+			<Template>РСК_ОсновнаяСхемаКомпоновкиДанных</Template>
+		</ChildObjects>
+	</Report>
+</MetaDataObject>
