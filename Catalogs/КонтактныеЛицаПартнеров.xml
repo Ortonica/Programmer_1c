@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.13">
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
 	<Catalog uuid="9205ac82-40ba-44c9-aac4-7c74df294301">
 		<InternalInfo>
 			<xr:GeneratedType name="CatalogObject.КонтактныеЛицаПартнеров" category="Object">
@@ -24,9 +24,9 @@
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
 			<Name>КонтактныеЛицаПартнеров</Name>
 			<Comment/>
-			<ObjectBelonging>Adopted</ObjectBelonging>
 			<ExtendedConfigurationObject>877a04b6-4c0b-4715-b826-6ac77909e040</ExtendedConfigurationObject>
 			<Owners>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Партнеры</xr:Item>
@@ -37,9 +37,9 @@
 			<Attribute uuid="8a8a58e9-7159-4c27-80e1-a714268dec48">
 				<InternalInfo/>
 				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>Пол</Name>
 					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>cd170420-6eb1-4342-ac01-7cc15a278469</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>cfg:EnumRef.ПолФизическогоЛица</v8:Type>
@@ -49,9 +49,9 @@
 			<Attribute uuid="efa7292b-322d-4027-91f9-89f7a2cecaa3">
 				<InternalInfo/>
 				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>ДатаРождения</Name>
 					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>07a989fe-b7de-44b6-839d-e1cce1d2d423</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>xs:dateTime</v8:Type>
@@ -64,9 +64,9 @@
 			<Attribute uuid="a92c16bb-e78d-4cd1-9cbc-8ccd34f14d48">
 				<InternalInfo/>
 				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>ДатаПрекращенияСвязи</Name>
 					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>79835be6-c08e-48a0-851c-e3c4da4d8a47</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>xs:dateTime</v8:Type>
@@ -79,9 +79,9 @@
 			<Attribute uuid="83fe79ff-18ef-43cf-a583-2ec0fb287336">
 				<InternalInfo/>
 				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>ДополнительнаяИнформация</Name>
 					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>2aed36e6-44b2-4ff0-a5aa-a3de26037ac0</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
@@ -95,9 +95,9 @@
 			<Attribute uuid="18d68960-9e14-4505-85c3-08a0299f3551">
 				<InternalInfo/>
 				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>ДолжностьПоВизитке</Name>
 					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>29cd916a-e579-4b2a-8c42-645cfd2a9521</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
@@ -111,9 +111,9 @@
 			<Attribute uuid="b0d23fab-4d34-4e0c-a768-23ed41f735e6">
 				<InternalInfo/>
 				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>ДатаРегистрацииСвязи</Name>
 					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>67d2f639-09f9-487b-aefa-c42471c9026b</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>xs:dateTime</v8:Type>
@@ -126,9 +126,9 @@
 			<Attribute uuid="4fa9872b-dc46-4449-aa7e-772cba95966b">
 				<InternalInfo/>
 				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>Автор</Name>
 					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>29f8edc3-bc77-4470-9bc6-b58b2924f54d</ExtendedConfigurationObject>
 					<Type>
 						<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
@@ -138,9 +138,9 @@
 			<Attribute uuid="92c2953b-2dda-40c9-a516-569a419f4c04">
 				<InternalInfo/>
 				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>Комментарий</Name>
 					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>fad70dd9-2de6-4bf6-8dbb-73c8ae806377</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
@@ -207,18 +207,18 @@
 					</xr:GeneratedType>
 				</InternalInfo>
 				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>РолиКонтактногоЛица</Name>
 					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>2f4a3620-e144-45ef-983d-c08853b9c00d</ExtendedConfigurationObject>
 				</Properties>
 				<ChildObjects>
 					<Attribute uuid="a644ccad-6896-493c-90f3-8813091e9575">
 						<InternalInfo/>
 						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
 							<Name>РольКонтактногоЛица</Name>
 							<Comment/>
-							<ObjectBelonging>Adopted</ObjectBelonging>
 							<ExtendedConfigurationObject>3e546e08-a859-49f2-9d04-c9fdb5547183</ExtendedConfigurationObject>
 							<Type>
 								<v8:Type>cfg:CatalogRef.РолиКонтактныхЛицПартнеров</v8:Type>
@@ -239,18 +239,18 @@
 					</xr:GeneratedType>
 				</InternalInfo>
 				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>КонтактнаяИнформация</Name>
 					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>65059fcf-d30d-4366-aabc-1736a2a1198c</ExtendedConfigurationObject>
 				</Properties>
 				<ChildObjects>
 					<Attribute uuid="54c681aa-f3f0-43bf-8207-8dce14fe1db6">
 						<InternalInfo/>
 						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
 							<Name>Тип</Name>
 							<Comment/>
-							<ObjectBelonging>Adopted</ObjectBelonging>
 							<ExtendedConfigurationObject>89012594-b147-4b78-877f-5aab7931b40e</ExtendedConfigurationObject>
 							<Type>
 								<v8:Type>cfg:EnumRef.ТипыКонтактнойИнформации</v8:Type>
@@ -260,9 +260,9 @@
 					<Attribute uuid="ad27aa73-e22a-4ed6-bc14-55775760f194">
 						<InternalInfo/>
 						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
 							<Name>Вид</Name>
 							<Comment/>
-							<ObjectBelonging>Adopted</ObjectBelonging>
 							<ExtendedConfigurationObject>1507bf85-d479-4d4c-b34f-ae3f3fbe92d0</ExtendedConfigurationObject>
 							<Type>
 								<v8:Type>cfg:CatalogRef.ВидыКонтактнойИнформации</v8:Type>
@@ -272,9 +272,9 @@
 					<Attribute uuid="32c95b6a-1427-44e3-8faf-a4d80105a14e">
 						<InternalInfo/>
 						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
 							<Name>Представление</Name>
 							<Comment/>
-							<ObjectBelonging>Adopted</ObjectBelonging>
 							<ExtendedConfigurationObject>b63093be-8b18-45db-919f-2d2f35cdb506</ExtendedConfigurationObject>
 							<Type>
 								<v8:Type>xs:string</v8:Type>

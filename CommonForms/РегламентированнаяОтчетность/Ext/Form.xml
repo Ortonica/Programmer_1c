@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.13">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
 	<Title>
 		<v8:item>
 			<v8:lang>ru</v8:lang>
@@ -899,6 +899,7 @@
 							<AllowRootChoice>false</AllowRootChoice>
 							<UpdateOnDataChange>Auto</UpdateOnDataChange>
 							<UserSettingsGroup>ГруппаДополнительныхОтборовОтчетов</UserSettingsGroup>
+							<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
 							<ContextMenu name="ОтчетыКонтекстноеМеню" id="22">
 								<Autofill>false</Autofill>
 								<ChildItems>
@@ -1879,6 +1880,7 @@
 							<ShowRoot>true</ShowRoot>
 							<AllowRootChoice>false</AllowRootChoice>
 							<UpdateOnDataChange>Auto</UpdateOnDataChange>
+							<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
 							<ContextMenu name="УведомленияКонтекстноеМеню" id="931">
 								<Autofill>false</Autofill>
 								<ChildItems>
@@ -2692,6 +2694,7 @@
 							<ShowRoot>true</ShowRoot>
 							<AllowRootChoice>false</AllowRootChoice>
 							<UpdateOnDataChange>Auto</UpdateOnDataChange>
+							<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
 							<ContextMenu name="ПисьмаКонтекстноеМеню" id="842">
 								<Autofill>false</Autofill>
 								<ChildItems>
@@ -3248,6 +3251,7 @@
 							<ShowRoot>true</ShowRoot>
 							<AllowRootChoice>false</AllowRootChoice>
 							<UpdateOnDataChange>Auto</UpdateOnDataChange>
+							<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
 							<ContextMenu name="СверкиКонтекстноеМеню" id="656">
 								<Autofill>false</Autofill>
 								<ChildItems>
@@ -4287,6 +4291,7 @@
 							<ShowRoot>true</ShowRoot>
 							<AllowRootChoice>false</AllowRootChoice>
 							<UpdateOnDataChange>Auto</UpdateOnDataChange>
+							<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
 							<ContextMenu name="ЕГРЮЛКонтекстноеМеню" id="743">
 								<Autofill>false</Autofill>
 								<ChildItems>
@@ -4795,6 +4800,7 @@
 											<ShowRoot>true</ShowRoot>
 											<AllowRootChoice>false</AllowRootChoice>
 											<UpdateOnDataChange>Auto</UpdateOnDataChange>
+											<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
 											<ContextMenu name="ТребованияКонтекстноеМеню" id="2429">
 												<Autofill>false</Autofill>
 												<ChildItems>
@@ -5614,6 +5620,7 @@
 											<ShowRoot>true</ShowRoot>
 											<AllowRootChoice>false</AllowRootChoice>
 											<UpdateOnDataChange>Auto</UpdateOnDataChange>
+											<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
 											<ContextMenu name="ВходящиеПисьмаКонтекстноеМеню" id="1067">
 												<Autofill>false</Autofill>
 												<ChildItems>
@@ -6164,6 +6171,7 @@
 											<ShowRoot>true</ShowRoot>
 											<AllowRootChoice>false</AllowRootChoice>
 											<UpdateOnDataChange>Auto</UpdateOnDataChange>
+											<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
 											<ContextMenu name="РассылкиКонтекстноеМеню" id="2018">
 												<Autofill>false</Autofill>
 												<ChildItems>
@@ -9021,7 +9029,7 @@
 			</dcsset:item>
 		</ConditionalAppearance>
 	</Attributes>
-	<BaseForm version="2.13">
+	<BaseForm version="2.15">
 		<Title>
 			<v8:item>
 				<v8:lang>ru</v8:lang>
@@ -9921,6 +9929,7 @@
 								<AllowRootChoice>false</AllowRootChoice>
 								<UpdateOnDataChange>Auto</UpdateOnDataChange>
 								<UserSettingsGroup>ГруппаДополнительныхОтборовОтчетов</UserSettingsGroup>
+								<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
 								<ContextMenu name="ОтчетыКонтекстноеМеню" id="22">
 									<Autofill>false</Autofill>
 									<ChildItems>
@@ -10901,6 +10910,7 @@
 								<ShowRoot>true</ShowRoot>
 								<AllowRootChoice>false</AllowRootChoice>
 								<UpdateOnDataChange>Auto</UpdateOnDataChange>
+								<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
 								<ContextMenu name="УведомленияКонтекстноеМеню" id="931">
 									<Autofill>false</Autofill>
 									<ChildItems>
@@ -11714,6 +11724,7 @@
 								<ShowRoot>true</ShowRoot>
 								<AllowRootChoice>false</AllowRootChoice>
 								<UpdateOnDataChange>Auto</UpdateOnDataChange>
+								<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
 								<ContextMenu name="ПисьмаКонтекстноеМеню" id="842">
 									<Autofill>false</Autofill>
 									<ChildItems>
@@ -12270,6 +12281,7 @@
 								<ShowRoot>true</ShowRoot>
 								<AllowRootChoice>false</AllowRootChoice>
 								<UpdateOnDataChange>Auto</UpdateOnDataChange>
+								<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
 								<ContextMenu name="СверкиКонтекстноеМеню" id="656">
 									<Autofill>false</Autofill>
 									<ChildItems>
@@ -13309,6 +13321,7 @@
 								<ShowRoot>true</ShowRoot>
 								<AllowRootChoice>false</AllowRootChoice>
 								<UpdateOnDataChange>Auto</UpdateOnDataChange>
+								<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
 								<ContextMenu name="ЕГРЮЛКонтекстноеМеню" id="743">
 									<Autofill>false</Autofill>
 									<ChildItems>
@@ -13817,6 +13830,7 @@
 												<ShowRoot>true</ShowRoot>
 												<AllowRootChoice>false</AllowRootChoice>
 												<UpdateOnDataChange>Auto</UpdateOnDataChange>
+												<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
 												<ContextMenu name="ТребованияКонтекстноеМеню" id="2429">
 													<Autofill>false</Autofill>
 													<ChildItems>
@@ -14636,6 +14650,7 @@
 												<ShowRoot>true</ShowRoot>
 												<AllowRootChoice>false</AllowRootChoice>
 												<UpdateOnDataChange>Auto</UpdateOnDataChange>
+												<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
 												<ContextMenu name="ВходящиеПисьмаКонтекстноеМеню" id="1067">
 													<Autofill>false</Autofill>
 													<ChildItems>
@@ -15186,6 +15201,7 @@
 												<ShowRoot>true</ShowRoot>
 												<AllowRootChoice>false</AllowRootChoice>
 												<UpdateOnDataChange>Auto</UpdateOnDataChange>
+												<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
 												<ContextMenu name="РассылкиКонтекстноеМеню" id="2018">
 													<Autofill>false</Autofill>
 													<ChildItems>

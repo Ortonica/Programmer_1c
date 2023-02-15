@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.13">
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
 	<DocumentJournal uuid="d19f8a38-12cf-4077-ac34-1f1acf2f11fc">
 		<InternalInfo>
 			<xr:GeneratedType name="DocumentJournalSelection.СкладскиеОрдера" category="Selection">
@@ -16,9 +16,9 @@
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
 			<Name>СкладскиеОрдера</Name>
 			<Comment/>
-			<ObjectBelonging>Adopted</ObjectBelonging>
 			<ExtendedConfigurationObject>4740ae5d-b3d7-4432-9f4f-90cbcdf4b446</ExtendedConfigurationObject>
 			<RegisteredDocuments>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.РасходныйОрдерНаТовары</xr:Item>
@@ -29,45 +29,45 @@
 			<Column uuid="5a901a7c-b69b-4038-88e3-fb856fce58d7">
 				<InternalInfo/>
 				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>Статус</Name>
 					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>e7c05ced-f401-4195-85da-6ee93fdc30d3</ExtendedConfigurationObject>
 				</Properties>
 			</Column>
 			<Column uuid="e4db4e77-91bc-4cde-888b-c5d53b5a57ef">
 				<InternalInfo/>
 				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>ПомещениеОтправитель</Name>
 					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>202ef6d8-0ce5-43c9-a806-ba4c3079aefa</ExtendedConfigurationObject>
 				</Properties>
 			</Column>
 			<Column uuid="320eefc7-ce64-416b-82a4-c6404995f49c">
 				<InternalInfo/>
 				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>Приоритет</Name>
 					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>48666997-3382-48d7-8aef-c282ae715f41</ExtendedConfigurationObject>
 				</Properties>
 			</Column>
 			<Column uuid="da04ccfd-9f91-4b40-a6fe-8524fa691d55">
 				<InternalInfo/>
 				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>ДатаОтгрузки</Name>
 					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>708fb4aa-df52-43b6-a2fa-0edf4aba5419</ExtendedConfigurationObject>
 				</Properties>
 			</Column>
 			<Column uuid="9dfbd6b1-0815-4802-ae6f-618f7db0293e">
 				<InternalInfo/>
 				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>ЗаданиеНаПеревозку</Name>
 					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>3db2faef-481d-4e47-85d8-ffc54f2fb36d</ExtendedConfigurationObject>
 					<References>
 						<xr:Item xsi:type="xr:MDObjectRef">Document.РасходныйОрдерНаТовары.Attribute.ЗаданиеНаПеревозку</xr:Item>
@@ -77,45 +77,45 @@
 			<Column uuid="a23bab20-682b-42a9-bea9-ae047b9f3fef">
 				<InternalInfo/>
 				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>ОтгрузкаПоЗаданиюНаПеревозку</Name>
 					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>c4930b14-20fe-4a62-a811-0b3642a8a16d</ExtendedConfigurationObject>
 				</Properties>
 			</Column>
 			<Column uuid="2598e97f-5bcb-4d27-a944-c0ec7cd03d33">
 				<InternalInfo/>
 				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>Комментарий</Name>
 					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>1855b849-2319-4051-84f7-00151b08dc83</ExtendedConfigurationObject>
 				</Properties>
 			</Column>
 			<Column uuid="e5f51694-b900-4096-9895-bb54825276ca">
 				<InternalInfo/>
 				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>ПорядокДоставки</Name>
 					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>3ef4949f-07f5-46c8-9ea5-870e991abab2</ExtendedConfigurationObject>
 				</Properties>
 			</Column>
 			<Column uuid="f575f29f-7888-4caf-a0e8-07c457b45a97">
 				<InternalInfo/>
 				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>ПолучательОтправитель</Name>
 					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>eab1d3df-8d2b-4c20-81d9-dde5d864571a</ExtendedConfigurationObject>
 				</Properties>
 			</Column>
 			<Column uuid="d29d9c8a-7983-49df-b679-8edd3720c7b3">
 				<InternalInfo/>
 				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>ПомещениеПолучатель</Name>
 					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>cd995586-b4d3-49d1-b4b9-ab768a3a119c</ExtendedConfigurationObject>
 				</Properties>
 			</Column>

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.13">
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
 	<Document uuid="1a3dbf72-b312-481f-bf5b-ddc29623f8fb">
 		<InternalInfo>
 			<xr:GeneratedType name="DocumentObject.ЗаказПоставщику" category="Object">
@@ -24,9 +24,9 @@
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
 			<Name>ЗаказПоставщику</Name>
 			<Comment/>
-			<ObjectBelonging>Adopted</ObjectBelonging>
 			<ExtendedConfigurationObject>8bd9f000-83c9-4a48-8166-2691b6f02183</ExtendedConfigurationObject>
 			<NumberType>String</NumberType>
 			<NumberLength>11</NumberLength>
@@ -39,9 +39,9 @@
 			<Attribute uuid="a1dfa537-7a71-4cf9-b0bd-f63822115c24">
 				<InternalInfo/>
 				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>Партнер</Name>
 					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>8d121ce6-6d64-46b8-994d-69e60ed91a43</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>cfg:CatalogRef.Партнеры</v8:Type>
@@ -51,9 +51,9 @@
 			<Attribute uuid="b8072c32-9feb-4966-b84b-7618da0d075b">
 				<InternalInfo/>
 				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>Склад</Name>
 					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>2dc068b6-bb1b-4722-a4d5-7e1d1e718f32</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>cfg:CatalogRef.Склады</v8:Type>
@@ -63,9 +63,9 @@
 			<Attribute uuid="cb01433d-1647-4d95-8907-6905a9d0a6aa">
 				<InternalInfo/>
 				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>ЗакупкаПодДеятельность</Name>
 					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>ac7d3780-d9ad-4f01-828a-37daf1764f4c</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>cfg:EnumRef.ТипыНалогообложенияНДС</v8:Type>
@@ -75,9 +75,9 @@
 			<Attribute uuid="60f41d24-b0fb-4010-bce5-27204eac3c29">
 				<InternalInfo/>
 				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>Статус</Name>
 					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>1c8ea180-fa43-4221-a017-fbf8586574b8</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>cfg:EnumRef.СтатусыЗаказовПоставщикам</v8:Type>
@@ -87,9 +87,9 @@
 			<Attribute uuid="424e46ed-46a1-4997-8168-cccbab11d5d3">
 				<InternalInfo/>
 				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>ДатаОтгрузки</Name>
 					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>b9a0f800-6f65-4509-aec7-1670f5b445be</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>xs:dateTime</v8:Type>
@@ -102,9 +102,9 @@
 			<Attribute uuid="297f0012-ebc4-415b-82f8-ce2a08be3b4d">
 				<InternalInfo/>
 				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>Договор</Name>
 					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>06fbccda-70c8-41aa-84e7-f19b55ac0e9c</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>cfg:CatalogRef.ДоговорыКонтрагентов</v8:Type>
@@ -114,9 +114,9 @@
 			<Attribute uuid="7e37993c-5501-4d53-9a9f-1668373d7edd">
 				<InternalInfo/>
 				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>Контрагент</Name>
 					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>595aeccc-8e6d-4e20-a5fd-69789d5828b2</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>cfg:CatalogRef.Контрагенты</v8:Type>
@@ -126,9 +126,9 @@
 			<Attribute uuid="1f230453-8ea6-475f-900e-f9d74cd27c67">
 				<InternalInfo/>
 				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>Приоритет</Name>
 					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>b8c80711-6733-448b-8920-77bb0040b510</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>cfg:CatalogRef.Приоритеты</v8:Type>
@@ -138,9 +138,9 @@
 			<Attribute uuid="7d729d8f-d604-4913-b052-2756ceb9bcd2">
 				<InternalInfo/>
 				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>Валюта</Name>
 					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>1202ab1f-3fcc-44a5-9442-3a45f587685d</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>cfg:CatalogRef.Валюты</v8:Type>
@@ -150,9 +150,9 @@
 			<Attribute uuid="69ccfd3b-04e4-4f21-a137-561a8dfec2a1">
 				<InternalInfo/>
 				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>ПоступлениеОднойДатой</Name>
 					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>4f394941-16af-4619-b34f-cfb05af54f6a</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>xs:boolean</v8:Type>
@@ -162,9 +162,9 @@
 			<Attribute uuid="0a51947a-0af8-4c2d-ae2c-9f5836512932">
 				<InternalInfo/>
 				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>Соглашение</Name>
 					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>f7fdd1ed-69f9-4852-9506-5092bda06a06</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>cfg:CatalogRef.СоглашенияСПоставщиками</v8:Type>
@@ -174,9 +174,9 @@
 			<Attribute uuid="6d2a3988-50c7-4e03-b1da-cb8943db6028">
 				<InternalInfo/>
 				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>ДокументОснование</Name>
 					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>8befcbed-3169-4be4-8bbc-6e74821b3504</ExtendedConfigurationObject>
 					<Type>
 						<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
@@ -186,9 +186,9 @@
 			<Attribute uuid="28ba7166-72c2-4cb8-b788-736d7490a05c">
 				<InternalInfo/>
 				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>ХозяйственнаяОперация</Name>
 					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>48b02061-bc07-47e4-b621-d91cf421f3dd</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>cfg:EnumRef.ХозяйственныеОперации</v8:Type>
@@ -198,9 +198,9 @@
 			<Attribute uuid="079ea8ad-d48f-4e96-81da-7788a8b24d0e">
 				<InternalInfo/>
 				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>Организация</Name>
 					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>10699bb8-b685-49df-b889-e56f9cb3a64d</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>cfg:CatalogRef.Организации</v8:Type>
@@ -210,9 +210,9 @@
 			<Attribute uuid="7bb27e8e-fdee-43e9-8b26-7379bfb5504c">
 				<InternalInfo/>
 				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>Комментарий</Name>
 					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>0c8075b9-6faf-40af-9bf1-578aeda55fa8</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
@@ -226,9 +226,9 @@
 			<Attribute uuid="378332df-9537-4d33-b152-9233a0b6aabf">
 				<InternalInfo/>
 				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>ВремяДоставкиПо</Name>
 					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>642f55b0-88ca-43ef-844b-b3c7440c0d83</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>xs:dateTime</v8:Type>
@@ -241,9 +241,9 @@
 			<Attribute uuid="ac6042de-a9ac-406f-a184-389c8fbdaa88">
 				<InternalInfo/>
 				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>ЖелаемаяДатаПоступления</Name>
 					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>a386ab7f-c4bd-43c0-8622-ef168c9b6ed2</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>xs:dateTime</v8:Type>
@@ -256,9 +256,9 @@
 			<Attribute uuid="7d394419-06d9-4742-8179-7f75c58db00f">
 				<InternalInfo/>
 				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>ДлительностьДоставки</Name>
 					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>b9741a38-d099-44b3-80ee-269109b8ccbf</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>xs:decimal</v8:Type>
@@ -273,9 +273,9 @@
 			<Attribute uuid="a3d528fc-00a9-481f-bcaa-c1a849329f2f">
 				<InternalInfo/>
 				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>ДатаПоступления</Name>
 					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>e6b39f22-3d0b-4d48-8610-f5b36bbaebc8</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>xs:dateTime</v8:Type>
@@ -288,9 +288,9 @@
 			<Attribute uuid="86b47d11-d332-47a8-891a-9ce098eb363d">
 				<InternalInfo/>
 				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>НаправлениеДеятельности</Name>
 					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>40f93330-67f5-42ca-9df7-1460e875f131</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>cfg:CatalogRef.НаправленияДеятельности</v8:Type>
@@ -300,9 +300,9 @@
 			<Attribute uuid="dd6128cb-6ed3-4865-857a-7d9631b2e2c9">
 				<InternalInfo/>
 				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>СпособДоставки</Name>
 					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>78c21b30-8148-410f-91b7-6ee155fd8c63</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>cfg:EnumRef.СпособыДоставки</v8:Type>
@@ -312,9 +312,9 @@
 			<Attribute uuid="778dafa0-f468-4365-9084-f3ff994083a3">
 				<InternalInfo/>
 				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>ПеревозчикПартнер</Name>
 					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>c609d21b-9cb2-4661-a4f8-1932880601e2</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>cfg:CatalogRef.Партнеры</v8:Type>
@@ -324,9 +324,9 @@
 			<Attribute uuid="5e35d3d5-db26-4702-ba39-6fd651fcf96f">
 				<InternalInfo/>
 				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>АдресДоставкиДляПоставщика</Name>
 					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>678494e8-a53f-4237-9c1c-13ba84329a9b</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
@@ -340,9 +340,9 @@
 			<Attribute uuid="1686fb39-8461-4533-ac8e-06daf457236f">
 				<InternalInfo/>
 				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>АдресДоставкиПеревозчика</Name>
 					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>f37fad8c-ec21-4cda-82d6-3347515b4613</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
@@ -356,9 +356,9 @@
 			<Attribute uuid="cc13332e-f591-4f98-b01a-26b3eaea6bb1">
 				<InternalInfo/>
 				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>АдресДоставки</Name>
 					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>30fc1cc5-a729-42c3-8eb4-d78c5a0699ad</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
@@ -372,9 +372,9 @@
 			<Attribute uuid="c1414f1d-8259-4968-8931-256dc54f2ee7">
 				<InternalInfo/>
 				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>ЗонаДоставки</Name>
 					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>d879f7be-ea03-4d59-b706-36518fc50963</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>cfg:CatalogRef.ЗоныДоставки</v8:Type>
@@ -384,9 +384,9 @@
 			<Attribute uuid="b2b31787-366f-4c73-9277-b5953ddb304d">
 				<InternalInfo/>
 				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>ВремяДоставкиС</Name>
 					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>50c144c6-71ee-4854-9380-6a12ea7ef586</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>xs:dateTime</v8:Type>
@@ -399,9 +399,9 @@
 			<Attribute uuid="8db5040c-a9fb-4045-ab8f-20cfb0633405">
 				<InternalInfo/>
 				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>ДополнительнаяИнформацияПоДоставке</Name>
 					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>a0373d91-2057-42fd-a041-4cfda7583c68</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
@@ -415,9 +415,9 @@
 			<Attribute uuid="ab775f12-8e08-489b-8dcf-6eef18c110d5">
 				<InternalInfo/>
 				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>ОсобыеУсловияПеревозки</Name>
 					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>dd601613-14aa-4784-bd56-90579845588f</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>xs:boolean</v8:Type>
@@ -427,9 +427,9 @@
 			<Attribute uuid="cb3ae328-bb25-40e1-ad5d-eb3eb36f2b38">
 				<InternalInfo/>
 				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>ОсобыеУсловияПеревозкиОписание</Name>
 					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>d7ae0774-9aa5-40a7-88b6-0fbde19ab614</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
@@ -443,9 +443,9 @@
 			<Attribute uuid="44389c0f-3341-46eb-95a9-3b076d2c3713">
 				<InternalInfo/>
 				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>Сделка</Name>
 					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>e60964b8-a294-41d4-b991-09dac87bb1e8</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>cfg:CatalogRef.СделкиСКлиентами</v8:Type>
@@ -455,9 +455,9 @@
 			<Attribute uuid="93ef767c-c4fb-4a69-a0b6-631062f19875">
 				<InternalInfo/>
 				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>Менеджер</Name>
 					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>471944dc-2671-4919-885b-04db2c14d1cb</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>cfg:CatalogRef.Пользователи</v8:Type>
@@ -467,9 +467,9 @@
 			<Attribute uuid="c9b27015-1356-4e1d-b05e-957459d1df4e">
 				<InternalInfo/>
 				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>Подразделение</Name>
 					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>79cb27a7-2b14-4398-bf17-b88ef2c2a649</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>cfg:CatalogRef.СтруктураПредприятия</v8:Type>
@@ -479,9 +479,9 @@
 			<Attribute uuid="985759a3-81c4-497b-92df-71cad46d2fd6">
 				<InternalInfo/>
 				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>КонтактноеЛицо</Name>
 					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>38220897-0997-440f-80b7-5d95384f4318</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>cfg:CatalogRef.КонтактныеЛицаПартнеров</v8:Type>
@@ -491,9 +491,9 @@
 			<Attribute uuid="26bde4b0-baec-4ed5-95e0-aa54ec146819">
 				<InternalInfo/>
 				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>ГруппаФинансовогоУчета</Name>
 					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>3104ca9e-1bd2-4e0f-83f6-8af490310220</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>cfg:CatalogRef.ГруппыФинансовогоУчетаРасчетов</v8:Type>
@@ -503,9 +503,9 @@
 			<Attribute uuid="d3c99b86-7cfe-471b-aa7f-832aef56c282">
 				<InternalInfo/>
 				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>Автор</Name>
 					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>22123465-b48b-4cb0-9380-1ebabf57bf68</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>cfg:CatalogRef.Пользователи</v8:Type>
@@ -515,9 +515,9 @@
 			<Attribute uuid="14e45722-de14-442a-91a5-f2db6293c461">
 				<InternalInfo/>
 				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>ДатаСогласования</Name>
 					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>a98827d8-5ad1-4265-93b0-7dfefff1256d</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>xs:dateTime</v8:Type>
@@ -530,9 +530,9 @@
 			<Attribute uuid="6e3aee7e-3ccf-4d42-8b24-d484073ddce5">
 				<InternalInfo/>
 				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>ЦенаВключаетНДС</Name>
 					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>d930c068-825b-4118-9979-83f3711b3712</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>xs:boolean</v8:Type>
@@ -542,9 +542,9 @@
 			<Attribute uuid="10562992-cf6c-46f0-b6f2-56c8bbaa1eb6">
 				<InternalInfo/>
 				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>НалогообложениеНДС</Name>
 					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>315433b1-08d0-4c3f-bc02-0d67b67eb287</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>cfg:EnumRef.ТипыНалогообложенияНДС</v8:Type>
@@ -554,9 +554,9 @@
 			<Attribute uuid="0a7bcd4d-abf3-4da0-93b4-6d72a82bc045">
 				<InternalInfo/>
 				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>РегистрироватьЦеныПоставщика</Name>
 					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>3e68c8ec-de1a-44b6-8543-6aa39b38283e</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>xs:boolean</v8:Type>
@@ -566,9 +566,9 @@
 			<Attribute uuid="8ae86f13-eb65-46f4-83e6-c57bba77f518">
 				<InternalInfo/>
 				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>ВернутьМногооборотнуюТару</Name>
 					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>bf8dd95f-df39-4ca4-8c92-f8ca3a248263</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>xs:boolean</v8:Type>
@@ -578,9 +578,9 @@
 			<Attribute uuid="fa2cc81b-c3f3-4045-b2fd-2b04394718f1">
 				<InternalInfo/>
 				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>СрокВозвратаМногооборотнойТары</Name>
 					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>a61d4a77-01a3-4181-b02d-338996dfde9f</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>xs:decimal</v8:Type>
@@ -595,9 +595,9 @@
 			<Attribute uuid="2ff7110d-7b8e-4d5e-9b69-37082050543d">
 				<InternalInfo/>
 				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>ТребуетсяЗалогЗаТару</Name>
 					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>55d5d3d0-1129-4d12-b001-1361b7b4e612</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>xs:boolean</v8:Type>
@@ -607,9 +607,9 @@
 			<Attribute uuid="3054c2bf-aca9-4d01-a5ee-eaf0e918a6de">
 				<InternalInfo/>
 				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>НомерПоДаннымПоставщика</Name>
 					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>f5485e49-b94a-46f3-aa70-100271167e47</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
@@ -623,9 +623,9 @@
 			<Attribute uuid="7a3e6dbb-e034-48d6-a15a-a5ff46d54c40">
 				<InternalInfo/>
 				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>ДатаПоДаннымПоставщика</Name>
 					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>35f6ca63-0e5f-4254-9562-1fbd4a09a96e</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>xs:dateTime</v8:Type>
@@ -638,9 +638,9 @@
 			<Attribute uuid="c8af460d-65ef-46f7-ab20-838056f45fdb">
 				<InternalInfo/>
 				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>ДополнительнаяИнформация</Name>
 					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>0275b08b-4e33-4f6b-88d2-3077b06e7301</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
@@ -665,18 +665,18 @@
 					</xr:GeneratedType>
 				</InternalInfo>
 				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>Товары</Name>
 					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>dcee393b-d797-4bfd-be64-3bc288149128</ExtendedConfigurationObject>
 				</Properties>
 				<ChildObjects>
 					<Attribute uuid="e79054f1-1f1f-446d-8336-764d07ea4b64">
 						<InternalInfo/>
 						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
 							<Name>КодСтроки</Name>
 							<Comment/>
-							<ObjectBelonging>Adopted</ObjectBelonging>
 							<ExtendedConfigurationObject>9dcfc241-72d7-4f32-8087-92a6267c3254</ExtendedConfigurationObject>
 							<Type>
 								<v8:Type>xs:decimal</v8:Type>
@@ -691,9 +691,9 @@
 					<Attribute uuid="f1dcb694-0ef5-41f2-919c-fea20e28b7ca">
 						<InternalInfo/>
 						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
 							<Name>КоличествоУпаковок</Name>
 							<Comment/>
-							<ObjectBelonging>Adopted</ObjectBelonging>
 							<ExtendedConfigurationObject>c4a0c867-ed8f-4f26-8569-60699f276db6</ExtendedConfigurationObject>
 							<Type>
 								<v8:Type>xs:decimal</v8:Type>
@@ -708,9 +708,9 @@
 					<Attribute uuid="f939a117-d4d7-4e5e-902b-35d45b031fa0">
 						<InternalInfo/>
 						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
 							<Name>Количество</Name>
 							<Comment/>
-							<ObjectBelonging>Adopted</ObjectBelonging>
 							<ExtendedConfigurationObject>690a0f93-be8f-4a32-8881-57f1d122fbb8</ExtendedConfigurationObject>
 							<Type>
 								<v8:Type>xs:decimal</v8:Type>
@@ -725,9 +725,9 @@
 					<Attribute uuid="2ba5a62f-babf-4c95-ad10-27c45c85af81">
 						<InternalInfo/>
 						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
 							<Name>Номенклатура</Name>
 							<Comment/>
-							<ObjectBelonging>Adopted</ObjectBelonging>
 							<ExtendedConfigurationObject>8a5b2ff1-9253-46ce-be3f-1ffa9c7e158e</ExtendedConfigurationObject>
 							<Type>
 								<v8:Type>cfg:CatalogRef.Номенклатура</v8:Type>
@@ -737,9 +737,9 @@
 					<Attribute uuid="3f9b1520-6381-4ffe-a7fa-fceb82608038">
 						<InternalInfo/>
 						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
 							<Name>Характеристика</Name>
 							<Comment/>
-							<ObjectBelonging>Adopted</ObjectBelonging>
 							<ExtendedConfigurationObject>cb0a36d3-0331-490e-8517-3a0e0836c9e0</ExtendedConfigurationObject>
 							<Type>
 								<v8:Type>cfg:CatalogRef.ХарактеристикиНоменклатуры</v8:Type>
@@ -802,9 +802,9 @@
 					<Attribute uuid="bfeffdb1-fe9a-469d-accb-8f81e089f4f5">
 						<InternalInfo/>
 						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
 							<Name>Сумма</Name>
 							<Comment/>
-							<ObjectBelonging>Adopted</ObjectBelonging>
 							<ExtendedConfigurationObject>d5c49e21-5bf7-455f-9a48-c335091099d2</ExtendedConfigurationObject>
 							<Type>
 								<v8:TypeSet>cfg:DefinedType.ДенежнаяСуммаНеотрицательная</v8:TypeSet>
@@ -814,9 +814,9 @@
 					<Attribute uuid="21bdcbad-c5db-4d91-b060-a6cb2a60b645">
 						<InternalInfo/>
 						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
 							<Name>СуммаСНДС</Name>
 							<Comment/>
-							<ObjectBelonging>Adopted</ObjectBelonging>
 							<ExtendedConfigurationObject>29660f42-3a60-47dd-b76a-28597c866d33</ExtendedConfigurationObject>
 							<Type>
 								<v8:TypeSet>cfg:DefinedType.ДенежнаяСуммаНеотрицательная</v8:TypeSet>
@@ -826,9 +826,9 @@
 					<Attribute uuid="9a50db70-84bd-4602-a62a-02bbdeee2cb8">
 						<InternalInfo/>
 						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
 							<Name>Упаковка</Name>
 							<Comment/>
-							<ObjectBelonging>Adopted</ObjectBelonging>
 							<ExtendedConfigurationObject>f930a54f-5245-488c-9dad-78b6e73e5ad8</ExtendedConfigurationObject>
 							<Type>
 								<v8:Type>cfg:CatalogRef.УпаковкиЕдиницыИзмерения</v8:Type>
@@ -838,9 +838,9 @@
 					<Attribute uuid="317c605e-cd2c-460b-95da-d2fe4e92b7b2">
 						<InternalInfo/>
 						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
 							<Name>ПроцентРучнойСкидки</Name>
 							<Comment/>
-							<ObjectBelonging>Adopted</ObjectBelonging>
 							<ExtendedConfigurationObject>4863cfe8-2120-4d58-84de-00f23816e2c6</ExtendedConfigurationObject>
 							<Type>
 								<v8:Type>xs:decimal</v8:Type>
@@ -855,9 +855,9 @@
 					<Attribute uuid="64850e7f-f668-4191-bf32-3f5c04e08296">
 						<InternalInfo/>
 						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
 							<Name>СписатьНаРасходы</Name>
 							<Comment/>
-							<ObjectBelonging>Adopted</ObjectBelonging>
 							<ExtendedConfigurationObject>aed8f87c-e224-4a3f-b8ed-5c09b724420e</ExtendedConfigurationObject>
 							<Type>
 								<v8:Type>xs:boolean</v8:Type>
@@ -867,9 +867,9 @@
 					<Attribute uuid="caa54a42-3519-41b6-b4e8-8413789b2c49">
 						<InternalInfo/>
 						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
 							<Name>Цена</Name>
 							<Comment/>
-							<ObjectBelonging>Adopted</ObjectBelonging>
 							<ExtendedConfigurationObject>2f4b8512-8323-4b3a-b0bb-070f2e6902e5</ExtendedConfigurationObject>
 							<Type>
 								<v8:TypeSet>cfg:DefinedType.ДенежнаяСуммаНеотрицательная</v8:TypeSet>
@@ -879,9 +879,9 @@
 					<Attribute uuid="d84c050f-8c6f-44c3-9104-9a0ce85be389">
 						<InternalInfo/>
 						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
 							<Name>СтавкаНДС</Name>
 							<Comment/>
-							<ObjectBelonging>Adopted</ObjectBelonging>
 							<ExtendedConfigurationObject>f34e48d5-56bd-4828-8829-d58568107e4a</ExtendedConfigurationObject>
 							<Type>
 								<v8:Type>cfg:CatalogRef.СтавкиНДС</v8:Type>
@@ -891,9 +891,9 @@
 					<Attribute uuid="007d7e7b-7d90-4bb6-96b8-06eee0311822">
 						<InternalInfo/>
 						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
 							<Name>НоменклатураПартнера</Name>
 							<Comment/>
-							<ObjectBelonging>Adopted</ObjectBelonging>
 							<ExtendedConfigurationObject>fb7178d5-075f-4bff-bd5e-69dd3c98eeb0</ExtendedConfigurationObject>
 							<Type>
 								<v8:Type>cfg:CatalogRef.НоменклатураКонтрагентов</v8:Type>
@@ -903,9 +903,9 @@
 					<Attribute uuid="6985182e-d0b8-4dbd-b053-f64f353ed2ac">
 						<InternalInfo/>
 						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
 							<Name>Назначение</Name>
 							<Comment/>
-							<ObjectBelonging>Adopted</ObjectBelonging>
 							<ExtendedConfigurationObject>f6e1e02c-b973-46e8-9007-f0db85d608c1</ExtendedConfigurationObject>
 							<Type>
 								<v8:Type>cfg:CatalogRef.Назначения</v8:Type>
@@ -915,9 +915,9 @@
 					<Attribute uuid="1aee89cb-32ae-419a-89b2-84d07fa16e47">
 						<InternalInfo/>
 						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
 							<Name>ВидЦеныПоставщика</Name>
 							<Comment/>
-							<ObjectBelonging>Adopted</ObjectBelonging>
 							<ExtendedConfigurationObject>f17340c8-94ab-4f5d-b9bb-313e2649e4db</ExtendedConfigurationObject>
 							<Type>
 								<v8:Type>cfg:CatalogRef.ВидыЦенПоставщиков</v8:Type>
@@ -927,9 +927,9 @@
 					<Attribute uuid="4e933f78-d4eb-4d8d-969f-534307ca57b0">
 						<InternalInfo/>
 						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
 							<Name>СуммаРучнойСкидки</Name>
 							<Comment/>
-							<ObjectBelonging>Adopted</ObjectBelonging>
 							<ExtendedConfigurationObject>fc0b9b02-8a33-47d4-9fab-efaeae3bf07e</ExtendedConfigurationObject>
 							<Type>
 								<v8:TypeSet>cfg:DefinedType.ДенежнаяСуммаЛюбогоЗнака</v8:TypeSet>
@@ -939,9 +939,9 @@
 					<Attribute uuid="20063d6c-32c5-4920-87e9-7890c8ad76fd">
 						<InternalInfo/>
 						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
 							<Name>СуммаНДС</Name>
 							<Comment/>
-							<ObjectBelonging>Adopted</ObjectBelonging>
 							<ExtendedConfigurationObject>e82ed814-281c-4a8f-aad9-490d7b49088b</ExtendedConfigurationObject>
 							<Type>
 								<v8:TypeSet>cfg:DefinedType.ДенежнаяСуммаНеотрицательная</v8:TypeSet>
@@ -951,9 +951,9 @@
 					<Attribute uuid="71eca2ba-bed8-4767-a559-f2b77c0b4f7a">
 						<InternalInfo/>
 						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
 							<Name>Склад</Name>
 							<Comment/>
-							<ObjectBelonging>Adopted</ObjectBelonging>
 							<ExtendedConfigurationObject>0a928dbc-667f-45c6-b2d7-1eb2b3c6bc1e</ExtendedConfigurationObject>
 							<Type>
 								<v8:Type>cfg:CatalogRef.Склады</v8:Type>
@@ -963,9 +963,9 @@
 					<Attribute uuid="1b2540fc-9523-47e8-b408-2044b5cbacbc">
 						<InternalInfo/>
 						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
 							<Name>Подразделение</Name>
 							<Comment/>
-							<ObjectBelonging>Adopted</ObjectBelonging>
 							<ExtendedConfigurationObject>b3962642-ba24-4ef8-8f01-0be5b88a6f15</ExtendedConfigurationObject>
 							<Type>
 								<v8:Type>cfg:CatalogRef.СтруктураПредприятия</v8:Type>
@@ -975,9 +975,9 @@
 					<Attribute uuid="3bbba583-d475-4f3e-be46-1e0ff7bfe919">
 						<InternalInfo/>
 						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
 							<Name>СтатьяРасходов</Name>
 							<Comment/>
-							<ObjectBelonging>Adopted</ObjectBelonging>
 							<ExtendedConfigurationObject>6022a6c2-a146-432d-a168-cad62160db3e</ExtendedConfigurationObject>
 							<Type>
 								<v8:Type>cfg:ChartOfCharacteristicTypesRef.СтатьиРасходов</v8:Type>
@@ -987,9 +987,9 @@
 					<Attribute uuid="17eacac1-d8b2-4566-acfc-02e8dd424f8f">
 						<InternalInfo/>
 						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
 							<Name>АналитикаРасходов</Name>
 							<Comment/>
-							<ObjectBelonging>Adopted</ObjectBelonging>
 							<ExtendedConfigurationObject>5c544521-13f5-4960-84a9-574d84d5b852</ExtendedConfigurationObject>
 							<Type>
 								<v8:TypeSet>cfg:Characteristic.СтатьиРасходов</v8:TypeSet>
@@ -999,9 +999,9 @@
 					<Attribute uuid="abb46694-425f-43a1-a1b9-668dc2afac35">
 						<InternalInfo/>
 						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
 							<Name>ДатаОтгрузки</Name>
 							<Comment/>
-							<ObjectBelonging>Adopted</ObjectBelonging>
 							<ExtendedConfigurationObject>936553b0-c400-4185-a80f-e05eba62422e</ExtendedConfigurationObject>
 							<Type>
 								<v8:Type>xs:dateTime</v8:Type>
@@ -1014,9 +1014,9 @@
 					<Attribute uuid="a0f07a4f-bd2d-4c03-894d-d32dfe6a40d8">
 						<InternalInfo/>
 						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
 							<Name>ДатаПоступления</Name>
 							<Comment/>
-							<ObjectBelonging>Adopted</ObjectBelonging>
 							<ExtendedConfigurationObject>668ed00b-296c-4f7c-9a8d-2c0af1327f1b</ExtendedConfigurationObject>
 							<Type>
 								<v8:Type>xs:dateTime</v8:Type>
@@ -1029,9 +1029,9 @@
 					<Attribute uuid="3963786d-b7f6-4645-8540-2972fd5f8830">
 						<InternalInfo/>
 						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
 							<Name>Отменено</Name>
 							<Comment/>
-							<ObjectBelonging>Adopted</ObjectBelonging>
 							<ExtendedConfigurationObject>62b667db-df40-4780-9676-cf50ed3ee42c</ExtendedConfigurationObject>
 							<Type>
 								<v8:Type>xs:boolean</v8:Type>
@@ -1041,9 +1041,9 @@
 					<Attribute uuid="630fd74e-1538-4b38-8617-e9ad5cbc05aa">
 						<InternalInfo/>
 						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
 							<Name>ПричинаОтмены</Name>
 							<Comment/>
-							<ObjectBelonging>Adopted</ObjectBelonging>
 							<ExtendedConfigurationObject>b93d7fd1-1023-4c9c-9770-12d160190734</ExtendedConfigurationObject>
 							<Type>
 								<v8:Type>cfg:CatalogRef.ПричиныОтменыЗаказовПоставщикам</v8:Type>
@@ -1182,9 +1182,9 @@
 					</xr:GeneratedType>
 				</InternalInfo>
 				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>ЭтапыГрафикаОплаты</Name>
 					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>01cc7512-0c6d-46a0-aeb6-5134fe2c51c8</ExtendedConfigurationObject>
 				</Properties>
 				<ChildObjects/>

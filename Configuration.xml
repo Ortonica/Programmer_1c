@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.13">
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
 	<Configuration uuid="3d9c1c32-23af-48f9-a42e-499c98cc8311">
 		<InternalInfo>
 			<xr:ContainedObject>
@@ -32,6 +32,7 @@
 			</xr:ContainedObject>
 		</InternalInfo>
 		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
 			<Name>_РСК</Name>
 			<Synonym>
 				<v8:item>
@@ -41,7 +42,6 @@
 			</Synonym>
 			<Comment/>
 			<ConfigurationExtensionPurpose>AddOn</ConfigurationExtensionPurpose>
-			<ObjectBelonging>Adopted</ObjectBelonging>
 			<KeepMappingToExtendedConfigurationObjectsByIDs>true</KeepMappingToExtendedConfigurationObjectsByIDs>
 			<NamePrefix>РСК_</NamePrefix>
 			<ConfigurationExtensionCompatibilityMode>Version8_3_20</ConfigurationExtensionCompatibilityMode>
@@ -288,6 +288,7 @@
 			<CommonModule>ЭлектронноеАктированиеЕИСУТ</CommonModule>
 			<CommonModule>ПроведениеДокументов</CommonModule>
 			<CommonModule>РС_СверткаТаблицыПриОтправкеВЕИС</CommonModule>
+			<CommonModule>УстановкаЦенСервер</CommonModule>
 			<ExchangePlan>ДатаМобайл_СписокТСД</ExchangePlan>
 			<EventSubscription>РСК_ЗаписатьВерсиюДокумента</EventSubscription>
 			<EventSubscription>РСК_ЗаменаСтатьиДДСОРП</EventSubscription>
@@ -329,6 +330,7 @@
 			<DefinedType>ИнтеграцияС1СДокументооборотВсеСсылкиПереопределяемый</DefinedType>
 			<DefinedType>ВладелецПрисоединенныхФайлов</DefinedType>
 			<DefinedType>ОжидаемоеПоступление</DefinedType>
+			<DefinedType>ДО3_ДополнительныеЗначенияИнтегрированнойСистемы</DefinedType>
 			<CommonCommand>ОткрытьФормуУправлениеОтчетностью</CommonCommand>
 			<CommonCommand>РСК_ДоверенныеЛицаПолучателейТСР</CommonCommand>
 			<CommonCommand>РСК_ЗаказыНаТСР</CommonCommand>
@@ -429,6 +431,7 @@
 			<Catalog>РСК_СкладскиеОперации</Catalog>
 			<Catalog>РСК_СхемыИмпорта</Catalog>
 			<Catalog>РСК_ТипыКонтейнеров</Catalog>
+			<Catalog>РСК_ВидыЦенФизЛиц</Catalog>
 			<Catalog>САВ_ВидыСвойствНоменклатуры</Catalog>
 			<Catalog>САВ_РолиПользователей</Catalog>
 			<Catalog>СделкиСКлиентами</Catalog>
@@ -614,6 +617,8 @@
 			<Enum>СтатусыТабеляУчетаРабочегоВремени</Enum>
 			<Enum>ДокументацияНоменклатуры</Enum>
 			<Enum>СтатусыСертификатовНоменклатуры</Enum>
+			<Enum>СпособыЗаданияЦен</Enum>
+			<Enum>ТипыНомеровГТД</Enum>
 			<Report>РСК_КалендарныйГрафикПоставок</Report>
 			<Report>РСК_ОстаткиТСР</Report>
 			<Report>РСК_ХодИсполненияГК</Report>
@@ -700,6 +705,7 @@
 			<InformationRegister>ШтрихкодыНоменклатуры</InformationRegister>
 			<InformationRegister>ЦеныНоменклатурыПоставщиков</InformationRegister>
 			<InformationRegister>ПартнерыСегмента</InformationRegister>
+			<InformationRegister>РСК_СоответствиеНоменклатуры</InformationRegister>
 			<AccumulationRegister>ЗаказыКлиентов</AccumulationRegister>
 			<AccumulationRegister>ПланыОплатПоставщикам</AccumulationRegister>
 			<AccumulationRegister>РСК_СостояниеЗаказовКлиентовПоВыдаче</AccumulationRegister>

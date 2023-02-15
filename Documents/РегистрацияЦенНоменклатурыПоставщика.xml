@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.13">
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
 	<Document uuid="caa1da30-3e87-4e4a-a99b-11f6f4fc6aec">
 		<InternalInfo>
 			<xr:GeneratedType name="DocumentObject.РегистрацияЦенНоменклатурыПоставщика" category="Object">
@@ -24,13 +24,35 @@
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
 			<Name>РегистрацияЦенНоменклатурыПоставщика</Name>
 			<Comment/>
-			<ObjectBelonging>Adopted</ObjectBelonging>
 			<ExtendedConfigurationObject>b3eb969e-692a-4c6d-b8fc-1efd711b4339</ExtendedConfigurationObject>
 			<RegisterRecords/>
 		</Properties>
 		<ChildObjects>
+			<Attribute uuid="4079fde5-3fff-4d06-867d-e89e7ac1060c">
+				<InternalInfo>
+					<xr:PropertyState>
+						<xr:Property>Type</xr:Property>
+						<xr:State>MultiState</xr:State>
+					</xr:PropertyState>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Партнер</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>1eae0a44-68e8-483f-b7f0-d73c47db11e6</ExtendedConfigurationObject>
+					<Type xsi:type="xr:ExtendedProperty">
+						<xr:CheckValue xsi:type="v8:TypeDescription">
+							<v8:Type>cfg:CatalogRef.Партнеры</v8:Type>
+						</xr:CheckValue>
+						<xr:ExtendValue xsi:type="v8:TypeDescription">
+							<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+						</xr:ExtendValue>
+					</Type>
+				</Properties>
+			</Attribute>
 			<Form>ФормаДокумента</Form>
 			<TabularSection uuid="2a383ed9-6e17-4a9b-a2b6-c88a1988a6cf">
 				<InternalInfo>
@@ -44,9 +66,9 @@
 					</xr:GeneratedType>
 				</InternalInfo>
 				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>Товары</Name>
 					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>5fd5a16c-7232-4888-9c4d-0002425b3ca8</ExtendedConfigurationObject>
 				</Properties>
 				<ChildObjects>
@@ -85,6 +107,28 @@
 							<Indexing>DontIndex</Indexing>
 							<FullTextSearch>Use</FullTextSearch>
 							<DataHistory>Use</DataHistory>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="8fcf7629-6a16-49e3-9c24-18992364cb65">
+						<InternalInfo>
+							<xr:PropertyState>
+								<xr:Property>Type</xr:Property>
+								<xr:State>MultiState</xr:State>
+							</xr:PropertyState>
+						</InternalInfo>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>ВидЦеныПоставщика</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>91096915-4101-475c-a0cd-920dba1c6500</ExtendedConfigurationObject>
+							<Type xsi:type="xr:ExtendedProperty">
+								<xr:CheckValue xsi:type="v8:TypeDescription">
+									<v8:Type>cfg:CatalogRef.ВидыЦенПоставщиков</v8:Type>
+								</xr:CheckValue>
+								<xr:ExtendValue xsi:type="v8:TypeDescription">
+									<v8:Type>cfg:CatalogRef.РСК_ВидыЦенФизЛиц</v8:Type>
+								</xr:ExtendValue>
+							</Type>
 						</Properties>
 					</Attribute>
 				</ChildObjects>
