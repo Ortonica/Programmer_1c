@@ -96,10 +96,24 @@
 				<dcscom:dimension>true</dcscom:dimension>
 			</role>
 		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ТСРШапка</dataPath>
+			<field>ТСРШапка</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>ТСР</v8:content>
+				</v8:item>
+			</title>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
 		<dataSource>ИсточникДанных1</dataSource>
 		<query>ВЫБРАТЬ
 	РСК_СтатусыВыполненияКонтрактов.Номенклатура КАК Номенклатура,
 	РСК_СтатусыВыполненияКонтрактов.Характеристика КАК Характеристика,
+	РСК_СтатусыВыполненияКонтрактов.ТСР КАК ТСР,
 	0 КАК КоличествоПоКонтракту,
 	ВЫБОР
 		КОГДА РСК_СтатусыВыполненияКонтрактов.Статус = &amp;ВОтчете
@@ -135,6 +149,7 @@
 ВЫБРАТЬ
 	ЗаказКлиентаТовары.Номенклатура,
 	ЗаказКлиентаТовары.Характеристика,
+	ЗаказКлиентаТовары.НоменклатураПартнера,
 	СУММА(ЗаказКлиентаТовары.КоличествоУпаковок),
 	0,
 	0,
@@ -150,13 +165,15 @@
 СГРУППИРОВАТЬ ПО
 	ЗаказКлиентаТовары.Номенклатура,
 	ЗаказКлиентаТовары.Цена,
-	ЗаказКлиентаТовары.Характеристика
+	ЗаказКлиентаТовары.Характеристика,
+	ЗаказКлиентаТовары.НоменклатураПартнера
 ;
 
 ////////////////////////////////////////////////////////////////////////////////
 ВЫБРАТЬ
 	Сбор.Номенклатура КАК НоменклатураШапка,
 	Сбор.Характеристика КАК ХарактеристикаШапка,
+	Сбор.ТСР КАК ТСРШапка,
 	СУММА(Сбор.КоличествоПоКонтракту) КАК КоличествоПоКонтракту,
 	СУММА(Сбор.ВОтчете) КАК ВОтчете,
 	СУММА(Сбор.Закрыто) КАК Закрыто,
@@ -170,7 +187,8 @@
 СГРУППИРОВАТЬ ПО
 	Сбор.Номенклатура,
 	Сбор.Характеристика,
-	Сбор.Цена</query>
+	Сбор.Цена,
+	Сбор.ТСР</query>
 	</dataSet>
 	<dataSet xsi:type="DataSetQuery">
 		<name>ДетализацияПоАктам</name>
@@ -491,10 +509,26 @@
 				</dcscor:item>
 			</dcsset:dataParameters>
 			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:groupItems>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>ТСРШапка.Наименование</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>Цена</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+				</dcsset:groupItems>
 				<dcsset:order>
 					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
 					<dcsset:item xsi:type="dcsset:OrderItemField">
-						<dcsset:field>Номенклатура.Наименование</dcsset:field>
+						<dcsset:field>ТСРШапка.Наименование</dcsset:field>
 						<dcsset:orderType>Asc</dcsset:orderType>
 					</dcsset:item>
 				</dcsset:order>
@@ -506,10 +540,15 @@
 						<dcsset:field>СистемныеПоля.НомерПоПорядкуВГруппировке</dcsset:field>
 					</dcsset:item>
 					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:use>false</dcsset:use>
 						<dcsset:field>НоменклатураШапка</dcsset:field>
 					</dcsset:item>
 					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:use>false</dcsset:use>
 						<dcsset:field>ХарактеристикаШапка</dcsset:field>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>ТСРШапка.Наименование</dcsset:field>
 					</dcsset:item>
 					<dcsset:item xsi:type="dcsset:SelectedItemField">
 						<dcsset:field>Цена</dcsset:field>

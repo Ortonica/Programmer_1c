@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+	<DataProcessor uuid="fb1b5bd4-0840-43d7-92e0-1033a12b4d29">
+		<InternalInfo>
+			<xr:GeneratedType name="DataProcessorObject.ЖурналДокументовИнтеркампани" category="Object">
+				<xr:TypeId>eb38d5ce-3c5c-416b-be85-29cad44130f2</xr:TypeId>
+				<xr:ValueId>8616ac98-8c11-4b8c-863a-fdc65660319a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DataProcessorManager.ЖурналДокументовИнтеркампани" category="Manager">
+				<xr:TypeId>c3ae31ca-a366-4ac4-92aa-33638c4252de</xr:TypeId>
+				<xr:ValueId>7e0f563e-73df-4450-915f-cbd3c5037084</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ЖурналДокументовИнтеркампани</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>df3cc59f-9a17-40de-b874-f4352a716ead</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<Form>РабочееМестоПередачиВыкуп</Form>
+		</ChildObjects>
+	</DataProcessor>
+</MetaDataObject>

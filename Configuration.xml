@@ -114,6 +114,7 @@
 			<StyleItem>ЦветФонаТекущейОтправки</StyleItem>
 			<StyleItem>ДобавленныйРеквизитФон</StyleItem>
 			<StyleItem>ВажнаяНадписьШрифт</StyleItem>
+			<StyleItem>ЦветТекстаНеактуальногоСписка</StyleItem>
 			<CommonPicture>ВключитьВНастройкуФормированияПроводок</CommonPicture>
 			<CommonPicture>Внимание16</CommonPicture>
 			<CommonPicture>ВУпаковочныйЛист</CommonPicture>
@@ -194,6 +195,10 @@
 			<CommonPicture>ЗагрузитьДокументыИзСкановФото</CommonPicture>
 			<CommonPicture>ЭмблемаСервиса1СЭДО</CommonPicture>
 			<CommonPicture>КоммерческоеПредложение</CommonPicture>
+			<CommonPicture>ФильтрПоСвойствам</CommonPicture>
+			<CommonPicture>ПрочиеПользовательскиеНастройки</CommonPicture>
+			<CommonPicture>НоменклатураПродаваемаяСовместно</CommonPicture>
+			<CommonPicture>СостояниеНоменклатурыПродаваемойСовместно</CommonPicture>
 			<SessionParameter>РСК_АвторизовавшийсяКладовщик</SessionParameter>
 			<SessionParameter>РСК_ВремяПоследнегоСканированияКладовщиком</SessionParameter>
 			<SessionParameter>РСК_ПроводитьДокументыПослеЗагрузкиЧерезXML</SessionParameter>
@@ -212,6 +217,8 @@
 			<Role>САВ_ЧитатьПланпродаж</Role>
 			<Role>РСК_ПроведениеТоваровНаСкладахПрошлойДатой</Role>
 			<Role>РСК_УтверждениеИРедактированиеТабеляУчетаРабочегоВремени</Role>
+			<Role>РСК_ПраваНаСправочникСклады</Role>
+			<Role>РСК_ЧтениеПросмотрПродажи</Role>
 			<CommonTemplate>ДрайверШтрихМТСД</CommonTemplate>
 			<CommonModule>БюджетированиеСервер</CommonModule>
 			<CommonModule>ВариантыОтчетов</CommonModule>
@@ -221,6 +228,8 @@
 			<CommonModule>ДатаМобайл_HTTP_Логика</CommonModule>
 			<CommonModule>ДатаМобайл_ОбщийМодуль</CommonModule>
 			<CommonModule>ДенежныеСредстваСервер</CommonModule>
+			<CommonModule>ДокументооборотСКОКлиент</CommonModule>
+			<CommonModule>ДополнительныеОтчетыИОбработки</CommonModule>
 			<CommonModule>ДоставкаТоваров</CommonModule>
 			<CommonModule>ДоставкаТоваровКлиентСервер</CommonModule>
 			<CommonModule>ЗаказКлиентаЛокализация</CommonModule>
@@ -240,6 +249,7 @@
 			<CommonModule>НакладныеСервер</CommonModule>
 			<CommonModule>НоменклатураСервер</CommonModule>
 			<CommonModule>ОбеспечениеВДокументахКлиент</CommonModule>
+			<CommonModule>ОбеспечениеВДокументахСервер</CommonModule>
 			<CommonModule>ОбменДаннымиПереопределяемый</CommonModule>
 			<CommonModule>ОбменСКонтрагентамиУТ</CommonModule>
 			<CommonModule>ОбработкаТабличнойЧастиКлиентСервер</CommonModule>
@@ -249,6 +259,8 @@
 			<CommonModule>ОперативныеВзаиморасчетыСервер</CommonModule>
 			<CommonModule>ОтветственныеЛицаСервер</CommonModule>
 			<CommonModule>ПеремещениеТоваровЛокализация</CommonModule>
+			<CommonModule>ПодборТоваровСервер</CommonModule>
+			<CommonModule>ПроведениеДокументов</CommonModule>
 			<CommonModule>ПроверкаИПодборПродукцииИС</CommonModule>
 			<CommonModule>ПродажиВызовСервера</CommonModule>
 			<CommonModule>ПродажиКлиент</CommonModule>
@@ -262,6 +274,7 @@
 			<CommonModule>РеализацияТоваровУслугЛокализация</CommonModule>
 			<CommonModule>РозничныеПродажиВызовСервера</CommonModule>
 			<CommonModule>РС_МониторОбмена</CommonModule>
+			<CommonModule>РС_СверткаТаблицыПриОтправкеВЕИС</CommonModule>
 			<CommonModule>РСК_ВызовСервера</CommonModule>
 			<CommonModule>РСК_Клиент</CommonModule>
 			<CommonModule>РСК_ПовтИсп</CommonModule>
@@ -278,6 +291,7 @@
 			<CommonModule>УправлениеПечатьюПереопределяемый</CommonModule>
 			<CommonModule>УправлениеПечатьюРФ</CommonModule>
 			<CommonModule>УправлениеСвойствами</CommonModule>
+			<CommonModule>УстановкаЦенСервер</CommonModule>
 			<CommonModule>УчетНДСРФ</CommonModule>
 			<CommonModule>ФизическиеЛицаЗарплатаКадрыРасширенныйПереопределяемый</CommonModule>
 			<CommonModule>ФорматноЛогическийКонтрольКлиентСервер</CommonModule>
@@ -286,10 +300,13 @@
 			<CommonModule>ЭлектронноеАктированиеЕИС</CommonModule>
 			<CommonModule>ЭлектронноеАктированиеЕИСПолучениеВходящих</CommonModule>
 			<CommonModule>ЭлектронноеАктированиеЕИСУТ</CommonModule>
-			<CommonModule>ПроведениеДокументов</CommonModule>
-			<CommonModule>РС_СверткаТаблицыПриОтправкеВЕИС</CommonModule>
-			<CommonModule>УстановкаЦенСервер</CommonModule>
+			<CommonModule>ЭтапыОплатыВызовСервера</CommonModule>
+			<CommonModule>ЭтапыОплатыКлиент</CommonModule>
+			<CommonModule>ЭтапыОплатыКлиентСервер</CommonModule>
+			<CommonModule>ЭтапыОплатыСервер</CommonModule>
+			<CommonModule>ОбработкаТабличнойЧастиКлиент</CommonModule>
 			<ExchangePlan>ДатаМобайл_СписокТСД</ExchangePlan>
+			<ExchangePlan>ОбменУправлениеПредприятиемБухгалтерияПредприятия3</ExchangePlan>
 			<EventSubscription>РСК_ЗаписатьВерсиюДокумента</EventSubscription>
 			<EventSubscription>РСК_ЗаменаСтатьиДДСОРП</EventSubscription>
 			<FunctionalOption>ИспользоватьАдресноеХранение</FunctionalOption>
@@ -298,6 +315,7 @@
 			<FunctionalOption>ИспользоватьРасширенныеВозможностиЗаказаКлиента</FunctionalOption>
 			<FunctionalOption>РСК_ПеребитиеДругихФункциональныхОпций</FunctionalOption>
 			<FunctionalOption>ИспользоватьПострочнуюОтгрузкуВЗаказеКлиента</FunctionalOption>
+			<FunctionalOption>ИспользоватьХарактеристикиНоменклатуры</FunctionalOption>
 			<DefinedType>Артикул</DefinedType>
 			<DefinedType>ДенежнаяСуммаЛюбогоЗнака</DefinedType>
 			<DefinedType>ДенежнаяСуммаНеотрицательная</DefinedType>
@@ -355,12 +373,15 @@
 			<Constant>ИспользоватьРасширенныеВозможностиЗаказаКлиента</Constant>
 			<Constant>РСК_КонстантаПеребитияДругихФункциональныхОпций</Constant>
 			<Constant>ИспользоватьПострочнуюОтгрузкуВЗаказеКлиента</Constant>
+			<Constant>ИспользоватьХарактеристикиНоменклатуры</Constant>
 			<CommonForm>РедактированиеТабличногоДокумента</CommonForm>
 			<CommonForm>РСК_АвторизацияПоШтрихкоду</CommonForm>
 			<CommonForm>РСК_ВыборПериода</CommonForm>
 			<CommonForm>СвязанныеДокументы</CommonForm>
 			<CommonForm>РегламентированнаяОтчетность</CommonForm>
 			<CommonForm>РСК_ФормаПодбораСтрок</CommonForm>
+			<CommonForm>ЭтапыОплатыПоставщику</CommonForm>
+			<CommonForm>ЭтапОплаты</CommonForm>
 			<Catalog>БанковскиеСчетаКонтрагентов</Catalog>
 			<Catalog>БанковскиеСчетаОрганизаций</Catalog>
 			<Catalog>БизнесРегионы</Catalog>
@@ -468,6 +489,14 @@
 			<Catalog>ШаблоныСообщений</Catalog>
 			<Catalog>ШаблоныЭтикетокИЦенников</Catalog>
 			<Catalog>ЭтапыПроизводства</Catalog>
+			<Catalog>Марки</Catalog>
+			<Catalog>КодыОперацийРаздела7ДекларацииПоНДС</Catalog>
+			<Catalog>СтатьиКалькуляции</Catalog>
+			<Catalog>РегистрацииВНалоговомОргане</Catalog>
+			<Catalog>ДоговорыМеждуОрганизациями</Catalog>
+			<Catalog>НастройкиСчетовУчетаПрочихОпераций</Catalog>
+			<Catalog>НаправленияРасходованияЦелевыхСредств</Catalog>
+			<Catalog>ИсточникиПоступленияЦелевыхСредств</Catalog>
 			<Document>АктВыполненныхРабот</Document>
 			<Document>АктОРасхожденияхПослеОтгрузки</Document>
 			<Document>АктОРасхожденияхПослеПеремещения</Document>
@@ -531,94 +560,105 @@
 			<Document>ЭлектронноеПисьмоИсходящее</Document>
 			<Document>ЭлектронныйДокументВходящийЭДО</Document>
 			<Document>ЭтапПроизводства2_2</Document>
+			<Document>реа_НормативнаяСебестоимость</Document>
+			<Document>ЗаявкаНаКомандировку</Document>
+			<Document>РаспоряжениеНаПеремещениеДенежныхСредств</Document>
+			<Document>ОжидаемоеПоступлениеДенежныхСредств</Document>
 			<DocumentJournal>СкладскиеОрдера</DocumentJournal>
 			<Enum>ВариантОтбораДляКлючаЦен</Enum>
 			<Enum>ВариантыВыбытияМаркируемойПродукции</Enum>
 			<Enum>ВариантыИспользованияХарактеристикНоменклатуры</Enum>
+			<Enum>ВариантыКонтроляОплатыКлиентом</Enum>
+			<Enum>ВариантыКонтроляОплатыПоставщику</Enum>
 			<Enum>ВариантыОбеспечения</Enum>
 			<Enum>ВариантыОтправкиЭлектронногоЧекаПокупателю</Enum>
+			<Enum>ВариантыОтсчетаДатыПлатежа</Enum>
 			<Enum>ВариантыОформленияПродажи</Enum>
 			<Enum>ВариантыПредставленияНаборовВПечатныхФормах</Enum>
 			<Enum>ВариантыРасчетаЦенНаборов</Enum>
+			<Enum>ВариантыСроковПоставкиКоммерческихПредложений</Enum>
+			<Enum>ВидыДвиженийДенежныхСредств</Enum>
 			<Enum>ВидыДополнительныхОтчетовИОбработок</Enum>
 			<Enum>ВидыДоставки</Enum>
+			<Enum>ВидыОперацийКоммерческихПредложений</Enum>
 			<Enum>ВидыОперацийОтбораРазмещенияТоваров</Enum>
+			<Enum>ВидыПеречисленийВБюджет</Enum>
+			<Enum>ВидыСоглашенийСКлиентамиДляОграниченияЧтения</Enum>
+			<Enum>ВидыСтрокСтруктурыЗаказаНаПроизводство</Enum>
+			<Enum>ГрадацииКачества</Enum>
 			<Enum>ДействияСоСтрокамиОрдеровНаОтгрузку</Enum>
+			<Enum>ДокументацияНоменклатуры</Enum>
 			<Enum>КомпанияЧастноеЛицо</Enum>
 			<Enum>НастройкиИспользованияСерийНоменклатуры</Enum>
+			<Enum>ОбластиПланированияПлатежей</Enum>
 			<Enum>ОтветственныеЛицаОрганизаций</Enum>
+			<Enum>Периодичность</Enum>
+			<Enum>ПериодыВводаДанныхОВремени</Enum>
 			<Enum>ПолФизическогоЛица</Enum>
 			<Enum>ПорядокРасчетов</Enum>
+			<Enum>РаспределениеЗапасовСостояния</Enum>
+			<Enum>РСК_АналогиИЗаменыВидыСвязи</Enum>
 			<Enum>РСК_СтатусыАктовВыдачи</Enum>
 			<Enum>РСК_СтатусыПартийПоставки</Enum>
 			<Enum>РСК_СтатусыПолучателяТСР</Enum>
 			<Enum>РСК_ТипПрисоединенногоКСделкеФайла</Enum>
+			<Enum>РСК_ТипыПодтверждающихДокументовЗРДС</Enum>
 			<Enum>СкладскиеОперации</Enum>
+			<Enum>СостоянияГосударственныхКонтрактов</Enum>
+			<Enum>СостоянияДокументовЭДО</Enum>
 			<Enum>СостоянияПоступленияТоваров</Enum>
 			<Enum>СостоянияРаспоряженийНаОтборТоваров</Enum>
 			<Enum>СпособыДоставки</Enum>
+			<Enum>СпособыЗаданияЦен</Enum>
+			<Enum>СпособыПланированияОплатыЗаявок</Enum>
+			<Enum>СпособыРасчетаКомиссионногоВознаграждения</Enum>
 			<Enum>СпособыФормированияСегментов</Enum>
+			<Enum>СтатусыВнутреннихЗаказов</Enum>
+			<Enum>СтатусыГосударственныхКонтрактовЕИС</Enum>
 			<Enum>СтатусыДействияВидовЦен</Enum>
 			<Enum>СтатусыДоговоровКонтрагентов</Enum>
 			<Enum>СтатусыЗаданийНаПеревозку</Enum>
+			<Enum>СтатусыЗаданийТорговымПредставителям</Enum>
 			<Enum>СтатусыЗадачМТСКоординатор</Enum>
 			<Enum>СтатусыЗаказовКлиентов</Enum>
 			<Enum>СтатусыЗаказовПоставщикам</Enum>
 			<Enum>СтатусыЗаявокНаВозвратТоваровОтКлиентов</Enum>
+			<Enum>СтатусыЗаявокНаРасходованиеДенежныхСредств</Enum>
+			<Enum>СтатусыЗаявокСотрудников</Enum>
+			<Enum>СтатусыНаправленияДеятельности</Enum>
 			<Enum>СтатусыОтборовРазмещенийТоваров</Enum>
+			<Enum>СтатусыПеремещенийТоваров</Enum>
+			<Enum>СтатусыПересчетовТоваров</Enum>
+			<Enum>СтатусыПланов</Enum>
 			<Enum>СтатусыПриходныхОрдеров</Enum>
+			<Enum>СтатусыРаспоряженийНаПеремещениеДенежныхСредств</Enum>
 			<Enum>СтатусыРасходныхОрдеров</Enum>
 			<Enum>СтатусыРеализацийТоваровУслуг</Enum>
+			<Enum>СтатусыСертификатовНоменклатуры</Enum>
+			<Enum>СтатусыСоглашенийСКлиентами</Enum>
 			<Enum>СтатусыСоглашенийСПоставщиками</Enum>
+			<Enum>СтатусыТабеляУчетаРабочегоВремени</Enum>
+			<Enum>ТипыДвиженияДенежныхСредств</Enum>
+			<Enum>ТипыДокументовЭДО</Enum>
+			<Enum>ТипыЗапасов</Enum>
 			<Enum>ТипыИзмеряемыхВеличин</Enum>
 			<Enum>ТипыИсполнителейЗаданийНаПеревозку</Enum>
+			<Enum>ТипыКомиссииЗаБанковскиеПереводы</Enum>
 			<Enum>ТипыКонтактнойИнформации</Enum>
 			<Enum>ТипыНазначений</Enum>
+			<Enum>ТипыНалогов</Enum>
 			<Enum>ТипыНалогообложенияНДС</Enum>
 			<Enum>ТипыНаправленийДеятельности</Enum>
 			<Enum>ТипыНоменклатуры</Enum>
+			<Enum>ТипыНомеровГТД</Enum>
+			<Enum>ТипыПлатежейПоАренде</Enum>
 			<Enum>ТипыРасчетовСПартнерами</Enum>
 			<Enum>ТипыСкладскихЯчеек</Enum>
+			<Enum>ТипыСуммГрафикаКредитовИДепозитов</Enum>
 			<Enum>ТочностиУказанияСрокаГодности</Enum>
 			<Enum>ФормыОплаты</Enum>
 			<Enum>ХозяйственныеОперации</Enum>
-			<Enum>РаспределениеЗапасовСостояния</Enum>
-			<Enum>СтатусыЗаданийТорговымПредставителям</Enum>
-			<Enum>ВидыОперацийКоммерческихПредложений</Enum>
-			<Enum>ВариантыСроковПоставкиКоммерческихПредложений</Enum>
-			<Enum>СтатусыПеремещенийТоваров</Enum>
-			<Enum>ТипыКомиссииЗаБанковскиеПереводы</Enum>
-			<Enum>СтатусыЗаявокНаРасходованиеДенежныхСредств</Enum>
-			<Enum>ВариантыКонтроляОплатыПоставщику</Enum>
-			<Enum>СпособыПланированияОплатыЗаявок</Enum>
-			<Enum>ТипыНалогов</Enum>
-			<Enum>ТипыПлатежейПоАренде</Enum>
-			<Enum>ТипыСуммГрафикаКредитовИДепозитов</Enum>
-			<Enum>ВариантыКонтроляОплатыКлиентом</Enum>
-			<Enum>РСК_ТипыПодтверждающихДокументовЗРДС</Enum>
-			<Enum>СостоянияГосударственныхКонтрактов</Enum>
-			<Enum>СтатусыГосударственныхКонтрактовЕИС</Enum>
-			<Enum>ТипыДвиженияДенежныхСредств</Enum>
-			<Enum>ОбластиПланированияПлатежей</Enum>
-			<Enum>СостоянияДокументовЭДО</Enum>
-			<Enum>ТипыДокументовЭДО</Enum>
-			<Enum>СтатусыПересчетовТоваров</Enum>
-			<Enum>ТипыЗапасов</Enum>
-			<Enum>ВидыДвиженийДенежныхСредств</Enum>
-			<Enum>ВидыСтрокСтруктурыЗаказаНаПроизводство</Enum>
-			<Enum>СтатусыПланов</Enum>
-			<Enum>СтатусыНаправленияДеятельности</Enum>
-			<Enum>СтатусыВнутреннихЗаказов</Enum>
-			<Enum>СтатусыСоглашенийСКлиентами</Enum>
-			<Enum>СпособыРасчетаКомиссионногоВознаграждения</Enum>
-			<Enum>Периодичность</Enum>
-			<Enum>ВидыСоглашенийСКлиентамиДляОграниченияЧтения</Enum>
-			<Enum>ПериодыВводаДанныхОВремени</Enum>
-			<Enum>СтатусыТабеляУчетаРабочегоВремени</Enum>
-			<Enum>ДокументацияНоменклатуры</Enum>
-			<Enum>СтатусыСертификатовНоменклатуры</Enum>
-			<Enum>СпособыЗаданияЦен</Enum>
-			<Enum>ТипыНомеровГТД</Enum>
+			<Enum>РСК_ТипыСтатейБП</Enum>
 			<Report>РСК_КалендарныйГрафикПоставок</Report>
 			<Report>РСК_ОстаткиТСР</Report>
 			<Report>РСК_ХодИсполненияГК</Report>
@@ -628,9 +668,9 @@
 			<Report>РСК_ВедомостьПоОстаткамТСР</Report>
 			<Report>АнализПричинОтменыЗаказовКлиентов</Report>
 			<DataProcessor>ДатаМобайл_АРМДиспетчера</DataProcessor>
-			<DataProcessor>ДокументооборотСКонтролирующимиОрганами</DataProcessor>
 			<DataProcessor>ЖурналДокументовБезналичныеПлатежи</DataProcessor>
 			<DataProcessor>ЖурналДокументовВнутреннегоТовародвижения</DataProcessor>
+			<DataProcessor>ЖурналДокументовИнтеркампани</DataProcessor>
 			<DataProcessor>ЖурналДокументовПродажи</DataProcessor>
 			<DataProcessor>ЗапросКоличестваИСерий</DataProcessor>
 			<DataProcessor>ИнтеграцияС1СДокументооборот3</DataProcessor>
@@ -644,6 +684,8 @@
 			<DataProcessor>ПечатьЭтикетокИЦенников2_5</DataProcessor>
 			<DataProcessor>ПлатежныйКалендарь</DataProcessor>
 			<DataProcessor>ПодборСерийВДокументы</DataProcessor>
+			<DataProcessor>ПодборТоваровВДокументЗакупки</DataProcessor>
+			<DataProcessor>ПодборТоваровВДокументПродажи</DataProcessor>
 			<DataProcessor>ПомощникПродаж</DataProcessor>
 			<DataProcessor>ПрайсЛист</DataProcessor>
 			<DataProcessor>ПредпросмотрЧека</DataProcessor>
@@ -653,13 +695,13 @@
 			<DataProcessor>РСК_ЗаполнениеФормыОтчетаExcelДляФСС</DataProcessor>
 			<DataProcessor>РСК_ОтменаАктовПриСмертиПолучателяТСР</DataProcessor>
 			<DataProcessor>РСК_ПолучателиТСР</DataProcessor>
+			<DataProcessor>РСК_СопоставлениеНоменклатурыГК</DataProcessor>
 			<DataProcessor>РСК_СопоставлениеОбъектовЭДО</DataProcessor>
 			<DataProcessor>РСК_УстановкаТарифовЗаДоставкуТСР</DataProcessor>
 			<DataProcessor>СамообслуживаниеПартнеров</DataProcessor>
 			<DataProcessor>УниверсальныйОбменДаннымиXML</DataProcessor>
 			<DataProcessor>УправлениеОтгрузкой</DataProcessor>
 			<DataProcessor>УправлениеПоступлением</DataProcessor>
-			<DataProcessor>РСК_СопоставлениеНоменклатурыГК</DataProcessor>
 			<InformationRegister>ГрафикПлатежей</InformationRegister>
 			<InformationRegister>ДокументыФизическихЛиц</InformationRegister>
 			<InformationRegister>ИдентификационныеДанныеПользователей</InformationRegister>
@@ -673,20 +715,24 @@
 			<InformationRegister>ОбъектыИнтегрированныеС1СДокументооборотом</InformationRegister>
 			<InformationRegister>ОбъектыУчетаДокументовЭДО</InformationRegister>
 			<InformationRegister>ПакетыДокументовЭДО</InformationRegister>
+			<InformationRegister>ПартнерыСегмента</InformationRegister>
 			<InformationRegister>ПравилаРазмещенияТоваровВЯчейках</InformationRegister>
 			<InformationRegister>ПроверкиЭлектронныхПодписейЭДО</InformationRegister>
 			<InformationRegister>РаспределениеЗапасов</InformationRegister>
 			<InformationRegister>реа_ПредопределенныеЗначения</InformationRegister>
 			<InformationRegister>РеестрДокументов</InformationRegister>
 			<InformationRegister>РСК_АктВыдачиТСР</InformationRegister>
+			<InformationRegister>РСК_АналогиИЗамены</InformationRegister>
 			<InformationRegister>РСК_ЖурналРаботыМониторингаВремениЖизниРезерва</InformationRegister>
 			<InformationRegister>РСК_НастройкиМониторингаСрокаЖизниРезерва</InformationRegister>
 			<InformationRegister>РСК_НоменклатураИТарифыДоставкиТСР</InformationRegister>
 			<InformationRegister>РСК_НормативныеСрокиДоставки</InformationRegister>
 			<InformationRegister>РСК_ОтраженныеУслугиСоисполнителей</InformationRegister>
-			<InformationRegister>РСК_РегистраторыТоваровОрганизаций</InformationRegister>
+			<InformationRegister>РСК_ОшибкиЗагрузки</InformationRegister>
 			<InformationRegister>РСК_СообщенияСМС</InformationRegister>
+			<InformationRegister>РСК_СоответствиеДокументов</InformationRegister>
 			<InformationRegister>РСК_СоответствиеНоменклатур</InformationRegister>
+			<InformationRegister>РСК_СоответствиеНоменклатуры</InformationRegister>
 			<InformationRegister>РСК_СтатусыВыполненияКонтрактов</InformationRegister>
 			<InformationRegister>РСК_ТелефоныДляРассылкиСМС</InformationRegister>
 			<InformationRegister>САВ_КодыХраненияНоменклатуры</InformationRegister>
@@ -702,10 +748,10 @@
 			<InformationRegister>СтавкиНДСНоменклатуры</InformationRegister>
 			<InformationRegister>СтруктураЗаказа</InformationRegister>
 			<InformationRegister>ТоварыКДоставке</InformationRegister>
-			<InformationRegister>ШтрихкодыНоменклатуры</InformationRegister>
 			<InformationRegister>ЦеныНоменклатурыПоставщиков</InformationRegister>
-			<InformationRegister>ПартнерыСегмента</InformationRegister>
-			<InformationRegister>РСК_СоответствиеНоменклатуры</InformationRegister>
+			<InformationRegister>ШтрихкодыНоменклатуры</InformationRegister>
+			<InformationRegister>РСК_СоответствиеСтатей</InformationRegister>
+			<InformationRegister>РСК_СоответствиеПодразделений</InformationRegister>
 			<AccumulationRegister>ЗаказыКлиентов</AccumulationRegister>
 			<AccumulationRegister>ПланыОплатПоставщикам</AccumulationRegister>
 			<AccumulationRegister>РСК_СостояниеЗаказовКлиентовПоВыдаче</AccumulationRegister>
@@ -725,6 +771,8 @@
 			<ChartOfCharacteristicTypes>ДополнительныеРеквизитыИСведения</ChartOfCharacteristicTypes>
 			<ChartOfCharacteristicTypes>СтатьиАктивовПассивов</ChartOfCharacteristicTypes>
 			<ChartOfCharacteristicTypes>СтатьиДоходов</ChartOfCharacteristicTypes>
+			<ChartOfCharacteristicTypes>ВидыСубконтоХозрасчетные</ChartOfCharacteristicTypes>
+			<ChartOfAccounts>Хозрасчетный</ChartOfAccounts>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

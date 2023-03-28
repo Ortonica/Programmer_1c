@@ -21,6 +21,16 @@
 			<Comment/>
 			<ExtendedConfigurationObject>88f078c3-60df-4432-9fdd-317c148b0bed</ExtendedConfigurationObject>
 		</Properties>
-		<ChildObjects/>
+		<ChildObjects>
+			<EnumValue uuid="d7af53ef-08d2-461e-accf-b87171decec7">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ВВалютеПлатежа</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>08155117-256a-43a5-a75d-c0832179694a</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
 	</Enum>
 </MetaDataObject>

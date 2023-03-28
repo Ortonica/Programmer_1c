@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+	<Catalog uuid="827933bd-3bec-4d16-bd90-00304f664d1b">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.НастройкиСчетовУчетаПрочихОпераций" category="Object">
+				<xr:TypeId>60ebc81f-87ce-422c-8bf2-ee834cc4d27c</xr:TypeId>
+				<xr:ValueId>4d02014a-a201-43dc-a527-1e43cb16f3a1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.НастройкиСчетовУчетаПрочихОпераций" category="Ref">
+				<xr:TypeId>03759a5d-18cf-4717-ab75-45d3b693b51e</xr:TypeId>
+				<xr:ValueId>7a201d7c-4466-499c-b109-6400a6ac6623</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.НастройкиСчетовУчетаПрочихОпераций" category="Selection">
+				<xr:TypeId>665f4e45-ba73-4979-821e-4824bc201768</xr:TypeId>
+				<xr:ValueId>31ac098b-3a72-4164-9046-15bee9d691cf</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.НастройкиСчетовУчетаПрочихОпераций" category="List">
+				<xr:TypeId>559cdffa-86d0-4afb-b610-0d56a24fb04c</xr:TypeId>
+				<xr:ValueId>ca165eb4-5f3e-4c54-9952-9b9356643403</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.НастройкиСчетовУчетаПрочихОпераций" category="Manager">
+				<xr:TypeId>0b56d1b8-213d-4fca-97b8-10be372cf186</xr:TypeId>
+				<xr:ValueId>99cffb17-0e16-4015-822c-7e489ec03276</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>НастройкиСчетовУчетаПрочихОпераций</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>f5fc8c32-4019-4fd4-bd08-2179908d6861</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

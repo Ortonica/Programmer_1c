@@ -31,6 +31,15 @@
 					<ExtendedConfigurationObject>aa07dccc-be74-4152-a2a0-2f47b256b7eb</ExtendedConfigurationObject>
 				</Properties>
 			</EnumValue>
+			<EnumValue uuid="04c08d6e-428c-4aaf-accf-e7d601fef942">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Поступление</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>351a177b-84df-4064-9177-ccdc76e944bb</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
 		</ChildObjects>
 	</Enum>
 </MetaDataObject>

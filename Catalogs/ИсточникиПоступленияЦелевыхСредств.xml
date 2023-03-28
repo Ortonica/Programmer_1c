@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+	<Catalog uuid="38c698ef-1262-4237-9566-0fb514a81b21">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ИсточникиПоступленияЦелевыхСредств" category="Object">
+				<xr:TypeId>42ee432a-f0c1-45ec-aac1-8fd415e95dcf</xr:TypeId>
+				<xr:ValueId>85345e87-6f42-4c83-a9be-b0d65d3145a6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ИсточникиПоступленияЦелевыхСредств" category="Ref">
+				<xr:TypeId>704a973f-2f51-45fe-b49a-23a92631ca3e</xr:TypeId>
+				<xr:ValueId>1d0ccf7d-7a6b-4644-af75-4f2c6fcfda75</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ИсточникиПоступленияЦелевыхСредств" category="Selection">
+				<xr:TypeId>fb8cb0b1-1448-4dee-bc28-41230b39d140</xr:TypeId>
+				<xr:ValueId>2ebf8013-2915-4d8e-9fbd-dfe694c496c7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ИсточникиПоступленияЦелевыхСредств" category="List">
+				<xr:TypeId>783339c4-fe36-4ea1-9b7e-740713d47bef</xr:TypeId>
+				<xr:ValueId>52046e5a-4cda-44c1-99c7-f90d2220aa71</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ИсточникиПоступленияЦелевыхСредств" category="Manager">
+				<xr:TypeId>cfefc19b-a06d-46da-be4e-b13a5da2097b</xr:TypeId>
+				<xr:ValueId>c900a0c5-fc3a-4abf-bdb1-417aebf99ae3</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ИсточникиПоступленияЦелевыхСредств</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>5f8c0619-74f8-4971-985f-1d5f1316ce03</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

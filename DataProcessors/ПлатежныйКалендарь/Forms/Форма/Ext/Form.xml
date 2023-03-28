@@ -141,6 +141,7 @@
 							<ExtendedTooltip name="ОтборОрганизацииРасширеннаяПодсказка" id="126"/>
 						</InputField>
 						<InputField name="ОтборВалюта" id="130">
+							<DataPath>Объект.ОтборВалюта</DataPath>
 							<Width>8</Width>
 							<AutoMaxWidth>false</AutoMaxWidth>
 							<MaxWidth>8</MaxWidth>
@@ -370,10 +371,13 @@
 								</v8:item>
 							</Title>
 							<CommandSet>
+								<ExcludedCommand>Change</ExcludedCommand>
+								<ExcludedCommand>Copy</ExcludedCommand>
 								<ExcludedCommand>CopyToClipboard</ExcludedCommand>
+								<ExcludedCommand>Create</ExcludedCommand>
+								<ExcludedCommand>Delete</ExcludedCommand>
 								<ExcludedCommand>LoadDynamicListSettings</ExcludedCommand>
 								<ExcludedCommand>SaveDynamicListSettings</ExcludedCommand>
-								<ExcludedCommand>SearchHistory</ExcludedCommand>
 							</CommandSet>
 							<SearchStringLocation>Bottom</SearchStringLocation>
 							<SearchControlLocation>None</SearchControlLocation>
@@ -521,7 +525,7 @@
 							</SearchControlAddition>
 							<ChildItems>
 								<LabelField name="ЗаявкиКОплатеДатаПлатежа" id="26">
-									<DataPath>~ЗаявкиКОплате.ДатаПлатежа</DataPath>
+									<DataPath>ЗаявкиКОплате.ДатаПлатежа</DataPath>
 									<Title>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
@@ -538,7 +542,7 @@
 									<ExtendedTooltip name="ЗаявкиКОплатеДатаПлатежаРасширеннаяПодсказка" id="28"/>
 								</LabelField>
 								<LabelField name="ЗаявкиКОплатеСумма" id="53">
-									<DataPath>~ЗаявкиКОплате.Сумма</DataPath>
+									<DataPath>ЗаявкиКОплате.Сумма</DataPath>
 									<Title>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
@@ -553,7 +557,7 @@
 									<ExtendedTooltip name="ЗаявкиКОплатеСуммаРасширеннаяПодсказка" id="55"/>
 								</LabelField>
 								<LabelField name="ЗаявкиКОплатеКРаспределению" id="38">
-									<DataPath>~ЗаявкиКОплате.КРаспределению</DataPath>
+									<DataPath>ЗаявкиКОплате.КРаспределению</DataPath>
 									<Title>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
@@ -578,12 +582,12 @@
 									<ExtendedTooltip name="ЗаявкиКОплатеКРаспределениюРасширеннаяПодсказка" id="40"/>
 								</LabelField>
 								<LabelField name="ЗаявкиКОплатеВалюта" id="20">
-									<DataPath>~ЗаявкиКОплате.Валюта</DataPath>
+									<DataPath>ЗаявкиКОплате.Валюта</DataPath>
 									<ContextMenu name="ЗаявкиКОплатеВалютаКонтекстноеМеню" id="21"/>
 									<ExtendedTooltip name="ЗаявкиКОплатеВалютаРасширеннаяПодсказка" id="22"/>
 								</LabelField>
 								<LabelField name="ЗаявкиКОплатеПриоритет" id="44">
-									<DataPath>~ЗаявкиКОплате.ПриоритетЗаявки</DataPath>
+									<DataPath>ЗаявкиКОплате.ПриоритетЗаявки</DataPath>
 									<Title>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
@@ -598,7 +602,7 @@
 									<ExtendedTooltip name="ЗаявкиКОплатеПриоритетРасширеннаяПодсказка" id="46"/>
 								</LabelField>
 								<LabelField name="ЗаявкиКОплатеПолучатель" id="41">
-									<DataPath>~ЗаявкиКОплате.ПлательщикПолучатель</DataPath>
+									<DataPath>ЗаявкиКОплате.ПлательщикПолучатель</DataPath>
 									<Title>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
@@ -613,32 +617,32 @@
 									<ExtendedTooltip name="ЗаявкиКОплатеПолучательРасширеннаяПодсказка" id="43"/>
 								</LabelField>
 								<LabelField name="ЗаявкиКОплатеНазначениеПлатежа" id="29">
-									<DataPath>~ЗаявкиКОплате.НазначениеПлатежа</DataPath>
+									<DataPath>ЗаявкиКОплате.НазначениеПлатежа</DataPath>
 									<ContextMenu name="ЗаявкиКОплатеНазначениеПлатежаКонтекстноеМеню" id="30"/>
 									<ExtendedTooltip name="ЗаявкиКОплатеНазначениеПлатежаРасширеннаяПодсказка" id="31"/>
 								</LabelField>
 								<LabelField name="ЗаявкиКОплатеБанковскийСчетКасса" id="438">
-									<DataPath>~ЗаявкиКОплате.БанковскийСчетКасса</DataPath>
+									<DataPath>ЗаявкиКОплате.БанковскийСчетКасса</DataPath>
 									<ContextMenu name="ЗаявкиКОплатеБанковскийСчетКассаКонтекстноеМеню" id="439"/>
 									<ExtendedTooltip name="ЗаявкиКОплатеБанковскийСчетКассаРасширеннаяПодсказка" id="440"/>
 								</LabelField>
 								<LabelField name="ЗаявкиКОплатеНомер" id="32">
-									<DataPath>~ЗаявкиКОплате.Номер</DataPath>
+									<DataPath>ЗаявкиКОплате.Номер</DataPath>
 									<ContextMenu name="ЗаявкиКОплатеНомерКонтекстноеМеню" id="33"/>
 									<ExtendedTooltip name="ЗаявкиКОплатеНомерРасширеннаяПодсказка" id="34"/>
 								</LabelField>
 								<LabelField name="ЗаявкиКОплатеДата" id="23">
-									<DataPath>~ЗаявкиКОплате.Дата</DataPath>
+									<DataPath>ЗаявкиКОплате.Дата</DataPath>
 									<ContextMenu name="ЗаявкиКОплатеДатаКонтекстноеМеню" id="24"/>
 									<ExtendedTooltip name="ЗаявкиКОплатеДатаРасширеннаяПодсказка" id="25"/>
 								</LabelField>
 								<LabelField name="ЗаявкиКОплатеОрганизация" id="35">
-									<DataPath>~ЗаявкиКОплате.Организация</DataPath>
+									<DataPath>ЗаявкиКОплате.Организация</DataPath>
 									<ContextMenu name="ЗаявкиКОплатеОрганизацияКонтекстноеМеню" id="36"/>
 									<ExtendedTooltip name="ЗаявкиКОплатеОрганизацияРасширеннаяПодсказка" id="37"/>
 								</LabelField>
 								<LabelField name="ЗаявкиКОплатеСсылка" id="56">
-									<DataPath>~ЗаявкиКОплате.Ссылка</DataPath>
+									<DataPath>ЗаявкиКОплате.Ссылка</DataPath>
 									<UserVisible>
 										<xr:Common>false</xr:Common>
 									</UserVisible>
@@ -881,6 +885,7 @@
 											<AutoInsertNewRow>true</AutoInsertNewRow>
 											<EnableDrag>true</EnableDrag>
 											<FileDragMode>AsFile</FileDragMode>
+											<DataPath>Объект.ДеревоПлатежей</DataPath>
 											<Title>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
@@ -891,6 +896,23 @@
 													<v8:content>Payment tree</v8:content>
 												</v8:item>
 											</Title>
+											<CommandSet>
+												<ExcludedCommand>Add</ExcludedCommand>
+												<ExcludedCommand>Change</ExcludedCommand>
+												<ExcludedCommand>Copy</ExcludedCommand>
+												<ExcludedCommand>CopyToClipboard</ExcludedCommand>
+												<ExcludedCommand>Delete</ExcludedCommand>
+												<ExcludedCommand>EndEdit</ExcludedCommand>
+												<ExcludedCommand>HierarchicalList</ExcludedCommand>
+												<ExcludedCommand>List</ExcludedCommand>
+												<ExcludedCommand>MoveDown</ExcludedCommand>
+												<ExcludedCommand>MoveUp</ExcludedCommand>
+												<ExcludedCommand>OutputList</ExcludedCommand>
+												<ExcludedCommand>ShowRowRearrangement</ExcludedCommand>
+												<ExcludedCommand>SortListAsc</ExcludedCommand>
+												<ExcludedCommand>SortListDesc</ExcludedCommand>
+												<ExcludedCommand>Tree</ExcludedCommand>
+											</CommandSet>
 											<ContextMenu name="ДеревоПлатежейКонтекстноеМеню" id="324">
 												<ChildItems>
 													<Button name="ДеревоПлатежейКонтекстноеМенюСдвинутьВверх" id="524">
@@ -1040,6 +1062,7 @@
 											</SearchControlAddition>
 											<ChildItems>
 												<InputField name="ДеревоПлатежейГруппировка" id="348">
+													<DataPath>Объект.ДеревоПлатежей.Группировка</DataPath>
 													<EditMode>EnterOnInput</EditMode>
 													<FixingInTable>Left</FixingInTable>
 													<Width>25</Width>
@@ -1048,6 +1071,7 @@
 													<ExtendedTooltip name="ДеревоПлатежейГруппировкаРасширеннаяПодсказка" id="350"/>
 												</InputField>
 												<InputField name="ДеревоПлатежейВалюта" id="567">
+													<DataPath>Объект.ДеревоПлатежей.ВалютаСтроки</DataPath>
 													<Title>
 														<v8:item>
 															<v8:lang>ru</v8:lang>
@@ -1066,6 +1090,7 @@
 													<ExtendedTooltip name="ДеревоПлатежейВалютаРасширеннаяПодсказка" id="569"/>
 												</InputField>
 												<InputField name="ДеревоПлатежейОстаток" id="339">
+													<DataPath>Объект.ДеревоПлатежей.Остаток</DataPath>
 													<EditMode>EnterOnInput</EditMode>
 													<Width>12</Width>
 													<HorizontalStretch>false</HorizontalStretch>
@@ -1073,6 +1098,7 @@
 													<ExtendedTooltip name="ДеревоПлатежейОстатокРасширеннаяПодсказка" id="341"/>
 												</InputField>
 												<InputField name="ДеревоПлатежейРастяжка" id="351">
+													<DataPath>Объект.ДеревоПлатежей.Растяжка</DataPath>
 													<TitleLocation>None</TitleLocation>
 													<EditMode>EnterOnInput</EditMode>
 													<HorizontalStretch>true</HorizontalStretch>
@@ -1320,6 +1346,7 @@
 									<UseAlternationRowColor>true</UseAlternationRowColor>
 									<EnableStartDrag>true</EnableStartDrag>
 									<FileDragMode>AsFile</FileDragMode>
+									<DataPath>ПлатежиВКалендаре</DataPath>
 									<Title>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
@@ -1330,6 +1357,14 @@
 											<v8:content>Payments in the calendar</v8:content>
 										</v8:item>
 									</Title>
+									<CommandSet>
+										<ExcludedCommand>Change</ExcludedCommand>
+										<ExcludedCommand>Copy</ExcludedCommand>
+										<ExcludedCommand>Create</ExcludedCommand>
+										<ExcludedCommand>Delete</ExcludedCommand>
+										<ExcludedCommand>LoadDynamicListSettings</ExcludedCommand>
+										<ExcludedCommand>SaveDynamicListSettings</ExcludedCommand>
+									</CommandSet>
 									<AutoRefresh>true</AutoRefresh>
 									<AutoRefreshPeriod>10</AutoRefreshPeriod>
 									<Period>
@@ -1474,6 +1509,7 @@
 									</SearchControlAddition>
 									<ChildItems>
 										<LabelField name="ПлатежиВКалендареТипОбъектаОплатыНаименование" id="463">
+											<DataPath>ПлатежиВКалендаре.ТипОбъектаОплатыНаименование</DataPath>
 											<Title>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
@@ -1488,11 +1524,13 @@
 											<ExtendedTooltip name="ПлатежиВКалендареТипОбъектаОплатыНаименованиеРасширеннаяПодсказка" id="465"/>
 										</LabelField>
 										<LabelField name="ПлатежиВКалендареНомер" id="466">
+											<DataPath>ПлатежиВКалендаре.Номер</DataPath>
 											<Width>14</Width>
 											<ContextMenu name="ПлатежиВКалендареНомерКонтекстноеМеню" id="467"/>
 											<ExtendedTooltip name="ПлатежиВКалендареНомерРасширеннаяПодсказка" id="468"/>
 										</LabelField>
 										<LabelField name="ПлатежиВКалендареДата" id="469">
+											<DataPath>ПлатежиВКалендаре.Дата</DataPath>
 											<Width>12</Width>
 											<Format>
 												<v8:item>
@@ -1508,11 +1546,13 @@
 											<ExtendedTooltip name="ПлатежиВКалендареДатаРасширеннаяПодсказка" id="471"/>
 										</LabelField>
 										<LabelField name="ПлатежиВКалендареОбъектОплаты" id="367">
+											<DataPath>ПлатежиВКалендаре.ОбъектОплаты</DataPath>
 											<Visible>false</Visible>
 											<ContextMenu name="ПлатежиВКалендареОбъектОплатыКонтекстноеМеню" id="368"/>
 											<ExtendedTooltip name="ПлатежиВКалендареОбъектОплатыРасширеннаяПодсказка" id="369"/>
 										</LabelField>
 										<LabelField name="ПлатежиВКалендареСумма" id="370">
+											<DataPath>ПлатежиВКалендаре.Сумма</DataPath>
 											<Title>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
@@ -1537,10 +1577,12 @@
 											<ExtendedTooltip name="ПлатежиВКалендареСуммаРасширеннаяПодсказка" id="372"/>
 										</LabelField>
 										<LabelField name="ПлатежиВКалендареВалюта" id="373">
+											<DataPath>ПлатежиВКалендаре.Валюта</DataPath>
 											<ContextMenu name="ПлатежиВКалендареВалютаКонтекстноеМеню" id="374"/>
 											<ExtendedTooltip name="ПлатежиВКалендареВалютаРасширеннаяПодсказка" id="375"/>
 										</LabelField>
 										<LabelField name="ПлатежиВКалендареПлательщикПолучатель" id="406">
+											<DataPath>ПлатежиВКалендаре.ПлательщикПолучатель</DataPath>
 											<Title>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
@@ -1555,6 +1597,7 @@
 											<ExtendedTooltip name="ПлатежиВКалендареПлательщикПолучательРасширеннаяПодсказка" id="408"/>
 										</LabelField>
 										<LabelField name="ПлатежиВКалендареНазначениеПлатежа" id="383">
+											<DataPath>ПлатежиВКалендаре.НазначениеПлатежа</DataPath>
 											<Title>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
@@ -1569,10 +1612,12 @@
 											<ExtendedTooltip name="ПлатежиВКалендареНазначениеПлатежаРасширеннаяПодсказка" id="385"/>
 										</LabelField>
 										<LabelField name="ПлатежиВКалендареСуммаДокумента" id="389">
+											<DataPath>ПлатежиВКалендаре.СуммаДокумента</DataPath>
 											<ContextMenu name="ПлатежиВКалендареСуммаДокументаКонтекстноеМеню" id="390"/>
 											<ExtendedTooltip name="ПлатежиВКалендареСуммаДокументаРасширеннаяПодсказка" id="391"/>
 										</LabelField>
 										<LabelField name="ПлатежиВКалендареХозяйственнаяОперация" id="392">
+											<DataPath>ПлатежиВКалендаре.Операция</DataPath>
 											<Title>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
@@ -1587,16 +1632,19 @@
 											<ExtendedTooltip name="ПлатежиВКалендареХозяйственнаяОперацияРасширеннаяПодсказка" id="394"/>
 										</LabelField>
 										<LabelField name="ПлатежиВКалендареОрганизация" id="395">
+											<DataPath>ПлатежиВКалендаре.Организация</DataPath>
 											<ContextMenu name="ПлатежиВКалендареОрганизацияКонтекстноеМеню" id="396"/>
 											<ExtendedTooltip name="ПлатежиВКалендареОрганизацияРасширеннаяПодсказка" id="397"/>
 										</LabelField>
 										<LabelField name="ПлатежиВКалендареДатаПлатежа" id="376">
+											<DataPath>ПлатежиВКалендаре.ДатаПлатежа</DataPath>
 											<Width>6</Width>
 											<AutoMaxWidth>false</AutoMaxWidth>
 											<ContextMenu name="ПлатежиВКалендареДатаПлатежаКонтекстноеМеню" id="377"/>
 											<ExtendedTooltip name="ПлатежиВКалендареДатаПлатежаРасширеннаяПодсказка" id="378"/>
 										</LabelField>
 										<LabelField name="ПлатежиВКалендареОтветственный" id="421">
+											<DataPath>ПлатежиВКалендаре.Ответственный</DataPath>
 											<UserVisible>
 												<xr:Common>false</xr:Common>
 											</UserVisible>
@@ -1604,6 +1652,7 @@
 											<ExtendedTooltip name="ПлатежиВКалендареОтветственныйРасширеннаяПодсказка" id="423"/>
 										</LabelField>
 										<LabelField name="ПлатежиВКалендареПодразделение" id="424">
+											<DataPath>ПлатежиВКалендаре.Подразделение</DataPath>
 											<UserVisible>
 												<xr:Common>false</xr:Common>
 											</UserVisible>
@@ -1611,6 +1660,7 @@
 											<ExtendedTooltip name="ПлатежиВКалендареПодразделениеРасширеннаяПодсказка" id="426"/>
 										</LabelField>
 										<LabelField name="ПлатежиВКалендареПриоритетСтатьиДДС" id="409">
+											<DataPath>ПлатежиВКалендаре.ПриоритетСтатьиДДС</DataPath>
 											<UserVisible>
 												<xr:Common>false</xr:Common>
 											</UserVisible>
@@ -1628,6 +1678,7 @@
 											<ExtendedTooltip name="ПлатежиВКалендареПриоритетСтатьиДДСРасширеннаяПодсказка" id="411"/>
 										</LabelField>
 										<LabelField name="ПлатежиВКалендареПриоритетЗаявки" id="427">
+											<DataPath>ПлатежиВКалендаре.ПриоритетЗаявки</DataPath>
 											<UserVisible>
 												<xr:Common>false</xr:Common>
 											</UserVisible>
@@ -1662,6 +1713,7 @@
 											<ExtendedTooltip name="ПлатежиВКалендареСтатьяДвиженияДенежныхСредствРасширеннаяПодсказка" id="414"/>
 										</LabelField>
 										<LabelField name="ПлатежиВКалендареБанковскийСчетКасса" id="580">
+											<DataPath>ПлатежиВКалендаре.БанковскийСчетКасса</DataPath>
 											<UserVisible>
 												<xr:Common>false</xr:Common>
 											</UserVisible>
@@ -1669,6 +1721,7 @@
 											<ExtendedTooltip name="ПлатежиВКалендареБанковскийСчетКассаРасширеннаяПодсказка" id="582"/>
 										</LabelField>
 										<LabelField name="ПлатежиВКалендареФормаОплаты" id="586">
+											<DataPath>ПлатежиВКалендаре.ФормаОплаты</DataPath>
 											<UserVisible>
 												<xr:Common>false</xr:Common>
 											</UserVisible>
@@ -1676,6 +1729,7 @@
 											<ExtendedTooltip name="ПлатежиВКалендареФормаОплатыРасширеннаяПодсказка" id="588"/>
 										</LabelField>
 										<CheckBoxField name="ПлатежиВКалендареДоступноРаспределение" id="583">
+											<DataPath>ПлатежиВКалендаре.ДоступноРаспределение</DataPath>
 											<UserVisible>
 												<xr:Common>false</xr:Common>
 											</UserVisible>
@@ -1698,6 +1752,7 @@
 											<ExtendedTooltip name="ПлатежиВКалендареТипСуммыРасширеннаяПодсказка" id="597"/>
 										</LabelField>
 										<InputField name="ПлатежиВКалендареСсылка" id="628">
+											<DataPath>ПлатежиВКалендаре.Ссылка</DataPath>
 											<UserVisible>
 												<xr:Common>false</xr:Common>
 											</UserVisible>
@@ -1729,17 +1784,17 @@
 				<v8:Type>cfg:DynamicList</v8:Type>
 			</Type>
 			<UseAlways>
-				<Field>~ЗаявкиКОплате.БанковскийСчетКасса</Field>
-				<Field>~ЗаявкиКОплате.ДоступноРаспределение</Field>
-				<Field>~ЗаявкиКОплате.ОбъектОплаты</Field>
 				<Field>~ЗаявкиКОплате.ОсталосьРаспределить</Field>
-				<Field>~ЗаявкиКОплате.Ссылка</Field>
-				<Field>~ЗаявкиКОплате.СтатусЗаявки</Field>
-				<Field>~ЗаявкиКОплате.Сумма</Field>
+				<Field>ЗаявкиКОплате.БанковскийСчетКасса</Field>
+				<Field>ЗаявкиКОплате.ДоступноРаспределение</Field>
+				<Field>ЗаявкиКОплате.ОбъектОплаты</Field>
+				<Field>ЗаявкиКОплате.Ссылка</Field>
+				<Field>ЗаявкиКОплате.СтатусЗаявки</Field>
+				<Field>ЗаявкиКОплате.Сумма</Field>
 			</UseAlways>
 			<Settings xsi:type="DynamicList">
 				<ManualQuery>true</ManualQuery>
-				<DynamicDataRead>true</DynamicDataRead>
+				<DynamicDataRead>false</DynamicDataRead>
 				<QueryText>ВЫБРАТЬ
 	Заявка.Ссылка КАК Ссылка,
 	Заявка.Номер КАК Номер,
@@ -1759,11 +1814,7 @@
 	ГрафикПлатежей.ДатаПлатежа КАК ДатаПлатежа,
 	ГрафикПлатежей.Сумма КАК Сумма,
 	ВЫБОР
-		КОГДА ГрафикПлатежей.БанковскийСчетКасса В (
-			ЗНАЧЕНИЕ(Справочник.БанковскиеСчетаОрганизаций.ПустаяСсылка),
-			ЗНАЧЕНИЕ(Справочник.Кассы.ПустаяСсылка),
-			НЕОПРЕДЕЛЕНО
-		)
+		КОГДА ГрафикПлатежей.БанковскийСчетКасса В (ЗНАЧЕНИЕ(Справочник.БанковскиеСчетаОрганизаций.ПустаяСсылка), ЗНАЧЕНИЕ(Справочник.Кассы.ПустаяСсылка), НЕОПРЕДЕЛЕНО)
 			ТОГДА ГрафикПлатежей.Сумма
 		ИНАЧЕ 0
 	КОНЕЦ КАК КРаспределению,
@@ -1772,26 +1823,789 @@
 	ИСТИНА КАК ДоступноРаспределение
 ИЗ
 	РегистрСведений.ГрафикПлатежей КАК ГрафикПлатежей
-	
-	ЛЕВОЕ СОЕДИНЕНИЕ
-		Документ.ЗаявкаНаРасходованиеДенежныхСредств КАК Заявка
-	ПО
-		Заявка.Ссылка = ГрафикПлатежей.ОбъектОплаты
+		ЛЕВОЕ СОЕДИНЕНИЕ Справочник.СтатьиДвиженияДенежныхСредств КАК СтатьиДДС
+		ПО (СтатьиДДС.Ссылка = ГрафикПлатежей.СтатьяДвиженияДенежныхСредств)
+		ЛЕВОЕ СОЕДИНЕНИЕ (ВЫБРАТЬ
+			ЗаявкаНаРасходованиеДенежныхСредств.Ссылка КАК Ссылка,
+			ЗаявкаНаРасходованиеДенежныхСредств.Номер КАК Номер,
+			ЗаявкаНаРасходованиеДенежныхСредств.Дата КАК Дата,
+			ЗаявкаНаРасходованиеДенежныхСредств.Статус КАК Статус,
+			ЗаявкаНаРасходованиеДенежныхСредств.ПриоритетОплаты КАК ПриоритетОплаты,
+			ЗаявкаНаРасходованиеДенежныхСредств.НазначениеПлатежа КАК НазначениеПлатежа,
+			ЗаявкаНаРасходованиеДенежныхСредств.СуммаДокумента КАК СуммаДокумента,
+			ЗаявкаНаРасходованиеДенежныхСредств.Валюта КАК Валюта,
+			ЗаявкаНаРасходованиеДенежныхСредств.ЖелательнаяДатаПлатежа КАК ЖелательнаяДатаПлатежа,
+			ЗаявкаНаРасходованиеДенежныхСредств.ХозяйственнаяОперация КАК ХозяйственнаяОперация,
+			ЗаявкаНаРасходованиеДенежныхСредств.Подразделение КАК Подразделение
+		ИЗ
+			Документ.ЗаявкаНаРасходованиеДенежныхСредств КАК ЗаявкаНаРасходованиеДенежныхСредств
 		
-	ЛЕВОЕ СОЕДИНЕНИЕ
-		Справочник.СтатьиДвиженияДенежныхСредств КАК СтатьиДДС
-	ПО
-		СтатьиДДС.Ссылка = ГрафикПлатежей.СтатьяДвиженияДенежныхСредств
+		ОБЪЕДИНИТЬ ВСЕ
 		
+		ВЫБРАТЬ
+			ЗаявкаНаКомандировку.Ссылка,
+			ЗаявкаНаКомандировку.Номер,
+			ЗаявкаНаКомандировку.Дата,
+			ЗаявкаНаКомандировку.Статус,
+			ЗаявкаНаКомандировку.СтатьяДвиженияДенежныхСредств.ПриоритетОплаты,
+			ЗаявкаНаКомандировку.СтатьяДвиженияДенежныхСредств,
+			ЗаявкаНаКомандировку.СуммаДокумента,
+			ЗаявкаНаКомандировку.Валюта,
+			ЗаявкаНаКомандировку.ЖелательнаяДатаПлатежа,
+			ЗНАЧЕНИЕ(Перечисление.ХозяйственныеОперации.ВыдачаДенежныхСредствПодотчетнику),
+			ЗаявкаНаКомандировку.Подразделение
+		ИЗ
+			Документ.ЗаявкаНаКомандировку КАК ЗаявкаНаКомандировку) КАК Заявка
+		ПО (Заявка.Ссылка = ГрафикПлатежей.ОбъектОплаты)
 ГДЕ
-	ГрафикПлатежей.ОбъектОплаты ССЫЛКА Документ.ЗаявкаНаРасходованиеДенежныхСредств
+	ГрафикПлатежей.ОбъектОплаты.Ссылка = Заявка.Ссылка
 	И ГрафикПлатежей.ПоступлениеСписание = ЗНАЧЕНИЕ(Перечисление.ТипыДвиженияДенежныхСредств.Списание)
-	
 {ГДЕ
 	ГрафикПлатежей.ОбластьПланирования КАК ОбластьПланирования,
-	Заявка.Статус КАК СтатусЗаявки
-}</QueryText>
-				<MainTable>1:295ba648-c1d1-46ca-8e70-632d796cd266</MainTable>
+	Заявка.Статус КАК СтатусЗаявки}</QueryText>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ПриоритетЗаявки</dcssch:dataPath>
+					<dcssch:field>ПриоритетЗаявки</dcssch:field>
+					<dcssch:title xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Приоритет заявки</v8:content>
+						</v8:item>
+					</dcssch:title>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ОбластьПланирования</dcssch:dataPath>
+					<dcssch:field>ОбластьПланирования</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>СтатусЗаявки</dcssch:dataPath>
+					<dcssch:field>СтатусЗаявки</dcssch:field>
+					<dcssch:title xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Статус заявки</v8:content>
+						</v8:item>
+					</dcssch:title>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Организация</dcssch:dataPath>
+					<dcssch:field>Организация</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>НазначениеПлатежа</dcssch:dataPath>
+					<dcssch:field>НазначениеПлатежа</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Ссылка</dcssch:dataPath>
+					<dcssch:field>Ссылка</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Номер</dcssch:dataPath>
+					<dcssch:field>Номер</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Дата</dcssch:dataPath>
+					<dcssch:field>Дата</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>СуммаДокумента</dcssch:dataPath>
+					<dcssch:field>СуммаДокумента</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Валюта</dcssch:dataPath>
+					<dcssch:field>Валюта</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ЖелательнаяДатаПлатежа</dcssch:dataPath>
+					<dcssch:field>ЖелательнаяДатаПлатежа</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>БанковскийСчетКасса</dcssch:dataPath>
+					<dcssch:field>БанковскийСчетКасса</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Операция</dcssch:dataPath>
+					<dcssch:field>Операция</dcssch:field>
+					<dcssch:title xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Операция</v8:content>
+						</v8:item>
+					</dcssch:title>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Подразделение</dcssch:dataPath>
+					<dcssch:field>Подразделение</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ОбъектОплаты</dcssch:dataPath>
+					<dcssch:field>ОбъектОплаты</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ПлательщикПолучатель</dcssch:dataPath>
+					<dcssch:field>ПлательщикПолучатель</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ДатаПлатежа</dcssch:dataPath>
+					<dcssch:field>ДатаПлатежа</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Сумма</dcssch:dataPath>
+					<dcssch:field>Сумма</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>КРаспределению</dcssch:dataPath>
+					<dcssch:field>КРаспределению</dcssch:field>
+					<dcssch:title xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>К распределению</v8:content>
+						</v8:item>
+					</dcssch:title>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>СтатьяДвиженияДенежныхСредств</dcssch:dataPath>
+					<dcssch:field>СтатьяДвиженияДенежныхСредств</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ПриоритетСтатьиДДС</dcssch:dataPath>
+					<dcssch:field>ПриоритетСтатьиДДС</dcssch:field>
+					<dcssch:title xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Приоритет статьи ДДС</v8:content>
+						</v8:item>
+					</dcssch:title>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ДоступноРаспределение</dcssch:dataPath>
+					<dcssch:field>ДоступноРаспределение</dcssch:field>
+					<dcssch:title xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Доступно распределение</v8:content>
+						</v8:item>
+					</dcssch:title>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ПриоритетОплаты</dcssch:dataPath>
+					<dcssch:field>ПриоритетОплаты</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ХозяйственнаяОперация</dcssch:dataPath>
+					<dcssch:field>ХозяйственнаяОперация</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Статус</dcssch:dataPath>
+					<dcssch:field>Статус</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Валюта1</dcssch:dataPath>
+					<dcssch:field>Валюта1</dcssch:field>
+					<dcssch:title xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Валюта1</v8:content>
+						</v8:item>
+					</dcssch:title>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>НаправлениеДеятельности</dcssch:dataPath>
+					<dcssch:field>НаправлениеДеятельности</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ТипОбъектаОплаты</dcssch:dataPath>
+					<dcssch:field>ТипОбъектаОплаты</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Приоритет</dcssch:dataPath>
+					<dcssch:field>Приоритет</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Ответственный</dcssch:dataPath>
+					<dcssch:field>Ответственный</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ФормаОплаты</dcssch:dataPath>
+					<dcssch:field>ФормаОплаты</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ДатаАктуальностиГрафика</dcssch:dataPath>
+					<dcssch:field>ДатаАктуальностиГрафика</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ПоступлениеСписание</dcssch:dataPath>
+					<dcssch:field>ПоступлениеСписание</dcssch:field>
+				</Field>
+				<MainTable>InformationRegister.ГрафикПлатежей</MainTable>
+				<ListSettings>
+					<dcsset:filter>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</dcsset:userSettingID>
+					</dcsset:filter>
+					<dcsset:order>
+						<dcsset:item xsi:type="dcsset:OrderItemField">
+							<dcsset:field>ДатаПлатежа</dcsset:field>
+							<dcsset:orderType>Asc</dcsset:orderType>
+						</dcsset:item>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>88619765-ccb3-46c6-ac52-38e9c992ebd4</dcsset:userSettingID>
+					</dcsset:order>
+					<dcsset:conditionalAppearance>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>b75fecce-942b-4aed-abc9-e6a02e460fb3</dcsset:userSettingID>
+					</dcsset:conditionalAppearance>
+					<dcsset:itemsViewMode>Normal</dcsset:itemsViewMode>
+					<dcsset:itemsUserSettingID>911b6018-f537-43e8-a417-da56b22f9aec</dcsset:itemsUserSettingID>
+				</ListSettings>
+			</Settings>
+		</Attribute>
+		<Attribute name="ТекущаяЗаявка" id="1000002">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Текущая заявка</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Current request</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:DocumentRef.ЗаявкаНаРасходованиеДенежныхСредств</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="Объект" id="1000003">
+			<Type>
+				<v8:Type>cfg:DataProcessorObject.ПлатежныйКалендарь</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<Save>
+				<Field>1000003/0:5924bbea-20b1-4f64-8ed6-68dc2eb2fa04</Field>
+				<Field>Объект.Аренда</Field>
+				<Field>Объект.ВалютаИтогов</Field>
+				<Field>Объект.ВозвратыКлиентам</Field>
+				<Field>Объект.ВозвратыОтПоставщиков</Field>
+				<Field>Объект.ГруппироватьПоВалютам</Field>
+				<Field>Объект.Депозиты</Field>
+				<Field>Объект.ДнейПланирования</Field>
+				<Field>Объект.ЗаймыВыданные</Field>
+				<Field>Объект.ЗаказыКлиентов</Field>
+				<Field>Объект.ЗаказыПоставщикам</Field>
+				<Field>Объект.КредитыИлиЗаймыПолученные</Field>
+				<Field>Объект.НесогласованныеЗаявки</Field>
+				<Field>Объект.ОжидаемыеПоступления</Field>
+				<Field>Объект.ОтборБанковскиеСчетаКассы</Field>
+				<Field>Объект.ОтборВалюта</Field>
+				<Field>Объект.ОтборОрганизации</Field>
+				<Field>Объект.ОтображатьНераспределенныеПоСчетам</Field>
+				<Field>Объект.СкрыватьВыходные</Field>
+				<Field>Объект.ФильтрСчетовКалендаря</Field>
+			</Save>
+			<Columns>
+				<AdditionalColumns table="Объект.ДеревоПлатежей">
+					<Column name="Группировка" id="1">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Банковский счет / Касса</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Bank account / cash account</v8:content>
+							</v8:item>
+						</Title>
+						<Type>
+							<v8:Type>cfg:CatalogRef.Валюты</v8:Type>
+							<v8:Type>cfg:EnumRef.ТипыДвиженияДенежныхСредств</v8:Type>
+							<v8:Type>xs:string</v8:Type>
+							<v8:Type>cfg:CatalogRef.Кассы</v8:Type>
+							<v8:Type>cfg:CatalogRef.БанковскиеСчетаОрганизаций</v8:Type>
+							<v8:StringQualifiers>
+								<v8:Length>0</v8:Length>
+								<v8:AllowedLength>Variable</v8:AllowedLength>
+							</v8:StringQualifiers>
+						</Type>
+					</Column>
+					<Column name="Остаток" id="2">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Остаток</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Expected balance</v8:content>
+							</v8:item>
+						</Title>
+						<Type>
+							<v8:TypeSet>cfg:DefinedType.ДенежнаяСуммаЛюбогоЗнака</v8:TypeSet>
+						</Type>
+					</Column>
+					<Column name="Сумма" id="4">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Сумма</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Amount</v8:content>
+							</v8:item>
+						</Title>
+						<Type>
+							<v8:TypeSet>cfg:DefinedType.ДенежнаяСуммаЛюбогоЗнака</v8:TypeSet>
+						</Type>
+					</Column>
+					<Column name="БанковскийСчетКасса" id="3">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Банковский счет касса</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Bank account cash account</v8:content>
+							</v8:item>
+						</Title>
+						<Type>
+							<v8:Type>xs:string</v8:Type>
+							<v8:Type>cfg:CatalogRef.Кассы</v8:Type>
+							<v8:Type>cfg:CatalogRef.БанковскиеСчетаОрганизаций</v8:Type>
+							<v8:StringQualifiers>
+								<v8:Length>0</v8:Length>
+								<v8:AllowedLength>Variable</v8:AllowedLength>
+							</v8:StringQualifiers>
+						</Type>
+					</Column>
+					<Column name="Растяжка" id="5">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Растяжка</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Stretching</v8:content>
+							</v8:item>
+						</Title>
+						<Type>
+							<v8:Type>xs:string</v8:Type>
+							<v8:StringQualifiers>
+								<v8:Length>0</v8:Length>
+								<v8:AllowedLength>Variable</v8:AllowedLength>
+							</v8:StringQualifiers>
+						</Type>
+					</Column>
+					<Column name="ВидСтроки" id="6">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Вид строки</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Line kind</v8:content>
+							</v8:item>
+						</Title>
+						<Type>
+							<v8:Type>xs:decimal</v8:Type>
+							<v8:NumberQualifiers>
+								<v8:Digits>10</v8:Digits>
+								<v8:FractionDigits>0</v8:FractionDigits>
+								<v8:AllowedSign>Any</v8:AllowedSign>
+							</v8:NumberQualifiers>
+						</Type>
+					</Column>
+					<Column name="ПоступлениеСписание" id="10">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Поступление списание</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Cash inflow and outflow</v8:content>
+							</v8:item>
+						</Title>
+						<Type>
+							<v8:Type>cfg:EnumRef.ТипыДвиженияДенежныхСредств</v8:Type>
+						</Type>
+					</Column>
+					<Column name="ВалютаСтроки" id="11">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Валюта строки</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Line currency</v8:content>
+							</v8:item>
+						</Title>
+						<Type>
+							<v8:Type>cfg:CatalogRef.Валюты</v8:Type>
+						</Type>
+					</Column>
+					<Column name="ДоступноДляПереноса" id="13">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Доступно для переноса</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Available for transfer</v8:content>
+							</v8:item>
+						</Title>
+						<Type>
+							<v8:Type>xs:boolean</v8:Type>
+						</Type>
+					</Column>
+					<Column name="ОтдельныйСчетГОЗ" id="14">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Отдельный счет ГОЗ</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Separate SDO account</v8:content>
+							</v8:item>
+						</Title>
+						<Type>
+							<v8:Type>xs:boolean</v8:Type>
+						</Type>
+					</Column>
+					<Column name="ОстатокВОднойВалюте" id="7">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Остаток в одной валюте</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Balance in a single currency</v8:content>
+							</v8:item>
+						</Title>
+						<Type>
+							<v8:TypeSet>cfg:DefinedType.ДенежнаяСуммаЛюбогоЗнака</v8:TypeSet>
+						</Type>
+					</Column>
+					<Column name="СтрокаИтогов" id="8">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Строка итогов</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Totals line</v8:content>
+							</v8:item>
+						</Title>
+						<Type>
+							<v8:Type>xs:boolean</v8:Type>
+						</Type>
+					</Column>
+					<Column name="Валюта" id="9">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Валюта</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Currency</v8:content>
+							</v8:item>
+						</Title>
+						<Type>
+							<v8:Type>cfg:CatalogRef.Валюты</v8:Type>
+						</Type>
+					</Column>
+				</AdditionalColumns>
+			</Columns>
+		</Attribute>
+		<Attribute name="ПлатежиВКалендаре" id="1000004">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Платежи в календаре</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Payments in the calendar</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:DynamicList</v8:Type>
+			</Type>
+			<UseAlways>
+				<Field>ПлатежиВКалендаре.БанковскийСчетКасса</Field>
+				<Field>ПлатежиВКалендаре.Валюта</Field>
+				<Field>ПлатежиВКалендаре.ВалютаПлатежа</Field>
+				<Field>ПлатежиВКалендаре.ДатаАктуальностиГрафика</Field>
+				<Field>ПлатежиВКалендаре.ДоступноРаспределение</Field>
+				<Field>ПлатежиВКалендаре.ОбъектОплаты</Field>
+				<Field>ПлатежиВКалендаре.ПланированиеСуммы</Field>
+				<Field>ПлатежиВКалендаре.Ссылка</Field>
+				<Field>ПлатежиВКалендаре.Сумма</Field>
+				<Field>ПлатежиВКалендаре.ФормаОплаты</Field>
+			</UseAlways>
+			<Settings xsi:type="DynamicList">
+				<ManualQuery>true</ManualQuery>
+				<DynamicDataRead>false</DynamicDataRead>
+				<QueryText>ВЫБРАТЬ
+	ГрафикПлатежей.ОбъектОплаты КАК ОбъектОплаты,
+	ГрафикПлатежей.БанковскийСчетКасса КАК БанковскийСчетКасса,
+	ГрафикПлатежей.ДатаПлатежа КАК ДатаПлатежа,
+	ГрафикПлатежей.ПоступлениеСписание КАК ПоступлениеСписание,
+	ГрафикПлатежей.Валюта КАК Валюта,
+	ВЫБОР
+		КОГДА ГрафикПлатежей.ПоступлениеСписание = ЗНАЧЕНИЕ(Перечисление.ТипыДвиженияДенежныхСредств.Поступление)
+			ТОГДА ГрафикПлатежей.Сумма
+		ИНАЧЕ -ГрафикПлатежей.Сумма
+	КОНЕЦ КАК Сумма,
+	ГрафикПлатежей.СтатьяДвиженияДенежныхСредств КАК СтатьяДвиженияДенежныхСредств,
+	ГрафикПлатежей.ХозяйственнаяОперация КАК Операция,
+	ГрафикПлатежей.Подразделение КАК Подразделение,
+	ГрафикПлатежей.НаправлениеДеятельности КАК НаправлениеДеятельности,
+	ГрафикПлатежей.Приоритет КАК ПриоритетЗаявки,
+	ГрафикПлатежей.Ответственный КАК Ответственный,
+	ГрафикПлатежей.ТипОбъектаОплаты КАК ТипОбъектаОплаты,
+	ТИПЗНАЧЕНИЯ(ГрафикПлатежей.ОбъектОплаты) КАК ТипОбъектаОплатыНаименование,
+	ГрафикПлатежей.Номер КАК Номер,
+	ГрафикПлатежей.Дата КАК Дата,
+	ГрафикПлатежей.Организация КАК Организация,
+	ГрафикПлатежей.ПлательщикПолучатель КАК ПлательщикПолучатель,
+	ГрафикПлатежей.СуммаДокумента КАК СуммаДокумента,
+	ГрафикПлатежей.ФормаОплаты КАК ФормаОплаты,
+	ГрафикПлатежей.ДатаАктуальностиГрафика КАК ДатаАктуальностиГрафика,
+	ГрафикПлатежей.ОбластьПланирования КАК ОбластьПланирования,
+	ЕСТЬNULL(СтатьиДДС.ПриоритетОплаты, ЗНАЧЕНИЕ(Справочник.ПриоритетыОплаты.ПустаяСсылка)) КАК ПриоритетСтатьиДДС,
+	ВЫБОР
+		КОГДА ТИПЗНАЧЕНИЯ(ГрафикПлатежей.ОбъектОплаты) = ТИП(Документ.ЗаявкаНаРасходованиеДенежныхСредств)
+				ИЛИ ТИПЗНАЧЕНИЯ(ГрафикПлатежей.ОбъектОплаты) = ТИП(Документ.ЗаявкаНаКомандировку)
+			ТОГДА Заявка.НазначениеПлатежа
+		КОГДА ТИПЗНАЧЕНИЯ(ГрафикПлатежей.ОбъектОплаты) = ТИП(Документ.ОжидаемоеПоступлениеДенежныхСредств)
+			ТОГДА ОжидаемоеПоступление.НазначениеПлатежа
+	КОНЕЦ КАК НазначениеПлатежа,
+	Заявка.ПланированиеСуммы КАК ПланированиеСуммы,
+	ВЫБОР
+		КОГДА ТИПЗНАЧЕНИЯ(ГрафикПлатежей.БанковскийСчетКасса) = ТИП(Справочник.БанковскиеСчетаОрганизаций)
+			ТОГДА ВЫРАЗИТЬ(ГрафикПлатежей.БанковскийСчетКасса КАК Справочник.БанковскиеСчетаОрганизаций).ВалютаДенежныхСредств
+		КОГДА ТИПЗНАЧЕНИЯ(ГрафикПлатежей.БанковскийСчетКасса) = ТИП(Справочник.Кассы)
+			ТОГДА ВЫРАЗИТЬ(ГрафикПлатежей.БанковскийСчетКасса КАК Справочник.Кассы).ВалютаДенежныхСредств
+		ИНАЧЕ ГрафикПлатежей.Валюта
+	КОНЕЦ КАК ВалютаПлатежа,
+	НЕ Заявка.Ссылка ЕСТЬ NULL КАК ДоступноРаспределение,
+	ГрафикПлатежей.ОбъектОплаты КАК Ссылка
+ИЗ
+	РегистрСведений.ГрафикПлатежей КАК ГрафикПлатежей
+		ЛЕВОЕ СОЕДИНЕНИЕ Документ.РаспоряжениеНаПеремещениеДенежныхСредств КАК Распоряжение
+		ПО (Распоряжение.Ссылка = ГрафикПлатежей.ОбъектОплаты)
+		ЛЕВОЕ СОЕДИНЕНИЕ Документ.ОжидаемоеПоступлениеДенежныхСредств КАК ОжидаемоеПоступление
+		ПО (ОжидаемоеПоступление.Ссылка = ГрафикПлатежей.ОбъектОплаты)
+		ЛЕВОЕ СОЕДИНЕНИЕ Справочник.СтатьиДвиженияДенежныхСредств КАК СтатьиДДС
+		ПО (СтатьиДДС.Ссылка = ГрафикПлатежей.СтатьяДвиженияДенежныхСредств)
+		ЛЕВОЕ СОЕДИНЕНИЕ (ВЫБРАТЬ
+			ЗаявкаНаРасходованиеДенежныхСредств.Ссылка КАК Ссылка,
+			ЗаявкаНаРасходованиеДенежныхСредств.НазначениеПлатежа КАК НазначениеПлатежа,
+			ЗаявкаНаРасходованиеДенежныхСредств.ПланированиеСуммы КАК ПланированиеСуммы,
+			ЗаявкаНаРасходованиеДенежныхСредств.Статус КАК Статус
+		ИЗ
+			Документ.ЗаявкаНаРасходованиеДенежныхСредств КАК ЗаявкаНаРасходованиеДенежныхСредств
+		
+		ОБЪЕДИНИТЬ ВСЕ
+		
+		ВЫБРАТЬ
+			ЗаявкаНаКомандировку.Ссылка,
+			ЗаявкаНаКомандировку.СтатьяДвиженияДенежныхСредств,
+			ЗНАЧЕНИЕ(Перечисление.СпособыПланированияОплатыЗаявок.ВВалютеПлатежа),
+			ЗаявкаНаКомандировку.Статус
+		ИЗ
+			Документ.ЗаявкаНаКомандировку КАК ЗаявкаНаКомандировку) КАК Заявка
+		ПО (Заявка.Ссылка = ГрафикПлатежей.ОбъектОплаты)
+{ГДЕ
+	ГрафикПлатежей.ОбластьПланирования КАК ОбластьПланирования}</QueryText>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ПриоритетСтатьиДДС</dcssch:dataPath>
+					<dcssch:field>ПриоритетСтатьиДДС</dcssch:field>
+					<dcssch:title xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Приоритет статьи ДДС</v8:content>
+						</v8:item>
+					</dcssch:title>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ОбластьПланирования</dcssch:dataPath>
+					<dcssch:field>ОбластьПланирования</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ПоступлениеСписание</dcssch:dataPath>
+					<dcssch:field>ПоступлениеСписание</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Операция</dcssch:dataPath>
+					<dcssch:field>Операция</dcssch:field>
+					<dcssch:title xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Операция</v8:content>
+						</v8:item>
+					</dcssch:title>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>БанковскийСчетКасса</dcssch:dataPath>
+					<dcssch:field>БанковскийСчетКасса</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ДатаАктуальностиГрафика</dcssch:dataPath>
+					<dcssch:field>ДатаАктуальностиГрафика</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ОбъектОплаты</dcssch:dataPath>
+					<dcssch:field>ОбъектОплаты</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Ответственный</dcssch:dataPath>
+					<dcssch:field>Ответственный</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Валюта</dcssch:dataPath>
+					<dcssch:field>Валюта</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ДатаПлатежа</dcssch:dataPath>
+					<dcssch:field>ДатаПлатежа</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ВалютаПлатежа</dcssch:dataPath>
+					<dcssch:field>ВалютаПлатежа</dcssch:field>
+					<dcssch:title xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Валюта платежа</v8:content>
+						</v8:item>
+					</dcssch:title>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Сумма</dcssch:dataPath>
+					<dcssch:field>Сумма</dcssch:field>
+					<dcssch:title xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Сумма</v8:content>
+						</v8:item>
+					</dcssch:title>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>СтатьяДвиженияДенежныхСредств</dcssch:dataPath>
+					<dcssch:field>СтатьяДвиженияДенежныхСредств</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Подразделение</dcssch:dataPath>
+					<dcssch:field>Подразделение</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ТипОбъектаОплаты</dcssch:dataPath>
+					<dcssch:field>ТипОбъектаОплаты</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>НаправлениеДеятельности</dcssch:dataPath>
+					<dcssch:field>НаправлениеДеятельности</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ПриоритетЗаявки</dcssch:dataPath>
+					<dcssch:field>ПриоритетЗаявки</dcssch:field>
+					<dcssch:title xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Приоритет заявки</v8:content>
+						</v8:item>
+					</dcssch:title>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ТипОбъектаОплатыНаименование</dcssch:dataPath>
+					<dcssch:field>ТипОбъектаОплатыНаименование</dcssch:field>
+					<dcssch:title xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Тип объекта оплаты наименование</v8:content>
+						</v8:item>
+					</dcssch:title>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Номер</dcssch:dataPath>
+					<dcssch:field>Номер</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Дата</dcssch:dataPath>
+					<dcssch:field>Дата</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>НазначениеПлатежа</dcssch:dataPath>
+					<dcssch:field>НазначениеПлатежа</dcssch:field>
+					<dcssch:title xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Назначение платежа</v8:content>
+						</v8:item>
+					</dcssch:title>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Организация</dcssch:dataPath>
+					<dcssch:field>Организация</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ПлательщикПолучатель</dcssch:dataPath>
+					<dcssch:field>ПлательщикПолучатель</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>СуммаДокумента</dcssch:dataPath>
+					<dcssch:field>СуммаДокумента</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ФормаОплаты</dcssch:dataPath>
+					<dcssch:field>ФормаОплаты</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ПланированиеСуммы</dcssch:dataPath>
+					<dcssch:field>ПланированиеСуммы</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ДоступноРаспределение</dcssch:dataPath>
+					<dcssch:field>ДоступноРаспределение</dcssch:field>
+					<dcssch:title xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Доступно распределение</v8:content>
+						</v8:item>
+					</dcssch:title>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Ссылка</dcssch:dataPath>
+					<dcssch:field>Ссылка</dcssch:field>
+					<dcssch:title xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Ссылка</v8:content>
+						</v8:item>
+					</dcssch:title>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ХозяйственнаяОперация</dcssch:dataPath>
+					<dcssch:field>ХозяйственнаяОперация</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Приоритет</dcssch:dataPath>
+					<dcssch:field>Приоритет</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Статус</dcssch:dataPath>
+					<dcssch:field>Статус</dcssch:field>
+				</Field>
+				<MainTable>InformationRegister.ГрафикПлатежей</MainTable>
 				<ListSettings>
 					<dcsset:filter>
 						<dcsset:viewMode>Normal</dcsset:viewMode>
@@ -1989,6 +2803,7 @@
 								<ExtendedTooltip name="ОтборОрганизацииРасширеннаяПодсказка" id="126"/>
 							</InputField>
 							<InputField name="ОтборВалюта" id="130">
+								<DataPath>Объект.ОтборВалюта</DataPath>
 								<Width>8</Width>
 								<AutoMaxWidth>false</AutoMaxWidth>
 								<MaxWidth>8</MaxWidth>
@@ -2218,10 +3033,13 @@
 									</v8:item>
 								</Title>
 								<CommandSet>
+									<ExcludedCommand>Change</ExcludedCommand>
+									<ExcludedCommand>Copy</ExcludedCommand>
 									<ExcludedCommand>CopyToClipboard</ExcludedCommand>
+									<ExcludedCommand>Create</ExcludedCommand>
+									<ExcludedCommand>Delete</ExcludedCommand>
 									<ExcludedCommand>LoadDynamicListSettings</ExcludedCommand>
 									<ExcludedCommand>SaveDynamicListSettings</ExcludedCommand>
-									<ExcludedCommand>SearchHistory</ExcludedCommand>
 								</CommandSet>
 								<SearchStringLocation>Bottom</SearchStringLocation>
 								<SearchControlLocation>None</SearchControlLocation>
@@ -2369,7 +3187,7 @@
 								</SearchControlAddition>
 								<ChildItems>
 									<LabelField name="ЗаявкиКОплатеДатаПлатежа" id="26">
-										<DataPath>~ЗаявкиКОплате.ДатаПлатежа</DataPath>
+										<DataPath>ЗаявкиКОплате.ДатаПлатежа</DataPath>
 										<Title>
 											<v8:item>
 												<v8:lang>ru</v8:lang>
@@ -2386,7 +3204,7 @@
 										<ExtendedTooltip name="ЗаявкиКОплатеДатаПлатежаРасширеннаяПодсказка" id="28"/>
 									</LabelField>
 									<LabelField name="ЗаявкиКОплатеСумма" id="53">
-										<DataPath>~ЗаявкиКОплате.Сумма</DataPath>
+										<DataPath>ЗаявкиКОплате.Сумма</DataPath>
 										<Title>
 											<v8:item>
 												<v8:lang>ru</v8:lang>
@@ -2401,7 +3219,7 @@
 										<ExtendedTooltip name="ЗаявкиКОплатеСуммаРасширеннаяПодсказка" id="55"/>
 									</LabelField>
 									<LabelField name="ЗаявкиКОплатеКРаспределению" id="38">
-										<DataPath>~ЗаявкиКОплате.КРаспределению</DataPath>
+										<DataPath>ЗаявкиКОплате.КРаспределению</DataPath>
 										<Title>
 											<v8:item>
 												<v8:lang>ru</v8:lang>
@@ -2426,12 +3244,12 @@
 										<ExtendedTooltip name="ЗаявкиКОплатеКРаспределениюРасширеннаяПодсказка" id="40"/>
 									</LabelField>
 									<LabelField name="ЗаявкиКОплатеВалюта" id="20">
-										<DataPath>~ЗаявкиКОплате.Валюта</DataPath>
+										<DataPath>ЗаявкиКОплате.Валюта</DataPath>
 										<ContextMenu name="ЗаявкиКОплатеВалютаКонтекстноеМеню" id="21"/>
 										<ExtendedTooltip name="ЗаявкиКОплатеВалютаРасширеннаяПодсказка" id="22"/>
 									</LabelField>
 									<LabelField name="ЗаявкиКОплатеПриоритет" id="44">
-										<DataPath>~ЗаявкиКОплате.ПриоритетЗаявки</DataPath>
+										<DataPath>ЗаявкиКОплате.ПриоритетЗаявки</DataPath>
 										<Title>
 											<v8:item>
 												<v8:lang>ru</v8:lang>
@@ -2446,7 +3264,7 @@
 										<ExtendedTooltip name="ЗаявкиКОплатеПриоритетРасширеннаяПодсказка" id="46"/>
 									</LabelField>
 									<LabelField name="ЗаявкиКОплатеПолучатель" id="41">
-										<DataPath>~ЗаявкиКОплате.ПлательщикПолучатель</DataPath>
+										<DataPath>ЗаявкиКОплате.ПлательщикПолучатель</DataPath>
 										<Title>
 											<v8:item>
 												<v8:lang>ru</v8:lang>
@@ -2461,32 +3279,32 @@
 										<ExtendedTooltip name="ЗаявкиКОплатеПолучательРасширеннаяПодсказка" id="43"/>
 									</LabelField>
 									<LabelField name="ЗаявкиКОплатеНазначениеПлатежа" id="29">
-										<DataPath>~ЗаявкиКОплате.НазначениеПлатежа</DataPath>
+										<DataPath>ЗаявкиКОплате.НазначениеПлатежа</DataPath>
 										<ContextMenu name="ЗаявкиКОплатеНазначениеПлатежаКонтекстноеМеню" id="30"/>
 										<ExtendedTooltip name="ЗаявкиКОплатеНазначениеПлатежаРасширеннаяПодсказка" id="31"/>
 									</LabelField>
 									<LabelField name="ЗаявкиКОплатеБанковскийСчетКасса" id="438">
-										<DataPath>~ЗаявкиКОплате.БанковскийСчетКасса</DataPath>
+										<DataPath>ЗаявкиКОплате.БанковскийСчетКасса</DataPath>
 										<ContextMenu name="ЗаявкиКОплатеБанковскийСчетКассаКонтекстноеМеню" id="439"/>
 										<ExtendedTooltip name="ЗаявкиКОплатеБанковскийСчетКассаРасширеннаяПодсказка" id="440"/>
 									</LabelField>
 									<LabelField name="ЗаявкиКОплатеНомер" id="32">
-										<DataPath>~ЗаявкиКОплате.Номер</DataPath>
+										<DataPath>ЗаявкиКОплате.Номер</DataPath>
 										<ContextMenu name="ЗаявкиКОплатеНомерКонтекстноеМеню" id="33"/>
 										<ExtendedTooltip name="ЗаявкиКОплатеНомерРасширеннаяПодсказка" id="34"/>
 									</LabelField>
 									<LabelField name="ЗаявкиКОплатеДата" id="23">
-										<DataPath>~ЗаявкиКОплате.Дата</DataPath>
+										<DataPath>ЗаявкиКОплате.Дата</DataPath>
 										<ContextMenu name="ЗаявкиКОплатеДатаКонтекстноеМеню" id="24"/>
 										<ExtendedTooltip name="ЗаявкиКОплатеДатаРасширеннаяПодсказка" id="25"/>
 									</LabelField>
 									<LabelField name="ЗаявкиКОплатеОрганизация" id="35">
-										<DataPath>~ЗаявкиКОплате.Организация</DataPath>
+										<DataPath>ЗаявкиКОплате.Организация</DataPath>
 										<ContextMenu name="ЗаявкиКОплатеОрганизацияКонтекстноеМеню" id="36"/>
 										<ExtendedTooltip name="ЗаявкиКОплатеОрганизацияРасширеннаяПодсказка" id="37"/>
 									</LabelField>
 									<LabelField name="ЗаявкиКОплатеСсылка" id="56">
-										<DataPath>~ЗаявкиКОплате.Ссылка</DataPath>
+										<DataPath>ЗаявкиКОплате.Ссылка</DataPath>
 										<UserVisible>
 											<xr:Common>false</xr:Common>
 										</UserVisible>
@@ -2729,6 +3547,7 @@
 												<AutoInsertNewRow>true</AutoInsertNewRow>
 												<EnableDrag>true</EnableDrag>
 												<FileDragMode>AsFile</FileDragMode>
+												<DataPath>Объект.ДеревоПлатежей</DataPath>
 												<Title>
 													<v8:item>
 														<v8:lang>ru</v8:lang>
@@ -2739,6 +3558,23 @@
 														<v8:content>Payment tree</v8:content>
 													</v8:item>
 												</Title>
+												<CommandSet>
+													<ExcludedCommand>Add</ExcludedCommand>
+													<ExcludedCommand>Change</ExcludedCommand>
+													<ExcludedCommand>Copy</ExcludedCommand>
+													<ExcludedCommand>CopyToClipboard</ExcludedCommand>
+													<ExcludedCommand>Delete</ExcludedCommand>
+													<ExcludedCommand>EndEdit</ExcludedCommand>
+													<ExcludedCommand>HierarchicalList</ExcludedCommand>
+													<ExcludedCommand>List</ExcludedCommand>
+													<ExcludedCommand>MoveDown</ExcludedCommand>
+													<ExcludedCommand>MoveUp</ExcludedCommand>
+													<ExcludedCommand>OutputList</ExcludedCommand>
+													<ExcludedCommand>ShowRowRearrangement</ExcludedCommand>
+													<ExcludedCommand>SortListAsc</ExcludedCommand>
+													<ExcludedCommand>SortListDesc</ExcludedCommand>
+													<ExcludedCommand>Tree</ExcludedCommand>
+												</CommandSet>
 												<ContextMenu name="ДеревоПлатежейКонтекстноеМеню" id="324">
 													<ChildItems>
 														<Button name="ДеревоПлатежейКонтекстноеМенюСдвинутьВверх" id="524">
@@ -2888,6 +3724,7 @@
 												</SearchControlAddition>
 												<ChildItems>
 													<InputField name="ДеревоПлатежейГруппировка" id="348">
+														<DataPath>Объект.ДеревоПлатежей.Группировка</DataPath>
 														<EditMode>EnterOnInput</EditMode>
 														<FixingInTable>Left</FixingInTable>
 														<Width>25</Width>
@@ -2896,6 +3733,7 @@
 														<ExtendedTooltip name="ДеревоПлатежейГруппировкаРасширеннаяПодсказка" id="350"/>
 													</InputField>
 													<InputField name="ДеревоПлатежейВалюта" id="567">
+														<DataPath>Объект.ДеревоПлатежей.ВалютаСтроки</DataPath>
 														<Title>
 															<v8:item>
 																<v8:lang>ru</v8:lang>
@@ -2914,6 +3752,7 @@
 														<ExtendedTooltip name="ДеревоПлатежейВалютаРасширеннаяПодсказка" id="569"/>
 													</InputField>
 													<InputField name="ДеревоПлатежейОстаток" id="339">
+														<DataPath>Объект.ДеревоПлатежей.Остаток</DataPath>
 														<EditMode>EnterOnInput</EditMode>
 														<Width>12</Width>
 														<HorizontalStretch>false</HorizontalStretch>
@@ -2921,6 +3760,7 @@
 														<ExtendedTooltip name="ДеревоПлатежейОстатокРасширеннаяПодсказка" id="341"/>
 													</InputField>
 													<InputField name="ДеревоПлатежейРастяжка" id="351">
+														<DataPath>Объект.ДеревоПлатежей.Растяжка</DataPath>
 														<TitleLocation>None</TitleLocation>
 														<EditMode>EnterOnInput</EditMode>
 														<HorizontalStretch>true</HorizontalStretch>
@@ -3168,6 +4008,7 @@
 										<UseAlternationRowColor>true</UseAlternationRowColor>
 										<EnableStartDrag>true</EnableStartDrag>
 										<FileDragMode>AsFile</FileDragMode>
+										<DataPath>ПлатежиВКалендаре</DataPath>
 										<Title>
 											<v8:item>
 												<v8:lang>ru</v8:lang>
@@ -3178,6 +4019,14 @@
 												<v8:content>Payments in the calendar</v8:content>
 											</v8:item>
 										</Title>
+										<CommandSet>
+											<ExcludedCommand>Change</ExcludedCommand>
+											<ExcludedCommand>Copy</ExcludedCommand>
+											<ExcludedCommand>Create</ExcludedCommand>
+											<ExcludedCommand>Delete</ExcludedCommand>
+											<ExcludedCommand>LoadDynamicListSettings</ExcludedCommand>
+											<ExcludedCommand>SaveDynamicListSettings</ExcludedCommand>
+										</CommandSet>
 										<AutoRefresh>true</AutoRefresh>
 										<AutoRefreshPeriod>10</AutoRefreshPeriod>
 										<Period>
@@ -3322,6 +4171,7 @@
 										</SearchControlAddition>
 										<ChildItems>
 											<LabelField name="ПлатежиВКалендареТипОбъектаОплатыНаименование" id="463">
+												<DataPath>~ПлатежиВКалендаре.ТипОбъектаОплатыНаименование</DataPath>
 												<Title>
 													<v8:item>
 														<v8:lang>ru</v8:lang>
@@ -3336,11 +4186,13 @@
 												<ExtendedTooltip name="ПлатежиВКалендареТипОбъектаОплатыНаименованиеРасширеннаяПодсказка" id="465"/>
 											</LabelField>
 											<LabelField name="ПлатежиВКалендареНомер" id="466">
+												<DataPath>~ПлатежиВКалендаре.Номер</DataPath>
 												<Width>14</Width>
 												<ContextMenu name="ПлатежиВКалендареНомерКонтекстноеМеню" id="467"/>
 												<ExtendedTooltip name="ПлатежиВКалендареНомерРасширеннаяПодсказка" id="468"/>
 											</LabelField>
 											<LabelField name="ПлатежиВКалендареДата" id="469">
+												<DataPath>~ПлатежиВКалендаре.Дата</DataPath>
 												<Width>12</Width>
 												<Format>
 													<v8:item>
@@ -3356,11 +4208,13 @@
 												<ExtendedTooltip name="ПлатежиВКалендареДатаРасширеннаяПодсказка" id="471"/>
 											</LabelField>
 											<LabelField name="ПлатежиВКалендареОбъектОплаты" id="367">
+												<DataPath>~ПлатежиВКалендаре.ОбъектОплаты</DataPath>
 												<Visible>false</Visible>
 												<ContextMenu name="ПлатежиВКалендареОбъектОплатыКонтекстноеМеню" id="368"/>
 												<ExtendedTooltip name="ПлатежиВКалендареОбъектОплатыРасширеннаяПодсказка" id="369"/>
 											</LabelField>
 											<LabelField name="ПлатежиВКалендареСумма" id="370">
+												<DataPath>~ПлатежиВКалендаре.Сумма</DataPath>
 												<Title>
 													<v8:item>
 														<v8:lang>ru</v8:lang>
@@ -3385,10 +4239,12 @@
 												<ExtendedTooltip name="ПлатежиВКалендареСуммаРасширеннаяПодсказка" id="372"/>
 											</LabelField>
 											<LabelField name="ПлатежиВКалендареВалюта" id="373">
+												<DataPath>~ПлатежиВКалендаре.Валюта</DataPath>
 												<ContextMenu name="ПлатежиВКалендареВалютаКонтекстноеМеню" id="374"/>
 												<ExtendedTooltip name="ПлатежиВКалендареВалютаРасширеннаяПодсказка" id="375"/>
 											</LabelField>
 											<LabelField name="ПлатежиВКалендареПлательщикПолучатель" id="406">
+												<DataPath>~ПлатежиВКалендаре.ПлательщикПолучатель</DataPath>
 												<Title>
 													<v8:item>
 														<v8:lang>ru</v8:lang>
@@ -3403,6 +4259,7 @@
 												<ExtendedTooltip name="ПлатежиВКалендареПлательщикПолучательРасширеннаяПодсказка" id="408"/>
 											</LabelField>
 											<LabelField name="ПлатежиВКалендареНазначениеПлатежа" id="383">
+												<DataPath>~ПлатежиВКалендаре.НазначениеПлатежа</DataPath>
 												<Title>
 													<v8:item>
 														<v8:lang>ru</v8:lang>
@@ -3417,10 +4274,12 @@
 												<ExtendedTooltip name="ПлатежиВКалендареНазначениеПлатежаРасширеннаяПодсказка" id="385"/>
 											</LabelField>
 											<LabelField name="ПлатежиВКалендареСуммаДокумента" id="389">
+												<DataPath>~ПлатежиВКалендаре.СуммаДокумента</DataPath>
 												<ContextMenu name="ПлатежиВКалендареСуммаДокументаКонтекстноеМеню" id="390"/>
 												<ExtendedTooltip name="ПлатежиВКалендареСуммаДокументаРасширеннаяПодсказка" id="391"/>
 											</LabelField>
 											<LabelField name="ПлатежиВКалендареХозяйственнаяОперация" id="392">
+												<DataPath>~ПлатежиВКалендаре.Операция</DataPath>
 												<Title>
 													<v8:item>
 														<v8:lang>ru</v8:lang>
@@ -3435,16 +4294,19 @@
 												<ExtendedTooltip name="ПлатежиВКалендареХозяйственнаяОперацияРасширеннаяПодсказка" id="394"/>
 											</LabelField>
 											<LabelField name="ПлатежиВКалендареОрганизация" id="395">
+												<DataPath>~ПлатежиВКалендаре.Организация</DataPath>
 												<ContextMenu name="ПлатежиВКалендареОрганизацияКонтекстноеМеню" id="396"/>
 												<ExtendedTooltip name="ПлатежиВКалендареОрганизацияРасширеннаяПодсказка" id="397"/>
 											</LabelField>
 											<LabelField name="ПлатежиВКалендареДатаПлатежа" id="376">
+												<DataPath>~ПлатежиВКалендаре.ДатаПлатежа</DataPath>
 												<Width>6</Width>
 												<AutoMaxWidth>false</AutoMaxWidth>
 												<ContextMenu name="ПлатежиВКалендареДатаПлатежаКонтекстноеМеню" id="377"/>
 												<ExtendedTooltip name="ПлатежиВКалендареДатаПлатежаРасширеннаяПодсказка" id="378"/>
 											</LabelField>
 											<LabelField name="ПлатежиВКалендареОтветственный" id="421">
+												<DataPath>~ПлатежиВКалендаре.Ответственный</DataPath>
 												<UserVisible>
 													<xr:Common>false</xr:Common>
 												</UserVisible>
@@ -3452,6 +4314,7 @@
 												<ExtendedTooltip name="ПлатежиВКалендареОтветственныйРасширеннаяПодсказка" id="423"/>
 											</LabelField>
 											<LabelField name="ПлатежиВКалендареПодразделение" id="424">
+												<DataPath>~ПлатежиВКалендаре.Подразделение</DataPath>
 												<UserVisible>
 													<xr:Common>false</xr:Common>
 												</UserVisible>
@@ -3459,6 +4322,7 @@
 												<ExtendedTooltip name="ПлатежиВКалендареПодразделениеРасширеннаяПодсказка" id="426"/>
 											</LabelField>
 											<LabelField name="ПлатежиВКалендареПриоритетСтатьиДДС" id="409">
+												<DataPath>~ПлатежиВКалендаре.ПриоритетСтатьиДДС</DataPath>
 												<UserVisible>
 													<xr:Common>false</xr:Common>
 												</UserVisible>
@@ -3476,6 +4340,7 @@
 												<ExtendedTooltip name="ПлатежиВКалендареПриоритетСтатьиДДСРасширеннаяПодсказка" id="411"/>
 											</LabelField>
 											<LabelField name="ПлатежиВКалендареПриоритетЗаявки" id="427">
+												<DataPath>~ПлатежиВКалендаре.ПриоритетЗаявки</DataPath>
 												<UserVisible>
 													<xr:Common>false</xr:Common>
 												</UserVisible>
@@ -3510,6 +4375,7 @@
 												<ExtendedTooltip name="ПлатежиВКалендареСтатьяДвиженияДенежныхСредствРасширеннаяПодсказка" id="414"/>
 											</LabelField>
 											<LabelField name="ПлатежиВКалендареБанковскийСчетКасса" id="580">
+												<DataPath>~ПлатежиВКалендаре.БанковскийСчетКасса</DataPath>
 												<UserVisible>
 													<xr:Common>false</xr:Common>
 												</UserVisible>
@@ -3517,6 +4383,7 @@
 												<ExtendedTooltip name="ПлатежиВКалендареБанковскийСчетКассаРасширеннаяПодсказка" id="582"/>
 											</LabelField>
 											<LabelField name="ПлатежиВКалендареФормаОплаты" id="586">
+												<DataPath>~ПлатежиВКалендаре.ФормаОплаты</DataPath>
 												<UserVisible>
 													<xr:Common>false</xr:Common>
 												</UserVisible>
@@ -3524,6 +4391,7 @@
 												<ExtendedTooltip name="ПлатежиВКалендареФормаОплатыРасширеннаяПодсказка" id="588"/>
 											</LabelField>
 											<CheckBoxField name="ПлатежиВКалендареДоступноРаспределение" id="583">
+												<DataPath>~ПлатежиВКалендаре.ДоступноРаспределение</DataPath>
 												<UserVisible>
 													<xr:Common>false</xr:Common>
 												</UserVisible>
@@ -3546,6 +4414,7 @@
 												<ExtendedTooltip name="ПлатежиВКалендареТипСуммыРасширеннаяПодсказка" id="597"/>
 											</LabelField>
 											<InputField name="ПлатежиВКалендареСсылка" id="628">
+												<DataPath>~ПлатежиВКалендаре.Ссылка</DataPath>
 												<UserVisible>
 													<xr:Common>false</xr:Common>
 												</UserVisible>
@@ -3577,13 +4446,13 @@
 					<v8:Type>cfg:DynamicList</v8:Type>
 				</Type>
 				<UseAlways>
-					<Field>~ЗаявкиКОплате.БанковскийСчетКасса</Field>
-					<Field>~ЗаявкиКОплате.ДоступноРаспределение</Field>
-					<Field>~ЗаявкиКОплате.ОбъектОплаты</Field>
 					<Field>~ЗаявкиКОплате.ОсталосьРаспределить</Field>
-					<Field>~ЗаявкиКОплате.Ссылка</Field>
-					<Field>~ЗаявкиКОплате.СтатусЗаявки</Field>
-					<Field>~ЗаявкиКОплате.Сумма</Field>
+					<Field>ЗаявкиКОплате.БанковскийСчетКасса</Field>
+					<Field>ЗаявкиКОплате.ДоступноРаспределение</Field>
+					<Field>ЗаявкиКОплате.ОбъектОплаты</Field>
+					<Field>ЗаявкиКОплате.Ссылка</Field>
+					<Field>ЗаявкиКОплате.СтатусЗаявки</Field>
+					<Field>ЗаявкиКОплате.Сумма</Field>
 				</UseAlways>
 				<Settings xsi:type="DynamicList">
 					<ManualQuery>true</ManualQuery>
@@ -3639,7 +4508,397 @@
 	ГрафикПлатежей.ОбластьПланирования КАК ОбластьПланирования,
 	Заявка.Статус КАК СтатусЗаявки
 }</QueryText>
-					<MainTable>1:295ba648-c1d1-46ca-8e70-632d796cd266</MainTable>
+					<MainTable>InformationRegister.ГрафикПлатежей</MainTable>
+					<ListSettings>
+						<dcsset:filter>
+							<dcsset:viewMode>Normal</dcsset:viewMode>
+							<dcsset:userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</dcsset:userSettingID>
+						</dcsset:filter>
+						<dcsset:order>
+							<dcsset:item xsi:type="dcsset:OrderItemField">
+								<dcsset:field>ДатаПлатежа</dcsset:field>
+								<dcsset:orderType>Asc</dcsset:orderType>
+							</dcsset:item>
+							<dcsset:viewMode>Normal</dcsset:viewMode>
+							<dcsset:userSettingID>88619765-ccb3-46c6-ac52-38e9c992ebd4</dcsset:userSettingID>
+						</dcsset:order>
+						<dcsset:conditionalAppearance>
+							<dcsset:viewMode>Normal</dcsset:viewMode>
+							<dcsset:userSettingID>b75fecce-942b-4aed-abc9-e6a02e460fb3</dcsset:userSettingID>
+						</dcsset:conditionalAppearance>
+						<dcsset:itemsViewMode>Normal</dcsset:itemsViewMode>
+						<dcsset:itemsUserSettingID>911b6018-f537-43e8-a417-da56b22f9aec</dcsset:itemsUserSettingID>
+					</ListSettings>
+				</Settings>
+			</Attribute>
+			<Attribute name="ТекущаяЗаявка" id="1000002">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Текущая заявка</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Current request</v8:content>
+					</v8:item>
+				</Title>
+				<Type>
+					<v8:Type>cfg:DocumentRef.ЗаявкаНаРасходованиеДенежныхСредств</v8:Type>
+				</Type>
+			</Attribute>
+			<Attribute name="Объект" id="1000003">
+				<Type>
+					<v8:Type>cfg:DataProcessorObject.ПлатежныйКалендарь</v8:Type>
+				</Type>
+				<MainAttribute>true</MainAttribute>
+				<Save>
+					<Field>1000003/0:5924bbea-20b1-4f64-8ed6-68dc2eb2fa04</Field>
+					<Field>Объект.Аренда</Field>
+					<Field>Объект.ВалютаИтогов</Field>
+					<Field>Объект.ВозвратыКлиентам</Field>
+					<Field>Объект.ВозвратыОтПоставщиков</Field>
+					<Field>Объект.ГруппироватьПоВалютам</Field>
+					<Field>Объект.Депозиты</Field>
+					<Field>Объект.ДнейПланирования</Field>
+					<Field>Объект.ЗаймыВыданные</Field>
+					<Field>Объект.ЗаказыКлиентов</Field>
+					<Field>Объект.ЗаказыПоставщикам</Field>
+					<Field>Объект.КредитыИлиЗаймыПолученные</Field>
+					<Field>Объект.НесогласованныеЗаявки</Field>
+					<Field>Объект.ОжидаемыеПоступления</Field>
+					<Field>Объект.ОтборБанковскиеСчетаКассы</Field>
+					<Field>Объект.ОтборВалюта</Field>
+					<Field>Объект.ОтборОрганизации</Field>
+					<Field>Объект.ОтображатьНераспределенныеПоСчетам</Field>
+					<Field>Объект.СкрыватьВыходные</Field>
+					<Field>Объект.ФильтрСчетовКалендаря</Field>
+				</Save>
+				<Columns>
+					<AdditionalColumns table="Объект.ДеревоПлатежей">
+						<Column name="Группировка" id="1">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Банковский счет / Касса</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Bank account / cash account</v8:content>
+								</v8:item>
+							</Title>
+							<Type>
+								<v8:Type>cfg:CatalogRef.Валюты</v8:Type>
+								<v8:Type>cfg:EnumRef.ТипыДвиженияДенежныхСредств</v8:Type>
+								<v8:Type>xs:string</v8:Type>
+								<v8:Type>cfg:CatalogRef.Кассы</v8:Type>
+								<v8:Type>cfg:CatalogRef.БанковскиеСчетаОрганизаций</v8:Type>
+								<v8:StringQualifiers>
+									<v8:Length>0</v8:Length>
+									<v8:AllowedLength>Variable</v8:AllowedLength>
+								</v8:StringQualifiers>
+							</Type>
+						</Column>
+						<Column name="Остаток" id="2">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Остаток</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Expected balance</v8:content>
+								</v8:item>
+							</Title>
+							<Type>
+								<v8:TypeSet>cfg:DefinedType.ДенежнаяСуммаЛюбогоЗнака</v8:TypeSet>
+							</Type>
+						</Column>
+						<Column name="Сумма" id="4">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Сумма</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Amount</v8:content>
+								</v8:item>
+							</Title>
+							<Type>
+								<v8:TypeSet>cfg:DefinedType.ДенежнаяСуммаЛюбогоЗнака</v8:TypeSet>
+							</Type>
+						</Column>
+						<Column name="БанковскийСчетКасса" id="3">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Банковский счет касса</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Bank account cash account</v8:content>
+								</v8:item>
+							</Title>
+							<Type>
+								<v8:Type>xs:string</v8:Type>
+								<v8:Type>cfg:CatalogRef.Кассы</v8:Type>
+								<v8:Type>cfg:CatalogRef.БанковскиеСчетаОрганизаций</v8:Type>
+								<v8:StringQualifiers>
+									<v8:Length>0</v8:Length>
+									<v8:AllowedLength>Variable</v8:AllowedLength>
+								</v8:StringQualifiers>
+							</Type>
+						</Column>
+						<Column name="Растяжка" id="5">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Растяжка</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Stretching</v8:content>
+								</v8:item>
+							</Title>
+							<Type>
+								<v8:Type>xs:string</v8:Type>
+								<v8:StringQualifiers>
+									<v8:Length>0</v8:Length>
+									<v8:AllowedLength>Variable</v8:AllowedLength>
+								</v8:StringQualifiers>
+							</Type>
+						</Column>
+						<Column name="ВидСтроки" id="6">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Вид строки</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Line kind</v8:content>
+								</v8:item>
+							</Title>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>10</v8:Digits>
+									<v8:FractionDigits>0</v8:FractionDigits>
+									<v8:AllowedSign>Any</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Column>
+						<Column name="ПоступлениеСписание" id="10">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Поступление списание</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Cash inflow and outflow</v8:content>
+								</v8:item>
+							</Title>
+							<Type>
+								<v8:Type>cfg:EnumRef.ТипыДвиженияДенежныхСредств</v8:Type>
+							</Type>
+						</Column>
+						<Column name="ВалютаСтроки" id="11">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Валюта строки</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Line currency</v8:content>
+								</v8:item>
+							</Title>
+							<Type>
+								<v8:Type>cfg:CatalogRef.Валюты</v8:Type>
+							</Type>
+						</Column>
+						<Column name="ДоступноДляПереноса" id="13">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Доступно для переноса</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Available for transfer</v8:content>
+								</v8:item>
+							</Title>
+							<Type>
+								<v8:Type>xs:boolean</v8:Type>
+							</Type>
+						</Column>
+						<Column name="ОтдельныйСчетГОЗ" id="14">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Отдельный счет ГОЗ</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Separate SDO account</v8:content>
+								</v8:item>
+							</Title>
+							<Type>
+								<v8:Type>xs:boolean</v8:Type>
+							</Type>
+						</Column>
+						<Column name="ОстатокВОднойВалюте" id="7">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Остаток в одной валюте</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Balance in a single currency</v8:content>
+								</v8:item>
+							</Title>
+							<Type>
+								<v8:TypeSet>cfg:DefinedType.ДенежнаяСуммаЛюбогоЗнака</v8:TypeSet>
+							</Type>
+						</Column>
+						<Column name="СтрокаИтогов" id="8">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Строка итогов</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Totals line</v8:content>
+								</v8:item>
+							</Title>
+							<Type>
+								<v8:Type>xs:boolean</v8:Type>
+							</Type>
+						</Column>
+						<Column name="Валюта" id="9">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Валюта</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Currency</v8:content>
+								</v8:item>
+							</Title>
+							<Type>
+								<v8:Type>cfg:CatalogRef.Валюты</v8:Type>
+							</Type>
+						</Column>
+					</AdditionalColumns>
+				</Columns>
+			</Attribute>
+			<Attribute name="ПлатежиВКалендаре" id="1000004">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Платежи в календаре</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Payments in the calendar</v8:content>
+					</v8:item>
+				</Title>
+				<Type>
+					<v8:Type>cfg:DynamicList</v8:Type>
+				</Type>
+				<UseAlways>
+					<Field>~ПлатежиВКалендаре.БанковскийСчетКасса</Field>
+					<Field>~ПлатежиВКалендаре.Валюта</Field>
+					<Field>~ПлатежиВКалендаре.ВалютаПлатежа</Field>
+					<Field>~ПлатежиВКалендаре.ДатаАктуальностиГрафика</Field>
+					<Field>~ПлатежиВКалендаре.ДоступноРаспределение</Field>
+					<Field>~ПлатежиВКалендаре.ОбъектОплаты</Field>
+					<Field>~ПлатежиВКалендаре.ПланированиеСуммы</Field>
+					<Field>~ПлатежиВКалендаре.Ссылка</Field>
+					<Field>~ПлатежиВКалендаре.Сумма</Field>
+					<Field>~ПлатежиВКалендаре.ФормаОплаты</Field>
+				</UseAlways>
+				<Settings xsi:type="DynamicList">
+					<ManualQuery>true</ManualQuery>
+					<DynamicDataRead>true</DynamicDataRead>
+					<QueryText>ВЫБРАТЬ
+	ГрафикПлатежей.ОбъектОплаты КАК ОбъектОплаты,
+	ГрафикПлатежей.БанковскийСчетКасса КАК БанковскийСчетКасса,
+	ГрафикПлатежей.ДатаПлатежа КАК ДатаПлатежа,
+	ГрафикПлатежей.ПоступлениеСписание КАК ПоступлениеСписание,
+	ГрафикПлатежей.Валюта КАК Валюта,
+	ВЫБОР КОГДА ГрафикПлатежей.ПоступлениеСписание = ЗНАЧЕНИЕ(Перечисление.ТипыДвиженияДенежныхСредств.Поступление) ТОГДА
+		ГрафикПлатежей.Сумма
+	ИНАЧЕ
+		-ГрафикПлатежей.Сумма
+	КОНЕЦ КАК Сумма,
+	ГрафикПлатежей.СтатьяДвиженияДенежныхСредств КАК СтатьяДвиженияДенежныхСредств,
+	ГрафикПлатежей.ХозяйственнаяОперация КАК Операция,
+	ГрафикПлатежей.Подразделение КАК Подразделение,
+	ГрафикПлатежей.НаправлениеДеятельности КАК НаправлениеДеятельности,
+	ГрафикПлатежей.Приоритет КАК ПриоритетЗаявки,
+	ГрафикПлатежей.Ответственный КАК Ответственный,
+	ГрафикПлатежей.ТипОбъектаОплаты КАК ТипОбъектаОплаты,
+	ТИПЗНАЧЕНИЯ(ГрафикПлатежей.ОбъектОплаты) КАК ТипОбъектаОплатыНаименование,
+	ГрафикПлатежей.Номер КАК Номер,
+	ГрафикПлатежей.Дата КАК Дата,
+	ГрафикПлатежей.Организация КАК Организация,
+	ГрафикПлатежей.ПлательщикПолучатель КАК ПлательщикПолучатель,
+	ГрафикПлатежей.СуммаДокумента КАК СуммаДокумента,
+	ГрафикПлатежей.ФормаОплаты КАК ФормаОплаты,
+	ГрафикПлатежей.ДатаАктуальностиГрафика КАК ДатаАктуальностиГрафика,
+	ГрафикПлатежей.ОбластьПланирования КАК ОбластьПланирования,
+	ЕСТЬNULL(СтатьиДДС.ПриоритетОплаты, ЗНАЧЕНИЕ(Справочник.ПриоритетыОплаты.ПустаяСсылка)) КАК ПриоритетСтатьиДДС,
+	ВЫБОР
+		КОГДА ТИПЗНАЧЕНИЯ(ГрафикПлатежей.ОбъектОплаты) = ТИП(Документ.ЗаявкаНаРасходованиеДенежныхСредств) ТОГДА
+			Заявка.НазначениеПлатежа
+		КОГДА ТИПЗНАЧЕНИЯ(ГрафикПлатежей.ОбъектОплаты) = ТИП(Документ.ОжидаемоеПоступлениеДенежныхСредств) ТОГДА
+			ОжидаемоеПоступление.НазначениеПлатежа
+	КОНЕЦ КАК НазначениеПлатежа,
+	Заявка.ПланированиеСуммы КАК ПланированиеСуммы,
+	ВЫБОР
+		КОГДА ТИПЗНАЧЕНИЯ(ГрафикПлатежей.БанковскийСчетКасса) = ТИП(Справочник.БанковскиеСчетаОрганизаций) ТОГДА
+			ВЫРАЗИТЬ(ГрафикПлатежей.БанковскийСчетКасса КАК Справочник.БанковскиеСчетаОрганизаций).ВалютаДенежныхСредств
+		КОГДА ТИПЗНАЧЕНИЯ(ГрафикПлатежей.БанковскийСчетКасса) = ТИП(Справочник.Кассы) ТОГДА
+			ВЫРАЗИТЬ(ГрафикПлатежей.БанковскийСчетКасса КАК Справочник.Кассы).ВалютаДенежныхСредств
+		ИНАЧЕ
+			ГрафикПлатежей.Валюта
+	КОНЕЦ КАК ВалютаПлатежа,
+	НЕ Заявка.Ссылка ЕСТЬ NULL КАК ДоступноРаспределение,
+	ГрафикПлатежей.ОбъектОплаты КАК Ссылка
+	
+ИЗ
+	РегистрСведений.ГрафикПлатежей КАК ГрафикПлатежей
+	
+	ЛЕВОЕ СОЕДИНЕНИЕ
+		Документ.ЗаявкаНаРасходованиеДенежныхСредств КАК Заявка
+	ПО
+		Заявка.Ссылка = ГрафикПлатежей.ОбъектОплаты
+		
+	ЛЕВОЕ СОЕДИНЕНИЕ
+		Документ.РаспоряжениеНаПеремещениеДенежныхСредств КАК Распоряжение
+	ПО
+		Распоряжение.Ссылка = ГрафикПлатежей.ОбъектОплаты
+		
+	ЛЕВОЕ СОЕДИНЕНИЕ
+		Документ.ОжидаемоеПоступлениеДенежныхСредств КАК ОжидаемоеПоступление
+	ПО
+		ОжидаемоеПоступление.Ссылка = ГрафикПлатежей.ОбъектОплаты
+		
+	ЛЕВОЕ СОЕДИНЕНИЕ
+		Справочник.СтатьиДвиженияДенежныхСредств КАК СтатьиДДС
+	ПО
+		СтатьиДДС.Ссылка = ГрафикПлатежей.СтатьяДвиженияДенежныхСредств
+		
+{ГДЕ
+	ГрафикПлатежей.ОбластьПланирования КАК ОбластьПланирования,
+	ЕСТЬNULL(Заявка.Статус, Распоряжение.Статус) КАК СтатусЗаявки
+}</QueryText>
+					<MainTable>InformationRegister.ГрафикПлатежей</MainTable>
 					<ListSettings>
 						<dcsset:filter>
 							<dcsset:viewMode>Normal</dcsset:viewMode>
@@ -3689,7 +4948,6 @@
 					<xr:Ref>CommonPicture.ОформитьПродажу</xr:Ref>
 					<xr:LoadTransparent>false</xr:LoadTransparent>
 				</Picture>
-				<Action callType="Before">СформироватьСписанияДС</Action>
 				<Representation>TextPicture</Representation>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>

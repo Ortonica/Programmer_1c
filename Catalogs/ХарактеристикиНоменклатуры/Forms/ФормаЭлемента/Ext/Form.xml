@@ -4,6 +4,7 @@
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
 	<Events>
 		<Event name="OnOpen" callType="After">САВ_ПриОткрытииПосле</Event>
+		<Event name="OnCreateAtServer" callType="After">РСК_ПриСозданииНаСервереПосле</Event>
 	</Events>
 	<ChildItems>
 		<Pages name="ГруппаСтраниц" id="62">

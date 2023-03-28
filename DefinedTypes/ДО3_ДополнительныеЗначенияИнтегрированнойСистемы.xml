@@ -17,9 +17,17 @@
 			</Synonym>
 			<Comment/>
 			<Type>
+				<v8:Type>cfg:ChartOfCharacteristicTypesRef.СтатьиРасходов</v8:Type>
 				<v8:Type>cfg:CatalogRef.СтавкиНДС</v8:Type>
+				<v8:Type>cfg:CatalogRef.Номенклатура</v8:Type>
+				<v8:Type>cfg:CatalogRef.Марки</v8:Type>
+				<v8:Type>cfg:CatalogRef.КлассификаторТНВЭД</v8:Type>
 				<v8:Type>cfg:CatalogRef.ТоварныеКатегории</v8:Type>
+				<v8:Type>cfg:CatalogRef.КодыОперацийРаздела7ДекларацииПоНДС</v8:Type>
+				<v8:Type>cfg:CatalogRef.СерииНоменклатуры</v8:Type>
+				<v8:Type>cfg:CatalogRef.ХарактеристикиНоменклатуры</v8:Type>
 				<v8:Type>cfg:CatalogRef.ВидыНоменклатуры</v8:Type>
+				<v8:Type>cfg:CatalogRef.ДСТ_ГруппыТоварныхКатегорий</v8:Type>
 			</Type>
 		</Properties>
 	</DefinedType>

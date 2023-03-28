@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+	<ExchangePlan uuid="4a58b883-cff4-44f7-b137-94c6cd96622e">
+		<InternalInfo>
+			<xr:ThisNode>5cf18df1-ea64-494e-ab41-5bd7d5fa12a2</xr:ThisNode>
+			<xr:GeneratedType name="ExchangePlanObject.ОбменУправлениеПредприятиемБухгалтерияПредприятия3" category="Object">
+				<xr:TypeId>83ce2e74-0dd3-4645-8f6a-c3ee206f05fe</xr:TypeId>
+				<xr:ValueId>bf0ba49f-e9c4-4ff9-b72c-34c48dc61ef8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ExchangePlanRef.ОбменУправлениеПредприятиемБухгалтерияПредприятия3" category="Ref">
+				<xr:TypeId>bf32fed6-9d2e-4be4-acaf-fb3e78a91dc8</xr:TypeId>
+				<xr:ValueId>029b9136-5b71-4888-984e-4a44be5f8a7e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ExchangePlanSelection.ОбменУправлениеПредприятиемБухгалтерияПредприятия3" category="Selection">
+				<xr:TypeId>200f51da-462f-485c-9253-e000b8239611</xr:TypeId>
+				<xr:ValueId>360b9568-7406-4864-aafd-e71880a124db</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ExchangePlanList.ОбменУправлениеПредприятиемБухгалтерияПредприятия3" category="List">
+				<xr:TypeId>267a6270-bc43-4a36-b6b8-8ba210397ece</xr:TypeId>
+				<xr:ValueId>364c1b0b-cdbd-4968-89a0-abb8e56eba0c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ExchangePlanManager.ОбменУправлениеПредприятиемБухгалтерияПредприятия3" category="Manager">
+				<xr:TypeId>54c7d408-74fa-493d-83c4-ed4371bde939</xr:TypeId>
+				<xr:ValueId>37d7c13e-66b1-4149-b9a1-9c50b7410f19</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ОбменУправлениеПредприятиемБухгалтерияПредприятия3</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>d53b84c1-8ef5-451f-8174-c5aedd39391f</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</ExchangePlan>
+</MetaDataObject>

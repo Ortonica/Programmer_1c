@@ -18,6 +18,256 @@
 			<ExtendedConfigurationObject>cc6d899d-4bb0-41f0-89f7-c79ab22d4e8f</ExtendedConfigurationObject>
 		</Properties>
 		<ChildObjects>
+			<Attribute uuid="9fdd2ba1-c702-4259-a8b7-e784993c28c2">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДеревоПлатежей</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>a4168e21-03b0-4bdc-a2a0-3f2884c46de9</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>v8:ValueTree</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="9a663079-5406-4df9-95bd-7f1d45f1a0a4">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ЗаказыКлиентов</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>be4e5e40-8296-44c6-ae94-d78227bad405</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="5a5547af-2d6f-4c93-85e6-2053a2381816">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Аренда</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>cea71c36-8e79-4bcf-ae6b-3d6089ac03dc</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="a15c0ba6-eee6-4667-b42e-cbd79e832f68">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>СкрыватьВыходные</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>90adcf34-9df8-4401-97c8-5350f10c36b1</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="9e46e041-df89-4451-baa3-51974c208dee">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ВалютаИтогов</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>0d2a8234-8f46-4f06-b434-3fc623dd5f40</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Валюты</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="81c03539-8d23-4164-b83f-ca5be924ba5d">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ФильтрСчетовКалендаря</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>1040cfe8-3e91-4604-8067-4c1625d2fd2d</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>10</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="76249aa9-b436-4b14-9a73-d753f1456088">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ОжидаемыеПоступления</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>1ec8f94f-455f-4ec9-a52c-7c62aa5d0a6c</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="9a3737bc-d7a7-4369-ac87-e54f8f0d3244">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ЗаказыПоставщикам</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>21d92f63-f911-4994-84ae-5b5cacf712b5</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="f0e97f11-8915-4fef-8511-3ff44f92dfb0">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>НесогласованныеЗаявки</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>4cb673a1-d7fa-4974-960b-30b495d67999</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="4a77520c-3668-4fc8-9a06-737691be3c22">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ВозвратыОтПоставщиков</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>537332c4-17ee-41db-9d4d-33f6959064ef</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="3746c82e-6fd6-4eba-badc-6a6fe1dd64f7">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ОтборБанковскиеСчетаКассы</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>5c6afd8b-af20-4e66-b6ba-77b32801d463</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>v8:ValueListType</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="942ecd9f-2654-4a9b-b0d8-61e9163d1f87">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ЗаймыВыданные</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>65018dc5-1100-4321-95bd-9871fc657806</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="c4fcf251-4234-4f2b-937e-e16ea6988531">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ГруппироватьПоВалютам</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>6a7cf547-0b27-4d96-8ab8-fe38c53a5fc4</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="e9f48856-16a3-43bf-a89a-287cbdca8bb9">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ОтборОрганизации</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>81889a70-d1b8-4620-a889-045cb933cacb</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>v8:ValueListType</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="6b826456-6d7e-403a-8403-936e6471bcd2">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ВозвратыКлиентам</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>9fa63624-c16b-46fd-87e1-c5f7ca8c29e3</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="d26f1409-657c-4734-a26b-24f5f161df3c">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Депозиты</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>a427d5ea-8455-4fbb-843a-57fef37a284b</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="c17639d6-9700-402d-86ae-d01349c687e0">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ОтображатьНераспределенныеПоСчетам</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>c3b0b59a-f66b-4ef2-8e6a-8fc2d3002042</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="84840c2d-9ace-4556-823d-1f47b71df825">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДнейПланирования</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>cafacdb7-188d-43af-97d1-95dabd027e0e</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>10</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="d2ece6db-6958-42c7-b602-46cc087c57fb">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>КредитыИлиЗаймыПолученные</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>d580a7e5-3d64-4e23-963e-9fa2ccc78f0c</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="c00e2f23-d903-468a-abc0-aa844fa326da">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ОтборВалюта</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>f65ad1ce-3b34-4900-9833-1348197a5b75</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Валюты</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
 			<Form>Форма</Form>
 		</ChildObjects>
 	</DataProcessor>

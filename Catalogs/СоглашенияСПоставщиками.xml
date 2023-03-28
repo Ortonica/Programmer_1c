@@ -66,6 +66,8 @@
 					</Type>
 				</Properties>
 			</Attribute>
+			<Form>ФормаЭлемента</Form>
+			<Form>ФормаОплаты</Form>
 		</ChildObjects>
 	</Catalog>
 </MetaDataObject>

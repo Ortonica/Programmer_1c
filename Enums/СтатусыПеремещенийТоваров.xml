@@ -21,6 +21,16 @@
 			<Comment/>
 			<ExtendedConfigurationObject>32ba0d43-6767-40ad-8b30-5dc2c36499d8</ExtendedConfigurationObject>
 		</Properties>
-		<ChildObjects/>
+		<ChildObjects>
+			<EnumValue uuid="b693e816-68b9-4476-b6f6-3de89ccce6bd">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Принято</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>6e2ca613-eb7c-4912-be81-bef3601db660</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
 	</Enum>
 </MetaDataObject>

@@ -1974,6 +1974,9 @@
 													<ChoiceButtonRepresentation>ShowInInputField</ChoiceButtonRepresentation>
 													<ContextMenu name="ТоварыСерияКонтекстноеМеню" id="1099"/>
 													<ExtendedTooltip name="ТоварыСерияExtendedTooltip" id="1200"/>
+													<Events>
+														<Event name="ChoiceProcessing" callType="After">РСК_ТоварыСерияОбработкаВыбораПосле</Event>
+													</Events>
 												</InputField>
 												<InputField name="ТоварыСодержание" id="961">
 													<DataPath>Объект.Товары.Содержание</DataPath>
@@ -2008,6 +2011,13 @@
 													<ContextMenu name="ТоварыДоступноКонтекстноеМеню" id="1834"/>
 													<ExtendedTooltip name="ТоварыДоступноРасширеннаяПодсказка" id="1835"/>
 												</LabelField>
+												<InputField name="ТоварыРСК_ДоступноАналогов" id="2472">
+													<DataPath>Объект.Товары.РСК_ДоступноАналогов</DataPath>
+													<ReadOnly>true</ReadOnly>
+													<EditMode>EnterOnInput</EditMode>
+													<ContextMenu name="ТоварыРСК_ДоступноАналоговКонтекстноеМеню" id="2473"/>
+													<ExtendedTooltip name="ТоварыРСК_ДоступноАналоговРасширеннаяПодсказка" id="2474"/>
+												</InputField>
 												<ColumnGroup name="ТоварыУпаковкаЕдиницаИзмерения" id="803">
 													<Title>
 														<v8:item>
@@ -5047,7 +5057,24 @@ notes</v8:content>
 			</Save>
 			<Columns>
 				<AdditionalColumns table="Объект.ЭтапыГрафикаОплаты"/>
-				<AdditionalColumns table="Объект.Товары"/>
+				<AdditionalColumns table="Объект.Товары">
+					<Column name="РСК_ДоступноАналогов" id="1000000">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Доступно аналогов</v8:content>
+							</v8:item>
+						</Title>
+						<Type>
+							<v8:Type>xs:decimal</v8:Type>
+							<v8:NumberQualifiers>
+								<v8:Digits>15</v8:Digits>
+								<v8:FractionDigits>3</v8:FractionDigits>
+								<v8:AllowedSign>Any</v8:AllowedSign>
+							</v8:NumberQualifiers>
+						</Type>
+					</Column>
+				</AdditionalColumns>
 			</Columns>
 		</Attribute>
 		<Attribute name="РСК_Вес" id="1000002">

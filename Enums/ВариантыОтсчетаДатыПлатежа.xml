@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+	<Enum uuid="dfd65472-41f0-4f8c-b40a-404daec38969">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ВариантыОтсчетаДатыПлатежа" category="Ref">
+				<xr:TypeId>152bf51e-ea6b-465b-9a92-b99670843661</xr:TypeId>
+				<xr:ValueId>684dba2f-07b9-4a9c-96cb-4e9d5bafb4d4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ВариантыОтсчетаДатыПлатежа" category="Manager">
+				<xr:TypeId>94dbe626-499e-4045-8e62-feefa7150261</xr:TypeId>
+				<xr:ValueId>fd4648bf-e628-43ea-9fab-86fed7fe5cfe</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ВариантыОтсчетаДатыПлатежа" category="List">
+				<xr:TypeId>d610dd10-9b23-40b1-bf10-b9d906d57800</xr:TypeId>
+				<xr:ValueId>3c550551-86ad-4a1c-9b94-e8fc12bbdb0a</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ВариантыОтсчетаДатыПлатежа</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>5abb70ea-0663-4378-919d-0ea83e97d3dc</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="71578ccb-6662-49dd-b929-07d9673dbdec">
+				<Properties>
+					<Name>ДоДатыРазмещения</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>до даты размещения (в производство)</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>РС Консалт: Трофимов Евгений 02.03.2023 Задача 23985</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="8c9da5c3-64ff-4eee-950d-0f2b7daa9469">
+				<Properties>
+					<Name>ДоДатыОкончанияПроизводства</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>до даты окончания производства</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>РС Консалт: Трофимов Евгений 02.03.2023 Задача 23985</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="24dd2236-3225-4995-a8a7-03dd544a9542">
+				<Properties>
+					<Name>ОтДатыОкончанияПроизводства</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>от даты окончания производства</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>РС Консалт: Трофимов Евгений 07.03.2023 Задача 23985</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="fb5e6ee6-f3dc-475e-8863-6b64c5beaf1f">
+				<Properties>
+					<Name>ДоДатыПрибытияВПорт</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>до даты прибытия в порт</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>РС Консалт: Трофимов Евгений 02.03.2023 Задача 23985</Comment>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

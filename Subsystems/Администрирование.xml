@@ -7,7 +7,10 @@
 			<Name>Администрирование</Name>
 			<Comment/>
 			<ExtendedConfigurationObject>6b8ea295-dbfb-4fe2-91fd-a57179d300c3</ExtendedConfigurationObject>
-			<Content/>
+			<Content>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.РСК_СоответствиеСтатей</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.РСК_СоответствиеПодразделений</xr:Item>
+			</Content>
 		</Properties>
 		<ChildObjects>
 			<Subsystem>НастройкаИнтеграции</Subsystem>

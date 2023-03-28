@@ -303,7 +303,6 @@
 		<Event name="NotificationProcessing" callType="After">РСК_ОбработкаОповещенияПосле</Event>
 		<Event name="OnReadAtServer" callType="After">РСК_ПриЧтенииНаСервереПосле</Event>
 		<Event name="OnOpen" callType="After">РСК_ПриОткрытииПосле</Event>
-		<Event name="OnCreateAtServer" callType="After">РСК_ПриСозданииНаСервереПосле</Event>
 	</Events>
 	<ChildItems>
 		<UsualGroup name="ГруппаПанельСостоянияEDI" id="1201">
@@ -749,6 +748,9 @@
 															</ChoiceList>
 															<ContextMenu name="ХозяйственнаяОперацияКонтекстноеМеню" id="333"/>
 															<ExtendedTooltip name="ХозяйственнаяОперацияExtendedTooltip" id="691"/>
+															<Events>
+																<Event name="OnChange" callType="After">РСК_ХозяйственнаяОперацияПриИзмененииПосле</Event>
+															</Events>
 														</InputField>
 														<InputField name="Организация" id="11">
 															<DataPath>Объект.Организация</DataPath>
@@ -1841,6 +1843,18 @@
 													<DataPath>Объект.Товары.ДатаОтгрузки</DataPath>
 													<ContextMenu name="ТоварыДатаОтгрузкиКонтекстноеМеню" id="1815"/>
 													<ExtendedTooltip name="ТоварыДатаОтгрузкиРасширеннаяПодсказка" id="1816"/>
+													<Events>
+														<Event name="OnChange" callType="Override">РСК_ТоварыДатаОтгрузкиПриИзмененииВместо</Event>
+													</Events>
+												</InputField>
+												<InputField name="ТоварыДатаЕТА" id="1876">
+													<DataPath>Объект.Товары.ДатаЕТА</DataPath>
+													<EditMode>EnterOnInput</EditMode>
+													<ContextMenu name="ТоварыДатаЕТАКонтекстноеМеню" id="1877"/>
+													<ExtendedTooltip name="ТоварыДатаЕТАРасширеннаяПодсказка" id="1878"/>
+													<Events>
+														<Event name="OnChange" callType="After">РСК_ТоварыДатаЕТАПриИзмененииПосле</Event>
+													</Events>
 												</InputField>
 												<InputField name="ТоварыДатаПоступления" id="106">
 													<DataPath>Объект.Товары.ДатаПоступления</DataPath>
@@ -2023,6 +2037,14 @@
 															<AutoMarkIncomplete>false</AutoMarkIncomplete>
 															<ContextMenu name="ДатаОтгрузкиКонтекстноеМеню" id="1806"/>
 															<ExtendedTooltip name="ДатаОтгрузкиРасширеннаяПодсказка" id="1807"/>
+														</InputField>
+														<InputField name="ДлительностьПеревозкиETA" id="1879">
+															<DataPath>ДлительностьПеревозкиETA</DataPath>
+															<ContextMenu name="ДлительностьПеревозкиETAКонтекстноеМеню" id="1880"/>
+															<ExtendedTooltip name="ДлительностьПеревозкиETAРасширеннаяПодсказка" id="1881"/>
+															<Events>
+																<Event name="OnChange" callType="After">РСК_ДлительностьПеревозкиETAПриИзмененииПосле</Event>
+															</Events>
 														</InputField>
 														<InputField name="ДлительностьДоставки" id="1808">
 															<DataPath>Объект.ДлительностьДоставки</DataPath>
@@ -3397,6 +3419,9 @@ number</v8:content>
 																	<Width>9</Width>
 																	<ContextMenu name="ДатаВходящегоДокументаКонтекстноеМеню" id="456"/>
 																	<ExtendedTooltip name="ДатаВходящегоДокументаExtendedTooltip" id="702"/>
+																	<Events>
+																		<Event name="OnChange" callType="After">РСК_ДатаВходящегоДокументаПриИзмененииПосле</Event>
+																	</Events>
 																</InputField>
 															</ChildItems>
 														</UsualGroup>
@@ -4238,6 +4263,22 @@ notes</v8:content>
 					</Column>
 				</AdditionalColumns>
 			</Columns>
+		</Attribute>
+		<Attribute name="ДлительностьПеревозкиETA" id="1000002">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Длительность перевозки ETA</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>5</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
 		</Attribute>
 	</Attributes>
 	<Commands>

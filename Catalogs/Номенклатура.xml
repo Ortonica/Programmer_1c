@@ -28,7 +28,10 @@
 			<Name>Номенклатура</Name>
 			<Comment/>
 			<ExtendedConfigurationObject>fc59acc3-f1f7-4e3f-96da-e580f2c5a88f</ExtendedConfigurationObject>
+			<Hierarchical>true</Hierarchical>
+			<HierarchyType>HierarchyFoldersAndItems</HierarchyType>
 			<CodeLength>11</CodeLength>
+			<DescriptionLength>100</DescriptionLength>
 			<CodeType>String</CodeType>
 			<CodeAllowedLength>Fixed</CodeAllowedLength>
 		</Properties>
@@ -171,6 +174,42 @@
 					<ExtendedConfigurationObject>13dd1676-d9c6-415f-a4e1-cb9414a09577</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>cfg:CatalogRef.УпаковкиЕдиницыИзмерения</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="219a7a0f-a76a-4e01-b79b-95d0891467d6">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Качество</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>d9bce4f6-e8c7-467c-ba46-be7ce35beaae</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:EnumRef.ГрадацииКачества</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="f69d7c3d-e915-428a-b589-e3e09ba329aa">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ИспользованиеХарактеристик</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>0ad62bbb-21aa-4934-a430-a1bd6aa95383</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:EnumRef.ВариантыИспользованияХарактеристикНоменклатуры</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="1af7ba30-7f9f-4167-b32a-ef3693c6404d">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ВидНоменклатуры</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>09a12ed1-441d-49a8-9f36-2093735e8d37</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ВидыНоменклатуры</v8:Type>
 					</Type>
 				</Properties>
 			</Attribute>

@@ -436,6 +436,15 @@
 					<ExtendedConfigurationObject>1474589c-3188-43eb-9fcf-9fadfbe18dfb</ExtendedConfigurationObject>
 				</Properties>
 			</EnumValue>
+			<EnumValue uuid="d27bdfd4-d055-442a-b924-46697e820ef3">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ОказаниеАгентскихУслуг</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>50268f38-df5c-44d6-9a14-6df43baddccf</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
 		</ChildObjects>
 	</Enum>
 </MetaDataObject>
