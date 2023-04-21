@@ -793,7 +793,7 @@
 							<Comment/>
 							<ExtendedConfigurationObject>4707386f-be02-4153-8c0e-7f525e2f533a</ExtendedConfigurationObject>
 							<Type>
-								<v8:TypeSet>cfg:DefinedType.ДенежнаяСуммаНеотрицательная</v8:TypeSet>
+								<v8:TypeId>eefd8557-e29c-43fd-87f1-9c69afa7aa83</v8:TypeId>
 							</Type>
 						</Properties>
 					</Attribute>

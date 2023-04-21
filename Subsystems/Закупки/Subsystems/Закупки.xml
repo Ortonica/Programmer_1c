@@ -15,6 +15,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.РСК_ТипыКонтейнеров</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.РСК_НормативныеСрокиДоставки</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Report.РСК_КалендарныйГрафикПоставок</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">5ee06e5b-7289-4919-bad4-8ad6d128546b</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

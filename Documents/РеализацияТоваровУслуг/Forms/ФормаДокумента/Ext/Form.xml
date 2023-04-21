@@ -4078,6 +4078,9 @@ details</v8:content>
 											<MaxWidth>28</MaxWidth>
 											<ContextMenu name="ОтпустилКонтекстноеМеню" id="1497"/>
 											<ExtendedTooltip name="ОтпустилРасширеннаяПодсказка" id="1534"/>
+											<Events>
+												<Event name="OnChange" callType="After">РСК_ОтпустилПриИзмененииПосле</Event>
+											</Events>
 										</InputField>
 										<InputField name="Подразделение" id="196">
 											<DataPath>Объект.Подразделение</DataPath>
@@ -4486,7 +4489,6 @@ option</v8:content>
 							</ChildItems>
 						</UsualGroup>
 						<UsualGroup name="ГруппаГосКонтракт" id="1584">
-							<Visible>false</Visible>
 							<Group>Vertical</Group>
 							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
@@ -4548,6 +4550,13 @@ option</v8:content>
 										</InputField>
 									</ChildItems>
 								</UsualGroup>
+								<InputField name="РСК_ДанныеОТранспортировке" id="1643">
+									<DataPath>Объект.РСК_ДанныеОТранспортировке</DataPath>
+									<AutoMaxWidth>false</AutoMaxWidth>
+									<HorizontalStretch>true</HorizontalStretch>
+									<ContextMenu name="РСК_ДанныеОТранспортировкеКонтекстноеМеню" id="1644"/>
+									<ExtendedTooltip name="РСК_ДанныеОТранспортировкеРасширеннаяПодсказка" id="1645"/>
+								</InputField>
 							</ChildItems>
 						</UsualGroup>
 						<InputField name="Автор" id="1493">

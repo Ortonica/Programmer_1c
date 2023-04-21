@@ -266,6 +266,7 @@
 		</ChildItems>
 	</AutoCommandBar>
 	<Events>
+		<Event name="NotificationProcessing" callType="Override">РСК_ОбработкаОповещенияВместо</Event>
 		<Event name="OnReadAtServer" callType="After">РСК_ПриЧтенииНаСервереПосле</Event>
 		<Event name="OnOpen" callType="Before">РСК_ПриОткрытииПеред</Event>
 		<Event name="OnOpen" callType="After">РСК_ЗаполнитьНазначениеПлатежаПосле</Event>

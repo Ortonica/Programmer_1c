@@ -1119,6 +1119,9 @@
 								<ContextMenu name="ТоварыУправлениеПоискомКонтекстноеМеню" id="479"/>
 								<ExtendedTooltip name="ТоварыУправлениеПоискомРасширеннаяПодсказка" id="480"/>
 							</SearchControlAddition>
+							<Events>
+								<Event name="OnEditEnd" callType="After">РСК_ТоварыПриОкончанииРедактированияПосле</Event>
+							</Events>
 							<ChildItems>
 								<InputField name="ТоварыНомерСтроки" id="14">
 									<DataPath>Объект.Товары.LineNumber</DataPath>
@@ -2540,30 +2543,24 @@ for activity</v8:content>
 				</Page>
 			</ChildItems>
 		</Pages>
-		<LabelField name="ТекстДокументыНаОсновании" id="691">
-			<TitleLocation>None</TitleLocation>
-			<AutoMaxWidth>false</AutoMaxWidth>
-			<ContextMenu name="ТекстДокументыНаОснованииКонтекстноеМеню" id="692"/>
-			<ExtendedTooltip name="ТекстДокументыНаОснованииРасширеннаяПодсказка" id="693"/>
-		</LabelField>
-		<UsualGroup name="ГруппаСостояниеЭДО" id="717">
+		<UsualGroup name="ГруппаПодвал" id="738">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Состояние ЭДО</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>EDI status</v8:content>
+					<v8:content>Группа подвал</v8:content>
 				</v8:item>
 			</Title>
-			<Group>Vertical</Group>
-			<Behavior>Usual</Behavior>
-			<Representation>None</Representation>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа подвал</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>AlwaysHorizontal</Group>
 			<ShowTitle>false</ShowTitle>
-			<ExtendedTooltip name="ГруппаСостояниеЭДОРасширеннаяПодсказка" id="718"/>
+			<ExtendedTooltip name="ГруппаПодвалРасширеннаяПодсказка" id="739"/>
 			<ChildItems>
-				<LabelField name="ДекорацияСостояниеЭДО" id="720">
+				<UsualGroup name="ГруппаСостояниеЭДО" id="717">
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -2574,12 +2571,69 @@ for activity</v8:content>
 							<v8:content>EDI status</v8:content>
 						</v8:item>
 					</Title>
-					<Hiperlink>true</Hiperlink>
-					<ContextMenu name="ДекорацияСостояниеЭДОКонтекстноеМеню" id="721"/>
-					<ExtendedTooltip name="ДекорацияСостояниеЭДОРасширеннаяПодсказка" id="722"/>
-				</LabelField>
+					<HorizontalStretch>true</HorizontalStretch>
+					<Group>Vertical</Group>
+					<Behavior>Usual</Behavior>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаСостояниеЭДОРасширеннаяПодсказка" id="718"/>
+					<ChildItems>
+						<LabelField name="ДекорацияСостояниеЭДО" id="720">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Состояние ЭДО</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>EDI status</v8:content>
+								</v8:item>
+							</Title>
+							<Hiperlink>true</Hiperlink>
+							<ContextMenu name="ДекорацияСостояниеЭДОКонтекстноеМеню" id="721"/>
+							<ExtendedTooltip name="ДекорацияСостояниеЭДОРасширеннаяПодсказка" id="722"/>
+						</LabelField>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="ГруппаИтого" id="736">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Итоговая сумма</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Total amount</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Итоги</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Totals</v8:content>
+						</v8:item>
+					</ToolTip>
+					<HorizontalStretch>true</HorizontalStretch>
+					<GroupHorizontalAlign>Right</GroupHorizontalAlign>
+					<Group>Horizontal</Group>
+					<HorizontalAlign>Right</HorizontalAlign>
+					<Behavior>Usual</Behavior>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<BackColor>style:ИтогиФон</BackColor>
+					<ExtendedTooltip name="ГруппаИтогоРасширеннаяПодсказка" id="737"/>
+				</UsualGroup>
 			</ChildItems>
 		</UsualGroup>
+		<LabelField name="ТекстДокументыНаОсновании" id="691">
+			<TitleLocation>None</TitleLocation>
+			<AutoMaxWidth>false</AutoMaxWidth>
+			<ContextMenu name="ТекстДокументыНаОснованииКонтекстноеМеню" id="692"/>
+			<ExtendedTooltip name="ТекстДокументыНаОснованииРасширеннаяПодсказка" id="693"/>
+		</LabelField>
 	</ChildItems>
 	<Attributes>
 		<Attribute name="Объект" id="1000001">
@@ -2650,6 +2704,36 @@ for activity</v8:content>
 					</Column>
 				</AdditionalColumns>
 			</Columns>
+		</Attribute>
+		<Attribute name="РСК_Вес" id="1000002">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>РСК вес</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>30</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="РСК_Кубатура" id="1000003">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>РСК кубатура</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>30</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
 		</Attribute>
 	</Attributes>
 	<BaseForm version="2.15">

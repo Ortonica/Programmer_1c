@@ -71,6 +71,7 @@
 			<Subsystem>Склад</Subsystem>
 			<Subsystem>Администрирование</Subsystem>
 			<Subsystem>Продажи</Subsystem>
+			<Subsystem>ФинансовыйРезультатИКонтроллинг</Subsystem>
 			<StyleItem>ВладелецФайловШрифт</StyleItem>
 			<StyleItem>ГиперссылкаТабличнойЧасти</StyleItem>
 			<StyleItem>ГиперссылкаЦвет</StyleItem>
@@ -219,7 +220,10 @@
 			<Role>РСК_УтверждениеИРедактированиеТабеляУчетаРабочегоВремени</Role>
 			<Role>РСК_ПраваНаСправочникСклады</Role>
 			<Role>РСК_ЧтениеПросмотрПродажи</Role>
+			<Role>РСК_ПроведениеЗаказаВСтатусеКОтгрузке</Role>
+			<Role>РСК_ПравоСнятьЗапретЗадолженностиВДоговоре</Role>
 			<CommonTemplate>ДрайверШтрихМТСД</CommonTemplate>
+			<CommonModule>БизнесПроцессыИЗадачиСервер</CommonModule>
 			<CommonModule>БюджетированиеСервер</CommonModule>
 			<CommonModule>ВариантыОтчетов</CommonModule>
 			<CommonModule>ВариантыОтчетовПереопределяемый</CommonModule>
@@ -252,6 +256,7 @@
 			<CommonModule>ОбеспечениеВДокументахСервер</CommonModule>
 			<CommonModule>ОбменДаннымиПереопределяемый</CommonModule>
 			<CommonModule>ОбменСКонтрагентамиУТ</CommonModule>
+			<CommonModule>ОбработкаТабличнойЧастиКлиент</CommonModule>
 			<CommonModule>ОбработкаТабличнойЧастиКлиентСервер</CommonModule>
 			<CommonModule>ОбработкаТабличнойЧастиСервер</CommonModule>
 			<CommonModule>ОбщегоНазначения</CommonModule>
@@ -281,6 +286,7 @@
 			<CommonModule>РСК_РаботаСоСканером</CommonModule>
 			<CommonModule>РСК_РаботаСоСтроками</CommonModule>
 			<CommonModule>РСК_Сервер</CommonModule>
+			<CommonModule>РСК_УправлениеСвойствамиВызовСервера</CommonModule>
 			<CommonModule>СервисДоставкиПереопределяемый</CommonModule>
 			<CommonModule>СинхронизацияЭДОСлужебный</CommonModule>
 			<CommonModule>СкладыСервер</CommonModule>
@@ -304,7 +310,6 @@
 			<CommonModule>ЭтапыОплатыКлиент</CommonModule>
 			<CommonModule>ЭтапыОплатыКлиентСервер</CommonModule>
 			<CommonModule>ЭтапыОплатыСервер</CommonModule>
-			<CommonModule>ОбработкаТабличнойЧастиКлиент</CommonModule>
 			<ExchangePlan>ДатаМобайл_СписокТСД</ExchangePlan>
 			<ExchangePlan>ОбменУправлениеПредприятиемБухгалтерияПредприятия3</ExchangePlan>
 			<EventSubscription>РСК_ЗаписатьВерсиюДокумента</EventSubscription>
@@ -349,6 +354,7 @@
 			<DefinedType>ВладелецПрисоединенныхФайлов</DefinedType>
 			<DefinedType>ОжидаемоеПоступление</DefinedType>
 			<DefinedType>ДО3_ДополнительныеЗначенияИнтегрированнойСистемы</DefinedType>
+			<DefinedType>Цена</DefinedType>
 			<CommonCommand>ОткрытьФормуУправлениеОтчетностью</CommonCommand>
 			<CommonCommand>РСК_ДоверенныеЛицаПолучателейТСР</CommonCommand>
 			<CommonCommand>РСК_ЗаказыНаТСР</CommonCommand>
@@ -382,6 +388,7 @@
 			<CommonForm>РСК_ФормаПодбораСтрок</CommonForm>
 			<CommonForm>ЭтапыОплатыПоставщику</CommonForm>
 			<CommonForm>ЭтапОплаты</CommonForm>
+			<CommonForm>РеквизитыПечатиРеализации</CommonForm>
 			<Catalog>БанковскиеСчетаКонтрагентов</Catalog>
 			<Catalog>БанковскиеСчетаОрганизаций</Catalog>
 			<Catalog>БизнесРегионы</Catalog>
@@ -497,6 +504,9 @@
 			<Catalog>НастройкиСчетовУчетаПрочихОпераций</Catalog>
 			<Catalog>НаправленияРасходованияЦелевыхСредств</Catalog>
 			<Catalog>ИсточникиПоступленияЦелевыхСредств</Catalog>
+			<Catalog>СертификатыНоменклатурыПрисоединенныеФайлы</Catalog>
+			<Catalog>ВидыРаботСотрудников</Catalog>
+			<Catalog>РесурсныеСпецификации</Catalog>
 			<Document>АктВыполненныхРабот</Document>
 			<Document>АктОРасхожденияхПослеОтгрузки</Document>
 			<Document>АктОРасхожденияхПослеПеремещения</Document>
@@ -564,6 +574,7 @@
 			<Document>ЗаявкаНаКомандировку</Document>
 			<Document>РаспоряжениеНаПеремещениеДенежныхСредств</Document>
 			<Document>ОжидаемоеПоступлениеДенежныхСредств</Document>
+			<Document>СписаниеБезналичныхДенежныхСредств</Document>
 			<DocumentJournal>СкладскиеОрдера</DocumentJournal>
 			<Enum>ВариантОтбораДляКлючаЦен</Enum>
 			<Enum>ВариантыВыбытияМаркируемойПродукции</Enum>
@@ -659,14 +670,19 @@
 			<Enum>ФормыОплаты</Enum>
 			<Enum>ХозяйственныеОперации</Enum>
 			<Enum>РСК_ТипыСтатейБП</Enum>
+			<Enum>СостоянияЗаказовКлиентов</Enum>
+			<Enum>ТипыПлатежныхДокументов</Enum>
+			<Enum>ПорядокОформленияСписанияТоваровПринятыхНаХранение</Enum>
+			<Enum>СпособыРаспределенияЗатратНаВыходныеИзделия</Enum>
+			<Enum>ГруппировкиЗатратВПроизводствеБезЗаказа</Enum>
+			<Report>АнализПричинОтменыЗаказовКлиентов</Report>
+			<Report>ОстаткиИДоступностьТоваров</Report>
+			<Report>РСК_ВедомостьПоОстаткамТСР</Report>
 			<Report>РСК_КалендарныйГрафикПоставок</Report>
 			<Report>РСК_ОстаткиТСР</Report>
 			<Report>РСК_ХодИсполненияГК</Report>
 			<Report>РСК_ХодИсполненияКонтрактовПоРегиону</Report>
 			<Report>СравнительныйАнализПоказателейРаботыМенеджеров</Report>
-			<Report>ОстаткиИДоступностьТоваров</Report>
-			<Report>РСК_ВедомостьПоОстаткамТСР</Report>
-			<Report>АнализПричинОтменыЗаказовКлиентов</Report>
 			<DataProcessor>ДатаМобайл_АРМДиспетчера</DataProcessor>
 			<DataProcessor>ЖурналДокументовБезналичныеПлатежи</DataProcessor>
 			<DataProcessor>ЖурналДокументовВнутреннегоТовародвижения</DataProcessor>
@@ -691,6 +707,7 @@
 			<DataProcessor>ПредпросмотрЧека</DataProcessor>
 			<DataProcessor>РаботаСФайлами</DataProcessor>
 			<DataProcessor>РабочееМестоМенеджераПоДоставке</DataProcessor>
+			<DataProcessor>РСК_ВводАналоговИЗамен</DataProcessor>
 			<DataProcessor>РСК_ЗагрузкаДляАльфа</DataProcessor>
 			<DataProcessor>РСК_ЗаполнениеФормыОтчетаExcelДляФСС</DataProcessor>
 			<DataProcessor>РСК_ОтменаАктовПриСмертиПолучателяТСР</DataProcessor>
@@ -750,8 +767,10 @@
 			<InformationRegister>ТоварыКДоставке</InformationRegister>
 			<InformationRegister>ЦеныНоменклатурыПоставщиков</InformationRegister>
 			<InformationRegister>ШтрихкодыНоменклатуры</InformationRegister>
+			<InformationRegister>РСК_СкладыПередачИзПеремещений</InformationRegister>
 			<InformationRegister>РСК_СоответствиеСтатей</InformationRegister>
 			<InformationRegister>РСК_СоответствиеПодразделений</InformationRegister>
+			<InformationRegister>ОбластиДействияСертификатовНоменклатуры</InformationRegister>
 			<AccumulationRegister>ЗаказыКлиентов</AccumulationRegister>
 			<AccumulationRegister>ПланыОплатПоставщикам</AccumulationRegister>
 			<AccumulationRegister>РСК_СостояниеЗаказовКлиентовПоВыдаче</AccumulationRegister>

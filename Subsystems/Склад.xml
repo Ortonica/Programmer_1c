@@ -12,6 +12,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.САВ_ХарактеристикиНоменклатуры</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.СрокЖизниКП</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ПечатьШтрихкодовСотрудниковИСкладскихОпераций</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.САВ_ВидыСвойствНоменклатуры</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

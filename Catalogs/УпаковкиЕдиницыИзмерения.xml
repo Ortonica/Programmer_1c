@@ -28,6 +28,9 @@
 			<Name>УпаковкиЕдиницыИзмерения</Name>
 			<Comment/>
 			<ExtendedConfigurationObject>c9cda7a7-da6f-4830-800a-70e77e3f6e9d</ExtendedConfigurationObject>
+			<Owners>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Номенклатура</xr:Item>
+			</Owners>
 		</Properties>
 		<ChildObjects>
 			<Attribute uuid="691e7c1b-2f06-4907-b691-5573db971207">
@@ -129,6 +132,40 @@
 					<Name>Вес</Name>
 					<Comment/>
 					<ExtendedConfigurationObject>ba8289fe-be8a-45a4-819c-2c2f84c4de2f</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>15</v8:Digits>
+							<v8:FractionDigits>3</v8:FractionDigits>
+							<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="a7896193-c6a4-4fe8-bb26-6d724521873f">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Числитель</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>a7f52563-0c7c-4de6-ac07-6ef01ff7688d</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>15</v8:Digits>
+							<v8:FractionDigits>3</v8:FractionDigits>
+							<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="7eee3e6b-c0d8-443b-b559-3d7c9f44be15">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Знаменатель</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>af87b08a-d7f9-4ad8-9eec-e3f927c89172</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>xs:decimal</v8:Type>
 						<v8:NumberQualifiers>

@@ -502,8 +502,6 @@
 									<v8:content>Pages</v8:content>
 								</v8:item>
 							</Title>
-							<Height>43</Height>
-							<VerticalStretch>false</VerticalStretch>
 							<PagesRepresentation>TabsOnTop</PagesRepresentation>
 							<ExtendedTooltip name="ГруппаСтраницыExtendedTooltip" id="1145"/>
 							<ChildItems>
@@ -2015,6 +2013,7 @@
 													<DataPath>Объект.Товары.РСК_ДоступноАналогов</DataPath>
 													<ReadOnly>true</ReadOnly>
 													<EditMode>EnterOnInput</EditMode>
+													<TextColor>0:e403bd23-85df-47b3-be2a-226ef513a33b</TextColor>
 													<ContextMenu name="ТоварыРСК_ДоступноАналоговКонтекстноеМеню" id="2473"/>
 													<ExtendedTooltip name="ТоварыРСК_ДоступноАналоговРасширеннаяПодсказка" id="2474"/>
 												</InputField>
@@ -3918,6 +3917,9 @@ details</v8:content>
 															<Wrap>false</Wrap>
 															<ContextMenu name="СделкаКонтекстноеМеню" id="330"/>
 															<ExtendedTooltip name="СделкаExtendedTooltip" id="1270"/>
+															<Events>
+																<Event name="OnChange" callType="After">РСК_СделкаПриИзмененииПосле</Event>
+															</Events>
 														</InputField>
 														<InputField name="Менеджер" id="21">
 															<DataPath>Объект.Менеджер</DataPath>

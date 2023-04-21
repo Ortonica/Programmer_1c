@@ -81,7 +81,20 @@
 					</Type>
 				</Properties>
 			</Attribute>
+			<Attribute uuid="649f7cca-8453-4d4d-9c75-5810d8d46495">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ОграничиватьСуммуЗадолженности</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>84d86d87-84a9-4ba3-b019-f1b4941bfc77</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
 			<Form>ФормаВыбора</Form>
+			<Form>ФормаЭлемента</Form>
 		</ChildObjects>
 	</Catalog>
 </MetaDataObject>

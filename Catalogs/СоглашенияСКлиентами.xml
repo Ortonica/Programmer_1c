@@ -877,9 +877,6 @@
 							<Name>Цена</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>c3693004-5209-44e7-af73-b7d1de9fdf5d</ExtendedConfigurationObject>
-							<Type>
-								<v8:TypeSet>cfg:DefinedType.ДенежнаяСуммаНеотрицательная</v8:TypeSet>
-							</Type>
 						</Properties>
 					</Attribute>
 					<Attribute uuid="6eafffe5-49e7-43f2-af32-8b9f1b8478cb">

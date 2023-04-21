@@ -1046,6 +1046,21 @@
 														<Event name="URLProcessing" callType="Override">РСК_ГиперссылкаПерейтиШтрихкодыСерийНоменклатурыОбработкаНавигационнойСсылкиВместо</Event>
 													</Events>
 												</LabelDecoration>
+												<LabelDecoration name="ГиперссылкаПерейтиАналоги" id="1590">
+													<AutoMaxWidth>false</AutoMaxWidth>
+													<Title formatted="false">
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Аналоги</v8:content>
+														</v8:item>
+													</Title>
+													<Hyperlink>true</Hyperlink>
+													<ContextMenu name="ГиперссылкаПерейтиАналогиКонтекстноеМеню" id="1591"/>
+													<ExtendedTooltip name="ГиперссылкаПерейтиАналогиРасширеннаяПодсказка" id="1592"/>
+													<Events>
+														<Event name="Click" callType="After">РСК_ГиперссылкаПерейтиАналогиНажатиеПосле</Event>
+													</Events>
+												</LabelDecoration>
 											</ChildItems>
 										</UsualGroup>
 									</ChildItems>
@@ -4443,6 +4458,9 @@
 								<ContextMenu name="ХарактеристикиИзделияУправлениеПоискомКонтекстноеМеню" id="1571"/>
 								<ExtendedTooltip name="ХарактеристикиИзделияУправлениеПоискомРасширеннаяПодсказка" id="1572"/>
 							</SearchControlAddition>
+							<Events>
+								<Event name="BeforeDeleteRow" callType="After">РСК_ХарактеристикиИзделияПередУдалениемПосле</Event>
+							</Events>
 							<ChildItems>
 								<InputField name="ХарактеристикиИзделияРодитель" id="1573">
 									<DataPath>ХарактеристикиИзделия.Родитель</DataPath>
@@ -4550,11 +4568,7 @@
 						</v8:item>
 					</Title>
 					<Type>
-						<v8:Type>xs:string</v8:Type>
-						<v8:StringQualifiers>
-							<v8:Length>0</v8:Length>
-							<v8:AllowedLength>Variable</v8:AllowedLength>
-						</v8:StringQualifiers>
+						<v8:Type>cfg:CatalogRef.САВ_ВидыСвойствНоменклатуры</v8:Type>
 					</Type>
 				</Column>
 				<Column name="ЗначениеПоУмолчанию" id="1000002">

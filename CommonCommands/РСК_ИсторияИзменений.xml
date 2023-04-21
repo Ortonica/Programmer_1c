@@ -34,6 +34,7 @@
 			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<CommandParameterType>
 				<v8:Type>cfg:DocumentRef.РСК_Разнарядка</v8:Type>
+				<v8:Type>cfg:DocumentRef.ОтборРазмещениеТоваров</v8:Type>
 				<v8:Type>cfg:DocumentRef.РСК_ОтчетПоВыдачеТСР</v8:Type>
 				<v8:Type>cfg:DocumentRef.ПоручениеЭкспедитору</v8:Type>
 				<v8:Type>cfg:DocumentRef.РСК_ПартияПоставки</v8:Type>

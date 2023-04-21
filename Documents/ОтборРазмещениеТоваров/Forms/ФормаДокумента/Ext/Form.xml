@@ -238,7 +238,11 @@
 		</ChildItems>
 	</AutoCommandBar>
 	<Events>
+		<Event name="AfterWrite" callType="Before">РСК_ПослеЗаписиПеред</Event>
+		<Event name="AfterWriteAtServer" callType="After">РСК_ПослеЗаписиНаСервереПосле</Event>
 		<Event name="NotificationProcessing" callType="Override">РСК_ОбработкаОповещенияВместо</Event>
+		<Event name="BeforeWrite" callType="After">РСК_ПередЗаписьюПосле</Event>
+		<Event name="OnCreateAtServer" callType="After">РСК_ПриСозданииНаСервереПосле</Event>
 	</Events>
 	<ChildItems>
 		<UsualGroup name="Шапка" id="73">

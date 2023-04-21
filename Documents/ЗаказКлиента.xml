@@ -1246,6 +1246,7 @@
 			</Attribute>
 			<Form>ФормаДокумента</Form>
 			<Form>РСК_ВыборСтрокиЗаказа</Form>
+			<Form>РСК_ФормаАналогов</Form>
 			<Form>ФормаДокументаСамообслуживание</Form>
 			<Form>РеквизитыПечати</Form>
 			<TabularSection uuid="394527b5-aea7-4479-847a-0e56b111ae39">
@@ -1511,9 +1512,6 @@
 							<Name>Цена</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>08f0de4b-9d83-4a4f-ac8b-79abaeef3771</ExtendedConfigurationObject>
-							<Type>
-								<v8:TypeSet>cfg:DefinedType.ДенежнаяСуммаНеотрицательная</v8:TypeSet>
-							</Type>
 						</Properties>
 					</Attribute>
 					<Attribute uuid="d29385bd-70c0-4b4f-a80f-3d537252fab7">

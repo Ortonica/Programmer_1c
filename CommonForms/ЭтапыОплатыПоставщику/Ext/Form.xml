@@ -857,6 +857,9 @@
 									<AutoMarkIncomplete>true</AutoMarkIncomplete>
 									<ContextMenu name="ЭтапыГрафикаОплатыВариантОтсчетаКонтекстноеМеню" id="237"/>
 									<ExtendedTooltip name="ЭтапыГрафикаОплатыВариантОтсчетаРасширеннаяПодсказка" id="238"/>
+									<Events>
+										<Event name="OnChange" callType="Override">РСК_ЭтапыГрафикаОплатыВариантОтсчетаПриИзмененииВместо</Event>
+									</Events>
 								</InputField>
 								<InputField name="ЭтапыГрафикаОплатыДатаПлатежа" id="42">
 									<HorizontalAlign>Right</HorizontalAlign>

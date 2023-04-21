@@ -4508,6 +4508,36 @@ reg. plate</v8:content>
 			</ToolTip>
 			<Action callType="After">РСК_ПечатьОтчетОДоставкеПосле</Action>
 		</Command>
+		<Command name="ПечатьСертификатовВсе" id="1000023">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Печать сертификатов все</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Печать сертификатов все</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action callType="After">РСК_ПечатьСертификатовВсеПосле</Action>
+		</Command>
+		<Command name="ПечатьСертификатовВыделенные" id="1000024">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Печать сертификатов выделенные</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Печать сертификатов выделенные</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action callType="After">РСК_ПечатьСертификатовВыделенныеПосле</Action>
+		</Command>
 	</Commands>
 	<BaseForm version="2.15">
 		<AutoSaveDataInSettings>Use</AutoSaveDataInSettings>

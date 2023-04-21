@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+	<InformationRegister uuid="e92f5eb9-9038-45f9-b6e1-1255e4c33e97">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.ОбластиДействияСертификатовНоменклатуры" category="Record">
+				<xr:TypeId>a3d50417-6598-44a4-a184-5d1eb4c0c064</xr:TypeId>
+				<xr:ValueId>4e0b2a9b-fe74-409b-9de7-1acafb280752</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.ОбластиДействияСертификатовНоменклатуры" category="Manager">
+				<xr:TypeId>2c9e2225-0d5e-4bc9-a441-26d2adda6439</xr:TypeId>
+				<xr:ValueId>33c52033-3957-445b-a452-b26f2b69cda5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.ОбластиДействияСертификатовНоменклатуры" category="Selection">
+				<xr:TypeId>c8e11fa3-34f6-40d3-a4c3-540d34539c14</xr:TypeId>
+				<xr:ValueId>639ba10a-f12c-4555-970d-e2377e32d0ce</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.ОбластиДействияСертификатовНоменклатуры" category="List">
+				<xr:TypeId>7b0a7566-4ee8-4175-9276-842bcdc173cd</xr:TypeId>
+				<xr:ValueId>0a6ec7d2-f297-4eaf-bdb3-e489c41be7b5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.ОбластиДействияСертификатовНоменклатуры" category="RecordSet">
+				<xr:TypeId>a3db8a73-b8f3-4799-b00f-957a71fcc637</xr:TypeId>
+				<xr:ValueId>bea9d4a2-81b6-44fa-9f9e-40c33adbe7e4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.ОбластиДействияСертификатовНоменклатуры" category="RecordKey">
+				<xr:TypeId>5fcf80a9-0ae4-4e42-a1a9-05ccf8eb7596</xr:TypeId>
+				<xr:ValueId>e40d81de-b4ee-4561-b511-95024b1ed003</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.ОбластиДействияСертификатовНоменклатуры" category="RecordManager">
+				<xr:TypeId>db0bd78e-e5ae-4635-970e-cb978e84d75d</xr:TypeId>
+				<xr:ValueId>9a225d47-a7da-4c43-a3d3-562eaceb7c5d</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ОбластиДействияСертификатовНоменклатуры</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>66462dbe-9467-42cd-8230-d62542224d13</ExtendedConfigurationObject>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Dimension uuid="0b002e4b-b34d-4158-9114-98eaa6dca6b1">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ВидНоменклатуры</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>b2b8d736-1f4d-4a2c-ae25-f0967a8dd596</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ВидыНоменклатуры</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="7c6fd64f-1469-4cea-a8f8-1ea1d595d419">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Номенклатура</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>bfa3ecc2-1342-4eb4-af14-442004dde037</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Номенклатура</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="6a8e3bd2-11c4-43de-b9d5-d12eea4fa48f">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Характеристика</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>1629e231-b0f5-4c97-8d1b-faefd353e3bc</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ХарактеристикиНоменклатуры</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="2742ed1e-486f-43d1-9cb2-29e070bf0e90">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Серия</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>9e5e8600-37c6-4f92-8605-1f50c6fc30c6</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.СерииНоменклатуры</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="7050aa60-a3bd-4961-ac70-ab0231431375">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>СертификатНоменклатуры</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>c9905bae-a5e9-44db-aa78-4835ef82c60c</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.СертификатыНоменклатуры</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

@@ -49,6 +49,24 @@
 					<ExtendedConfigurationObject>68be4e2f-917b-4f18-80e2-5f8f3c83a252</ExtendedConfigurationObject>
 				</Properties>
 			</EnumValue>
+			<EnumValue uuid="30514da8-d7db-48dc-bc66-23024be23a9b">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ПоДоговорамНакладным</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>4f954f84-d9f9-4d34-8b96-cd90db36a2c4</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="cb6744d0-245b-4ae0-85d1-cc9186664b62">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ПоДоговорамКонтрагентов</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>351f3b97-ac90-4e79-9d41-cdc11138aa2f</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
 		</ChildObjects>
 	</Enum>
 </MetaDataObject>

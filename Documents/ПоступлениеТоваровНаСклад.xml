@@ -463,9 +463,6 @@
 							<Name>Цена</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>43da9ad4-bd2c-48d6-a8b4-f7bd815ea80d</ExtendedConfigurationObject>
-							<Type>
-								<v8:TypeSet>cfg:DefinedType.ДенежнаяСуммаНеотрицательная</v8:TypeSet>
-							</Type>
 						</Properties>
 					</Attribute>
 					<Attribute uuid="4413dba6-1014-4f74-b78e-225e36b9a158">

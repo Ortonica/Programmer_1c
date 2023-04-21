@@ -15,6 +15,7 @@
 			</Synonym>
 			<Comment/>
 			<Source>
+				<v8:Type>cfg:DocumentObject.ОтборРазмещениеТоваров</v8:Type>
 				<v8:Type>cfg:DocumentObject.РСК_Разнарядка</v8:Type>
 				<v8:Type>cfg:DocumentObject.РСК_ПартияПоставки</v8:Type>
 				<v8:Type>cfg:DocumentObject.ПоручениеЭкспедитору</v8:Type>

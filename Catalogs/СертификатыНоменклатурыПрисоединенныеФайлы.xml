@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+	<Catalog uuid="66ff8873-711e-4816-89e8-2c0ac867f316">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.СертификатыНоменклатурыПрисоединенныеФайлы" category="Object">
+				<xr:TypeId>3daf369b-10c1-42e7-9605-bde39322531e</xr:TypeId>
+				<xr:ValueId>d46ec9bb-4548-4399-860b-48b9c48b371c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.СертификатыНоменклатурыПрисоединенныеФайлы" category="Ref">
+				<xr:TypeId>da1360c1-a8a6-41e6-a0b6-2e4591a3e423</xr:TypeId>
+				<xr:ValueId>e7f48d7f-b424-4449-a2a2-44247718e72e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.СертификатыНоменклатурыПрисоединенныеФайлы" category="Selection">
+				<xr:TypeId>4d186be4-df59-4eb0-b681-f2c8a48f3259</xr:TypeId>
+				<xr:ValueId>6b57673d-999d-48ae-8f48-02608fe82fae</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.СертификатыНоменклатурыПрисоединенныеФайлы" category="List">
+				<xr:TypeId>1fb828bf-aaa4-41f2-b6ca-a9ce59a1604b</xr:TypeId>
+				<xr:ValueId>1644a99a-0e12-40de-89f7-e7c2240cc1fe</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.СертификатыНоменклатурыПрисоединенныеФайлы" category="Manager">
+				<xr:TypeId>a808ff5a-0c7f-458c-a8fb-f3f0c597081d</xr:TypeId>
+				<xr:ValueId>b8771204-b945-456e-9b01-cc3e07a00267</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>СертификатыНоменклатурыПрисоединенныеФайлы</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>887708f6-6669-4ea3-8dcf-b051a05bd88b</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="dc3423b4-5407-43f3-b792-96823d0b1028">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ВладелецФайла</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>04d104ef-f690-4e13-bec6-bd5e802a557f</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.СертификатыНоменклатуры</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>

@@ -213,6 +213,18 @@
 					</Type>
 				</Properties>
 			</Attribute>
+			<Attribute uuid="9b06a0d9-d18e-4c96-aafb-86bb0858806b">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ВестиУчетПоГТД</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>f2e5c9ce-045f-438e-abf0-5ce202db69ea</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
 			<Form>ФормаЭлемента</Form>
 			<Form>САВ_ВыборДляЗагрузки</Form>
 			<Template>РС_ПФ_MXL_КарточкаНоменклатуры</Template>

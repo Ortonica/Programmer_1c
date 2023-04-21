@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+	<Enum uuid="570021c7-9cc9-4890-bc34-d898361bdc23">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.СостоянияЗаказовКлиентов" category="Ref">
+				<xr:TypeId>914cded0-e843-4a84-b4cd-5fff1661da84</xr:TypeId>
+				<xr:ValueId>da3e211f-0345-4a19-9950-4143828a353d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.СостоянияЗаказовКлиентов" category="Manager">
+				<xr:TypeId>6044ca52-24a0-42f0-b633-261cfeeeee70</xr:TypeId>
+				<xr:ValueId>73b38023-c271-4aa7-a3b6-0715068f500b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.СостоянияЗаказовКлиентов" category="List">
+				<xr:TypeId>c60ae505-e7d9-4e69-a627-4ae3302ae566</xr:TypeId>
+				<xr:ValueId>bf27820b-464f-447f-b2e9-89f2cee7cb3a</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>СостоянияЗаказовКлиентов</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>ea8c9475-156a-4793-8dfe-10617b50f0de</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="6a171481-7c1d-4950-bff1-c138ea05df63">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ВПроцессеОтгрузки</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>e8025e90-5b7c-4af5-a86c-bc4572045c64</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

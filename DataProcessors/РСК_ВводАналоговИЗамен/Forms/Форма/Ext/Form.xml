@@ -1,0 +1,1142 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<Autofill>false</Autofill>
+	</AutoCommandBar>
+	<Events>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<Pages name="ГруппаСтраницы" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа страницы</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа страницы</v8:content>
+				</v8:item>
+			</ToolTip>
+			<ExtendedTooltip name="ГруппаСтраницыРасширеннаяПодсказка" id="2"/>
+			<ChildItems>
+				<Page name="СтраницаАналоги" id="3">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Аналоги</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Страница аналоги</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Height>45</Height>
+					<ExtendedTooltip name="СтраницаАналогиРасширеннаяПодсказка" id="4"/>
+					<ChildItems>
+						<CommandBar name="АналогКоманднаяПанель" id="140">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Аналог командная панель</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Аналог командная панель</v8:content>
+								</v8:item>
+							</ToolTip>
+							<ExtendedTooltip name="АналогКоманднаяПанельРасширеннаяПодсказка" id="141"/>
+							<ChildItems>
+								<Button name="АналогОбновить" id="142">
+									<Type>CommandBarButton</Type>
+									<CommandName>Form.Command.АналогОбновить</CommandName>
+									<ExtendedTooltip name="АналогОбновитьРасширеннаяПодсказка" id="143"/>
+								</Button>
+								<Button name="АналогСохранить" id="144">
+									<Type>CommandBarButton</Type>
+									<CommandName>Form.Command.АналогСохранить</CommandName>
+									<ExtendedTooltip name="АналогСохранитьРасширеннаяПодсказка" id="145"/>
+								</Button>
+							</ChildItems>
+						</CommandBar>
+						<UsualGroup name="ГруппаАналогНабор" id="107">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа аналог набор</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа аналог набор</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>AlwaysHorizontal</Group>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаАналогНаборРасширеннаяПодсказка" id="108"/>
+							<ChildItems>
+								<InputField name="АналогНоменклатура" id="115">
+									<DataPath>АналогНоменклатура</DataPath>
+									<ContextMenu name="АналогНоменклатураКонтекстноеМеню" id="116"/>
+									<ExtendedTooltip name="АналогНоменклатураРасширеннаяПодсказка" id="117"/>
+									<Events>
+										<Event name="OnChange">АналогНоменклатураПриИзменении</Event>
+									</Events>
+								</InputField>
+								<InputField name="АналогХарактеристика" id="112">
+									<DataPath>АналогХарактеристика</DataPath>
+									<ChoiceParameterLinks>
+										<xr:Link>
+											<xr:Name>Номенклатура</xr:Name>
+											<xr:DataPath xsi:type="xs:string">АналогНоменклатура</xr:DataPath>
+											<xr:ValueChange>Clear</xr:ValueChange>
+										</xr:Link>
+									</ChoiceParameterLinks>
+									<ContextMenu name="АналогХарактеристикаКонтекстноеМеню" id="113"/>
+									<ExtendedTooltip name="АналогХарактеристикаРасширеннаяПодсказка" id="114"/>
+									<Events>
+										<Event name="OnChange">АналогХарактеристикаПриИзменении</Event>
+									</Events>
+								</InputField>
+								<InputField name="АналогСерия" id="109">
+									<DataPath>АналогСерия</DataPath>
+									<Visible>false</Visible>
+									<ChoiceParameterLinks>
+										<xr:Link>
+											<xr:Name>Номенклатура</xr:Name>
+											<xr:DataPath xsi:type="xs:string">АналогНоменклатура</xr:DataPath>
+											<xr:ValueChange>Clear</xr:ValueChange>
+										</xr:Link>
+										<xr:Link>
+											<xr:Name>Характеристика</xr:Name>
+											<xr:DataPath xsi:type="xs:string">АналогХарактеристика</xr:DataPath>
+											<xr:ValueChange>Clear</xr:ValueChange>
+										</xr:Link>
+									</ChoiceParameterLinks>
+									<ContextMenu name="АналогСерияКонтекстноеМеню" id="110"/>
+									<ExtendedTooltip name="АналогСерияРасширеннаяПодсказка" id="111"/>
+									<Events>
+										<Event name="OnChange">АналогСерияПриИзменении</Event>
+									</Events>
+								</InputField>
+							</ChildItems>
+						</UsualGroup>
+						<Table name="АналогТаблица" id="118">
+							<Representation>List</Representation>
+							<ChangeRowOrder>false</ChangeRowOrder>
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>АналогТаблица</DataPath>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="АналогТаблицаКонтекстноеМеню" id="119"/>
+							<AutoCommandBar name="АналогТаблицаКоманднаяПанель" id="120"/>
+							<ExtendedTooltip name="АналогТаблицаРасширеннаяПодсказка" id="121"/>
+							<SearchStringAddition name="АналогТаблицаСтрокаПоиска" id="122">
+								<AdditionSource>
+									<Item>АналогТаблица</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="АналогТаблицаСтрокаПоискаКонтекстноеМеню" id="123"/>
+								<ExtendedTooltip name="АналогТаблицаСтрокаПоискаРасширеннаяПодсказка" id="124"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="АналогТаблицаСостояниеПросмотра" id="125">
+								<AdditionSource>
+									<Item>АналогТаблица</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="АналогТаблицаСостояниеПросмотраКонтекстноеМеню" id="126"/>
+								<ExtendedTooltip name="АналогТаблицаСостояниеПросмотраРасширеннаяПодсказка" id="127"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="АналогТаблицаУправлениеПоиском" id="128">
+								<AdditionSource>
+									<Item>АналогТаблица</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="АналогТаблицаУправлениеПоискомКонтекстноеМеню" id="129"/>
+								<ExtendedTooltip name="АналогТаблицаУправлениеПоискомРасширеннаяПодсказка" id="130"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<InputField name="АналогТаблицаНоменклатура" id="131">
+									<DataPath>АналогТаблица.Номенклатура</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="АналогТаблицаНоменклатураКонтекстноеМеню" id="132"/>
+									<ExtendedTooltip name="АналогТаблицаНоменклатураРасширеннаяПодсказка" id="133"/>
+								</InputField>
+								<InputField name="АналогТаблицаХарактеристика" id="134">
+									<DataPath>АналогТаблица.Характеристика</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ChoiceParameterLinks>
+										<xr:Link>
+											<xr:Name>Номенклатура</xr:Name>
+											<xr:DataPath xsi:type="xs:string">Items.АналогТаблица.CurrentData.Номенклатура</xr:DataPath>
+											<xr:ValueChange>Clear</xr:ValueChange>
+										</xr:Link>
+									</ChoiceParameterLinks>
+									<ContextMenu name="АналогТаблицаХарактеристикаКонтекстноеМеню" id="135"/>
+									<ExtendedTooltip name="АналогТаблицаХарактеристикаРасширеннаяПодсказка" id="136"/>
+								</InputField>
+								<InputField name="АналогТаблицаСерия" id="137">
+									<DataPath>АналогТаблица.Серия</DataPath>
+									<Visible>false</Visible>
+									<EditMode>EnterOnInput</EditMode>
+									<ChoiceParameterLinks>
+										<xr:Link>
+											<xr:Name>Номенклатура</xr:Name>
+											<xr:DataPath xsi:type="xs:string">Items.АналогТаблица.CurrentData.Номенклатура</xr:DataPath>
+											<xr:ValueChange>Clear</xr:ValueChange>
+										</xr:Link>
+										<xr:Link>
+											<xr:Name>Характеристика</xr:Name>
+											<xr:DataPath xsi:type="xs:string">Items.АналогТаблица.CurrentData.Характеристика</xr:DataPath>
+											<xr:ValueChange>Clear</xr:ValueChange>
+										</xr:Link>
+									</ChoiceParameterLinks>
+									<ContextMenu name="АналогТаблицаСерияКонтекстноеМеню" id="138"/>
+									<ExtendedTooltip name="АналогТаблицаСерияРасширеннаяПодсказка" id="139"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+						<Table name="АналогСписок" id="146">
+							<TitleLocation>Top</TitleLocation>
+							<ChangeRowSet>false</ChangeRowSet>
+							<ChangeRowOrder>false</ChangeRowOrder>
+							<UseAlternationRowColor>true</UseAlternationRowColor>
+							<EnableStartDrag>true</EnableStartDrag>
+							<DataPath>АналогСписок</DataPath>
+							<RowPictureDataPath>~АналогСписок.DefaultPicture</RowPictureDataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Имеющиеся наборы аналогов</v8:content>
+								</v8:item>
+							</Title>
+							<AutoRefresh>false</AutoRefresh>
+							<AutoRefreshPeriod>60</AutoRefreshPeriod>
+							<Period>
+								<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+								<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+								<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+							</Period>
+							<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+							<RestoreCurrentRow>false</RestoreCurrentRow>
+							<TopLevelParent xsi:nil="true"/>
+							<ShowRoot>true</ShowRoot>
+							<AllowRootChoice>false</AllowRootChoice>
+							<UpdateOnDataChange>Auto</UpdateOnDataChange>
+							<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
+							<ContextMenu name="АналогСписокКонтекстноеМеню" id="147"/>
+							<AutoCommandBar name="АналогСписокКоманднаяПанель" id="148"/>
+							<ExtendedTooltip name="АналогСписокРасширеннаяПодсказка" id="149"/>
+							<SearchStringAddition name="АналогСписокСтрокаПоиска" id="150">
+								<AdditionSource>
+									<Item>АналогСписок</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="АналогСписокСтрокаПоискаКонтекстноеМеню" id="151"/>
+								<ExtendedTooltip name="АналогСписокСтрокаПоискаРасширеннаяПодсказка" id="152"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="АналогСписокСостояниеПросмотра" id="153">
+								<AdditionSource>
+									<Item>АналогСписок</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="АналогСписокСостояниеПросмотраКонтекстноеМеню" id="154"/>
+								<ExtendedTooltip name="АналогСписокСостояниеПросмотраРасширеннаяПодсказка" id="155"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="АналогСписокУправлениеПоиском" id="156">
+								<AdditionSource>
+									<Item>АналогСписок</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="АналогСписокУправлениеПоискомКонтекстноеМеню" id="157"/>
+								<ExtendedTooltip name="АналогСписокУправлениеПоискомРасширеннаяПодсказка" id="158"/>
+							</SearchControlAddition>
+							<Events>
+								<Event name="Selection">АналогСписокВыбор</Event>
+							</Events>
+							<ChildItems>
+								<LabelField name="АналогСписокНоменклатура" id="171">
+									<DataPath>АналогСписок.Номенклатура</DataPath>
+									<ContextMenu name="АналогСписокНоменклатураКонтекстноеМеню" id="172"/>
+									<ExtendedTooltip name="АналогСписокНоменклатураРасширеннаяПодсказка" id="173"/>
+								</LabelField>
+								<LabelField name="АналогСписокХарактеристика" id="177">
+									<DataPath>АналогСписок.Характеристика</DataPath>
+									<ContextMenu name="АналогСписокХарактеристикаКонтекстноеМеню" id="178"/>
+									<ExtendedTooltip name="АналогСписокХарактеристикаРасширеннаяПодсказка" id="179"/>
+								</LabelField>
+								<LabelField name="АналогСписокСерия" id="174">
+									<DataPath>АналогСписок.Серия</DataPath>
+									<Visible>false</Visible>
+									<ContextMenu name="АналогСписокСерияКонтекстноеМеню" id="175"/>
+									<ExtendedTooltip name="АналогСписокСерияРасширеннаяПодсказка" id="176"/>
+								</LabelField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+				<Page name="СтраницаЗамены" id="5">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Замены</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Страница замены</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="СтраницаЗаменыРасширеннаяПодсказка" id="6"/>
+					<ChildItems>
+						<CommandBar name="ЗаменаКоманднаяПанель" id="39">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Замена командная панель</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Замена командная панель</v8:content>
+								</v8:item>
+							</ToolTip>
+							<ExtendedTooltip name="ЗаменаКоманднаяПанельРасширеннаяПодсказка" id="40"/>
+							<ChildItems>
+								<Button name="ЗаменаОбновить" id="37">
+									<Type>CommandBarButton</Type>
+									<CommandName>Form.Command.ЗаменаОбновить</CommandName>
+									<ExtendedTooltip name="ЗаменаОбновитьРасширеннаяПодсказка" id="38"/>
+								</Button>
+								<Button name="ЗаменаСохранить" id="41">
+									<Type>CommandBarButton</Type>
+									<CommandName>Form.Command.ЗаменаСохранить</CommandName>
+									<ExtendedTooltip name="ЗаменаСохранитьРасширеннаяПодсказка" id="42"/>
+								</Button>
+								<Button name="ЗаменаУдалить" id="43">
+									<Type>CommandBarButton</Type>
+									<CommandName>Form.Command.ЗаменаУдалить</CommandName>
+									<ExtendedTooltip name="ЗаменаУдалитьРасширеннаяПодсказка" id="44"/>
+								</Button>
+							</ChildItems>
+						</CommandBar>
+						<UsualGroup name="ГруппаЗамена" id="9">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа замена</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа замена</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>AlwaysHorizontal</Group>
+							<VerticalAlign>Center</VerticalAlign>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаЗаменаРасширеннаяПодсказка" id="10"/>
+							<ChildItems>
+								<UsualGroup name="ГруппаЗаменаИсточник" id="7">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа замена источник</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа замена источник</v8:content>
+										</v8:item>
+									</ToolTip>
+									<Group>Vertical</Group>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="ГруппаЗаменаИсточникРасширеннаяПодсказка" id="8"/>
+									<ChildItems>
+										<LabelDecoration name="ДекорацияПустышка1" id="90">
+											<ContextMenu name="ДекорацияПустышка1КонтекстноеМеню" id="91"/>
+											<ExtendedTooltip name="ДекорацияПустышка1РасширеннаяПодсказка" id="92"/>
+										</LabelDecoration>
+										<InputField name="ЗаменаИсточникНоменклатура" id="19">
+											<DataPath>ЗаменаИсточникНоменклатура</DataPath>
+											<ContextMenu name="ЗаменаИсточникНоменклатураКонтекстноеМеню" id="20"/>
+											<ExtendedTooltip name="ЗаменаИсточникНоменклатураРасширеннаяПодсказка" id="21"/>
+											<Events>
+												<Event name="OnChange">ЗаменаИсточникНоменклатураПриИзменении</Event>
+											</Events>
+										</InputField>
+										<InputField name="ЗаменаИсточникХарактеристика" id="16">
+											<DataPath>ЗаменаИсточникХарактеристика</DataPath>
+											<ChoiceParameterLinks>
+												<xr:Link>
+													<xr:Name>Номенклатура</xr:Name>
+													<xr:DataPath xsi:type="xs:string">ЗаменаИсточникНоменклатура</xr:DataPath>
+													<xr:ValueChange>Clear</xr:ValueChange>
+												</xr:Link>
+											</ChoiceParameterLinks>
+											<ContextMenu name="ЗаменаИсточникХарактеристикаКонтекстноеМеню" id="17"/>
+											<ExtendedTooltip name="ЗаменаИсточникХарактеристикаРасширеннаяПодсказка" id="18"/>
+											<Events>
+												<Event name="OnChange">ЗаменаИсточникХарактеристикаПриИзменении</Event>
+											</Events>
+										</InputField>
+										<InputField name="ЗаменаИсточникСерия" id="13">
+											<DataPath>ЗаменаИсточникСерия</DataPath>
+											<Visible>false</Visible>
+											<ChoiceParameterLinks>
+												<xr:Link>
+													<xr:Name>Номенклатура</xr:Name>
+													<xr:DataPath xsi:type="xs:string">ЗаменаИсточникНоменклатура</xr:DataPath>
+													<xr:ValueChange>Clear</xr:ValueChange>
+												</xr:Link>
+												<xr:Link>
+													<xr:Name>Характеристика</xr:Name>
+													<xr:DataPath xsi:type="xs:string">ЗаменаИсточникХарактеристика</xr:DataPath>
+													<xr:ValueChange>Clear</xr:ValueChange>
+												</xr:Link>
+											</ChoiceParameterLinks>
+											<ContextMenu name="ЗаменаИсточникСерияКонтекстноеМеню" id="14"/>
+											<ExtendedTooltip name="ЗаменаИсточникСерияРасширеннаяПодсказка" id="15"/>
+											<Events>
+												<Event name="OnChange">ЗаменаИсточникСерияПриИзменении</Event>
+											</Events>
+										</InputField>
+									</ChildItems>
+								</UsualGroup>
+								<UsualGroup name="ГруппаЗаменяетсяНа" id="96">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа заменяется на</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа заменяется на</v8:content>
+										</v8:item>
+									</ToolTip>
+									<Group>Vertical</Group>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="ГруппаЗаменяетсяНаРасширеннаяПодсказка" id="97"/>
+									<ChildItems>
+										<LabelDecoration name="ДекорацияПустышка3" id="98">
+											<ContextMenu name="ДекорацияПустышка3КонтекстноеМеню" id="99"/>
+											<ExtendedTooltip name="ДекорацияПустышка3РасширеннаяПодсказка" id="100"/>
+										</LabelDecoration>
+										<LabelDecoration name="ДекорацияПустышка4" id="101">
+											<Visible>false</Visible>
+											<ContextMenu name="ДекорацияПустышка4КонтекстноеМеню" id="102"/>
+											<ExtendedTooltip name="ДекорацияПустышка4РасширеннаяПодсказка" id="103"/>
+										</LabelDecoration>
+										<LabelDecoration name="ДекорацияЗаменяетсяНа" id="31">
+											<MaxWidth>41</MaxWidth>
+											<Title formatted="false">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Заменяется на =&gt;</v8:content>
+												</v8:item>
+											</Title>
+											<ContextMenu name="ДекорацияЗаменяетсяНаКонтекстноеМеню" id="32"/>
+											<ExtendedTooltip name="ДекорацияЗаменяетсяНаРасширеннаяПодсказка" id="33"/>
+										</LabelDecoration>
+										<LabelDecoration name="ДекорацияПустышка5" id="104">
+											<Visible>false</Visible>
+											<ContextMenu name="ДекорацияПустышка5КонтекстноеМеню" id="105"/>
+											<ExtendedTooltip name="ДекорацияПустышка5РасширеннаяПодсказка" id="106"/>
+										</LabelDecoration>
+									</ChildItems>
+								</UsualGroup>
+								<UsualGroup name="ГруппаЗаменаПриемник" id="11">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа замена источник</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа замена источник</v8:content>
+										</v8:item>
+									</ToolTip>
+									<Group>Vertical</Group>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="ГруппаЗаменаПриемникРасширеннаяПодсказка" id="12"/>
+									<ChildItems>
+										<LabelDecoration name="ДекорацияПустышка2" id="93">
+											<ContextMenu name="ДекорацияПустышка2КонтекстноеМеню" id="94"/>
+											<ExtendedTooltip name="ДекорацияПустышка2РасширеннаяПодсказка" id="95"/>
+										</LabelDecoration>
+										<InputField name="ЗаменаПриемникНоменклатура" id="28">
+											<DataPath>ЗаменаПриемникНоменклатура</DataPath>
+											<ContextMenu name="ЗаменаПриемникНоменклатураКонтекстноеМеню" id="29"/>
+											<ExtendedTooltip name="ЗаменаПриемникНоменклатураРасширеннаяПодсказка" id="30"/>
+										</InputField>
+										<InputField name="ЗаменаПриемникХарактеристика" id="25">
+											<DataPath>ЗаменаПриемникХарактеристика</DataPath>
+											<ChoiceParameterLinks>
+												<xr:Link>
+													<xr:Name>Номенклатура</xr:Name>
+													<xr:DataPath xsi:type="xs:string">ЗаменаПриемникНоменклатура</xr:DataPath>
+													<xr:ValueChange>Clear</xr:ValueChange>
+												</xr:Link>
+											</ChoiceParameterLinks>
+											<ContextMenu name="ЗаменаПриемникХарактеристикаКонтекстноеМеню" id="26"/>
+											<ExtendedTooltip name="ЗаменаПриемникХарактеристикаРасширеннаяПодсказка" id="27"/>
+										</InputField>
+										<InputField name="ЗаменаПриемникСерия" id="22">
+											<DataPath>ЗаменаПриемникСерия</DataPath>
+											<Visible>false</Visible>
+											<ChoiceParameterLinks>
+												<xr:Link>
+													<xr:Name>Номенклатура</xr:Name>
+													<xr:DataPath xsi:type="xs:string">ЗаменаПриемникНоменклатура</xr:DataPath>
+													<xr:ValueChange>Clear</xr:ValueChange>
+												</xr:Link>
+												<xr:Link>
+													<xr:Name>Характеристика</xr:Name>
+													<xr:DataPath xsi:type="xs:string">ЗаменаПриемникХарактеристика</xr:DataPath>
+													<xr:ValueChange>Clear</xr:ValueChange>
+												</xr:Link>
+											</ChoiceParameterLinks>
+											<ContextMenu name="ЗаменаПриемникСерияКонтекстноеМеню" id="23"/>
+											<ExtendedTooltip name="ЗаменаПриемникСерияРасширеннаяПодсказка" id="24"/>
+										</InputField>
+									</ChildItems>
+								</UsualGroup>
+								<UsualGroup name="ГруппаЗаменаИмеется" id="79">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа замена имеется</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа замена имеется</v8:content>
+										</v8:item>
+									</ToolTip>
+									<Group>Vertical</Group>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="ГруппаЗаменаИмеетсяРасширеннаяПодсказка" id="80"/>
+									<ChildItems>
+										<LabelDecoration name="ДекорацияСуществующаяЗамена" id="34">
+											<Title formatted="false">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Текущая замена:</v8:content>
+												</v8:item>
+											</Title>
+											<ContextMenu name="ДекорацияСуществующаяЗаменаКонтекстноеМеню" id="35"/>
+											<ExtendedTooltip name="ДекорацияСуществующаяЗаменаРасширеннаяПодсказка" id="36"/>
+										</LabelDecoration>
+										<LabelField name="ЗаменаИмеетсяНоменклатура" id="87">
+											<DataPath>ЗаменаИмеетсяНоменклатура</DataPath>
+											<TitleLocation>None</TitleLocation>
+											<ContextMenu name="ЗаменаИмеетсяНоменклатураКонтекстноеМеню" id="88"/>
+											<ExtendedTooltip name="ЗаменаИмеетсяНоменклатураРасширеннаяПодсказка" id="89"/>
+										</LabelField>
+										<LabelField name="ЗаменаИмеетсяХарактеристика" id="81">
+											<DataPath>ЗаменаИмеетсяХарактеристика</DataPath>
+											<TitleLocation>None</TitleLocation>
+											<ContextMenu name="ЗаменаИмеетсяХарактеристикаКонтекстноеМеню" id="82"/>
+											<ExtendedTooltip name="ЗаменаИмеетсяХарактеристикаРасширеннаяПодсказка" id="83"/>
+										</LabelField>
+										<LabelField name="ЗаменаИмеетсяСерия" id="84">
+											<DataPath>ЗаменаИмеетсяСерия</DataPath>
+											<Visible>false</Visible>
+											<TitleLocation>None</TitleLocation>
+											<ContextMenu name="ЗаменаИмеетсяСерияКонтекстноеМеню" id="85"/>
+											<ExtendedTooltip name="ЗаменаИмеетсяСерияРасширеннаяПодсказка" id="86"/>
+										</LabelField>
+									</ChildItems>
+								</UsualGroup>
+							</ChildItems>
+						</UsualGroup>
+						<Table name="ЗаменаСписок" id="45">
+							<TitleLocation>Top</TitleLocation>
+							<ChangeRowSet>false</ChangeRowSet>
+							<ChangeRowOrder>false</ChangeRowOrder>
+							<UseAlternationRowColor>true</UseAlternationRowColor>
+							<EnableStartDrag>true</EnableStartDrag>
+							<DataPath>ЗаменаСписок</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Имеющиеся замены</v8:content>
+								</v8:item>
+							</Title>
+							<AutoRefresh>false</AutoRefresh>
+							<AutoRefreshPeriod>60</AutoRefreshPeriod>
+							<Period>
+								<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+								<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+								<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+							</Period>
+							<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+							<RestoreCurrentRow>false</RestoreCurrentRow>
+							<TopLevelParent xsi:nil="true"/>
+							<ShowRoot>true</ShowRoot>
+							<AllowRootChoice>false</AllowRootChoice>
+							<UpdateOnDataChange>Auto</UpdateOnDataChange>
+							<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
+							<ContextMenu name="ЗаменаСписокКонтекстноеМеню" id="46"/>
+							<AutoCommandBar name="ЗаменаСписокКоманднаяПанель" id="47">
+								<Autofill>false</Autofill>
+							</AutoCommandBar>
+							<ExtendedTooltip name="ЗаменаСписокРасширеннаяПодсказка" id="48"/>
+							<SearchStringAddition name="ЗаменаСписокСтрокаПоиска" id="49">
+								<AdditionSource>
+									<Item>ЗаменаСписок</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ЗаменаСписокСтрокаПоискаКонтекстноеМеню" id="50"/>
+								<ExtendedTooltip name="ЗаменаСписокСтрокаПоискаРасширеннаяПодсказка" id="51"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="ЗаменаСписокСостояниеПросмотра" id="52">
+								<AdditionSource>
+									<Item>ЗаменаСписок</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ЗаменаСписокСостояниеПросмотраКонтекстноеМеню" id="53"/>
+								<ExtendedTooltip name="ЗаменаСписокСостояниеПросмотраРасширеннаяПодсказка" id="54"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="ЗаменаСписокУправлениеПоиском" id="55">
+								<AdditionSource>
+									<Item>ЗаменаСписок</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="ЗаменаСписокУправлениеПоискомКонтекстноеМеню" id="56"/>
+								<ExtendedTooltip name="ЗаменаСписокУправлениеПоискомРасширеннаяПодсказка" id="57"/>
+							</SearchControlAddition>
+							<Events>
+								<Event name="Selection">ЗаменаСписокВыбор</Event>
+							</Events>
+							<ChildItems>
+								<LabelField name="ЗаменаСписокИсточникНоменклатура" id="61">
+									<DataPath>ЗаменаСписок.ИсточникНоменклатура</DataPath>
+									<ContextMenu name="ЗаменаСписокИсточникНоменклатураКонтекстноеМеню" id="62"/>
+									<ExtendedTooltip name="ЗаменаСписокИсточникНоменклатураРасширеннаяПодсказка" id="63"/>
+								</LabelField>
+								<LabelField name="ЗаменаСписокИсточникХарактеристика" id="67">
+									<DataPath>ЗаменаСписок.ИсточникХарактеристика</DataPath>
+									<ContextMenu name="ЗаменаСписокИсточникХарактеристикаКонтекстноеМеню" id="68"/>
+									<ExtendedTooltip name="ЗаменаСписокИсточникХарактеристикаРасширеннаяПодсказка" id="69"/>
+								</LabelField>
+								<LabelField name="ЗаменаСписокИсточникСерия" id="64">
+									<DataPath>ЗаменаСписок.ИсточникСерия</DataPath>
+									<Visible>false</Visible>
+									<ContextMenu name="ЗаменаСписокИсточникСерияКонтекстноеМеню" id="65"/>
+									<ExtendedTooltip name="ЗаменаСписокИсточникСерияРасширеннаяПодсказка" id="66"/>
+								</LabelField>
+								<LabelField name="ЗаменаСписокПриемникНоменклатура" id="70">
+									<DataPath>ЗаменаСписок.ПриемникНоменклатура</DataPath>
+									<ContextMenu name="ЗаменаСписокПриемникНоменклатураКонтекстноеМеню" id="71"/>
+									<ExtendedTooltip name="ЗаменаСписокПриемникНоменклатураРасширеннаяПодсказка" id="72"/>
+								</LabelField>
+								<LabelField name="ЗаменаСписокПриемникХарактеристика" id="76">
+									<DataPath>ЗаменаСписок.ПриемникХарактеристика</DataPath>
+									<ContextMenu name="ЗаменаСписокПриемникХарактеристикаКонтекстноеМеню" id="77"/>
+									<ExtendedTooltip name="ЗаменаСписокПриемникХарактеристикаРасширеннаяПодсказка" id="78"/>
+								</LabelField>
+								<LabelField name="ЗаменаСписокПриемникСерия" id="73">
+									<DataPath>ЗаменаСписок.ПриемникСерия</DataPath>
+									<Visible>false</Visible>
+									<ContextMenu name="ЗаменаСписокПриемникСерияКонтекстноеМеню" id="74"/>
+									<ExtendedTooltip name="ЗаменаСписокПриемникСерияРасширеннаяПодсказка" id="75"/>
+								</LabelField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+			</ChildItems>
+		</Pages>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DataProcessorObject.РСК_ВводАналоговИЗамен</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+		<Attribute name="ЗаменаИсточникНоменклатура" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Номенклатура</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:CatalogRef.Номенклатура</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ЗаменаИсточникХарактеристика" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Характеристика</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:CatalogRef.ХарактеристикиНоменклатуры</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ЗаменаИсточникСерия" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Серия</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:CatalogRef.СерииНоменклатуры</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ЗаменаПриемникНоменклатура" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Номенклатура</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:CatalogRef.Номенклатура</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ЗаменаПриемникХарактеристика" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Характеристика</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:CatalogRef.ХарактеристикиНоменклатуры</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ЗаменаПриемникСерия" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Серия</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:CatalogRef.СерииНоменклатуры</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ЗаменаИмеетсяНоменклатура" id="8">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Номенклатура</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:CatalogRef.Номенклатура</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ЗаменаИмеетсяХарактеристика" id="9">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Характеристика</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:CatalogRef.ХарактеристикиНоменклатуры</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ЗаменаИмеетсяСерия" id="10">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Серия</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:CatalogRef.СерииНоменклатуры</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ЗаменаСписок" id="11">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Замена список</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:DynamicList</v8:Type>
+			</Type>
+			<UseAlways>
+				<Field>ЗаменаСписок.ВидСвязи</Field>
+				<Field>ЗаменаСписок.ИсточникНоменклатура</Field>
+				<Field>ЗаменаСписок.ИсточникСерия</Field>
+				<Field>ЗаменаСписок.ИсточникХарактеристика</Field>
+				<Field>ЗаменаСписок.ПриемникНоменклатура</Field>
+				<Field>ЗаменаСписок.ПриемникСерия</Field>
+				<Field>ЗаменаСписок.ПриемникХарактеристика</Field>
+			</UseAlways>
+			<Settings xsi:type="DynamicList">
+				<ManualQuery>true</ManualQuery>
+				<DynamicDataRead>true</DynamicDataRead>
+				<QueryText>ВЫБРАТЬ
+	РСК_АналогиИЗамены.ИсточникНоменклатура КАК ИсточникНоменклатура,
+	РСК_АналогиИЗамены.ИсточникХарактеристика КАК ИсточникХарактеристика,
+	РСК_АналогиИЗамены.ИсточникСерия КАК ИсточникСерия,
+	РСК_АналогиИЗамены.ПриемникНоменклатура КАК ПриемникНоменклатура,
+	РСК_АналогиИЗамены.ПриемникХарактеристика КАК ПриемникХарактеристика,
+	РСК_АналогиИЗамены.ПриемникСерия КАК ПриемникСерия
+ИЗ
+	РегистрСведений.РСК_АналогиИЗамены КАК РСК_АналогиИЗамены
+ГДЕ
+	РСК_АналогиИЗамены.ВидСвязи = ЗНАЧЕНИЕ(Перечисление.РСК_АналогиИЗаменыВидыСвязи.Замена)</QueryText>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ПриемникНоменклатура</dcssch:dataPath>
+					<dcssch:field>ПриемникНоменклатура</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ИсточникНоменклатура</dcssch:dataPath>
+					<dcssch:field>ИсточникНоменклатура</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ПриемникХарактеристика</dcssch:dataPath>
+					<dcssch:field>ПриемникХарактеристика</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ИсточникХарактеристика</dcssch:dataPath>
+					<dcssch:field>ИсточникХарактеристика</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ПриемникСерия</dcssch:dataPath>
+					<dcssch:field>ПриемникСерия</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ИсточникСерия</dcssch:dataPath>
+					<dcssch:field>ИсточникСерия</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ВидСвязи</dcssch:dataPath>
+					<dcssch:field>ВидСвязи</dcssch:field>
+				</Field>
+				<MainTable>InformationRegister.РСК_АналогиИЗамены</MainTable>
+				<ListSettings>
+					<dcsset:filter>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</dcsset:userSettingID>
+					</dcsset:filter>
+					<dcsset:order>
+						<dcsset:item xsi:type="dcsset:OrderItemField">
+							<dcsset:field>ИсточникНоменклатура.Наименование</dcsset:field>
+							<dcsset:orderType>Asc</dcsset:orderType>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:OrderItemField">
+							<dcsset:field>ИсточникХарактеристика.Наименование</dcsset:field>
+							<dcsset:orderType>Asc</dcsset:orderType>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:OrderItemField">
+							<dcsset:field>ИсточникСерия.Наименование</dcsset:field>
+							<dcsset:orderType>Asc</dcsset:orderType>
+						</dcsset:item>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>88619765-ccb3-46c6-ac52-38e9c992ebd4</dcsset:userSettingID>
+					</dcsset:order>
+					<dcsset:conditionalAppearance>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>b75fecce-942b-4aed-abc9-e6a02e460fb3</dcsset:userSettingID>
+					</dcsset:conditionalAppearance>
+					<dcsset:itemsViewMode>Normal</dcsset:itemsViewMode>
+					<dcsset:itemsUserSettingID>911b6018-f537-43e8-a417-da56b22f9aec</dcsset:itemsUserSettingID>
+				</ListSettings>
+			</Settings>
+		</Attribute>
+		<Attribute name="АналогНоменклатура" id="12">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Номенклатура</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:CatalogRef.Номенклатура</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="АналогХарактеристика" id="13">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Характеристика</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:CatalogRef.ХарактеристикиНоменклатуры</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="АналогСерия" id="14">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Серия</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:CatalogRef.СерииНоменклатуры</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="АналогТаблица" id="15">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Аналог таблица</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="Номенклатура" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Номенклатура</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Номенклатура</v8:Type>
+					</Type>
+				</Column>
+				<Column name="Характеристика" id="2">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Характеристика</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ХарактеристикиНоменклатуры</v8:Type>
+					</Type>
+				</Column>
+				<Column name="Серия" id="3">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Серия</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>cfg:CatalogRef.СерииНоменклатуры</v8:Type>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+		<Attribute name="АналогСписок" id="16">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Аналог список</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:DynamicList</v8:Type>
+			</Type>
+			<UseAlways>
+				<Field>АналогСписок.Номенклатура</Field>
+				<Field>АналогСписок.Серия</Field>
+				<Field>АналогСписок.Характеристика</Field>
+			</UseAlways>
+			<Settings xsi:type="DynamicList">
+				<ManualQuery>true</ManualQuery>
+				<DynamicDataRead>false</DynamicDataRead>
+				<QueryText>ВЫБРАТЬ РАЗЛИЧНЫЕ
+	РСК_АналогиИЗамены.ПриемникНоменклатура КАК Номенклатура,
+	РСК_АналогиИЗамены.ПриемникХарактеристика КАК Характеристика,
+	РСК_АналогиИЗамены.ПриемникСерия КАК Серия
+ИЗ
+	РегистрСведений.РСК_АналогиИЗамены КАК РСК_АналогиИЗамены
+ГДЕ
+	РСК_АналогиИЗамены.ВидСвязи = ЗНАЧЕНИЕ(Перечисление.РСК_АналогиИЗаменыВидыСвязи.Аналог)</QueryText>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Номенклатура</dcssch:dataPath>
+					<dcssch:field>Номенклатура</dcssch:field>
+					<dcssch:title xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Номенклатура</v8:content>
+						</v8:item>
+					</dcssch:title>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Характеристика</dcssch:dataPath>
+					<dcssch:field>Характеристика</dcssch:field>
+					<dcssch:title xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Характеристика</v8:content>
+						</v8:item>
+					</dcssch:title>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Серия</dcssch:dataPath>
+					<dcssch:field>Серия</dcssch:field>
+					<dcssch:title xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Серия</v8:content>
+						</v8:item>
+					</dcssch:title>
+				</Field>
+				<GetInvisibleFieldPresentations>false</GetInvisibleFieldPresentations>
+				<ListSettings>
+					<dcsset:filter>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</dcsset:userSettingID>
+					</dcsset:filter>
+					<dcsset:order>
+						<dcsset:item xsi:type="dcsset:OrderItemField">
+							<dcsset:field>Номенклатура.Наименование</dcsset:field>
+							<dcsset:orderType>Asc</dcsset:orderType>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:OrderItemField">
+							<dcsset:field>Характеристика.Наименование</dcsset:field>
+							<dcsset:orderType>Asc</dcsset:orderType>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:OrderItemField">
+							<dcsset:field>Серия.Наименование</dcsset:field>
+							<dcsset:orderType>Asc</dcsset:orderType>
+						</dcsset:item>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>88619765-ccb3-46c6-ac52-38e9c992ebd4</dcsset:userSettingID>
+					</dcsset:order>
+					<dcsset:conditionalAppearance>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>b75fecce-942b-4aed-abc9-e6a02e460fb3</dcsset:userSettingID>
+					</dcsset:conditionalAppearance>
+					<dcsset:itemsViewMode>Normal</dcsset:itemsViewMode>
+					<dcsset:itemsUserSettingID>911b6018-f537-43e8-a417-da56b22f9aec</dcsset:itemsUserSettingID>
+				</ListSettings>
+			</Settings>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="ЗаменаОбновить" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обновить</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обновить</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.Refresh</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>ЗаменаОбновить</Action>
+			<Representation>TextPicture</Representation>
+		</Command>
+		<Command name="ЗаменаСохранить" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сохранить</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сохранить</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.SaveFile</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>ЗаменаСохранить</Action>
+			<Representation>TextPicture</Representation>
+		</Command>
+		<Command name="ЗаменаУдалить" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Удалить</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Удалить</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.Delete</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>ЗаменаУдалить</Action>
+			<Representation>TextPicture</Representation>
+		</Command>
+		<Command name="АналогОбновить" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обновить</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обновить</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.Refresh</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>АналогОбновить</Action>
+			<Representation>TextPicture</Representation>
+		</Command>
+		<Command name="АналогСохранить" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сохранить</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сохранить</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.SaveFile</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>АналогСохранить</Action>
+			<Representation>TextPicture</Representation>
+		</Command>
+	</Commands>
+</Form>

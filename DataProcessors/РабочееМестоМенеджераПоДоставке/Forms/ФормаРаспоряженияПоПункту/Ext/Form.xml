@@ -166,6 +166,9 @@
 				<ContextMenu name="РаспоряженияУправлениеПоискомКонтекстноеМеню" id="66"/>
 				<ExtendedTooltip name="РаспоряженияУправлениеПоискомРасширеннаяПодсказка" id="67"/>
 			</SearchControlAddition>
+			<Events>
+				<Event name="OnActivateRow" callType="After">РСК_РаспоряженияПриАктивизацииСтрокиПосле</Event>
+			</Events>
 			<ChildItems>
 				<CheckBoxField name="РаспоряженияДоставлено" id="89">
 					<DataPath>Распоряжения.Доставлено</DataPath>
@@ -262,14 +265,34 @@
 								</InputField>
 							</ChildItems>
 						</ColumnGroup>
-						<InputField name="РаспоряженияРаспоряжение" id="68">
-							<DataPath>Распоряжения.Распоряжение</DataPath>
-							<ReadOnly>true</ReadOnly>
-							<EditMode>EnterOnInput</EditMode>
-							<CellHyperlink>true</CellHyperlink>
-							<ContextMenu name="РаспоряженияРаспоряжениеКонтекстноеМеню" id="69"/>
-							<ExtendedTooltip name="РаспоряженияРаспоряжениеРасширеннаяПодсказка" id="70"/>
-						</InputField>
+						<ColumnGroup name="РаспоряженияГруппаРаспоряжение" id="262">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Распоряжения группа распоряжение</v8:content>
+								</v8:item>
+							</Title>
+							<Group>InCell</Group>
+							<ExtendedTooltip name="РаспоряженияГруппаРаспоряжениеРасширеннаяПодсказка" id="263"/>
+							<ChildItems>
+								<CheckBoxField name="РаспоряженияРСК_СборкаЗавершена" id="259">
+									<DataPath>Распоряжения.СборкаЗавершена</DataPath>
+									<ReadOnly>true</ReadOnly>
+									<EditMode>EnterOnInput</EditMode>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="РаспоряженияРСК_СборкаЗавершенаКонтекстноеМеню" id="260"/>
+									<ExtendedTooltip name="РаспоряженияРСК_СборкаЗавершенаРасширеннаяПодсказка" id="261"/>
+								</CheckBoxField>
+								<InputField name="РаспоряженияРаспоряжение" id="68">
+									<DataPath>Распоряжения.Распоряжение</DataPath>
+									<ReadOnly>true</ReadOnly>
+									<EditMode>EnterOnInput</EditMode>
+									<CellHyperlink>true</CellHyperlink>
+									<ContextMenu name="РаспоряженияРаспоряжениеКонтекстноеМеню" id="69"/>
+									<ExtendedTooltip name="РаспоряженияРаспоряжениеРасширеннаяПодсказка" id="70"/>
+								</InputField>
+							</ChildItems>
+						</ColumnGroup>
 					</ChildItems>
 				</ColumnGroup>
 				<InputField name="РаспоряженияРСК_Накладная" id="226">
@@ -552,6 +575,103 @@
 			<ContextMenu name="ДекорацияНетТоваровКонтекстноеМеню" id="222"/>
 			<ExtendedTooltip name="ДекорацияНетТоваровРасширеннаяПодсказка" id="223"/>
 		</LabelDecoration>
+		<Table name="НесобранныеТовары" id="229">
+			<TitleLocation>Top</TitleLocation>
+			<Height>3</Height>
+			<HeightControlVariant>UseHeightInFormRows</HeightControlVariant>
+			<UseAlternationRowColor>true</UseAlternationRowColor>
+			<EnableStartDrag>true</EnableStartDrag>
+			<DataPath>НесобранныеТовары</DataPath>
+			<RowPictureDataPath>~НесобранныеТовары.DefaultPicture</RowPictureDataPath>
+			<AutoRefresh>false</AutoRefresh>
+			<AutoRefreshPeriod>60</AutoRefreshPeriod>
+			<Period>
+				<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+				<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+				<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+			</Period>
+			<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+			<RestoreCurrentRow>false</RestoreCurrentRow>
+			<TopLevelParent xsi:nil="true"/>
+			<ShowRoot>true</ShowRoot>
+			<AllowRootChoice>false</AllowRootChoice>
+			<UpdateOnDataChange>Auto</UpdateOnDataChange>
+			<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
+			<ContextMenu name="НесобранныеТоварыКонтекстноеМеню" id="230"/>
+			<AutoCommandBar name="НесобранныеТоварыКоманднаяПанель" id="231">
+				<Autofill>false</Autofill>
+			</AutoCommandBar>
+			<ExtendedTooltip name="НесобранныеТоварыРасширеннаяПодсказка" id="232"/>
+			<SearchStringAddition name="НесобранныеТоварыСтрокаПоиска" id="233">
+				<AdditionSource>
+					<Item>НесобранныеТовары</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="НесобранныеТоварыСтрокаПоискаКонтекстноеМеню" id="234"/>
+				<ExtendedTooltip name="НесобранныеТоварыСтрокаПоискаРасширеннаяПодсказка" id="235"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="НесобранныеТоварыСостояниеПросмотра" id="236">
+				<AdditionSource>
+					<Item>НесобранныеТовары</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="НесобранныеТоварыСостояниеПросмотраКонтекстноеМеню" id="237"/>
+				<ExtendedTooltip name="НесобранныеТоварыСостояниеПросмотраРасширеннаяПодсказка" id="238"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="НесобранныеТоварыУправлениеПоиском" id="239">
+				<AdditionSource>
+					<Item>НесобранныеТовары</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="НесобранныеТоварыУправлениеПоискомКонтекстноеМеню" id="240"/>
+				<ExtendedTooltip name="НесобранныеТоварыУправлениеПоискомРасширеннаяПодсказка" id="241"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<LabelField name="НесобранныеТоварыНоменклатура" id="245">
+					<DataPath>НесобранныеТовары.Номенклатура</DataPath>
+					<ContextMenu name="НесобранныеТоварыНоменклатураКонтекстноеМеню" id="246"/>
+					<ExtendedTooltip name="НесобранныеТоварыНоменклатураРасширеннаяПодсказка" id="247"/>
+				</LabelField>
+				<LabelField name="НесобранныеТоварыСерия" id="248">
+					<DataPath>НесобранныеТовары.Серия</DataPath>
+					<ContextMenu name="НесобранныеТоварыСерияКонтекстноеМеню" id="249"/>
+					<ExtendedTooltip name="НесобранныеТоварыСерияРасширеннаяПодсказка" id="250"/>
+				</LabelField>
+				<LabelField name="НесобранныеТоварыХарактеристика" id="251">
+					<DataPath>НесобранныеТовары.Характеристика</DataPath>
+					<ContextMenu name="НесобранныеТоварыХарактеристикаКонтекстноеМеню" id="252"/>
+					<ExtendedTooltip name="НесобранныеТоварыХарактеристикаРасширеннаяПодсказка" id="253"/>
+				</LabelField>
+				<ColumnGroup name="НесобранныеТоварыГруппаКоличество" id="254">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Несобранные товары группа количество</v8:content>
+						</v8:item>
+					</Title>
+					<Group>InCell</Group>
+					<ExtendedTooltip name="НесобранныеТоварыГруппаКоличествоРасширеннаяПодсказка" id="255"/>
+					<ChildItems>
+						<LabelField name="НесобранныеТоварыНеСобрано" id="242">
+							<DataPath>НесобранныеТовары.НеСобрано</DataPath>
+							<ContextMenu name="НесобранныеТоварыНеСобраноКонтекстноеМеню" id="243"/>
+							<ExtendedTooltip name="НесобранныеТоварыНеСобраноРасширеннаяПодсказка" id="244"/>
+						</LabelField>
+						<LabelField name="НесобранныеТоварыНоменклатураЕдиницаИзмерения" id="256">
+							<DataPath>НесобранныеТовары.Номенклатура.ЕдиницаИзмерения</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Ед. изм.</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="НесобранныеТоварыНоменклатураЕдиницаИзмеренияКонтекстноеМеню" id="257"/>
+							<ExtendedTooltip name="НесобранныеТоварыНоменклатураЕдиницаИзмеренияРасширеннаяПодсказка" id="258"/>
+						</LabelField>
+					</ChildItems>
+				</ColumnGroup>
+			</ChildItems>
+		</Table>
 		<UsualGroup name="ГруппаПодвал" id="207">
 			<Title>
 				<v8:item>
@@ -977,7 +1097,174 @@
 						<v8:Type>xs:boolean</v8:Type>
 					</Type>
 				</Column>
+				<Column name="СборкаЗавершена" id="1000003">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Сборка завершена</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Column>
 			</Columns>
+		</Attribute>
+		<Attribute name="НесобранныеТовары" id="1000002">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Несобранные товары</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:DynamicList</v8:Type>
+			</Type>
+			<Settings xsi:type="DynamicList">
+				<ManualQuery>true</ManualQuery>
+				<DynamicDataRead>false</DynamicDataRead>
+				<QueryText>ВЫБРАТЬ
+	ТоварыКОтгрузкеОстатки.Номенклатура КАК Номенклатура,
+	ТоварыКОтгрузкеОстатки.Характеристика КАК Характеристика,
+	ТоварыКОтгрузкеОстатки.Серия КАК Серия,
+	ТоварыКОтгрузкеОстатки.КОтгрузкеОстаток КАК НеСобрано
+ПОМЕСТИТЬ Сбор
+ИЗ
+	РегистрНакопления.ТоварыКОтгрузке.Остатки(, ДокументОтгрузки = ЗНАЧЕНИЕ(Документ.ЗаказНаПеремещение.ПустаяСсылка)) КАК ТоварыКОтгрузкеОстатки
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	ТоварыКОтгрузкеОбороты.Номенклатура,
+	ТоварыКОтгрузкеОбороты.Характеристика,
+	ТоварыКОтгрузкеОбороты.Серия,
+	-ТоварыКОтгрузкеОбороты.СобраноПриход
+ИЗ
+	РегистрНакопления.ТоварыКОтгрузке.Обороты(, , , ДокументОтгрузки = ЗНАЧЕНИЕ(Документ.ЗаказНаПеремещение.ПустаяСсылка)) КАК ТоварыКОтгрузкеОбороты
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	Сбор.Номенклатура КАК Номенклатура,
+	Сбор.Характеристика КАК Характеристика,
+	Сбор.Серия КАК Серия,
+	СУММА(Сбор.НеСобрано) КАК НеСобрано
+ИЗ
+	Сбор КАК Сбор
+
+СГРУППИРОВАТЬ ПО
+	Сбор.Номенклатура,
+	Сбор.Характеристика,
+	Сбор.Серия
+
+ИМЕЮЩИЕ
+	СУММА(Сбор.НеСобрано) &gt; 0</QueryText>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ДокументОтгрузки</dcssch:dataPath>
+					<dcssch:field>ДокументОтгрузки</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Склад</dcssch:dataPath>
+					<dcssch:field>Склад</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Получатель</dcssch:dataPath>
+					<dcssch:field>Получатель</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Номенклатура</dcssch:dataPath>
+					<dcssch:field>Номенклатура</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Назначение</dcssch:dataPath>
+					<dcssch:field>Назначение</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Характеристика</dcssch:dataPath>
+					<dcssch:field>Характеристика</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Серия</dcssch:dataPath>
+					<dcssch:field>Серия</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>НеСобрано</dcssch:dataPath>
+					<dcssch:field>НеСобрано</dcssch:field>
+					<dcssch:title xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Не собрано</v8:content>
+						</v8:item>
+					</dcssch:title>
+				</Field>
+				<Parameter>
+					<dcssch:name>НачалоПериода</dcssch:name>
+					<dcssch:title xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Начало периода</v8:content>
+						</v8:item>
+					</dcssch:title>
+					<dcssch:valueType>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>DateTime</v8:DateFractions>
+						</v8:DateQualifiers>
+					</dcssch:valueType>
+					<dcssch:value xsi:type="xs:dateTime">0001-01-01T00:00:00</dcssch:value>
+					<dcssch:useRestriction>false</dcssch:useRestriction>
+				</Parameter>
+				<Parameter>
+					<dcssch:name>КонецПериода</dcssch:name>
+					<dcssch:title xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Конец периода</v8:content>
+						</v8:item>
+					</dcssch:title>
+					<dcssch:valueType>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>DateTime</v8:DateFractions>
+						</v8:DateQualifiers>
+					</dcssch:valueType>
+					<dcssch:value xsi:type="xs:dateTime">0001-01-01T00:00:00</dcssch:value>
+					<dcssch:useRestriction>false</dcssch:useRestriction>
+				</Parameter>
+				<Parameter>
+					<dcssch:name>Период</dcssch:name>
+					<dcssch:title xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Период</v8:content>
+						</v8:item>
+					</dcssch:title>
+					<dcssch:valueType>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>DateTime</v8:DateFractions>
+						</v8:DateQualifiers>
+					</dcssch:valueType>
+					<dcssch:value xsi:type="xs:dateTime">0001-01-01T00:00:00</dcssch:value>
+					<dcssch:useRestriction>false</dcssch:useRestriction>
+				</Parameter>
+				<ListSettings>
+					<dcsset:filter>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</dcsset:userSettingID>
+					</dcsset:filter>
+					<dcsset:order>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>88619765-ccb3-46c6-ac52-38e9c992ebd4</dcsset:userSettingID>
+					</dcsset:order>
+					<dcsset:conditionalAppearance>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>b75fecce-942b-4aed-abc9-e6a02e460fb3</dcsset:userSettingID>
+					</dcsset:conditionalAppearance>
+					<dcsset:itemsViewMode>Normal</dcsset:itemsViewMode>
+					<dcsset:itemsUserSettingID>911b6018-f537-43e8-a417-da56b22f9aec</dcsset:itemsUserSettingID>
+				</ListSettings>
+			</Settings>
 		</Attribute>
 	</Attributes>
 	<BaseForm version="2.15">
