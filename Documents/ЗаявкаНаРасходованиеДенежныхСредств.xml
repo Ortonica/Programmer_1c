@@ -246,14 +246,24 @@
 				</Properties>
 			</Attribute>
 			<Attribute uuid="45a7e710-d8ee-4e6e-a528-b241cb2617b3">
-				<InternalInfo/>
+				<InternalInfo>
+					<xr:PropertyState>
+						<xr:Property>Type</xr:Property>
+						<xr:State>MultiState</xr:State>
+					</xr:PropertyState>
+				</InternalInfo>
 				<Properties>
 					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>ДокументОснование</Name>
 					<Comment/>
 					<ExtendedConfigurationObject>b3ae4863-066d-4a33-a16f-4784c4f0c0be</ExtendedConfigurationObject>
-					<Type>
-						<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
+					<Type xsi:type="xr:ExtendedProperty">
+						<xr:CheckValue xsi:type="v8:TypeDescription">
+							<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
+						</xr:CheckValue>
+						<xr:ExtendValue xsi:type="v8:TypeDescription">
+							<v8:Type>cfg:DocumentRef.РСК_ПартияПоставки</v8:Type>
+						</xr:ExtendValue>
 					</Type>
 				</Properties>
 			</Attribute>

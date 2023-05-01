@@ -200,6 +200,8 @@
 			<CommonPicture>ПрочиеПользовательскиеНастройки</CommonPicture>
 			<CommonPicture>НоменклатураПродаваемаяСовместно</CommonPicture>
 			<CommonPicture>СостояниеНоменклатурыПродаваемойСовместно</CommonPicture>
+			<CommonPicture>ВидыЦенТолькоПросмотр</CommonPicture>
+			<CommonPicture>УстановитьЦены</CommonPicture>
 			<SessionParameter>РСК_АвторизовавшийсяКладовщик</SessionParameter>
 			<SessionParameter>РСК_ВремяПоследнегоСканированияКладовщиком</SessionParameter>
 			<SessionParameter>РСК_ПроводитьДокументыПослеЗагрузкиЧерезXML</SessionParameter>
@@ -282,6 +284,7 @@
 			<CommonModule>РС_СверткаТаблицыПриОтправкеВЕИС</CommonModule>
 			<CommonModule>РСК_ВызовСервера</CommonModule>
 			<CommonModule>РСК_Клиент</CommonModule>
+			<CommonModule>РСК_МетодыОтчетовСКД</CommonModule>
 			<CommonModule>РСК_ПовтИсп</CommonModule>
 			<CommonModule>РСК_РаботаСоСканером</CommonModule>
 			<CommonModule>РСК_РаботаСоСтроками</CommonModule>

@@ -33,6 +33,25 @@
 		<ChildObjects>
 			<Form>ФормаДокумента</Form>
 			<Form>РСК_ВыборВидаНоменклатуры</Form>
+			<TabularSection uuid="072a8e5e-0495-4249-b934-4440af581016">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ВозвратТоваровМеждуОрганизациями.Товары" category="TabularSection">
+						<xr:TypeId>bc017c59-20a2-4991-bddf-53e8512790d4</xr:TypeId>
+						<xr:ValueId>81c25820-2b03-490c-8c57-b54b8a49f378</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ВозвратТоваровМеждуОрганизациями.Товары" category="TabularSectionRow">
+						<xr:TypeId>04c8b1e1-1df8-4b67-b241-a8220df0028c</xr:TypeId>
+						<xr:ValueId>065f1e76-0f9c-4f96-96b8-8643d515d259</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Товары</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>09be3e41-082e-462c-9f98-03370841c1eb</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects/>
+			</TabularSection>
 		</ChildObjects>
 	</Document>
 </MetaDataObject>
